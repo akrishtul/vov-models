@@ -26,7 +26,7 @@ from pathlib import Path
 
 DATA_DIR      = Path(os.environ.get("VOV_PIPELINE_DATA", "pipeline/data"))
 PHOTOS_DIR    = Path(os.environ.get("VOV_PIPELINE_PHOTOS", DATA_DIR / "photos"))
-MAX_PER_MODEL = int(os.environ.get("VOV_WIKIMEDIA_MAX", 6))
+MAX_PER_MODEL = int(os.environ.get("VOV_WIKIMEDIA_MAX", 25))
 WM_API        = "https://commons.wikimedia.org/w/api.php"
 USER_AGENT    = "vov-pipeline/1.3 (contact via github.com/yourorg/vov-models)"
 
