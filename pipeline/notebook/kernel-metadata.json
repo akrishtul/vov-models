@@ -1,5 +1,5 @@
 {
-  "id":                "REPLACE_USERNAME/vov-vehicle-classifier",
+  "id":                "alexkrishtul/vov-vehicle-classifier",
   "title":             "VOV Vehicle Classifier",
   "code_file":         "train.py",
   "language":          "python",
