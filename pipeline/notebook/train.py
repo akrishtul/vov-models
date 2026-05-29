@@ -35,9 +35,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # -------- Bootstrap deps --------
+# Kaggle's free GPU is a Tesla P100 (sm_60 / Pascal architecture). PyTorch 2.5+
+# dropped support for sm_60 — Kaggle's preinstalled torch errors at first
+# .to('cuda') call with "Tesla P100 is not compatible with this PyTorch install".
+# Pin to torch 2.4.1 + torchvision 0.19.1 (last release supporting Pascal).
+# Force-reinstall with --upgrade so we override Kaggle's preinstalled newer torch.
+subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "--upgrade",
+                       "torch==2.4.1", "torchvision==0.19.1"])
 subprocess.check_call([sys.executable, "-m", "pip", "install", "-q",
-                       "torch>=2.2", "torchvision>=0.17", "timm>=1.0",
-                       "onnx>=1.15", "Pillow>=10.0", "tqdm",
+                       "timm>=1.0", "onnx>=1.15", "Pillow>=10.0", "tqdm",
                        "datasets>=2.18"])
 
 import torch
