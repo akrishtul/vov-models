@@ -49,7 +49,11 @@ jobs:
 
       - name: Install tooling
         run: |
-          pip install kaggle requests
+          # Kaggle 1.7+ dropped support for the legacy username+key kaggle.json
+          # auth and now demands either OAuth interactive login or a new-format
+          # access token. Pin to 1.6.17 (last working) so our GitHub secrets work.
+          # Track Kaggle's OAuth migration and update when ready.
+          pip install "kaggle==1.6.17" requests
 
       - name: Configure Kaggle credentials
         env:
