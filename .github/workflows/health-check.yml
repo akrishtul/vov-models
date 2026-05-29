@@ -37,6 +37,11 @@ jobs:
         run: |
           set -e
           # Try jsDelivr first.
+          if ! curl -fsSL -o manifest.json "${{ steps.urls.outputs.manifest }}" \
+             && ! curl -fsSL -o manifest.json "${{ steps.urls.outputs.manifest_fb }}"; then
+            echo "No manifest published yet — skipping checks."
+            exit 0
+          fi
           if curl -fsSL -o manifest.json "${{ steps.urls.outputs.manifest }}"; then
             echo "source=jsdelivr" >> $GITHUB_OUTPUT
           else
