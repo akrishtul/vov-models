@@ -1,9 +1,19 @@
 """
 VOV vehicle classifier — Kaggle training script.
 
-Runs on a Kaggle P100. Reads the labeled dataset (Wikimedia-fetched +
-verified customer corrections), fine-tunes MobileNetV3-Small from
-ImageNet pretraining, exports ONNX for on-device browser inference.
+v2 — Seed-with-Stanford-Cars edition.
+
+Runs on a Kaggle P100. Loads two datasets and trains a single classifier:
+  1. Stanford Cars (Hugging Face: tanganke/stanford_cars)
+       16,185 photos, 196 classes (Make/Model/Year, mostly 2009-2012).
+       This is the SEED dataset — guarantees we have enough data to train
+       on day 1 instead of waiting weeks for Wikimedia accumulation.
+  2. Our own Wikimedia-fetched + verified customer corrections data
+       Accumulates over time via daily-pull workflow + customer fixes.
+       Adds newer (2018+) makes/models that Stanford Cars doesn't cover.
+
+Fine-tunes MobileNetV3-Small from ImageNet pretraining, exports ONNX
+for on-device browser inference.
 
 Outputs to /kaggle/working/:
   vehicle-classifier-v{YYYY.MM.DD}.onnx
@@ -27,13 +37,14 @@ from pathlib import Path
 # -------- Bootstrap deps --------
 subprocess.check_call([sys.executable, "-m", "pip", "install", "-q",
                        "torch>=2.2", "torchvision>=0.17", "timm>=1.0",
-                       "onnx>=1.15", "Pillow>=10.0", "tqdm"])
+                       "onnx>=1.15", "Pillow>=10.0", "tqdm",
+                       "datasets>=2.18"])
 
 import torch
 import torch.nn as nn
 import timm
 from PIL import Image
-from torch.utils.data import DataLoader, Dataset, random_split
+from torch.utils.data import DataLoader, Dataset, ConcatDataset, random_split
 from torchvision import transforms
 
 # -------- Config --------
@@ -44,16 +55,29 @@ WORK_DIR      = Path("/kaggle/working/repo")
 VERSION       = os.environ.get("MODEL_VERSION") or datetime.now(timezone.utc).strftime("%Y.%m.%d")
 INPUT_SIZE    = 224
 BATCH         = 64
-EPOCHS_HEAD   = 6
-EPOCHS_FULL   = 20
+EPOCHS_HEAD   = 4
+EPOCHS_FULL   = 12
 LR_HEAD       = 1e-3
 LR_FULL       = 3e-4
 TEST_FRAC     = 0.10
 VAL_FRAC      = 0.10
 SEED          = 42
 
+# Hugging Face seed datasets to pull. We start with Stanford Cars; can add
+# more (Compcars / VMMRdb / DVM-CAR) here later — same format.
+SEED_DATASETS = [
+    {
+        "hf_name": "tanganke/stanford_cars",
+        "train_split": "train",
+        "test_split":  "test",
+        "image_col":   "image",
+        "label_col":   "label",
+    },
+]
+
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 torch.manual_seed(SEED)
+print(f"Device: {DEVICE}")
 
 # -------- Fetch dataset --------
 # Clone (or update) the models repo so we have models.json + data/photos/.
@@ -65,9 +89,61 @@ if not WORK_DIR.exists():
 with open(WORK_DIR / "pipeline/data/models.json") as f:
     models_meta = json.load(f)
 
-# Build (path, label) pairs from accepted Wikimedia photos.
-samples: list[tuple[Path, str]] = []
-label_set: set[str] = set()
+# -------- Build labels --------
+# Strategy: take Stanford Cars' label set as the canonical class taxonomy
+# (it's 196 well-curated US-relevant car classes), then add any new
+# Wikimedia-fetched classes that aren't already there. The model has to
+# learn one class per output.
+print("Loading Stanford Cars dataset from Hugging Face…")
+from datasets import load_dataset, Image as HFImage
+
+seed_train_items: list[tuple] = []   # (PIL-loader, label_str)
+seed_test_items:  list[tuple] = []
+seed_label_set:   set[str]    = set()
+
+for spec in SEED_DATASETS:
+    name = spec["hf_name"]
+    print(f"  → {name}")
+    try:
+        hf_train = load_dataset(name, split=spec["train_split"])
+        hf_test  = load_dataset(name, split=spec["test_split"])
+    except Exception as e:
+        print(f"    [warn] failed to load {name}: {e} — skipping")
+        continue
+
+    # Resolve label int → name from the feature spec.
+    try:
+        names = hf_train.features[spec["label_col"]].names
+    except Exception:
+        names = []
+    if not names:
+        print(f"    [warn] {name} has no label names; skipping")
+        continue
+
+    def _convert(ds, dest):
+        for i in range(len(ds)):
+            row = ds[i]
+            lbl_int = row[spec["label_col"]]
+            lbl = names[lbl_int] if 0 <= lbl_int < len(names) else f"unknown_{lbl_int}"
+            # Defer PIL load until __getitem__ to save memory.
+            dest.append(("hf", name, spec["image_col"], i, lbl))
+            seed_label_set.add(lbl)
+
+    # The HF datasets keep images lazy-cast already, so the rows above are
+    # actually pointers into the HF datasets we now reference by closure.
+    # We stash the dataset objects below for the Dataset class to access.
+    spec["_train_ds"] = hf_train
+    spec["_test_ds"]  = hf_test
+    _convert(hf_train, seed_train_items)
+    _convert(hf_test,  seed_test_items)
+    print(f"    {len(hf_train)} train + {len(hf_test)} test photos, {len(names)} classes")
+
+print(f"\nSeed dataset total: {len(seed_train_items)} train + {len(seed_test_items)} test, "
+      f"{len(seed_label_set)} classes")
+
+# -------- Wikimedia samples on top --------
+wiki_items: list[tuple] = []
+wiki_label_set: set[str] = set()
 photos_root = WORK_DIR / "pipeline/data/photos"
 
 for key, m in models_meta.items():
@@ -75,32 +151,36 @@ for key, m in models_meta.items():
         continue
     label = f"{m['make_name']} {m['model']}"
     for photo in m.get("photos", []):
-        v = photo.get("verdict", "accept")    # default-accept when no LLM filter ran
+        v = photo.get("verdict", "accept")
         if v == "reject":
             continue
         p = WORK_DIR / "pipeline/data" / photo["path"] if not Path(photo["path"]).is_absolute() else Path(photo["path"])
         if not p.exists():
             continue
-        samples.append((p, label))
-        label_set.add(label)
+        wiki_items.append(("path", str(p), label))
+        wiki_label_set.add(label)
 
-if len(samples) < 100:
-    print(f"Too few samples ({len(samples)}) — refusing to train a model that will look broken.")
-    print("Add more data via the daily-pull workflow or wait for customer corrections to accumulate.")
+print(f"Wikimedia samples: {len(wiki_items)} photos, {len(wiki_label_set)} classes "
+      f"(of which {len(wiki_label_set - seed_label_set)} new vs seed)")
+
+# Final label space = union of both sources.
+all_labels = sorted(seed_label_set | wiki_label_set)
+label_to_idx = {lbl: i for i, lbl in enumerate(all_labels)}
+print(f"\nFinal classifier: {len(all_labels)} classes total "
+      f"({len(seed_train_items)} seed train + {len(wiki_items)} wiki samples)")
+
+if len(seed_train_items) == 0 and len(wiki_items) == 0:
+    print("FATAL: no samples found anywhere. Check Hugging Face download + Wikimedia paths.")
     sys.exit(2)
 
-labels = sorted(label_set)
-label_to_idx = {lbl: i for i, lbl in enumerate(labels)}
-print(f"Dataset: {len(samples)} samples across {len(labels)} classes.")
-
-# -------- Dataset class --------
+# -------- Dataset classes --------
 train_tx = transforms.Compose([
     transforms.Resize((INPUT_SIZE + 24, INPUT_SIZE + 24)),
     transforms.RandomCrop(INPUT_SIZE),
     transforms.RandomHorizontalFlip(p=0.5),
     transforms.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.2),
-    transforms.RandomPerspective(distortion_scale=0.15, p=0.4),  # mimic phone angle
-    transforms.RandomGrayscale(p=0.05),                            # bad lighting
+    transforms.RandomPerspective(distortion_scale=0.15, p=0.4),
+    transforms.RandomGrayscale(p=0.05),
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
@@ -111,7 +191,84 @@ eval_tx = transforms.Compose([
 ])
 
 
-class VehDataset(Dataset):
+class UnifiedDataset(Dataset):
+    """One Dataset that pulls from either Hugging Face rows or local file paths,
+    depending on the item type stamped at build time."""
+
+    def __init__(self, items, tx, seed_specs):
+        self.items = items
+        self.tx = tx
+        # build lookup so we can resolve ("hf", name, col, i, lbl) rows back
+        # to the right HF dataset
+        self.hf_lookup = {}
+        for s in seed_specs:
+            self.hf_lookup[(s["hf_name"], s["_train_ds"].split._name)] = s["_train_ds"]
+            self.hf_lookup[(s["hf_name"], s["_test_ds"].split._name)]  = s["_test_ds"]
+
+    def __len__(self):
+        return len(self.items)
+
+    def __getitem__(self, i):
+        item = self.items[i]
+        try:
+            if item[0] == "hf":
+                _, name, col, idx, lbl = item
+                # naive: pick first matching HF ds; in practice we keep train/test
+                # separate so the rows are unambiguous. Use whichever has the index.
+                img = None
+                for ds in (s["_train_ds"] for s in SEED_DATASETS) if "train" in self.items[i] else (s["_test_ds"] for s in SEED_DATASETS):
+                    if idx < len(ds):
+                        img = ds[idx][col]
+                        break
+                if img is None:
+                    # Fall back: try every ds in order.
+                    for s in SEED_DATASETS:
+                        for k in ("_train_ds", "_test_ds"):
+                            ds = s[k]
+                            if idx < len(ds):
+                                try:
+                                    img = ds[idx][col]
+                                    break
+                                except Exception:
+                                    continue
+                if img is None:
+                    img = Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
+                if not isinstance(img, Image.Image):
+                    img = Image.fromarray(img)
+                img = img.convert("RGB")
+                label = lbl
+            else:
+                _, path, label = item
+                img = Image.open(path).convert("RGB")
+        except Exception as e:
+            print(f"  [item load failed] {item}: {e}", file=sys.stderr)
+            img = Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
+            label = item[-1] if isinstance(item, tuple) else all_labels[0]
+        return self.tx(img), label_to_idx[label]
+
+
+# Simpler approach — build per-split lists and pass them to UnifiedDataset.
+# The HF rows already encode which split they came from (train vs test).
+# We keep all Wikimedia items in the train pool so they augment without
+# poisoning the held-out test set.
+
+# Test set: pull only from HF's test split (Stanford Cars holdout).
+test_items = seed_test_items
+
+# Train + val: HF train + all Wikimedia.
+train_pool = seed_train_items + wiki_items
+
+# Stratify-by-frequency wouldn't help here (some classes have 1 sample),
+# so use a plain random val split of the pooled train set.
+import random
+random.seed(SEED)
+random.shuffle(train_pool)
+n_val   = max(1, int(len(train_pool) * VAL_FRAC))
+val_items   = train_pool[:n_val]
+train_items = train_pool[n_val:]
+
+# Per-DS helper that ignores the test-vs-train guess and just trusts the items.
+class SimpleDataset(Dataset):
     def __init__(self, items, tx):
         self.items = items
         self.tx = tx
@@ -120,33 +277,53 @@ class VehDataset(Dataset):
         return len(self.items)
 
     def __getitem__(self, i):
-        path, label = self.items[i]
+        item = self.items[i]
         try:
-            img = Image.open(path).convert("RGB")
+            if item[0] == "hf":
+                _, name, col, idx, lbl = item
+                # Find the right HF ds by trying both splits.
+                img = None
+                for s in SEED_DATASETS:
+                    if s["hf_name"] != name:
+                        continue
+                    for k in ("_train_ds", "_test_ds"):
+                        ds = s.get(k)
+                        if ds is not None and idx < len(ds):
+                            try:
+                                img = ds[idx][col]
+                                if isinstance(img, Image.Image):
+                                    break
+                                img = Image.fromarray(img)
+                                break
+                            except Exception:
+                                continue
+                    if img is not None:
+                        break
+                if img is None:
+                    img = Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
+                img = img.convert("RGB") if isinstance(img, Image.Image) else Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
+                label = lbl
+            else:
+                _, path, label = item
+                img = Image.open(path).convert("RGB")
         except Exception:
-            # Replace broken decode with a black image so DataLoader doesn't crash.
             img = Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
+            label = item[-1] if isinstance(item, tuple) else all_labels[0]
         return self.tx(img), label_to_idx[label]
 
 
-full = VehDataset(samples, train_tx)
-n_test = int(len(samples) * TEST_FRAC)
-n_val  = int(len(samples) * VAL_FRAC)
-n_train = len(samples) - n_test - n_val
-train_ds, val_ds, test_ds = random_split(
-    full, [n_train, n_val, n_test],
-    generator=torch.Generator().manual_seed(SEED),
-)
-# eval splits use eval_tx
-val_ds.dataset  = VehDataset(samples, eval_tx)
-test_ds.dataset = VehDataset(samples, eval_tx)
+train_ds = SimpleDataset(train_items, train_tx)
+val_ds   = SimpleDataset(val_items,   eval_tx)
+test_ds  = SimpleDataset(test_items,  eval_tx)
+
+print(f"\nSplit sizes: train={len(train_ds)}, val={len(val_ds)}, test={len(test_ds)}")
 
 train_dl = DataLoader(train_ds, batch_size=BATCH, shuffle=True,  num_workers=2, pin_memory=True)
 val_dl   = DataLoader(val_ds,   batch_size=BATCH, shuffle=False, num_workers=2, pin_memory=True)
 test_dl  = DataLoader(test_ds,  batch_size=BATCH, shuffle=False, num_workers=2, pin_memory=True)
 
 # -------- Model --------
-model = timm.create_model("mobilenetv3_small_100", pretrained=True, num_classes=len(labels))
+model = timm.create_model("mobilenetv3_small_100", pretrained=True, num_classes=len(all_labels))
 model.to(DEVICE)
 crit = nn.CrossEntropyLoss(label_smoothing=0.05)
 
@@ -206,7 +383,7 @@ with torch.no_grad():
     for x, y in test_dl:
         x, y = x.to(DEVICE), y.to(DEVICE)
         logits = model(x)
-        top5 = logits.topk(min(5, len(labels)), dim=1).indices
+        top5 = logits.topk(min(5, len(all_labels)), dim=1).indices
         top5_correct += (top5 == y.unsqueeze(1)).any(dim=1).sum().item()
         total += y.size(0)
 top5 = top5_correct / max(total, 1)
@@ -227,7 +404,7 @@ torch.onnx.export(
 print(f"Exported ONNX: {onnx_path} ({onnx_path.stat().st_size / (1024*1024):.2f} MB)")
 
 with open(labels_path, "w") as f:
-    json.dump({"labels": labels, "version_count": len(labels)}, f)
+    json.dump({"labels": all_labels, "version_count": len(all_labels)}, f)
 
 import hashlib
 sha = hashlib.sha256(onnx_path.read_bytes()).hexdigest()
@@ -235,8 +412,9 @@ sha = hashlib.sha256(onnx_path.read_bytes()).hexdigest()
 with open(meta_path, "w") as f:
     json.dump({
         "version":          VERSION,
-        "classes":          len(labels),
-        "samples_trained":  len(samples),
+        "classes":          len(all_labels),
+        "samples_trained":  len(train_items) + len(val_items),
+        "samples_test":     len(test_items),
         "released":         datetime.now(timezone.utc).isoformat(),
         "input_shape":      [1, 3, INPUT_SIZE, INPUT_SIZE],
         "sha256":           sha,
@@ -250,6 +428,8 @@ with open(meta_path, "w") as f:
             "batch_size":    BATCH,
             "input_size":    INPUT_SIZE,
             "backbone":      "mobilenetv3_small_100",
+            "seed_datasets": [s["hf_name"] for s in SEED_DATASETS],
+            "wikimedia_samples": len(wiki_items),
         },
     }, f, indent=2)
 
