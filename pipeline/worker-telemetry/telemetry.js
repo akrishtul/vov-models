@@ -71,7 +71,7 @@ async function receiveHeartbeat(request, env) {
 	try { body = await request.json(); }
 	catch { return json({ ok: false, error: "bad_json" }, 400); }
 
-	const license = String(body.license || "").slice(0, 80);
+	let license = String(body.license || "").slice(0, 80); if (!license && body.site && body.site.url) license = String(body.site.url).slice(0, 80);
 	const site    = body.site || {};
 	if (!license || !site.url) {
 		return json({ ok: false, error: "missing_license_or_site" }, 400);
