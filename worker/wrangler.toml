@@ -1,0 +1,18 @@
+name = "vov-corrections"
+main = "ingest.js"
+compatibility_date = "2026-05-01"
+
+# Custom domain (optional). Until you point one, the worker is reachable at:
+#   https://vov-corrections.<your-subdomain>.workers.dev/v1/submit
+# Set VOV_CORRECTION_INGEST in the plugin to that URL.
+# routes = [
+#   { pattern = "corrections.valetops.com/*", custom_domain = true }
+# ]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vov-corrections"
+database_id = "aca0ba91-c40f-4df2-b157-27ca4348a3a6"
+
+# After creating with `wrangler d1 create vov-corrections`, run:
+# wrangler d1 execute vov-corrections --file=./schema.sql

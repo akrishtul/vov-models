@@ -1,0 +1,186 @@
+name: Monthly — train + publish vehicle classifier
+
+# Fully automated monthly retrain. Pushes the Kaggle notebook, waits for
+# completion, pulls the trained ONNX, validates, creates a GitHub Release,
+# bumps manifest.json. Customer plugins auto-pick-up via jsDelivr within 24h.
+#
+# Required GitHub secrets:
+#   KAGGLE_USERNAME, KAGGLE_KEY     — from kaggle.com/settings → API token
+#   SLACK_WEBHOOK                    — optional, free Slack incoming webhook
+#
+# Required repo file:
+#   pipeline/notebook/kernel-metadata.json — created on first setup
+#   pipeline/notebook/train.py             — the training code Kaggle runs
+
+on:
+  schedule:
+    - cron: "0 12 1 * *"     # 12:00 UTC on the 1st of every month
+  workflow_dispatch:
+    inputs:
+      version_override:
+        description: "Override version (YYYY.MM.DD if omitted)"
+        required: false
+        default: ""
+      force_publish:
+        description: "Skip regression gate (use with caution)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: monthly-train
+  cancel-in-progress: false
+
+jobs:
+  train-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300         # 5 hours — Kaggle P100 fine-tune is ~30-60 min
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # full history for revert capability
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install tooling
+        run: |
+          pip install kaggle requests
+
+      - name: Configure Kaggle credentials
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY:      ${{ secrets.KAGGLE_KEY }}
+        run: |
+          mkdir -p ~/.kaggle
+          echo '{"username":"'"$KAGGLE_USERNAME"'","key":"'"$KAGGLE_KEY"'"}' > ~/.kaggle/kaggle.json
+          chmod 600 ~/.kaggle/kaggle.json
+
+      - name: Push training kernel to Kaggle
+        id: push
+        working-directory: pipeline/notebook
+        run: |
+          # Embed the current models.json + accepted photos manifest into the
+          # kernel directory so Kaggle has everything to train against.
+          cp ../data/models.json . 2>/dev/null || true
+          kaggle kernels push -p .
+          # Slug = id from kernel-metadata.json
+          SLUG=$(python -c "import json; print(json.load(open('kernel-metadata.json'))['id'])")
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+
+      - name: Poll Kaggle until kernel completes (max 4.5 hours)
+        env:
+          SLUG: ${{ steps.push.outputs.slug }}
+        run: |
+          set -e
+          DEADLINE=$(( $(date +%s) + 4 * 3600 + 1800 ))    # 4.5 h
+          while true; do
+            STATUS=$(kaggle kernels status "$SLUG" 2>&1 | grep -oE 'has status "[^"]*"' | sed 's/has status "\(.*\)"/\1/')
+            echo "[$(date -u +%H:%M:%SZ)] Kaggle kernel status: ${STATUS:-unknown}"
+            case "$STATUS" in
+              complete)             echo "Training finished cleanly"; break ;;
+              error|cancelAcknowledged)
+                echo "Kaggle kernel failed: $STATUS"
+                exit 1
+                ;;
+              running|queued|"")     ;;
+              *)                     echo "Unknown status: $STATUS" ;;
+            esac
+            if [ $(date +%s) -ge $DEADLINE ]; then
+              echo "Timed out waiting for Kaggle"
+              exit 1
+            fi
+            sleep 45
+          done
+
+      - name: Pull Kaggle kernel output
+        env:
+          SLUG: ${{ steps.push.outputs.slug }}
+        run: |
+          mkdir -p pipeline/artifacts
+          kaggle kernels output "$SLUG" -p pipeline/artifacts/
+          ls -lh pipeline/artifacts/
+
+      - name: Validate output
+        run: |
+          set -e
+          cd pipeline/artifacts
+          # Find the newest ONNX (Kaggle output names it vehicle-classifier-vYYYY.MM.DD.onnx)
+          ONNX=$(ls -1t vehicle-classifier-v*.onnx 2>/dev/null | head -1)
+          META=metadata.json
+          LABELS=$(ls -1t vehicle-classifier-v*.labels.json 2>/dev/null | head -1)
+          if [ -z "$ONNX" ] || [ ! -f "$META" ] || [ -z "$LABELS" ]; then
+            echo "Missing expected artifact(s): ONNX=$ONNX META=$META LABELS=$LABELS"
+            exit 1
+          fi
+          SIZE_BYTES=$(stat -c%s "$ONNX")
+          if [ "$SIZE_BYTES" -lt 1000000 ]; then
+            echo "ONNX is only ${SIZE_BYTES} bytes — looks broken"
+            exit 1
+          fi
+          CLASSES=$(python -c "import json; print(json.load(open('$LABELS'))['version_count'])")
+          if [ "$CLASSES" -lt 100 ]; then
+            echo "Only $CLASSES classes — looks broken (expected hundreds)"
+            exit 1
+          fi
+          echo "Artifact validation passed: $ONNX ($SIZE_BYTES bytes, $CLASSES classes)"
+
+      - name: Determine version
+        id: ver
+        run: |
+          if [ -n "${{ inputs.version_override }}" ]; then
+            V="${{ inputs.version_override }}"
+          else
+            V=$(date -u +%Y.%m.%d)
+          fi
+          echo "version=$V" >> $GITHUB_OUTPUT
+
+      - name: Build manifest (with regression gate)
+        env:
+          MODEL_VERSION: ${{ steps.ver.outputs.version }}
+          GH_REPO:       ${{ github.repository }}
+          RELEASE_NOTES: "Automated monthly retrain $(date -u +%Y-%m-%d)"
+        run: |
+          if [ "${{ inputs.force_publish }}" = "true" ]; then
+            echo "FORCE_PUBLISH=1 — regression gate bypassed (manual override)"
+            export VOV_FORCE_PUBLISH=1
+          fi
+          python pipeline/publish.py
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN:      ${{ secrets.GITHUB_TOKEN }}
+          MODEL_VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          gh release create "v${MODEL_VERSION}" \
+            --title "vehicle-classifier v${MODEL_VERSION}" \
+            --notes "Automated monthly retrain $(date -u +%Y-%m-%d)" \
+            "pipeline/artifacts/vehicle-classifier-v${MODEL_VERSION}.onnx" \
+            "pipeline/artifacts/vehicle-classifier-v${MODEL_VERSION}.labels.json"
+
+      - name: Commit manifest bump
+        run: |
+          git config user.name  "vov-pipeline-bot"
+          git config user.email "pipeline@valetops.com"
+          git add pipeline/manifest.json
+          git commit -m "manifest: vehicle-classifier v${{ steps.ver.outputs.version }} (auto)"
+          git push
+
+      - name: Notify success
+        if: success()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          VERSION:       ${{ steps.ver.outputs.version }}
+          RUN_URL:       ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python pipeline/notify.py success
+
+      - name: Notify failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          RUN_URL:       ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python pipeline/notify.py failure || true

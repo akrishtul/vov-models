@@ -1,0 +1,70 @@
+name: Publish trained model to GitHub Releases
+
+# Manually triggered after running the Kaggle training notebook.
+# Uploads the new ONNX as a GitHub Release asset and bumps manifest.json.
+# jsDelivr automatically picks it up — no further action needed for customers.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Model version (e.g. 3.2.0)"
+        required: true
+      release_notes:
+        description: "Newline-separated changelog (one item per line)"
+        required: false
+        default: "Monthly retrain"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch trained ONNX from Kaggle (or HF, or upload)
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY:      ${{ secrets.KAGGLE_KEY }}
+          MODEL_VERSION:   ${{ inputs.version }}
+        run: |
+          pip install kaggle
+          mkdir -p pipeline/artifacts
+          # Pulls the latest output of the Kaggle notebook "vov-vehicle-classifier"
+          # Configure the notebook slug in pipeline/notebook/README.md
+          kaggle kernels output "$KAGGLE_USERNAME/vov-vehicle-classifier" \
+            -p pipeline/artifacts/
+          ls -lh pipeline/artifacts/
+
+      - name: Compute hash + update manifest.json
+        env:
+          MODEL_VERSION: ${{ inputs.version }}
+          RELEASE_NOTES: ${{ inputs.release_notes }}
+        run: python pipeline/publish.py
+
+      - name: Create GitHub Release with model asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MODEL_VERSION: ${{ inputs.version }}
+        run: |
+          gh release create "v${MODEL_VERSION}" \
+            --title "vehicle-classifier v${MODEL_VERSION}" \
+            --notes "${{ inputs.release_notes }}" \
+            "pipeline/artifacts/vehicle-classifier-v${MODEL_VERSION}.onnx" \
+            "pipeline/artifacts/vehicle-classifier-v${MODEL_VERSION}.labels.json"
+
+      - name: Commit manifest bump
+        run: |
+          git config user.name  "vov-pipeline-bot"
+          git config user.email "pipeline@valetops.com"
+          git add pipeline/manifest.json
+          git commit -m "manifest: vehicle-classifier v${{ inputs.version }}"
+          git push

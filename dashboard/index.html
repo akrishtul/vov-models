@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Valet Ops Vision — Status</title>
+<style>
+:root {
+	--bg:       #1a202e;
+	--bg-2:     #232b3d;
+	--card:     #2a3450;
+	--card-2:   #354062;
+	--border:   #3a456a;
+	--text:     #f4f6f9;
+	--muted:    #95a3c4;
+	--gold:     #e69b1e;
+	--gold-2:   #cf8a15;
+	--navy:     #294a70;
+	--ok:       #15a692;
+	--warn:     #e69b1e;
+	--err:      #ef4444;
+	--silent:   #6b7280;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif; }
+a { color: var(--gold); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+header.topbar {
+	background: linear-gradient(135deg, #294a70 0%, #1a3354 100%);
+	padding: 22px 28px; display: flex; align-items: center; gap: 18px;
+	border-bottom: 1px solid var(--border);
+}
+.brand-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 14px var(--gold); }
+h1.brand { font-family: 'Playfair Display', Georgia, serif; font-weight: 600; font-size: 22px; margin: 0; }
+.brand-sub { font-size: 11.5px; text-transform: uppercase; letter-spacing: .08em; opacity: .7; margin-left: 4px; }
+.refresh-state {
+	margin-left: auto; font-size: 12px; color: var(--muted);
+	display: flex; align-items: center; gap: 8px;
+}
+.live-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok); animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+
+main { padding: 24px 28px 80px; max-width: 1400px; margin: 0 auto; }
+
+/* Summary cards */
+.summary-row { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); margin-bottom: 20px; }
+.summary-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; }
+.summary-num { font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.0; }
+.summary-lbl { font-size: 11.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-top: 6px; font-weight: 700; }
+.summary-card.is-alert { border-color: var(--err); background: linear-gradient(180deg, rgba(239,68,68,.10), var(--card) 60%); }
+.summary-card.is-alert .summary-num { color: var(--err); }
+
+/* Filters */
+.filters { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; align-items: center; }
+.pill { padding: 7px 14px; border-radius: 99px; border: 1px solid var(--border); background: var(--card); color: var(--muted); font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; cursor: pointer; transition: all .12s; }
+.pill:hover { color: var(--text); border-color: var(--gold); }
+.pill.active { background: linear-gradient(135deg, var(--gold), var(--gold-2)); color: #1f1408; border-color: transparent; }
+.pill .count { opacity: .65; margin-left: 6px; font-weight: 600; }
+.search { margin-left: auto; padding: 8px 14px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text); border-radius: 99px; font-size: 13px; width: 220px; }
+.search:focus { outline: none; border-color: var(--gold); }
+
+/* Sites grid */
+.sites { display: grid; gap: 12px; }
+.site {
+	display: grid; grid-template-columns: 12px 1.5fr 1fr 1fr 1fr 1fr 60px;
+	gap: 18px; align-items: center;
+	background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+	padding: 18px 22px;
+	transition: transform .08s, border-color .12s;
+}
+.site:hover { transform: translateY(-1px); border-color: var(--gold); }
+.site .dot { width: 12px; height: 12px; border-radius: 50%; }
+.site.healthy  .dot { background: var(--ok); }
+.site.warning  .dot { background: var(--warn); animation: pulse 2s infinite; }
+.site.critical .dot { background: var(--err); animation: pulse 1s infinite; }
+.site.silent   .dot { background: var(--silent); }
+.site-name { font-weight: 700; font-size: 15px; }
+.site-url  { font-size: 11.5px; color: var(--muted); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.site-tag  { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; padding: 2px 7px; border-radius: 99px; margin-left: 6px; background: var(--bg-2); color: var(--muted); }
+.tag-plus { background: linear-gradient(135deg, var(--navy), #1a3354); color: #fff; }
+.tag-pro  { background: linear-gradient(135deg, var(--gold), var(--gold-2)); color: #1f1408; }
+.metric { display: flex; flex-direction: column; gap: 2px; }
+.metric-val { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.metric-lbl { font-size: 10.5px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 700; }
+.metric-val.is-bad  { color: var(--err); }
+.metric-val.is-warn { color: var(--warn); }
+.metric-val.is-good { color: var(--ok); }
+.btn-detail { padding: 7px 12px; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--text); border: 1px solid var(--border); border-radius: 8px; background: var(--bg-2); cursor: pointer; }
+.btn-detail:hover { border-color: var(--gold); color: var(--gold); }
+
+/* Empty / loading */
+.empty { padding: 60px 0; text-align: center; color: var(--muted); }
+.loading-bar { height: 3px; background: linear-gradient(90deg, transparent, var(--gold), transparent); background-size: 200% 100%; animation: slide 1.2s linear infinite; position: fixed; top: 0; left: 0; right: 0; z-index: 1000; }
+@keyframes slide { 0% { background-position: 100% 0; } 100% { background-position: -100% 0; } }
+.loading-bar.hidden { display: none; }
+
+/* Auth gate */
+.auth-overlay {
+	position: fixed; inset: 0; background: rgba(20,26,40,.95); z-index: 999;
+	display: flex; align-items: center; justify-content: center;
+}
+.auth-card { background: var(--card); padding: 32px; border-radius: 16px; max-width: 380px; width: 100%; border: 1px solid var(--border); }
+.auth-card h2 { margin: 0 0 6px; font-family: 'Playfair Display', Georgia, serif; }
+.auth-card p { color: var(--muted); font-size: 13.5px; margin: 0 0 16px; }
+.auth-card input { width: 100%; padding: 12px 14px; border: 1.5px solid var(--border); background: var(--bg-2); color: var(--text); border-radius: 10px; font-size: 14px; font-family: inherit; }
+.auth-card input:focus { outline: none; border-color: var(--gold); }
+.auth-card button { width: 100%; margin-top: 12px; padding: 12px; background: linear-gradient(135deg, var(--gold), var(--gold-2)); color: #1f1408; border: 0; border-radius: 10px; font-weight: 700; font-size: 14px; cursor: pointer; }
+
+/* Detail modal */
+.modal { position: fixed; inset: 0; background: rgba(0,0,0,.65); display: none; align-items: center; justify-content: center; z-index: 998; padding: 24px; }
+.modal.is-open { display: flex; }
+.modal-inner { background: var(--card); border: 1px solid var(--border); border-radius: 16px; max-width: 760px; width: 100%; max-height: 88vh; overflow-y: auto; padding: 28px; }
+.modal h3 { margin: 0 0 10px; font-family: 'Playfair Display', Georgia, serif; font-size: 22px; }
+.modal .close { float: right; cursor: pointer; color: var(--muted); font-size: 20px; line-height: 1; }
+.trend-row { display: grid; grid-template-columns: 130px 1fr 100px; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--bg-2); font-size: 13px; }
+.trend-row:last-child { border-bottom: 0; }
+.trend-bar { height: 6px; background: var(--bg-2); border-radius: 99px; overflow: hidden; align-self: center; }
+.trend-bar > span { display: block; height: 100%; background: linear-gradient(90deg, var(--ok), var(--gold)); border-radius: 99px; }
+</style>
+</head>
+<body>
+<div id="loading" class="loading-bar hidden"></div>
+
+<div id="auth" class="auth-overlay">
+	<div class="auth-card">
+		<h2>Status dashboard</h2>
+		<p>Enter the dashboard token. (Set this as the <code>DASHBOARD_TOKEN</code> secret on the telemetry worker.)</p>
+		<input type="password" id="token-input" placeholder="Bearer token" autocomplete="off" autofocus />
+		<input type="text"     id="api-input" placeholder="https://vov-telemetry.&lt;sub&gt;.workers.dev" style="margin-top:8px" />
+		<button id="auth-btn">Open dashboard</button>
+	</div>
+</div>
+
+<header class="topbar">
+	<span class="brand-dot"></span>
+	<h1 class="brand">Valet Ops Vision</h1>
+	<span class="brand-sub">Status</span>
+	<span class="refresh-state">
+		<span class="live-dot"></span>
+		<span id="refresh-text">Live · auto-refreshes every 60 sec</span>
+	</span>
+</header>
+
+<main>
+	<div class="summary-row" id="summary"></div>
+
+	<div class="filters">
+		<button class="pill active" data-filter="all">All <span class="count" id="c-all">0</span></button>
+		<button class="pill"        data-filter="alerting">Alerting <span class="count" id="c-alert">0</span></button>
+		<button class="pill"        data-filter="silent">Silent <span class="count" id="c-silent">0</span></button>
+		<button class="pill"        data-filter="healthy">Healthy <span class="count" id="c-healthy">0</span></button>
+		<input type="search" class="search" id="search" placeholder="Search by site name / URL / license" />
+	</div>
+
+	<div class="sites" id="sites"></div>
+	<div id="empty" class="empty" style="display:none">No sites match your filter.</div>
+</main>
+
+<div class="modal" id="modal">
+	<div class="modal-inner" id="modal-body">
+		<span class="close" onclick="closeModal()">✕</span>
+	</div>
+</div>
+
+<script>
+const LS_TOKEN = 'vov_dash_token';
+const LS_API   = 'vov_dash_api';
+let TOKEN = localStorage.getItem(LS_TOKEN) || '';
+let API   = localStorage.getItem(LS_API)   || '';
+let sites = [];
+let filter = 'all';
+let refreshTimer = null;
+
+function gate() {
+	if (TOKEN && API) {
+		document.getElementById('auth').style.display = 'none';
+		boot();
+	} else {
+		document.getElementById('auth').style.display = 'flex';
+	}
+}
+document.getElementById('auth-btn').onclick = () => {
+	TOKEN = document.getElementById('token-input').value.trim();
+	API   = document.getElementById('api-input').value.trim().replace(/\/$/, '');
+	if (!TOKEN || !API) return;
+	localStorage.setItem(LS_TOKEN, TOKEN);
+	localStorage.setItem(LS_API,   API);
+	gate();
+};
+
+async function api(path) {
+	const r = await fetch(API + path, { headers: { 'Authorization': 'Bearer ' + TOKEN } });
+	if (r.status === 401) {
+		localStorage.removeItem(LS_TOKEN);
+		localStorage.removeItem(LS_API);
+		location.reload();
+	}
+	return r.json();
+}
+
+function fmtTimeAgo(iso) {
+	if (!iso) return '—';
+	const d = new Date(iso).getTime();
+	const diff = Math.round((Date.now() - d) / 1000);
+	if (diff < 60)         return diff + 's ago';
+	if (diff < 3600)       return Math.round(diff / 60) + 'm ago';
+	if (diff < 86400)      return Math.round(diff / 3600) + 'h ago';
+	return Math.round(diff / 86400) + 'd ago';
+}
+function fmtPct(r) {
+	if (r === null || r === undefined) return '—';
+	return (r * 100).toFixed(0) + '%';
+}
+function classifySuccess(r, scans) {
+	if (r === null || r === undefined || scans < 5) return '';
+	if (r >= 0.85) return 'is-good';
+	if (r >= 0.70) return 'is-warn';
+	return 'is-bad';
+}
+function tierTag(tier) {
+	if (!tier || tier === 'free') return '<span class="site-tag">FREE</span>';
+	if (tier === 'plus')          return '<span class="site-tag tag-plus">PLUS</span>';
+	if (tier === 'pro')           return '<span class="site-tag tag-pro">PRO</span>';
+	return '<span class="site-tag">' + tier + '</span>';
+}
+
+async function refreshAll() {
+	const loading = document.getElementById('loading');
+	loading.classList.remove('hidden');
+	try {
+		const sum = await api('/api/summary');
+		renderSummary(sum);
+		const all = await api('/api/sites');
+		sites = all.sites || [];
+		renderSites();
+		document.getElementById('refresh-text').textContent =
+			'Live · last refresh ' + fmtTimeAgo(new Date().toISOString());
+	} catch (e) {
+		document.getElementById('refresh-text').textContent = 'Error: ' + e.message;
+	} finally {
+		loading.classList.add('hidden');
+	}
+}
+
+function renderSummary(sum) {
+	const html = `
+		<div class="summary-card"><div class="summary-num">${sum.total_sites}</div><div class="summary-lbl">Total sites</div></div>
+		<div class="summary-card"><div class="summary-num">${sum.active_sites}</div><div class="summary-lbl">Active (90 min)</div></div>
+		<div class="summary-card ${sum.alerts ? 'is-alert' : ''}"><div class="summary-num">${sum.alerts}</div><div class="summary-lbl">${sum.alerts === 1 ? 'Alert' : 'Alerts'}</div></div>
+		<div class="summary-card"><div class="summary-num">${(sum.by_status?.healthy || 0)}</div><div class="summary-lbl">Healthy</div></div>
+		<div class="summary-card"><div class="summary-num">${(sum.by_tier?.plus || 0) + (sum.by_tier?.pro || 0)}</div><div class="summary-lbl">Paid tiers</div></div>
+	`;
+	document.getElementById('summary').innerHTML = html;
+}
+
+function renderSites() {
+	const q = (document.getElementById('search').value || '').toLowerCase();
+	let filtered = sites.filter(s => {
+		if (filter === 'alerting' && s.latest_status !== 'critical' && s.latest_status !== 'warning') return false;
+		if (filter === 'silent'   && s.latest_status !== 'silent')   return false;
+		if (filter === 'healthy'  && s.latest_status !== 'healthy')  return false;
+		if (q) {
+			const hay = ((s.name||'') + ' ' + (s.url||'') + ' ' + (s.license||'')).toLowerCase();
+			if (!hay.includes(q)) return false;
+		}
+		return true;
+	});
+
+	// Counter pills.
+	document.getElementById('c-all').textContent     = sites.length;
+	document.getElementById('c-alert').textContent   = sites.filter(s => s.latest_status === 'critical' || s.latest_status === 'warning').length;
+	document.getElementById('c-silent').textContent  = sites.filter(s => s.latest_status === 'silent').length;
+	document.getElementById('c-healthy').textContent = sites.filter(s => s.latest_status === 'healthy').length;
+
+	const el = document.getElementById('sites');
+	const empty = document.getElementById('empty');
+	if (!filtered.length) { el.innerHTML = ''; empty.style.display = 'block'; return; }
+	empty.style.display = 'none';
+
+	el.innerHTML = filtered.map(s => {
+		const cls = classifySuccess(s.latest_success_rate, s.latest_scans_hour);
+		return `
+		<div class="site ${s.latest_status}">
+			<div class="dot" title="${s.latest_status}"></div>
+			<div>
+				<div class="site-name">${escapeHtml(s.name || s.license)} ${tierTag(s.license_tier)}</div>
+				<div class="site-url">${escapeHtml(s.url || '')}</div>
+			</div>
+			<div class="metric">
+				<div class="metric-val">${fmtTimeAgo(s.latest_seen)}</div>
+				<div class="metric-lbl">Last ping</div>
+			</div>
+			<div class="metric">
+				<div class="metric-val">${s.latest_scans_hour || 0}</div>
+				<div class="metric-lbl">Scans / hr</div>
+			</div>
+			<div class="metric">
+				<div class="metric-val ${cls}">${fmtPct(s.latest_success_rate)}</div>
+				<div class="metric-lbl">Success</div>
+			</div>
+			<div class="metric">
+				<div class="metric-val">${s.latest_avg_latency_ms || 0}ms</div>
+				<div class="metric-lbl">Latency</div>
+			</div>
+			<button class="btn-detail" onclick="openDetail('${encodeURIComponent(s.license)}')">View</button>
+		</div>
+		`;
+	}).join('');
+}
+
+function escapeHtml(s) {
+	return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+}
+
+async function openDetail(licenseEnc) {
+	const license = decodeURIComponent(licenseEnc);
+	const body = document.getElementById('modal-body');
+	body.innerHTML = '<span class="close" onclick="closeModal()">✕</span><h3>Loading…</h3>';
+	document.getElementById('modal').classList.add('is-open');
+	const data = await api('/api/sites/' + licenseEnc);
+	const s = data.site || {};
+	const trend = data.trend || [];
+
+	const maxScans = Math.max(1, ...trend.map(t => t.scans || 0));
+
+	body.innerHTML = `
+		<span class="close" onclick="closeModal()">✕</span>
+		<h3>${escapeHtml(s.name || s.license)} ${tierTag(s.license_tier)}</h3>
+		<div style="color:var(--muted);font-size:13px;margin-bottom:14px"><a href="${s.url}" target="_blank">${escapeHtml(s.url || '')}</a></div>
+
+		<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px">
+			<div class="summary-card"><div class="summary-num">${s.latest_scans_hour || 0}</div><div class="summary-lbl">Scans / hr</div></div>
+			<div class="summary-card"><div class="summary-num">${fmtPct(s.latest_success_rate)}</div><div class="summary-lbl">Success</div></div>
+			<div class="summary-card"><div class="summary-num">${s.latest_avg_latency_ms || 0}ms</div><div class="summary-lbl">Latency</div></div>
+			<div class="summary-card"><div class="summary-num">${s.latest_status.toUpperCase()}</div><div class="summary-lbl">Status</div></div>
+		</div>
+
+		<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;font-size:13px;color:var(--muted);margin-bottom:18px">
+			<div><strong style="color:var(--text)">Plugin:</strong> v${escapeHtml(s.plugin_version || '?')}</div>
+			<div><strong style="color:var(--text)">Model:</strong> v${escapeHtml(s.model_version || 'none')}</div>
+			<div><strong style="color:var(--text)">Capture mode:</strong> ${escapeHtml(s.capture_mode || '?')}</div>
+			<div><strong style="color:var(--text)">AI slot:</strong> ${escapeHtml(s.ai_slot || '?')}</div>
+			<div><strong style="color:var(--text)">License:</strong> <code style="background:var(--bg-2);padding:1px 6px;border-radius:4px">${escapeHtml((s.license || '').slice(0,16))}…</code></div>
+			<div><strong style="color:var(--text)">First seen:</strong> ${fmtTimeAgo(s.first_seen)}</div>
+		</div>
+
+		<h4 style="margin:0 0 10px;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)">Last 48 heartbeats</h4>
+		<div>
+			${trend.map(t => `
+				<div class="trend-row">
+					<div style="color:var(--muted);font-size:12px">${fmtTimeAgo(t.received_at)}</div>
+					<div class="trend-bar"><span style="width:${(t.scans/maxScans*100)|0}%"></span></div>
+					<div style="text-align:right">${t.scans} scans · ${t.success ? Math.round(t.success/t.scans*100) : 0}%</div>
+				</div>
+			`).join('')}
+		</div>
+	`;
+}
+function closeModal() { document.getElementById('modal').classList.remove('is-open'); }
+
+document.querySelectorAll('.pill[data-filter]').forEach(p => {
+	p.onclick = () => {
+		document.querySelectorAll('.pill[data-filter]').forEach(x => x.classList.remove('active'));
+		p.classList.add('active');
+		filter = p.dataset.filter;
+		renderSites();
+	};
+});
+document.getElementById('search').oninput = renderSites;
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+document.getElementById('modal').addEventListener('click', e => { if (e.target.id === 'modal') closeModal(); });
+
+function boot() {
+	refreshAll();
+	clearInterval(refreshTimer);
+	refreshTimer = setInterval(refreshAll, 60000);
+}
+gate();
+</script>
+</body>
+</html>

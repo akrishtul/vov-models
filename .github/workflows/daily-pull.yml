@@ -1,0 +1,50 @@
+name: Daily — pull NHTSA + fetch new car photos
+
+on:
+  schedule:
+    # 04:15 UTC daily (after most North American manufacturers' VPIC updates)
+    - cron: "15 4 * * *"
+  workflow_dispatch: {}   # also runnable on-demand
+
+permissions:
+  contents: write          # to commit changes back
+
+concurrency:
+  group: pipeline-daily
+  cancel-in-progress: false
+
+jobs:
+  pull-and-fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Pull NHTSA VPIC (find new makes/models)
+        run: python pipeline/nhtsa_pull.py
+        env:
+          VOV_PIPELINE_DATA: ${{ github.workspace }}/pipeline/data
+
+      - name: Fetch Wikimedia photos for newly-found models
+        run: python pipeline/wikimedia_fetch.py
+        env:
+          VOV_PIPELINE_DATA: ${{ github.workspace }}/pipeline/data
+
+      - name: LLM auto-filter (skips if no API key set)
+        run: python pipeline/llm_filter.py
+        env:
+          VOV_PIPELINE_DATA: ${{ github.workspace }}/pipeline/data
+          GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}    # free tier — 1500 req/day
+
+      - name: Commit changes
+        run: |
+          git config user.name  "vov-pipeline-bot"
+          git config user.email "pipeline@valetops.com"
+          git add pipeline/data/
+          git diff --staged --quiet || git commit -m "pipeline: daily pull $(date -u +%Y-%m-%d)"
+          git push

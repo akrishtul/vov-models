@@ -1,0 +1,24 @@
+# Minimal — most scripts use stdlib only.
+# Install per-script as needed:
+
+# Core (stdlib only):
+#   nhtsa_pull.py
+#   wikimedia_fetch.py
+#   corrections_ingest.py    (uses stdlib HTTPServer; swap to Flask if you prefer)
+
+# llm_filter.py:
+#   (stdlib only — uses urllib for Anthropic API)
+
+# review_queue.py:
+flask>=3.0
+
+# train.py (only on GPU box during retrain):
+torch>=2.2
+torchvision>=0.17
+timm>=1.0
+onnx>=1.15
+onnxruntime>=1.18
+Pillow>=10.0
+
+# publish.py:
+boto3>=1.34

@@ -1,0 +1,142 @@
+name: Daily health check + auto-rollback
+
+# Verifies the published manifest is reachable via jsDelivr AND the linked
+# ONNX is fetchable. If either check fails, opens a GitHub issue, sends a
+# Slack alert, and reverts the last manifest commit to restore service.
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 13:00 UTC daily (1h after the monthly publish run)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve current manifest URLs
+        id: urls
+        run: |
+          REPO="${{ github.repository }}"
+          MANIFEST="https://cdn.jsdelivr.net/gh/${REPO}@main/pipeline/manifest.json"
+          MANIFEST_FB="https://raw.githubusercontent.com/${REPO}/main/pipeline/manifest.json"
+          echo "manifest=$MANIFEST" >> $GITHUB_OUTPUT
+          echo "manifest_fb=$MANIFEST_FB" >> $GITHUB_OUTPUT
+
+      - name: Fetch manifest via jsDelivr
+        id: fetch
+        run: |
+          set -e
+          # Try jsDelivr first.
+          if curl -fsSL -o manifest.json "${{ steps.urls.outputs.manifest }}"; then
+            echo "source=jsdelivr" >> $GITHUB_OUTPUT
+          else
+            echo "jsDelivr failed, trying raw GitHub fallback"
+            curl -fsSL -o manifest.json "${{ steps.urls.outputs.manifest_fb }}"
+            echo "source=github_raw" >> $GITHUB_OUTPUT
+          fi
+          echo "Fetched manifest from ${{ steps.urls.outputs.manifest }}:"
+          cat manifest.json | head -40
+
+      - name: Verify model URL is reachable
+        run: |
+          set -e
+          URL=$(python -c "import json; m=json.load(open('manifest.json')); print(m['vehicle_classifier'].get('url_cdn') or m['vehicle_classifier']['url'])")
+          if [ -z "$URL" ] || [ "$URL" = "None" ]; then
+            echo "No classifier URL in manifest — that's a fresh deployment, OK."
+            exit 0
+          fi
+          # HEAD request — verify 200 + non-trivial size
+          HEAD=$(curl -sIL "$URL" | head -1)
+          if ! echo "$HEAD" | grep -qE 'HTTP/.* 200'; then
+            echo "Classifier URL did not return 200:"
+            echo "$HEAD"
+            exit 1
+          fi
+          # Pull a few KB and verify it's bytes (not an HTML error page)
+          curl -fsSL --range 0-2047 "$URL" -o sample.bin
+          FILE_TYPE=$(file -b sample.bin || echo unknown)
+          echo "Sample bytes type: $FILE_TYPE"
+          # Acceptable: 'data' or any binary signature. Reject obvious HTML.
+          if echo "$FILE_TYPE" | grep -qiE 'HTML|XML|text|empty'; then
+            echo "Classifier endpoint serving non-binary content — likely 4xx HTML page"
+            exit 1
+          fi
+          echo "Classifier URL OK ($URL)"
+
+      - name: Verify manifest schema
+        run: |
+          python - <<'EOF'
+          import json, sys
+          m = json.load(open('manifest.json'))
+          required = ['vehicle_classifier', 'plate_detector', 'plate_ocr']
+          for k in required:
+              if k not in m:
+                  print(f"Manifest missing required key: {k}")
+                  sys.exit(1)
+          vc = m['vehicle_classifier']
+          if vc.get('version') and vc['version'] != '0.0.0':
+              for k in ('url', 'sha256', 'classes'):
+                  if not vc.get(k):
+                      print(f"vehicle_classifier missing field: {k}")
+                      sys.exit(1)
+          print("Manifest schema OK")
+          EOF
+
+      - name: Notify success (optional)
+        if: success()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          MODE: health_ok
+          SOURCE: ${{ steps.fetch.outputs.source }}
+        run: python pipeline/notify.py health_ok || true
+
+      - name: ROLLBACK on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          echo "Health check failed — rolling back last manifest commit."
+          git config user.name  "vov-pipeline-bot"
+          git config user.email "pipeline@valetops.com"
+
+          # Find the most recent commit that touched pipeline/manifest.json
+          LAST_HASH=$(git log -n 1 --pretty=format:%H -- pipeline/manifest.json)
+          if [ -z "$LAST_HASH" ]; then
+            echo "No prior manifest commit to revert — emergency: removing manifest entirely"
+            git rm -f pipeline/manifest.json || true
+            git commit -m "manifest: emergency removal (health check failed)" || true
+            git push
+            exit 0
+          fi
+          PARENT=$(git log -n 1 --pretty=format:%P "$LAST_HASH" | awk '{print $1}')
+          if [ -z "$PARENT" ]; then
+            echo "Last manifest commit has no parent (initial commit)"
+            exit 0
+          fi
+          git checkout "$PARENT" -- pipeline/manifest.json
+          git commit -m "ROLLBACK: revert manifest (health check failed at $LAST_HASH)"
+          git push
+
+          # Open a GitHub issue with the run URL.
+          gh issue create \
+            --title "Health check failed — auto-rollback of manifest" \
+            --body "Daily health check could not verify the published model. The previous manifest has been auto-restored. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: Notify failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          MODE: rollback
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python pipeline/notify.py rollback || true

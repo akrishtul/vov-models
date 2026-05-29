@@ -1,0 +1,16 @@
+name = "vov-telemetry"
+main = "telemetry.js"
+compatibility_date = "2026-05-01"
+
+# Scheduled anomaly check every 15 minutes.
+[triggers]
+crons = ["*/15 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vov-telemetry"
+database_id = "e0a0bc05-daff-49d5-a7e4-a0eab8dcba15"
+
+# Secrets — set via `wrangler secret put`:
+#   DASHBOARD_TOKEN   long random string; bearer token the dashboard uses
+#   SLACK_WEBHOOK     incoming webhook URL for status alerts
