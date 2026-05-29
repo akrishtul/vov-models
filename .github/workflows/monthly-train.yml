@@ -60,17 +60,34 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY:      ${{ secrets.KAGGLE_KEY }}
         run: |
+          # Defensive trim — secret values pasted with trailing whitespace are
+          # the #1 cause of Kaggle 401s. printf-strip everything outside [a-zA-Z0-9-_].
+          U=$(printf '%s' "$KAGGLE_USERNAME" | tr -d '[:space:]"' )
+          K=$(printf '%s' "$KAGGLE_KEY"      | tr -d '[:space:]"' )
+          echo "::add-mask::$K"
+          echo "Username length=${#U}  Key length=${#K}  Key first6=${K:0:6}  Key last4=${K: -4}"
           mkdir -p ~/.kaggle
-          echo '{"username":"'"$KAGGLE_USERNAME"'","key":"'"$KAGGLE_KEY"'"}' > ~/.kaggle/kaggle.json
+          printf '{"username":"%s","key":"%s"}\n' "$U" "$K" > ~/.kaggle/kaggle.json
           chmod 600 ~/.kaggle/kaggle.json
+          # Verify file shape (sans the key value) for sanity.
+          python -c "import json,os; d=json.load(open(os.path.expanduser('~/.kaggle/kaggle.json'))); print('json ok, username=', d.get('username'), 'key_len=', len(d.get('key','')))"
 
       - name: Push training kernel to Kaggle
         id: push
         working-directory: pipeline/notebook
+        env:
+          # v1.6.17 reads creds from EITHER ~/.kaggle/kaggle.json OR env vars.
+          # Pass env vars too so we don't depend on the file path.
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY:      ${{ secrets.KAGGLE_KEY }}
         run: |
           # Embed the current models.json + accepted photos manifest into the
           # kernel directory so Kaggle has everything to train against.
           cp ../data/models.json . 2>/dev/null || true
+          # Sanity-ping Kaggle so a bad credential fails BEFORE the kernel push,
+          # with a more diagnostic error message than the push step gives.
+          kaggle config view || true
+          kaggle competitions list -s "titanic" --csv 2>&1 | head -2 || echo "[ping] competitions list failed (creds bad?)"
           kaggle kernels push -p .
           # Slug = id from kernel-metadata.json
           SLUG=$(python -c "import json; print(json.load(open('kernel-metadata.json'))['id'])")
