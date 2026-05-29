@@ -37,7 +37,7 @@ from torch.utils.data import DataLoader, Dataset, random_split
 from torchvision import transforms
 
 # -------- Config --------
-REPO          = os.environ.get("VOV_REPO",          "valetops/vov-models")
+REPO          = os.environ.get("VOV_REPO",          "akrishtul/vov-models")
 BRANCH        = os.environ.get("VOV_BRANCH",        "main")
 OUT_DIR       = Path("/kaggle/working")
 WORK_DIR      = Path("/kaggle/working/repo")
