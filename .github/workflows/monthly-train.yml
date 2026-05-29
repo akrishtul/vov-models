@@ -49,43 +49,36 @@ jobs:
 
       - name: Install tooling
         run: |
-          # Kaggle 1.7+ dropped support for the legacy username+key kaggle.json
-          # auth and now demands either OAuth interactive login or a new-format
-          # access token. Pin to 1.6.17 (last working) so our GitHub secrets work.
-          # Track Kaggle's OAuth migration and update when ready.
-          pip install "kaggle==1.6.17" requests
+          # Kaggle's backend deprecated Basic auth (username+key kaggle.json) entirely
+          # in mid-2025 — any legacy key returns 401 Unauthenticated regardless of
+          # CLI version. Switched to the new Access Token system. kaggle CLI >=1.8.0
+          # reads `KAGGLE_API_TOKEN` env var natively. The token is a single value
+          # (no username needed) — Kaggle resolves the account from the token itself.
+          pip install "kaggle>=1.8.0" requests
 
       - name: Configure Kaggle credentials
         env:
-          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
-          KAGGLE_KEY:      ${{ secrets.KAGGLE_KEY }}
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
         run: |
-          # Defensive trim — secret values pasted with trailing whitespace are
-          # the #1 cause of Kaggle 401s. printf-strip everything outside [a-zA-Z0-9-_].
-          U=$(printf '%s' "$KAGGLE_USERNAME" | tr -d '[:space:]"' )
-          K=$(printf '%s' "$KAGGLE_KEY"      | tr -d '[:space:]"' )
-          echo "::add-mask::$K"
-          echo "Username length=${#U}  Key length=${#K}  Key first6=${K:0:6}  Key last4=${K: -4}"
+          # Defensive trim — pasted secrets often carry whitespace.
+          T=$(printf '%s' "$KAGGLE_API_TOKEN" | tr -d '[:space:]"' )
+          echo "::add-mask::$T"
+          echo "Token length=${#T}  Token first8=${T:0:8}  Token last4=${T: -4}"
+          # Two-way install: env var (read by CLI directly) + file (read by some kaggle SDK paths).
           mkdir -p ~/.kaggle
-          printf '{"username":"%s","key":"%s"}\n' "$U" "$K" > ~/.kaggle/kaggle.json
-          chmod 600 ~/.kaggle/kaggle.json
-          # Verify file shape (sans the key value) for sanity.
-          python -c "import json,os; d=json.load(open(os.path.expanduser('~/.kaggle/kaggle.json'))); print('json ok, username=', d.get('username'), 'key_len=', len(d.get('key','')))"
+          printf '%s' "$T" > ~/.kaggle/access_token
+          chmod 600 ~/.kaggle/access_token
 
       - name: Push training kernel to Kaggle
         id: push
         working-directory: pipeline/notebook
         env:
-          # v1.6.17 reads creds from EITHER ~/.kaggle/kaggle.json OR env vars.
-          # Pass env vars too so we don't depend on the file path.
-          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
-          KAGGLE_KEY:      ${{ secrets.KAGGLE_KEY }}
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
         run: |
           # Embed the current models.json + accepted photos manifest into the
           # kernel directory so Kaggle has everything to train against.
           cp ../data/models.json . 2>/dev/null || true
-          # Sanity-ping Kaggle so a bad credential fails BEFORE the kernel push,
-          # with a more diagnostic error message than the push step gives.
+          # Sanity-ping Kaggle so a bad credential fails BEFORE the kernel push.
           kaggle config view || true
           kaggle competitions list -s "titanic" --csv 2>&1 | head -2 || echo "[ping] competitions list failed (creds bad?)"
           kaggle kernels push -p .
