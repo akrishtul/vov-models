@@ -172,6 +172,14 @@ let API   = localStorage.getItem(LS_API)   || '';
 let sites = [];
 let filter = 'all';
 let refreshTimer = null;
+let lastRefreshAt = null;
+function updateRefreshDisplay() {
+	if (!lastRefreshAt) return;
+	const secs = Math.round((Date.now() - lastRefreshAt) / 1000);
+	const label = secs < 60 ? secs + 's' : Math.round(secs/60) + 'm';
+	document.getElementById('refresh-text').textContent = 'Live · last refresh ' + label + ' ago';
+}
+setInterval(updateRefreshDisplay, 1000);
 
 function gate() {
 	if (TOKEN && API) {
@@ -235,8 +243,7 @@ async function refreshAll() {
 		const all = await api('/api/sites');
 		sites = all.sites || [];
 		renderSites();
-		document.getElementById('refresh-text').textContent =
-			'Live · last refresh ' + fmtTimeAgo(new Date().toISOString());
+		lastRefreshAt = Date.now(); updateRefreshDisplay();
 	} catch (e) {
 		document.getElementById('refresh-text').textContent = 'Error: ' + e.message;
 	} finally {
