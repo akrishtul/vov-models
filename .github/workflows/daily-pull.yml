@@ -16,6 +16,8 @@ concurrency:
 jobs:
   pull-and-fetch:
     runs-on: ubuntu-latest
+    # v2026.05.30 — budget bumped 20 → 60 min to accommodate VMMRdb / Mapillary /
+    # OpenImages / auctions / corrections pulls layered on top of NHTSA + Wikimedia.
     timeout-minutes: 60
 
     steps:
@@ -30,10 +32,15 @@ jobs:
         env:
           VOV_PIPELINE_DATA: ${{ github.workspace }}/pipeline/data
 
-      - name: Fetch Wikimedia photos for newly-found models
+      - name: Fetch Wikimedia photos (pending + supplement)
         run: python pipeline/wikimedia_fetch.py
         env:
           VOV_PIPELINE_DATA: ${{ github.workspace }}/pipeline/data
+          # Knobs (see wikimedia_fetch.py header):
+          VOV_WIKIMEDIA_MAX:                100
+          VOV_WIKIMEDIA_MODELS_PER_RUN:     200
+          VOV_WIKIMEDIA_SUPPLEMENT_TARGET:  80
+          VOV_WIKIMEDIA_SUPPLEMENT_BUDGET:  100
 
       - name: LLM auto-filter (skips if no API key set)
         run: python pipeline/llm_filter.py
@@ -41,10 +48,52 @@ jobs:
           VOV_PIPELINE_DATA: ${{ github.workspace }}/pipeline/data
           GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}    # free tier — 1500 req/day
 
+      # v2026.05.30 — Wave 2 photo sources. Each step is independently optional
+      # and gracefully no-ops without its credential/env var. Order matters
+      # only insofar as each writes to a distinct pipeline/data/photos/<src>/
+      # subdir; train.py walks them all later.
+
+      - name: VMMRdb bulk import (one-shot, 291K photos / 9K classes)
+        run: python pipeline/vmmrdb_pull.py
+        env:
+          VOV_PIPELINE_DATA: ${{ github.workspace }}/pipeline/data
+          # Optional: override mirror URL if the maintainer URL rotates.
+          VOV_VMMRDB_URL:    ${{ secrets.VOV_VMMRDB_URL }}
+
+      - name: Mapillary street-view photos (unlabeled staging)
+        run: python pipeline/mapillary_pull.py
+        env:
+          VOV_PIPELINE_DATA:     ${{ github.workspace }}/pipeline/data
+          VOV_MAPILLARY_TOKEN:   ${{ secrets.VOV_MAPILLARY_TOKEN }}
+          VOV_MAPILLARY_BUDGET:  500
+
+      - name: OpenImages V6 'Car' subclass (unlabeled staging)
+        run: python pipeline/openimages_pull.py
+        env:
+          VOV_PIPELINE_DATA:       ${{ github.workspace }}/pipeline/data
+          VOV_OPENIMAGES_BUDGET:   1000
+
+      - name: Auction listings (IAA + Copart, opt-in)
+        run: python pipeline/auctions_pull.py
+        env:
+          VOV_PIPELINE_DATA:           ${{ github.workspace }}/pipeline/data
+          VOV_AUCTIONS_OPT_IN:         ${{ secrets.VOV_AUCTIONS_OPT_IN }}
+          VOV_AUCTIONS_PER_MAKE:       25
+          VOV_AUCTIONS_MAKES_PER_RUN:  30
+
+      - name: Pull driver corrections from worker /v1/export
+        run: python pipeline/corrections_pull.py
+        env:
+          VOV_PIPELINE_DATA:        ${{ github.workspace }}/pipeline/data
+          VOV_CORRECTIONS_TOKEN:    ${{ secrets.VOV_CORRECTIONS_TOKEN }}
+          VOV_CORRECTIONS_URL:      ${{ secrets.VOV_CORRECTIONS_URL }}
+
       - name: Commit changes
         run: |
           git config user.name  "vov-pipeline-bot"
           git config user.email "pipeline@valetops.com"
+          # Per-file size cap: GitHub rejects >100MB files. Skip any that crept in.
+          find pipeline/data -size +95M -print -delete || true
           git add pipeline/data/
           git diff --staged --quiet || git commit -m "pipeline: daily pull $(date -u +%Y-%m-%d)"
           git push
