@@ -74,27 +74,21 @@ SEED          = 42
 
 # Hugging Face seed datasets to pull. Each entry is tried independently —
 # missing/private/renamed datasets log a [warn] and the run continues with
-# whatever else loaded. v2026.05.30: added 4 community mirrors so a publisher
-# rename on any one doesn't break the build, and we maximize seed coverage.
+# whatever else loaded.
+#
+# v2026.05.30 LESSON (run #11): adding 'Multimodal-Fatima/StanfordCars_train'
+# as a second HF mirror created 393 fake classes (vs the canonical 196)
+# because its label-string convention differs from tanganke's. Same car,
+# different label string → model treats them as different classes → 9.95%
+# test top-1 collapse. Reverted to a single canonical seed. To add MORE
+# real-world classes safely, drop them under pipeline/data/photos/<source>/
+# <Make_Model>/ and the labeled-source walker below picks them up under
+# a single shared label namespace.
 SEED_DATASETS = [
     {
         "hf_name": "tanganke/stanford_cars",
         "train_split": "train",
         "test_split":  "test",
-        "image_col":   "image",
-        "label_col":   "label",
-    },
-    {
-        "hf_name": "Multimodal-Fatima/StanfordCars_train",
-        "train_split": "train",
-        "test_split":  "train",
-        "image_col":   "image",
-        "label_col":   "label",
-    },
-    {
-        "hf_name": "nateraw/cars-dataset",
-        "train_split": "train",
-        "test_split":  "train",
         "image_col":   "image",
         "label_col":   "label",
     },
