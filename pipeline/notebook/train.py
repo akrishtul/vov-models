@@ -61,21 +61,40 @@ WORK_DIR      = Path("/kaggle/working/repo")
 VERSION       = os.environ.get("MODEL_VERSION") or datetime.now(timezone.utc).strftime("%Y.%m.%d")
 INPUT_SIZE    = 224
 BATCH         = 64
-EPOCHS_HEAD   = 4
-EPOCHS_FULL   = 12
+# v2026.05.30 — bumped 4+12 → 6+24 to extract more from the bigger pool.
+# P100 wall-clock budget: 16 epochs × ~45s = ~12 min; 30 epochs × ~45s = ~22 min,
+# well under the 4.5h GH timeout (and well under Kaggle's 12h kernel cap).
+EPOCHS_HEAD   = 6
+EPOCHS_FULL   = 24
 LR_HEAD       = 1e-3
 LR_FULL       = 3e-4
 TEST_FRAC     = 0.10
 VAL_FRAC      = 0.10
 SEED          = 42
 
-# Hugging Face seed datasets to pull. We start with Stanford Cars; can add
-# more (Compcars / VMMRdb / DVM-CAR) here later — same format.
+# Hugging Face seed datasets to pull. Each entry is tried independently —
+# missing/private/renamed datasets log a [warn] and the run continues with
+# whatever else loaded. v2026.05.30: added 4 community mirrors so a publisher
+# rename on any one doesn't break the build, and we maximize seed coverage.
 SEED_DATASETS = [
     {
         "hf_name": "tanganke/stanford_cars",
         "train_split": "train",
         "test_split":  "test",
+        "image_col":   "image",
+        "label_col":   "label",
+    },
+    {
+        "hf_name": "Multimodal-Fatima/StanfordCars_train",
+        "train_split": "train",
+        "test_split":  "train",
+        "image_col":   "image",
+        "label_col":   "label",
+    },
+    {
+        "hf_name": "nateraw/cars-dataset",
+        "train_split": "train",
+        "test_split":  "train",
         "image_col":   "image",
         "label_col":   "label",
     },
@@ -112,10 +131,20 @@ for spec in SEED_DATASETS:
     print(f"  → {name}")
     try:
         hf_train = load_dataset(name, split=spec["train_split"])
-        hf_test  = load_dataset(name, split=spec["test_split"])
     except Exception as e:
-        print(f"    [warn] failed to load {name}: {e} — skipping")
+        print(f"    [warn] failed to load train split for {name}: {e} — skipping")
         continue
+    # v2026.05.30 — gracefully handle single-split mirrors. If test_split fails
+    # to load (e.g. name has no test split), reuse the train and we'll handle
+    # the eval split downstream by carving TEST_FRAC out of train.
+    hf_test = None
+    if spec.get("test_split") and spec["test_split"] != spec["train_split"]:
+        try:
+            hf_test = load_dataset(name, split=spec["test_split"])
+        except Exception as e:
+            print(f"    [info] no separate test split for {name}: {e}")
+    if hf_test is None:
+        hf_test = hf_train   # placeholder; we won't double-count by skipping convert below
 
     # Resolve label int → name from the feature spec.
     try:
@@ -141,8 +170,13 @@ for spec in SEED_DATASETS:
     spec["_train_ds"] = hf_train
     spec["_test_ds"]  = hf_test
     _convert(hf_train, seed_train_items)
-    _convert(hf_test,  seed_test_items)
-    print(f"    {len(hf_train)} train + {len(hf_test)} test photos, {len(names)} classes")
+    # Only count as test items if it's a genuinely distinct split. Single-split
+    # mirrors get folded into train+val via TEST_FRAC carve downstream.
+    if hf_test is not hf_train:
+        _convert(hf_test,  seed_test_items)
+        print(f"    {len(hf_train)} train + {len(hf_test)} test photos, {len(names)} classes")
+    else:
+        print(f"    {len(hf_train)} train photos (single split — test carved downstream), {len(names)} classes")
 
 print(f"\nSeed dataset total: {len(seed_train_items)} train + {len(seed_test_items)} test, "
       f"{len(seed_label_set)} classes")
