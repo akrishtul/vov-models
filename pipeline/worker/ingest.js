@@ -38,6 +38,66 @@ export default {
 		if (request.method === "OPTIONS") {
 			return new Response(null, { headers: corsHeaders() });
 		}
+
+		// v2026.05.30 — Training-side export endpoint. Returns verified corrections
+		// after the given `?after=<id>` cursor, up to `?limit` rows (default 500,
+		// max 1000). Bearer-auth via env.EXPORT_TOKEN (set via `wrangler secret put
+		// EXPORT_TOKEN`).
+		if (request.method === "GET" && url.pathname === "/v1/export") {
+			const auth = request.headers.get("Authorization") || "";
+			const expected = env.EXPORT_TOKEN ? `Bearer ${env.EXPORT_TOKEN}` : null;
+			if (!expected || auth !== expected) {
+				return json({ ok: false, error: "unauthorized" }, 401);
+			}
+			const after = parseInt(url.searchParams.get("after") || "0", 10) || 0;
+			const limit = Math.max(1, Math.min(1000, parseInt(url.searchParams.get("limit") || "500", 10) || 500));
+			try {
+				const { results } = await env.DB.prepare(
+					`SELECT id, license, site, plugin,
+					        field, was, now_val,
+					        photo_hash, photo_url, region,
+					        customer_created_at, received_at, verified
+					   FROM corrections
+					  WHERE id > ?
+					    AND verified = 'verified'
+					    AND photo_url <> ''
+					    AND photo_hash <> ''
+					  ORDER BY id ASC
+					  LIMIT ?`
+				).bind(after, limit).all();
+				// Surface the field/was/now triplet in a shape the training pipeline likes:
+				// it cares about (now_make, now_model). Field shape from VOV plugin is
+				// `field='make_model', now='Toyota|Camry'` (pipe-separated).
+				const rows = (results || []).map(r => {
+					let now_make = "", now_model = "";
+					if (r.field === "make_model" && typeof r.now_val === "string" && r.now_val.includes("|")) {
+						const [mk, md] = r.now_val.split("|", 2);
+						now_make = (mk || "").trim();
+						now_model = (md || "").trim();
+					}
+					return {
+						id: r.id,
+						license: r.license,
+						site: r.site,
+						plugin: r.plugin,
+						field: r.field,
+						was: r.was,
+						now: r.now_val,
+						now_make,
+						now_model,
+						photo_hash: r.photo_hash,
+						photo_url: r.photo_url,
+						region: r.region,
+						customer_created_at: r.customer_created_at,
+						received_at: r.received_at,
+					};
+				});
+				return json({ ok: true, count: rows.length, rows });
+			} catch (e) {
+				return json({ ok: false, error: "db_error", detail: String(e) }, 500);
+			}
+		}
+
 		if (request.method !== "POST") {
 			return json({ ok: false, error: "method_not_allowed" }, 405);
 		}
