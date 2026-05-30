@@ -32,7 +32,10 @@ permissions:
 
 concurrency:
   group: monthly-train
-  cancel-in-progress: false
+  # v2 — flipped to true: stuck poll-loop runs ate cancel signals + blocked
+  # new dispatches for 20+ min. With cancel-in-progress=true, a manual retrigger
+  # kills the previous run immediately so we can iterate fast.
+  cancel-in-progress: true
 
 jobs:
   train-and-publish:
@@ -93,16 +96,20 @@ jobs:
           set -e
           DEADLINE=$(( $(date +%s) + 4 * 3600 + 1800 ))    # 4.5 h
           while true; do
-            STATUS=$(kaggle kernels status "$SLUG" 2>&1 | grep -oE 'has status "[^"]*"' | sed 's/has status "\(.*\)"/\1/')
-            echo "[$(date -u +%H:%M:%SZ)] Kaggle kernel status: ${STATUS:-unknown}"
+            # Kaggle CLI 1.8+ outputs "KernelWorkerStatus.<STATE>"; older CLI
+            # outputs `has status "<state>"`. Accept either, then strip the
+            # KernelWorkerStatus. prefix + lowercase so a single case matches.
+            RAW=$(kaggle kernels status "$SLUG" 2>&1 || true)
+            STATUS=$(echo "$RAW" | grep -oE 'KernelWorkerStatus\.[A-Z]+|has status "[^"]*"' | head -1 | sed -E 's/KernelWorkerStatus\.//;s/has status "([^"]*)"/\1/' | tr '[:upper:]' '[:lower:]')
+            echo "[$(date -u +%H:%M:%SZ)] Kaggle kernel status: ${STATUS:-unknown}  (raw: $(echo "$RAW" | head -1))"
             case "$STATUS" in
               complete)             echo "Training finished cleanly"; break ;;
-              error|cancelAcknowledged)
+              error|cancelacknowledged|cancelrequested|cancelled)
                 echo "Kaggle kernel failed: $STATUS"
                 exit 1
                 ;;
-              running|queued|"")     ;;
-              *)                     echo "Unknown status: $STATUS" ;;
+              running|queued|"")    ;;
+              *)                    echo "Unknown status: $STATUS" ;;
             esac
             if [ $(date +%s) -ge $DEADLINE ]; then
               echo "Timed out waiting for Kaggle"
