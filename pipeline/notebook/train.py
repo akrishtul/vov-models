@@ -203,6 +203,47 @@ for key, m in models_meta.items():
 print(f"Wikimedia samples: {len(wiki_items)} photos, {len(wiki_label_set)} classes "
       f"(of which {len(wiki_label_set - seed_label_set)} new vs seed)")
 
+# v2026.05.30 — Walk every additional labeled photo source dropped under
+# pipeline/data/photos/<source>/<Make_Model>/*.jpg. Each per-source pull
+# script lays out files in this canonical shape, so train.py is source-agnostic.
+# Skips sources whose folders look "unlabeled" (e.g. mapillary_unlabeled/,
+# openimages_unlabeled/) — those wait for semi-supervised labeling later.
+LABELED_SOURCES = ("vmmrdb", "auctions", "corrections")
+extra_source_items: list[tuple] = []
+extra_source_label_set: set[str] = set()
+for src_name in LABELED_SOURCES:
+    src_root = WORK_DIR / "pipeline/data/photos" / src_name
+    if not src_root.exists():
+        continue
+    n_src = 0
+    n_cls = 0
+    for cls_dir in src_root.iterdir():
+        if not cls_dir.is_dir():
+            continue
+        label = cls_dir.name.replace("_", " ").strip()
+        if not label:
+            continue
+        kept = 0
+        for img in cls_dir.glob("*.jpg"):
+            extra_source_items.append(("path", str(img), label))
+            kept += 1
+        for img in cls_dir.glob("*.jpeg"):
+            extra_source_items.append(("path", str(img), label))
+            kept += 1
+        for img in cls_dir.glob("*.png"):
+            extra_source_items.append(("path", str(img), label))
+            kept += 1
+        if kept:
+            n_src += kept
+            n_cls += 1
+            extra_source_label_set.add(label)
+    print(f"  [{src_name}] {n_src} photos across {n_cls} classes")
+
+wiki_items.extend(extra_source_items)
+wiki_label_set.update(extra_source_label_set)
+print(f"Combined Wikimedia + labeled sources: {len(wiki_items)} photos, "
+      f"{len(wiki_label_set)} classes")
+
 # Final label space = union of both sources.
 all_labels = sorted(seed_label_set | wiki_label_set)
 label_to_idx = {lbl: i for i, lbl in enumerate(all_labels)}
