@@ -60,20 +60,44 @@ jobs:
           # Optional: override mirror URL if the maintainer URL rotates.
           VOV_VMMRDB_URL:    ${{ secrets.VOV_VMMRDB_URL }}
 
+      # v2026-05-31 — Commit BEFORE the slow downloaders below so a runaway
+       # step or 60-min job timeout doesn't lose the upstream work (NHTSA,
+       # Wikimedia, VMMRdb were dropping on the floor when OpenImages exceeded
+       # its budget). Cheap to commit twice in one run; git noticeably skips
+       # empty commits via `git diff --staged --quiet`.
+      - name: Commit upstream changes (NHTSA + Wikimedia + VMMRdb)
+        if: always()
+        run: |
+          git config user.name  "vov-pipeline-bot"
+          git config user.email "pipeline@valetops.com"
+          find pipeline/data -size +95M -print -delete || true
+          git add pipeline/data/
+          git diff --staged --quiet || git commit -m "pipeline: upstream daily pull $(date -u +%Y-%m-%d)"
+          git push || true
+
+      - name: OpenImages V6 'Car' subclass (unlabeled staging)
+        # v2026-05-31 — per-step timeout so this can't eat the whole job.
+        # Previous run #7 spent 38 min here and got cancelled at 60-min job cap;
+        # capping per-step + dropping budget 1000 → 200 keeps it well-bounded.
+        timeout-minutes: 10
+        continue-on-error: true
+        run: python pipeline/openimages_pull.py
+        env:
+          VOV_PIPELINE_DATA:       ${{ github.workspace }}/pipeline/data
+          VOV_OPENIMAGES_BUDGET:   200
+
       - name: Mapillary street-view photos (unlabeled staging)
+        timeout-minutes: 10
+        continue-on-error: true
         run: python pipeline/mapillary_pull.py
         env:
           VOV_PIPELINE_DATA:     ${{ github.workspace }}/pipeline/data
           VOV_MAPILLARY_TOKEN:   ${{ secrets.VOV_MAPILLARY_TOKEN }}
           VOV_MAPILLARY_BUDGET:  500
 
-      - name: OpenImages V6 'Car' subclass (unlabeled staging)
-        run: python pipeline/openimages_pull.py
-        env:
-          VOV_PIPELINE_DATA:       ${{ github.workspace }}/pipeline/data
-          VOV_OPENIMAGES_BUDGET:   1000
-
       - name: Auction listings (IAA + Copart, opt-in)
+        timeout-minutes: 15
+        continue-on-error: true
         run: python pipeline/auctions_pull.py
         env:
           VOV_PIPELINE_DATA:           ${{ github.workspace }}/pipeline/data
@@ -82,18 +106,22 @@ jobs:
           VOV_AUCTIONS_MAKES_PER_RUN:  30
 
       - name: Pull driver corrections from worker /v1/export
+        timeout-minutes: 5
+        continue-on-error: true
         run: python pipeline/corrections_pull.py
         env:
           VOV_PIPELINE_DATA:        ${{ github.workspace }}/pipeline/data
           VOV_CORRECTIONS_TOKEN:    ${{ secrets.VOV_CORRECTIONS_TOKEN }}
           VOV_CORRECTIONS_URL:      ${{ secrets.VOV_CORRECTIONS_URL }}
 
-      - name: Commit changes
+      # Final commit catches everything from the downstream sources. if:always()
+      # ensures it runs even if a step above failed or was cancelled.
+      - name: Commit downstream changes (OpenImages + Mapillary + Auctions + Corrections)
+        if: always()
         run: |
           git config user.name  "vov-pipeline-bot"
           git config user.email "pipeline@valetops.com"
-          # Per-file size cap: GitHub rejects >100MB files. Skip any that crept in.
           find pipeline/data -size +95M -print -delete || true
           git add pipeline/data/
-          git diff --staged --quiet || git commit -m "pipeline: daily pull $(date -u +%Y-%m-%d)"
-          git push
+          git diff --staged --quiet || git commit -m "pipeline: downstream daily pull $(date -u +%Y-%m-%d)"
+          git push || true
