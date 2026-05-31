@@ -96,15 +96,19 @@ def run():
             "changelog":          [ln.strip() for ln in NOTES.splitlines() if ln.strip()],
             "test_accuracy":      meta.get("test_accuracy", {}),
         },
+        # v2026-05-31 — both plate models swapped from GitHub release URLs
+        # (CORS-blocked: release-assets.githubusercontent.com refuses our
+        # browser origin) to jsDelivr-served paths in our own repo's
+        # /models/ folder. Originals mirrored verbatim into vov-models/models/.
         "plate_detector": previous.get("plate_detector") or {
             "version": "2024.10.0",
-            "url": "https://github.com/ankandrew/open-image-models/releases/download/assets/yolo-v9-t-384-license-plates-end2end.onnx",
+            "url": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@main/models/yolo-v9-t-384-license-plates-end2end.onnx",
             "size_mb": 7.4,
             "input_size": 384,
         },
         "plate_ocr": previous.get("plate_ocr") or {
             "version": "2024.10.0",
-            "url": "https://github.com/ankandrew/fast-plate-ocr/releases/download/arg-plates/cct_s_v2_global.onnx",
+            "url": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@main/models/cct_s_v2_global.onnx",
             "size_mb": 5.0,
             "charset": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_",
             "max_len": 9,
