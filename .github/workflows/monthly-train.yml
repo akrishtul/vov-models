@@ -152,13 +152,46 @@ jobs:
 
       - name: Determine version
         id: ver
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # v2026-05-30 — robust against (a) tag collisions w/ a prior run on the
+          # same UTC day and (b) Kaggle-vs-GH filename mismatches. We READ THE
+          # ACTUAL VERSION KAGGLE PRODUCED from the ONNX filename, then if a tag
+          # for that version already exists on GitHub, we suffix the version and
+          # rename the artifact files to match. This makes the publish step
+          # idempotent and collision-proof.
+          set -euo pipefail
+          cd pipeline/artifacts
+          ONNX=$(ls -1t vehicle-classifier-v*.onnx 2>/dev/null | head -1)
+          if [ -z "$ONNX" ]; then
+            echo "::error::no vehicle-classifier-v*.onnx in pipeline/artifacts/"
+            exit 1
+          fi
+          BASE_VERSION=$(echo "$ONNX" | sed -E 's/^vehicle-classifier-v(.+)\.onnx$/\1/')
+          echo "Kaggle-named version: v$BASE_VERSION"
+          # Explicit override wins (admin can force a specific version), else
+          # default to whatever Kaggle named the file.
           if [ -n "${{ inputs.version_override }}" ]; then
             V="${{ inputs.version_override }}"
           else
-            V=$(date -u +%Y.%m.%d)
+            V="$BASE_VERSION"
+          fi
+          # Tag-collision guard: if v$V already exists, append run-attempt suffix
+          # so we always get a unique tag for the same UTC day's reruns.
+          if gh release view "v$V" -R "${{ github.repository }}" >/dev/null 2>&1; then
+            V="${V}.r${{ github.run_number }}"
+            echo "tag already existed — using v$V instead"
+          fi
+          # Rename ONNX + labels.json so publish.py finds them under the final
+          # version name. metadata.json is version-agnostic (no rename needed).
+          if [ "$V" != "$BASE_VERSION" ]; then
+            mv "vehicle-classifier-v${BASE_VERSION}.onnx"        "vehicle-classifier-v${V}.onnx"
+            mv "vehicle-classifier-v${BASE_VERSION}.labels.json" "vehicle-classifier-v${V}.labels.json"
+            echo "renamed artifacts: v${BASE_VERSION} → v${V}"
           fi
           echo "version=$V" >> $GITHUB_OUTPUT
+          echo "Final model version: v$V"
 
       - name: Build manifest (with regression gate)
         env:
