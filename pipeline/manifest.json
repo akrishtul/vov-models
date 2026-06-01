@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated": "2026-06-01T17:50:33.762504+00:00",
+  "generated": "2026-05-31T01:29:08.547943+00:00",
   "vehicle_classifier": {
-    "version": "2026.06.01",
-    "released": "2026-06-01",
+    "version": "2026.05.31",
+    "released": "2026-05-31",
     "size_mb": 6.57,
-    "classes": 198,
-    "url": "https://github.com/akrishtul/vov-models/releases/download/v2026.06.01/vehicle-classifier-v2026.06.01.onnx",
-    "url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.01/vehicle-classifier-v2026.06.01.onnx",
-    "sha256": "f62715d09aa5914e3f1cc01de695bf4fc86964e4b5bbeb51377029da46e9e417",
+    "classes": 197,
+    "url": "https://github.com/akrishtul/vov-models/releases/download/v2026.05.31/vehicle-classifier-v2026.05.31.onnx",
+    "url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.05.31/vehicle-classifier-v2026.05.31.onnx",
+    "sha256": "f4c659d8d0b08515397cb1fd6b7b7cd7e095a24d55476c5310dc228564ef37a7",
     "min_plugin_version": "1.2.0",
     "input_shape": [
       1,
@@ -16,14 +16,14 @@
       224,
       224
     ],
-    "label_map_url": "https://github.com/akrishtul/vov-models/releases/download/v2026.06.01/vehicle-classifier-v2026.06.01.labels.json",
-    "label_map_url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.01/vehicle-classifier-v2026.06.01.labels.json",
+    "label_map_url": "https://github.com/akrishtul/vov-models/releases/download/v2026.05.31/vehicle-classifier-v2026.05.31.labels.json",
+    "label_map_url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.05.31/vehicle-classifier-v2026.05.31.labels.json",
     "changelog": [
       "Automated monthly retrain $(date -u +%Y-%m-%d)"
     ],
     "test_accuracy": {
-      "top1": 0.2,
-      "top5": 0.2767
+      "top1": 0.2002,
+      "top5": 0.2808
     }
   },
   "plate_detector": {
