@@ -130,8 +130,19 @@
     "make_id": 10887,
     "make_name": "RIVIAN",
     "model": "EDV",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "0ea8955f3c4cbf90",
+        "path": "photos/10/10887_EDV_2027/0ea8955f3c4cbf90.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2025-04-23_13_31_59_Electric_Amazon_delivery_vehicle_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg"
+      },
+      {
+        "hash": "0e51117256513d40",
+        "path": "photos/10/10887_EDV_2027/0e51117256513d40.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Amazon_electric_delivery_van_in_gated_townhome_neighborhood.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "10887:EDV:2028": {
@@ -140,7 +151,7 @@
     "make_name": "RIVIAN",
     "model": "EDV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "10887:R1S:2025": {
@@ -149,7 +160,7 @@
     "make_name": "RIVIAN",
     "model": "R1S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "10887:R1S:2026": {
@@ -167,7 +178,7 @@
     "make_name": "RIVIAN",
     "model": "R1T",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "10887:R1T:2026": {
@@ -185,7 +196,7 @@
     "make_name": "RIVIAN",
     "model": "R1T",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "10887:R1T:2028": {
@@ -194,7 +205,7 @@
     "make_name": "RIVIAN",
     "model": "R1T",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "10887:R2:2027": {
@@ -203,7 +214,7 @@
     "make_name": "RIVIAN",
     "model": "R2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "10887:R2:2028": {
@@ -212,7 +223,7 @@
     "make_name": "RIVIAN",
     "model": "R2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "10887:RCV:2025": {
@@ -221,7 +232,7 @@
     "make_name": "RIVIAN",
     "model": "RCV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "10887:RCV:2026": {
@@ -239,7 +250,7 @@
     "make_name": "RIVIAN",
     "model": "RCV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "10887:RCV:2028": {
@@ -248,7 +259,7 @@
     "make_name": "RIVIAN",
     "model": "RCV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "10919:Air:2025": {
@@ -257,7 +268,7 @@
     "make_name": "LUCID",
     "model": "Air",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "10919:Air:2026": {
@@ -275,7 +286,7 @@
     "make_name": "LUCID",
     "model": "Air",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "10919:Air:2028": {
@@ -284,7 +295,7 @@
     "make_name": "LUCID",
     "model": "Air",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "10919:Gravity:2025": {
@@ -293,7 +304,7 @@
     "make_name": "LUCID",
     "model": "Gravity",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "10919:Gravity:2026": {
@@ -317,7 +328,7 @@
     "make_name": "LUCID",
     "model": "Gravity",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "10919:Gravity:2028": {
@@ -326,7 +337,7 @@
     "make_name": "LUCID",
     "model": "Gravity",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11366:VF 6:2025": {
@@ -335,7 +346,7 @@
     "make_name": "VINFAST",
     "model": "VF 6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11366:VF 6:2026": {
@@ -353,7 +364,7 @@
     "make_name": "VINFAST",
     "model": "VF 6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11366:VF 6:2028": {
@@ -362,7 +373,7 @@
     "make_name": "VINFAST",
     "model": "VF 6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11366:VF 7:2025": {
@@ -371,7 +382,7 @@
     "make_name": "VINFAST",
     "model": "VF 7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11366:VF 7:2026": {
@@ -389,7 +400,7 @@
     "make_name": "VINFAST",
     "model": "VF 7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11366:VF 7:2028": {
@@ -398,7 +409,7 @@
     "make_name": "VINFAST",
     "model": "VF 7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11366:VF 8:2025": {
@@ -407,7 +418,7 @@
     "make_name": "VINFAST",
     "model": "VF 8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11366:VF 8:2026": {
@@ -425,7 +436,7 @@
     "make_name": "VINFAST",
     "model": "VF 8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11366:VF 8:2028": {
@@ -434,7 +445,7 @@
     "make_name": "VINFAST",
     "model": "VF 8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11366:VF 9:2025": {
@@ -443,7 +454,7 @@
     "make_name": "VINFAST",
     "model": "VF 9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11366:VF 9:2026": {
@@ -461,7 +472,7 @@
     "make_name": "VINFAST",
     "model": "VF 9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11366:VF 9:2028": {
@@ -470,7 +481,7 @@
     "make_name": "VINFAST",
     "model": "VF 9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11832:Cobra:2025": {
@@ -479,7 +490,7 @@
     "make_name": "SHELBY",
     "model": "Cobra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11832:Cobra:2026": {
@@ -488,7 +499,7 @@
     "make_name": "SHELBY",
     "model": "Cobra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "11832:Cobra:2027": {
@@ -497,7 +508,7 @@
     "make_name": "SHELBY",
     "model": "Cobra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11832:Cobra:2028": {
@@ -506,7 +517,7 @@
     "make_name": "SHELBY",
     "model": "Cobra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11832:GT:2025": {
@@ -515,7 +526,7 @@
     "make_name": "SHELBY",
     "model": "GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11832:GT:2026": {
@@ -524,7 +535,7 @@
     "make_name": "SHELBY",
     "model": "GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "11832:GT:2027": {
@@ -533,7 +544,7 @@
     "make_name": "SHELBY",
     "model": "GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11832:GT:2028": {
@@ -542,7 +553,7 @@
     "make_name": "SHELBY",
     "model": "GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11856:Karma:2025": {
@@ -551,7 +562,7 @@
     "make_name": "FISKER",
     "model": "Karma",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11856:Karma:2026": {
@@ -560,7 +571,7 @@
     "make_name": "FISKER",
     "model": "Karma",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "11856:Karma:2027": {
@@ -569,7 +580,7 @@
     "make_name": "FISKER",
     "model": "Karma",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11856:Karma:2028": {
@@ -578,7 +589,7 @@
     "make_name": "FISKER",
     "model": "Karma",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11856:Nina:2025": {
@@ -587,7 +598,7 @@
     "make_name": "FISKER",
     "model": "Nina",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11856:Nina:2026": {
@@ -596,7 +607,7 @@
     "make_name": "FISKER",
     "model": "Nina",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "11856:Nina:2027": {
@@ -605,7 +616,7 @@
     "make_name": "FISKER",
     "model": "Nina",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11856:Nina:2028": {
@@ -614,7 +625,7 @@
     "make_name": "FISKER",
     "model": "Nina",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "11856:Ocean:2025": {
@@ -623,7 +634,7 @@
     "make_name": "FISKER",
     "model": "Ocean",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "11856:Ocean:2026": {
@@ -632,7 +643,7 @@
     "make_name": "FISKER",
     "model": "Ocean",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "11856:Ocean:2027": {
@@ -641,7 +652,7 @@
     "make_name": "FISKER",
     "model": "Ocean",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "11856:Ocean:2028": {
@@ -650,7 +661,7 @@
     "make_name": "FISKER",
     "model": "Ocean",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "2236:750S:2025": {
@@ -659,7 +670,7 @@
     "make_name": "MCLAREN",
     "model": "750S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "2236:750S:2026": {
@@ -668,7 +679,7 @@
     "make_name": "MCLAREN",
     "model": "750S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "2236:750S:2027": {
@@ -677,7 +688,7 @@
     "make_name": "MCLAREN",
     "model": "750S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "2236:750S:2028": {
@@ -686,7 +697,7 @@
     "make_name": "MCLAREN",
     "model": "750S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "2236:ARTURA:2025": {
@@ -695,7 +706,7 @@
     "make_name": "MCLAREN",
     "model": "ARTURA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "2236:ARTURA:2026": {
@@ -704,7 +715,7 @@
     "make_name": "MCLAREN",
     "model": "ARTURA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "2236:ARTURA:2027": {
@@ -713,7 +724,7 @@
     "make_name": "MCLAREN",
     "model": "ARTURA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "2236:ARTURA:2028": {
@@ -722,7 +733,7 @@
     "make_name": "MCLAREN",
     "model": "ARTURA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "2236:GTS:2025": {
@@ -731,7 +742,7 @@
     "make_name": "MCLAREN",
     "model": "GTS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "2236:GTS:2026": {
@@ -740,7 +751,7 @@
     "make_name": "MCLAREN",
     "model": "GTS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "2236:GTS:2027": {
@@ -749,7 +760,7 @@
     "make_name": "MCLAREN",
     "model": "GTS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "2236:GTS:2028": {
@@ -758,7 +769,7 @@
     "make_name": "MCLAREN",
     "model": "GTS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "2408:MEDALLION:2025": {
@@ -767,7 +778,7 @@
     "make_name": "EAGLE",
     "model": "MEDALLION",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "2408:MEDALLION:2026": {
@@ -776,7 +787,7 @@
     "make_name": "EAGLE",
     "model": "MEDALLION",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "2408:MEDALLION:2027": {
@@ -785,7 +796,7 @@
     "make_name": "EAGLE",
     "model": "MEDALLION",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "2408:MEDALLION:2028": {
@@ -794,7 +805,7 @@
     "make_name": "EAGLE",
     "model": "MEDALLION",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "2409:Grand Voyager:2025": {
@@ -803,7 +814,7 @@
     "make_name": "PLYMOUTH",
     "model": "Grand Voyager",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "2409:Grand Voyager:2026": {
@@ -812,7 +823,7 @@
     "make_name": "PLYMOUTH",
     "model": "Grand Voyager",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "2409:Grand Voyager:2027": {
@@ -821,7 +832,7 @@
     "make_name": "PLYMOUTH",
     "model": "Grand Voyager",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "2409:Grand Voyager:2028": {
@@ -830,7 +841,7 @@
     "make_name": "PLYMOUTH",
     "model": "Grand Voyager",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "2409:Neon:2025": {
@@ -839,7 +850,7 @@
     "make_name": "PLYMOUTH",
     "model": "Neon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "2409:Neon:2026": {
@@ -848,7 +859,7 @@
     "make_name": "PLYMOUTH",
     "model": "Neon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "2409:Neon:2027": {
@@ -857,7 +868,7 @@
     "make_name": "PLYMOUTH",
     "model": "Neon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "2409:Neon:2028": {
@@ -866,7 +877,7 @@
     "make_name": "PLYMOUTH",
     "model": "Neon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "2409:Prowler:2025": {
@@ -875,7 +886,7 @@
     "make_name": "PLYMOUTH",
     "model": "Prowler",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "2409:Prowler:2026": {
@@ -884,7 +895,7 @@
     "make_name": "PLYMOUTH",
     "model": "Prowler",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "2409:Prowler:2027": {
@@ -893,7 +904,7 @@
     "make_name": "PLYMOUTH",
     "model": "Prowler",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "2409:Prowler:2028": {
@@ -902,7 +913,7 @@
     "make_name": "PLYMOUTH",
     "model": "Prowler",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "2409:Voyager:2025": {
@@ -911,7 +922,7 @@
     "make_name": "PLYMOUTH",
     "model": "Voyager",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "2409:Voyager:2026": {
@@ -920,7 +931,7 @@
     "make_name": "PLYMOUTH",
     "model": "Voyager",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "2409:Voyager:2027": {
@@ -929,7 +940,7 @@
     "make_name": "PLYMOUTH",
     "model": "Voyager",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "2409:Voyager:2028": {
@@ -938,7 +949,7 @@
     "make_name": "PLYMOUTH",
     "model": "Voyager",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "4220:Panoz Roadster:2025": {
@@ -947,7 +958,7 @@
     "make_name": "PANOZ",
     "model": "Panoz Roadster",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "4220:Panoz Roadster:2026": {
@@ -956,7 +967,7 @@
     "make_name": "PANOZ",
     "model": "Panoz Roadster",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "4220:Panoz Roadster:2027": {
@@ -965,7 +976,7 @@
     "make_name": "PANOZ",
     "model": "Panoz Roadster",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "4220:Panoz Roadster:2028": {
@@ -974,7 +985,7 @@
     "make_name": "PANOZ",
     "model": "Panoz Roadster",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "4355:S7:2025": {
@@ -983,7 +994,7 @@
     "make_name": "SALEEN",
     "model": "S7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "4355:S7:2026": {
@@ -992,7 +1003,7 @@
     "make_name": "SALEEN",
     "model": "S7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "4355:S7:2027": {
@@ -1001,7 +1012,7 @@
     "make_name": "SALEEN",
     "model": "S7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "4355:S7:2028": {
@@ -1010,7 +1021,7 @@
     "make_name": "SALEEN",
     "model": "S7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "440:DB12:2025": {
@@ -1019,7 +1030,7 @@
     "make_name": "ASTON MARTIN",
     "model": "DB12",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "440:DB12:2026": {
@@ -1028,7 +1039,7 @@
     "make_name": "ASTON MARTIN",
     "model": "DB12",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "440:DB12:2027": {
@@ -1037,7 +1048,7 @@
     "make_name": "ASTON MARTIN",
     "model": "DB12",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "440:DB12:2028": {
@@ -1046,7 +1057,7 @@
     "make_name": "ASTON MARTIN",
     "model": "DB12",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "440:DBX:2025": {
@@ -1055,7 +1066,7 @@
     "make_name": "ASTON MARTIN",
     "model": "DBX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "440:DBX:2026": {
@@ -1064,7 +1075,7 @@
     "make_name": "ASTON MARTIN",
     "model": "DBX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "440:DBX:2027": {
@@ -1073,7 +1084,7 @@
     "make_name": "ASTON MARTIN",
     "model": "DBX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "440:DBX:2028": {
@@ -1082,7 +1093,7 @@
     "make_name": "ASTON MARTIN",
     "model": "DBX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "440:Valhalla:2026": {
@@ -1091,7 +1102,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valhalla",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "440:Valhalla:2027": {
@@ -1100,7 +1111,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valhalla",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "440:Valhalla:2028": {
@@ -1109,7 +1120,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valhalla",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "440:Valiant:2025": {
@@ -1118,7 +1129,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valiant",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "440:Valiant:2026": {
@@ -1127,7 +1138,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valiant",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "440:Valiant:2027": {
@@ -1136,7 +1147,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valiant",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "440:Valiant:2028": {
@@ -1145,7 +1156,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valiant",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "440:Valour:2025": {
@@ -1154,7 +1165,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valour",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "440:Valour:2026": {
@@ -1163,7 +1174,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valour",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "440:Valour:2027": {
@@ -1172,7 +1183,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valour",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "440:Valour:2028": {
@@ -1181,7 +1192,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Valour",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "440:Vanquish:2025": {
@@ -1190,7 +1201,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Vanquish",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "440:Vanquish:2026": {
@@ -1199,7 +1210,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Vanquish",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "440:Vanquish:2027": {
@@ -1208,7 +1219,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Vanquish",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "440:Vanquish:2028": {
@@ -1217,7 +1228,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Vanquish",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "440:Vantage:2025": {
@@ -1226,7 +1237,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Vantage",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "440:Vantage:2026": {
@@ -1235,7 +1246,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Vantage",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "440:Vantage:2027": {
@@ -1244,7 +1255,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Vantage",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "440:Vantage:2028": {
@@ -1253,7 +1264,7 @@
     "make_name": "ASTON MARTIN",
     "model": "Vantage",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "441:Cybertruck:2025": {
@@ -1262,7 +1273,7 @@
     "make_name": "TESLA",
     "model": "Cybertruck",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "441:Cybertruck:2026": {
@@ -1271,7 +1282,7 @@
     "make_name": "TESLA",
     "model": "Cybertruck",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "441:Cybertruck:2027": {
@@ -1280,7 +1291,7 @@
     "make_name": "TESLA",
     "model": "Cybertruck",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "441:Cybertruck:2028": {
@@ -1289,7 +1300,7 @@
     "make_name": "TESLA",
     "model": "Cybertruck",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "441:Model 3:2025": {
@@ -1298,7 +1309,7 @@
     "make_name": "TESLA",
     "model": "Model 3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "441:Model 3:2026": {
@@ -1307,7 +1318,7 @@
     "make_name": "TESLA",
     "model": "Model 3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "441:Model 3:2027": {
@@ -1316,7 +1327,7 @@
     "make_name": "TESLA",
     "model": "Model 3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "441:Model 3:2028": {
@@ -1325,7 +1336,7 @@
     "make_name": "TESLA",
     "model": "Model 3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "441:Model S:2025": {
@@ -1334,7 +1345,7 @@
     "make_name": "TESLA",
     "model": "Model S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "441:Model S:2026": {
@@ -1343,7 +1354,7 @@
     "make_name": "TESLA",
     "model": "Model S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "441:Model S:2027": {
@@ -1352,7 +1363,7 @@
     "make_name": "TESLA",
     "model": "Model S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "441:Model S:2028": {
@@ -1361,7 +1372,7 @@
     "make_name": "TESLA",
     "model": "Model S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "441:Model X:2025": {
@@ -1370,7 +1381,7 @@
     "make_name": "TESLA",
     "model": "Model X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "441:Model X:2026": {
@@ -1379,7 +1390,7 @@
     "make_name": "TESLA",
     "model": "Model X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "441:Model X:2027": {
@@ -1388,7 +1399,7 @@
     "make_name": "TESLA",
     "model": "Model X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "441:Model X:2028": {
@@ -1397,7 +1408,7 @@
     "make_name": "TESLA",
     "model": "Model X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "441:Model Y:2025": {
@@ -1406,7 +1417,7 @@
     "make_name": "TESLA",
     "model": "Model Y",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "441:Model Y:2026": {
@@ -1415,7 +1426,7 @@
     "make_name": "TESLA",
     "model": "Model Y",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "441:Model Y:2027": {
@@ -1424,7 +1435,7 @@
     "make_name": "TESLA",
     "model": "Model Y",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "441:Model Y:2028": {
@@ -1433,7 +1444,7 @@
     "make_name": "TESLA",
     "model": "Model Y",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "441:Semi:2025": {
@@ -1442,7 +1453,7 @@
     "make_name": "TESLA",
     "model": "Semi",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "442:E-PACE:2025": {
@@ -1451,7 +1462,7 @@
     "make_name": "JAGUAR",
     "model": "E-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "442:E-PACE:2026": {
@@ -1460,7 +1471,7 @@
     "make_name": "JAGUAR",
     "model": "E-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "442:E-PACE:2027": {
@@ -1469,7 +1480,7 @@
     "make_name": "JAGUAR",
     "model": "E-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "442:E-PACE:2028": {
@@ -1478,7 +1489,7 @@
     "make_name": "JAGUAR",
     "model": "E-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "442:F-PACE:2025": {
@@ -1487,7 +1498,7 @@
     "make_name": "JAGUAR",
     "model": "F-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "442:F-PACE:2026": {
@@ -1496,7 +1507,7 @@
     "make_name": "JAGUAR",
     "model": "F-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "442:F-PACE:2027": {
@@ -1505,7 +1516,7 @@
     "make_name": "JAGUAR",
     "model": "F-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "442:F-PACE:2028": {
@@ -1514,7 +1525,7 @@
     "make_name": "JAGUAR",
     "model": "F-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "442:F-TYPE:2025": {
@@ -1523,7 +1534,7 @@
     "make_name": "JAGUAR",
     "model": "F-TYPE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "442:F-TYPE:2026": {
@@ -1532,7 +1543,7 @@
     "make_name": "JAGUAR",
     "model": "F-TYPE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "442:F-TYPE:2027": {
@@ -1541,7 +1552,7 @@
     "make_name": "JAGUAR",
     "model": "F-TYPE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "442:F-TYPE:2028": {
@@ -1550,7 +1561,7 @@
     "make_name": "JAGUAR",
     "model": "F-TYPE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "442:I-PACE:2025": {
@@ -1559,7 +1570,7 @@
     "make_name": "JAGUAR",
     "model": "I-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "442:I-PACE:2026": {
@@ -1568,7 +1579,7 @@
     "make_name": "JAGUAR",
     "model": "I-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "442:I-PACE:2027": {
@@ -1577,7 +1588,7 @@
     "make_name": "JAGUAR",
     "model": "I-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "442:I-PACE:2028": {
@@ -1586,7 +1597,7 @@
     "make_name": "JAGUAR",
     "model": "I-PACE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "442:XF:2025": {
@@ -1595,7 +1606,7 @@
     "make_name": "JAGUAR",
     "model": "XF",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "442:XF:2026": {
@@ -1604,7 +1615,7 @@
     "make_name": "JAGUAR",
     "model": "XF",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "442:XF:2027": {
@@ -1613,7 +1624,7 @@
     "make_name": "JAGUAR",
     "model": "XF",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "442:XF:2028": {
@@ -1622,7 +1633,7 @@
     "make_name": "JAGUAR",
     "model": "XF",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "443:Ghibli:2025": {
@@ -1631,7 +1642,7 @@
     "make_name": "MASERATI",
     "model": "Ghibli",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "443:Ghibli:2026": {
@@ -1640,7 +1651,7 @@
     "make_name": "MASERATI",
     "model": "Ghibli",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "443:Ghibli:2027": {
@@ -1649,7 +1660,7 @@
     "make_name": "MASERATI",
     "model": "Ghibli",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "443:Ghibli:2028": {
@@ -1658,7 +1669,7 @@
     "make_name": "MASERATI",
     "model": "Ghibli",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "443:Grancabrio:2025": {
@@ -1667,7 +1678,7 @@
     "make_name": "MASERATI",
     "model": "Grancabrio",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "443:Grancabrio:2026": {
@@ -1676,7 +1687,7 @@
     "make_name": "MASERATI",
     "model": "Grancabrio",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "443:Grancabrio:2027": {
@@ -1685,7 +1696,7 @@
     "make_name": "MASERATI",
     "model": "Grancabrio",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "443:Grancabrio:2028": {
@@ -1694,7 +1705,7 @@
     "make_name": "MASERATI",
     "model": "Grancabrio",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "443:Granturismo:2025": {
@@ -1703,7 +1714,7 @@
     "make_name": "MASERATI",
     "model": "Granturismo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "443:Granturismo:2026": {
@@ -1712,7 +1723,7 @@
     "make_name": "MASERATI",
     "model": "Granturismo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "443:Granturismo:2027": {
@@ -1721,7 +1732,7 @@
     "make_name": "MASERATI",
     "model": "Granturismo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "443:Granturismo:2028": {
@@ -1730,7 +1741,7 @@
     "make_name": "MASERATI",
     "model": "Granturismo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "443:Grecale:2025": {
@@ -1739,7 +1750,7 @@
     "make_name": "MASERATI",
     "model": "Grecale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "443:Grecale:2026": {
@@ -1748,7 +1759,7 @@
     "make_name": "MASERATI",
     "model": "Grecale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "443:Grecale:2027": {
@@ -1757,7 +1768,7 @@
     "make_name": "MASERATI",
     "model": "Grecale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "443:Grecale:2028": {
@@ -1766,7 +1777,7 @@
     "make_name": "MASERATI",
     "model": "Grecale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "443:Levante:2025": {
@@ -1775,7 +1786,7 @@
     "make_name": "MASERATI",
     "model": "Levante",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "443:Levante:2026": {
@@ -1784,7 +1795,7 @@
     "make_name": "MASERATI",
     "model": "Levante",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "443:Levante:2027": {
@@ -1793,7 +1804,7 @@
     "make_name": "MASERATI",
     "model": "Levante",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "443:Levante:2028": {
@@ -1802,7 +1813,7 @@
     "make_name": "MASERATI",
     "model": "Levante",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "443:MC20:2025": {
@@ -1811,7 +1822,7 @@
     "make_name": "MASERATI",
     "model": "MC20",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "443:MCPura:2026": {
@@ -1820,7 +1831,7 @@
     "make_name": "MASERATI",
     "model": "MCPura",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "443:MCPura:2027": {
@@ -1829,7 +1840,7 @@
     "make_name": "MASERATI",
     "model": "MCPura",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "443:MCPura:2028": {
@@ -1838,7 +1849,7 @@
     "make_name": "MASERATI",
     "model": "MCPura",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "443:Quattroporte:2025": {
@@ -1847,7 +1858,7 @@
     "make_name": "MASERATI",
     "model": "Quattroporte",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "443:Quattroporte:2026": {
@@ -1856,7 +1867,7 @@
     "make_name": "MASERATI",
     "model": "Quattroporte",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "443:Quattroporte:2027": {
@@ -1865,7 +1876,7 @@
     "make_name": "MASERATI",
     "model": "Quattroporte",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "443:Quattroporte:2028": {
@@ -1874,7 +1885,7 @@
     "make_name": "MASERATI",
     "model": "Quattroporte",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "444:Defender:2025": {
@@ -1883,7 +1894,7 @@
     "make_name": "LAND ROVER",
     "model": "Defender",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "444:Defender:2026": {
@@ -1892,7 +1903,7 @@
     "make_name": "LAND ROVER",
     "model": "Defender",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "444:Defender:2027": {
@@ -1901,7 +1912,7 @@
     "make_name": "LAND ROVER",
     "model": "Defender",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "444:Defender:2028": {
@@ -1910,7 +1921,7 @@
     "make_name": "LAND ROVER",
     "model": "Defender",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "444:Discovery Sport:2025": {
@@ -1919,7 +1930,7 @@
     "make_name": "LAND ROVER",
     "model": "Discovery Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "444:Discovery Sport:2026": {
@@ -1928,7 +1939,7 @@
     "make_name": "LAND ROVER",
     "model": "Discovery Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "444:Discovery Sport:2027": {
@@ -1937,7 +1948,7 @@
     "make_name": "LAND ROVER",
     "model": "Discovery Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "444:Discovery Sport:2028": {
@@ -1946,7 +1957,7 @@
     "make_name": "LAND ROVER",
     "model": "Discovery Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "444:Discovery:2025": {
@@ -1955,7 +1966,7 @@
     "make_name": "LAND ROVER",
     "model": "Discovery",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "444:Discovery:2026": {
@@ -1964,7 +1975,7 @@
     "make_name": "LAND ROVER",
     "model": "Discovery",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "444:Discovery:2027": {
@@ -1973,7 +1984,7 @@
     "make_name": "LAND ROVER",
     "model": "Discovery",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "444:Discovery:2028": {
@@ -1982,7 +1993,7 @@
     "make_name": "LAND ROVER",
     "model": "Discovery",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "444:Range Rover Evoque:2025": {
@@ -1991,7 +2002,7 @@
     "make_name": "LAND ROVER",
     "model": "Range Rover Evoque",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "444:Range Rover Evoque:2026": {
@@ -2000,7 +2011,7 @@
     "make_name": "LAND ROVER",
     "model": "Range Rover Evoque",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "444:Range Rover Evoque:2027": {
@@ -2009,7 +2020,7 @@
     "make_name": "LAND ROVER",
     "model": "Range Rover Evoque",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "444:Range Rover Evoque:2028": {
