@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated": "2026-05-31T01:29:08.547943+00:00",
+  "generated": "2026-06-02T10:54:34.530518+00:00",
   "vehicle_classifier": {
-    "version": "2026.05.31",
-    "released": "2026-05-31",
+    "version": "2026.06.02",
+    "released": "2026-06-02",
     "size_mb": 6.57,
-    "classes": 197,
-    "url": "https://github.com/akrishtul/vov-models/releases/download/v2026.05.31/vehicle-classifier-v2026.05.31.onnx",
-    "url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.05.31/vehicle-classifier-v2026.05.31.onnx",
-    "sha256": "f4c659d8d0b08515397cb1fd6b7b7cd7e095a24d55476c5310dc228564ef37a7",
+    "classes": 198,
+    "url": "https://github.com/akrishtul/vov-models/releases/download/v2026.06.02/vehicle-classifier-v2026.06.02.onnx",
+    "url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.onnx",
+    "sha256": "29f419aa1957d53af7ee21a7be0229a62e1d699077bbf804edb9f4a0069717b9",
     "min_plugin_version": "1.2.0",
     "input_shape": [
       1,
@@ -16,25 +16,28 @@
       224,
       224
     ],
-    "label_map_url": "https://github.com/akrishtul/vov-models/releases/download/v2026.05.31/vehicle-classifier-v2026.05.31.labels.json",
-    "label_map_url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.05.31/vehicle-classifier-v2026.05.31.labels.json",
+    "label_map_url": "https://github.com/akrishtul/vov-models/releases/download/v2026.06.02/vehicle-classifier-v2026.06.02.labels.json",
+    "label_map_url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.labels.json",
     "changelog": [
-      "Automated monthly retrain $(date -u +%Y-%m-%d)"
+      "First working make/model classifier (was plate-only / 20%).",
+      "MobileNetV3-Small, 198 Stanford Cars classes, 224x224.",
+      "Fixed the train/label split bug that capped accuracy at 20%.",
+      "top-1 60.9% / top-5 83.9%."
     ],
     "test_accuracy": {
-      "top1": 0.2002,
-      "top5": 0.2808
+      "top1": 0.6091,
+      "top5": 0.8385
     }
   },
   "plate_detector": {
     "version": "2024.10.0",
-    "url": "https://github.com/ankandrew/open-image-models/releases/download/assets/yolo-v9-t-384-license-plates-end2end.onnx",
+    "url": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@main/models/yolo-v9-t-384-license-plates-end2end.onnx",
     "size_mb": 7.4,
     "input_size": 384
   },
   "plate_ocr": {
     "version": "2024.10.0",
-    "url": "https://github.com/ankandrew/fast-plate-ocr/releases/download/arg-plates/cct_s_v2_global.onnx",
+    "url": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@main/models/cct_s_v2_global.onnx",
     "size_mb": 5.0,
     "charset": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_",
     "max_len": 9
