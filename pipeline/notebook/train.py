@@ -105,8 +105,16 @@ if not WORK_DIR.exists():
                            "--branch", BRANCH,
                            f"https://github.com/{REPO}.git", str(WORK_DIR)])
 
-with open(WORK_DIR / "pipeline/data/models.json") as f:
-    models_meta = json.load(f)
+# v2026.06.01 — models.json (Wikimedia label/photo registry) is optional. On a
+# fresh repo it doesn't exist yet; the first model trains on the Stanford Cars
+# seed alone. Previously this open() crashed the run before training (task #49).
+models_meta = {}
+_models_json = WORK_DIR / "pipeline/data/models.json"
+if _models_json.exists():
+    with open(_models_json) as f:
+        models_meta = json.load(f)
+else:
+    print("[info] no pipeline/data/models.json yet — training on Stanford Cars seed only (expected on first run).")
 
 # -------- Build labels --------
 # Strategy: take Stanford Cars' label set as the canonical class taxonomy
@@ -149,13 +157,16 @@ for spec in SEED_DATASETS:
         print(f"    [warn] {name} has no label names; skipping")
         continue
 
-    def _convert(ds, dest):
-        for i in range(len(ds)):
-            row = ds[i]
-            lbl_int = row[spec["label_col"]]
+    def _convert(ds, dest, split):
+        # v2026.06.01 FIX — stamp the split ("train"/"test") so __getitem__ maps
+        # each row back to the CORRECT dataset. The old code's split check
+        # (`"train" in tuple`) was always False, so every TRAIN item was paired
+        # with a TEST-set image → labels mismatched → ~20% accuracy. Core bug.
+        # Read the label column directly (no per-row image decode).
+        lbl_ints = ds[spec["label_col"]]
+        for i, lbl_int in enumerate(lbl_ints):
             lbl = names[lbl_int] if 0 <= lbl_int < len(names) else f"unknown_{lbl_int}"
-            # Defer PIL load until __getitem__ to save memory.
-            dest.append(("hf", name, spec["image_col"], i, lbl))
+            dest.append(("hf", name, spec["image_col"], i, lbl, split))
             seed_label_set.add(lbl)
 
     # The HF datasets keep images lazy-cast already, so the rows above are
@@ -163,11 +174,11 @@ for spec in SEED_DATASETS:
     # We stash the dataset objects below for the Dataset class to access.
     spec["_train_ds"] = hf_train
     spec["_test_ds"]  = hf_test
-    _convert(hf_train, seed_train_items)
+    _convert(hf_train, seed_train_items, "train")
     # Only count as test items if it's a genuinely distinct split. Single-split
     # mirrors get folded into train+val via TEST_FRAC carve downstream.
     if hf_test is not hf_train:
-        _convert(hf_test,  seed_test_items)
+        _convert(hf_test,  seed_test_items, "test")
         print(f"    {len(hf_train)} train + {len(hf_test)} test photos, {len(names)} classes")
     else:
         print(f"    {len(hf_train)} train photos (single split — test carved downstream), {len(names)} classes")
@@ -275,10 +286,7 @@ class UnifiedDataset(Dataset):
         self.tx = tx
         # build lookup so we can resolve ("hf", name, col, i, lbl) rows back
         # to the right HF dataset
-        self.hf_lookup = {}
-        for s in seed_specs:
-            self.hf_lookup[(s["hf_name"], s["_train_ds"].split._name)] = s["_train_ds"]
-            self.hf_lookup[(s["hf_name"], s["_test_ds"].split._name)]  = s["_test_ds"]
+        self.hf_lookup = {}  # (unused; kept for compat)
 
     def __len__(self):
         return len(self.items)
@@ -287,27 +295,13 @@ class UnifiedDataset(Dataset):
         item = self.items[i]
         try:
             if item[0] == "hf":
-                _, name, col, idx, lbl = item
-                # naive: pick first matching HF ds; in practice we keep train/test
-                # separate so the rows are unambiguous. Use whichever has the index.
-                img = None
-                for ds in (s["_train_ds"] for s in SEED_DATASETS) if "train" in self.items[i] else (s["_test_ds"] for s in SEED_DATASETS):
-                    if idx < len(ds):
-                        img = ds[idx][col]
+                _, name, col, idx, lbl, split = item
+                ds = None
+                for s in SEED_DATASETS:
+                    if s["hf_name"] == name:
+                        ds = s["_train_ds"] if split == "train" else s["_test_ds"]
                         break
-                if img is None:
-                    # Fall back: try every ds in order.
-                    for s in SEED_DATASETS:
-                        for k in ("_train_ds", "_test_ds"):
-                            ds = s[k]
-                            if idx < len(ds):
-                                try:
-                                    img = ds[idx][col]
-                                    break
-                                except Exception:
-                                    continue
-                if img is None:
-                    img = Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
+                img = ds[idx][col] if (ds is not None and idx < len(ds)) else Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
                 if not isinstance(img, Image.Image):
                     img = Image.fromarray(img)
                 img = img.convert("RGB")
@@ -355,35 +349,32 @@ class SimpleDataset(Dataset):
         item = self.items[i]
         try:
             if item[0] == "hf":
-                _, name, col, idx, lbl = item
-                # Find the right HF ds by trying both splits.
-                img = None
+                # v2026.06.01 FIX — items are 6-tuples carrying their split; pick the
+                # matching HF dataset by name+split so train images keep their labels.
+                _, name, col, idx, lbl, split = item
+                ds = None
                 for s in SEED_DATASETS:
-                    if s["hf_name"] != name:
-                        continue
-                    for k in ("_train_ds", "_test_ds"):
-                        ds = s.get(k)
-                        if ds is not None and idx < len(ds):
-                            try:
-                                img = ds[idx][col]
-                                if isinstance(img, Image.Image):
-                                    break
-                                img = Image.fromarray(img)
-                                break
-                            except Exception:
-                                continue
-                    if img is not None:
+                    if s["hf_name"] == name:
+                        ds = s["_train_ds"] if split == "train" else s["_test_ds"]
                         break
-                if img is None:
-                    img = Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
-                img = img.convert("RGB") if isinstance(img, Image.Image) else Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
+                img = ds[idx][col] if (ds is not None and idx < len(ds)) else Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
+                if not isinstance(img, Image.Image):
+                    img = Image.fromarray(img)
+                img = img.convert("RGB")
                 label = lbl
             else:
                 _, path, label = item
                 img = Image.open(path).convert("RGB")
-        except Exception:
+        except Exception as e:
+            print(f"  [item load failed] {item}: {e}", file=sys.stderr)
             img = Image.new("RGB", (INPUT_SIZE, INPUT_SIZE))
-            label = item[-1] if isinstance(item, tuple) else all_labels[0]
+            # Pull the label from the correct position, never the split tag.
+            if isinstance(item, tuple) and item and item[0] == "hf" and len(item) >= 6:
+                label = item[4]
+            elif isinstance(item, tuple) and len(item) >= 3:
+                label = item[2]
+            else:
+                label = all_labels[0]
         return self.tx(img), label_to_idx[label]
 
 
@@ -398,7 +389,14 @@ val_dl   = DataLoader(val_ds,   batch_size=BATCH, shuffle=False, num_workers=2, 
 test_dl  = DataLoader(test_ds,  batch_size=BATCH, shuffle=False, num_workers=2, pin_memory=True)
 
 # -------- Model --------
-model = timm.create_model("mobilenetv3_small_100", pretrained=True, num_classes=len(all_labels))
+# v2026.06.01 — backbone via torchvision (weights from download.pytorch.org).
+# timm's pretrained download (HF hub model.safetensors) KeyError'd on Kaggle's
+# current image; torchvision's MobileNetV3-Small is the same architecture/shape
+# (input [1,3,224,224] -> logits [1,N]) so the on-device ONNX/CoreML stays compatible.
+from torchvision.models import mobilenet_v3_small, MobileNet_V3_Small_Weights
+model = mobilenet_v3_small(weights=MobileNet_V3_Small_Weights.IMAGENET1K_V1)
+_in_features = model.classifier[3].in_features
+model.classifier[3] = nn.Linear(_in_features, len(all_labels))
 model.to(DEVICE)
 crit = nn.CrossEntropyLoss(label_smoothing=0.05)
 
@@ -502,7 +500,7 @@ with open(meta_path, "w") as f:
             "lr_full":       LR_FULL,
             "batch_size":    BATCH,
             "input_size":    INPUT_SIZE,
-            "backbone":      "mobilenetv3_small_100",
+            "backbone":      "torchvision_mobilenet_v3_small",
             "seed_datasets": [s["hf_name"] for s in SEED_DATASETS],
             "wikimedia_samples": len(wiki_items),
         },
