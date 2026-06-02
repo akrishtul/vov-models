@@ -6,7 +6,7 @@
     "released": "2026-06-02",
     "size_mb": 6.57,
     "classes": 198,
-    "url": "https://github.com/akrishtul/vov-models/releases/download/v2026.06.02/vehicle-classifier-v2026.06.02.onnx",
+    "url": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.onnx",
     "url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.onnx",
     "sha256": "29f419aa1957d53af7ee21a7be0229a62e1d699077bbf804edb9f4a0069717b9",
     "min_plugin_version": "1.2.0",
@@ -16,7 +16,7 @@
       224,
       224
     ],
-    "label_map_url": "https://github.com/akrishtul/vov-models/releases/download/v2026.06.02/vehicle-classifier-v2026.06.02.labels.json",
+    "label_map_url": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.labels.json",
     "label_map_url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.labels.json",
     "changelog": [
       "First working make/model classifier (was plate-only / 20%).",
