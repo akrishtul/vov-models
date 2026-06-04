@@ -5710,8 +5710,19 @@
     "make_id": 450,
     "make_name": "FREIGHTLINER",
     "model": "FLB",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "729654d23cfed0c0",
+        "path": "photos/45/450_FLB_2027/729654d23cfed0c0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Freightliner_-_Flickr_-_dave_7.jpg"
+      },
+      {
+        "hash": "51d6c5068fc988af",
+        "path": "photos/45/450_FLB_2027/51d6c5068fc988af.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Freightliner_FLA_low_cab_car_carrier.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "450:FLB:2028": {
@@ -5719,8 +5730,14 @@
     "make_id": 450,
     "make_name": "FREIGHTLINER",
     "model": "FLB",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "729654d23cfed0c0",
+        "path": "photos/45/450_FLB_2028/729654d23cfed0c0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Freightliner_-_Flickr_-_dave_7.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "450:FLD112:2025": {
@@ -5729,7 +5746,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD112",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:FLD112:2026": {
@@ -5738,7 +5755,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD112",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:FLD112:2027": {
@@ -5747,7 +5764,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD112",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:FLD112:2028": {
@@ -5756,7 +5773,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD112",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:FLD120:2025": {
@@ -5765,7 +5782,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD120",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:FLD120:2026": {
@@ -5774,7 +5791,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD120",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:FLD120:2027": {
@@ -5783,7 +5800,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD120",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:FLD120:2028": {
@@ -5792,7 +5809,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD120",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:FLD132:2025": {
@@ -5801,7 +5818,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD132",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:FLD132:2026": {
@@ -5810,7 +5827,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD132",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:FLD132:2027": {
@@ -5819,7 +5836,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD132",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:FLD132:2028": {
@@ -5828,7 +5845,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLD132",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:FLS112 Legacy:2025": {
@@ -5837,7 +5854,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLS112 Legacy",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:FLS112 Legacy:2026": {
@@ -5846,7 +5863,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLS112 Legacy",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:FLS112 Legacy:2027": {
@@ -5855,7 +5872,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLS112 Legacy",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:FLS112 Legacy:2028": {
@@ -5864,7 +5881,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FLS112 Legacy",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:FS 65 Chassis:2025": {
@@ -5873,7 +5890,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FS 65 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:FS 65 Chassis:2026": {
@@ -5882,7 +5899,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FS 65 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:FS 65 Chassis:2027": {
@@ -5891,7 +5908,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FS 65 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:FS 65 Chassis:2028": {
@@ -5900,7 +5917,7 @@
     "make_name": "FREIGHTLINER",
     "model": "FS 65 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:Freightliner:2025": {
@@ -5909,7 +5926,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Freightliner",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:Freightliner:2026": {
@@ -5918,7 +5935,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Freightliner",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:Freightliner:2027": {
@@ -5927,7 +5944,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Freightliner",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:Freightliner:2028": {
@@ -5936,7 +5953,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Freightliner",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:HDX Rear Engine Bus Chassis:2025": {
@@ -5945,7 +5962,7 @@
     "make_name": "FREIGHTLINER",
     "model": "HDX Rear Engine Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:HDX Rear Engine Bus Chassis:2026": {
@@ -5954,7 +5971,7 @@
     "make_name": "FREIGHTLINER",
     "model": "HDX Rear Engine Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:HDX Rear Engine Bus Chassis:2027": {
@@ -5963,7 +5980,7 @@
     "make_name": "FREIGHTLINER",
     "model": "HDX Rear Engine Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:HDX Rear Engine Bus Chassis:2028": {
@@ -5972,7 +5989,7 @@
     "make_name": "FREIGHTLINER",
     "model": "HDX Rear Engine Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:M-B MBO Chassis:2025": {
@@ -5981,7 +5998,7 @@
     "make_name": "FREIGHTLINER",
     "model": "M-B MBO Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:M-B MBO Chassis:2026": {
@@ -5990,7 +6007,7 @@
     "make_name": "FREIGHTLINER",
     "model": "M-B MBO Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:M-B MBO Chassis:2027": {
@@ -5999,7 +6016,7 @@
     "make_name": "FREIGHTLINER",
     "model": "M-B MBO Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:M-B MBO Chassis:2028": {
@@ -6008,7 +6025,7 @@
     "make_name": "FREIGHTLINER",
     "model": "M-B MBO Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:M2:2025": {
@@ -6017,7 +6034,7 @@
     "make_name": "FREIGHTLINER",
     "model": "M2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:M2:2026": {
@@ -6026,7 +6043,7 @@
     "make_name": "FREIGHTLINER",
     "model": "M2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:M2:2027": {
@@ -6035,7 +6052,7 @@
     "make_name": "FREIGHTLINER",
     "model": "M2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:M2:2028": {
@@ -6044,7 +6061,7 @@
     "make_name": "FREIGHTLINER",
     "model": "M2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MB Chassis:2025": {
@@ -6053,7 +6070,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MB Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MB Chassis:2026": {
@@ -6062,7 +6079,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MB Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MB Chassis:2027": {
@@ -6071,7 +6088,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MB Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MB Chassis:2028": {
@@ -6080,7 +6097,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MB Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MB55 Chassis:2025": {
@@ -6089,7 +6106,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MB55 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MB55 Chassis:2026": {
@@ -6098,7 +6115,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MB55 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MB55 Chassis:2027": {
@@ -6107,7 +6124,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MB55 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MB55 Chassis:2028": {
@@ -6116,7 +6133,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MB55 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MBC Front Engine Commercial Bus Chassis:2025": {
@@ -6125,7 +6142,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MBC Front Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MBC Front Engine Commercial Bus Chassis:2026": {
@@ -6134,7 +6151,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MBC Front Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MBC Front Engine Commercial Bus Chassis:2027": {
@@ -6143,7 +6160,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MBC Front Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MBC Front Engine Commercial Bus Chassis:2028": {
@@ -6152,7 +6169,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MBC Front Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MC 45 Chassis:2025": {
@@ -6161,7 +6178,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC 45 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MC 45 Chassis:2026": {
@@ -6170,7 +6187,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC 45 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MC 45 Chassis:2027": {
@@ -6179,7 +6196,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC 45 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MC 45 Chassis:2028": {
@@ -6188,7 +6205,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC 45 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MC Front Engine Motor Home Chassis:2025": {
@@ -6197,7 +6214,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MC Front Engine Motor Home Chassis:2026": {
@@ -6206,7 +6223,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MC Front Engine Motor Home Chassis:2027": {
@@ -6215,7 +6232,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MC Front Engine Motor Home Chassis:2028": {
@@ -6224,7 +6241,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MC HEV Front Engine Motor Home Chassis:2025": {
@@ -6233,7 +6250,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC HEV Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MC HEV Front Engine Motor Home Chassis:2026": {
@@ -6242,7 +6259,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC HEV Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MC HEV Front Engine Motor Home Chassis:2027": {
@@ -6251,7 +6268,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC HEV Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MC HEV Front Engine Motor Home Chassis:2028": {
@@ -6260,7 +6277,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MC HEV Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MCG Front Gasoline Engine Motor Home Chassis:2025": {
@@ -6269,7 +6286,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MCG Front Gasoline Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MCG Front Gasoline Engine Motor Home Chassis:2026": {
@@ -6278,7 +6295,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MCG Front Gasoline Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MCG Front Gasoline Engine Motor Home Chassis:2027": {
@@ -6287,7 +6304,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MCG Front Gasoline Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MCG Front Gasoline Engine Motor Home Chassis:2028": {
@@ -6296,7 +6313,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MCG Front Gasoline Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MCL Front Engine Motor Home Chassis:2025": {
@@ -6305,7 +6322,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MCL Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MCL Front Engine Motor Home Chassis:2026": {
@@ -6314,7 +6331,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MCL Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MCL Front Engine Motor Home Chassis:2027": {
@@ -6323,7 +6340,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MCL Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MCL Front Engine Motor Home Chassis:2028": {
@@ -6332,7 +6349,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MCL Front Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MD109:2025": {
@@ -6341,7 +6358,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MD109",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MD109:2026": {
@@ -6350,7 +6367,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MD109",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MD109:2027": {
@@ -6359,7 +6376,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MD109",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MD109:2028": {
@@ -6368,7 +6385,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MD109",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT 35 Chassis:2025": {
@@ -6377,7 +6394,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 35 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT 35 Chassis:2026": {
@@ -6386,7 +6403,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 35 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT 35 Chassis:2027": {
@@ -6395,7 +6412,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 35 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT 35 Chassis:2028": {
@@ -6404,7 +6421,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 35 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT 45 HEV Chassis:2025": {
@@ -6413,7 +6430,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 45 HEV Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT 45 HEV Chassis:2026": {
@@ -6422,7 +6439,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 45 HEV Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT 45 HEV Chassis:2027": {
@@ -6431,7 +6448,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 45 HEV Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT 45 HEV Chassis:2028": {
@@ -6440,7 +6457,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 45 HEV Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT 45G Front Gasoline Engine Walk in Van Chassis:2025": {
@@ -6449,7 +6466,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 45G Front Gasoline Engine Walk in Van Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT 45G Front Gasoline Engine Walk in Van Chassis:2026": {
@@ -6458,7 +6475,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 45G Front Gasoline Engine Walk in Van Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT 45G Front Gasoline Engine Walk in Van Chassis:2027": {
@@ -6467,7 +6484,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 45G Front Gasoline Engine Walk in Van Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT 45G Front Gasoline Engine Walk in Van Chassis:2028": {
@@ -6476,7 +6493,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 45G Front Gasoline Engine Walk in Van Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT 55 Chassis:2025": {
@@ -6485,7 +6502,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 55 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT 55 Chassis:2026": {
@@ -6494,7 +6511,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 55 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT 55 Chassis:2027": {
@@ -6503,7 +6520,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 55 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT 55 Chassis:2028": {
@@ -6512,7 +6529,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 55 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT 55G Front Gasoline Engine Walk in Van Chassis:2025": {
@@ -6521,7 +6538,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 55G Front Gasoline Engine Walk in Van Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT 55G Front Gasoline Engine Walk in Van Chassis:2026": {
@@ -6530,7 +6547,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 55G Front Gasoline Engine Walk in Van Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT 55G Front Gasoline Engine Walk in Van Chassis:2027": {
@@ -6539,7 +6556,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 55G Front Gasoline Engine Walk in Van Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT 55G Front Gasoline Engine Walk in Van Chassis:2028": {
@@ -6548,7 +6565,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT 55G Front Gasoline Engine Walk in Van Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT-50E Electric Front engine van chassis:2025": {
@@ -6557,7 +6574,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-50E Electric Front engine van chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT-50E Electric Front engine van chassis:2026": {
@@ -6566,7 +6583,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-50E Electric Front engine van chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT-50E Electric Front engine van chassis:2027": {
@@ -6575,7 +6592,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-50E Electric Front engine van chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT-50E Electric Front engine van chassis:2028": {
@@ -6584,7 +6601,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-50E Electric Front engine van chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT-55 HEV Chassis:2025": {
@@ -6593,7 +6610,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-55 HEV Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT-55 HEV Chassis:2026": {
@@ -6602,7 +6619,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-55 HEV Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT-55 HEV Chassis:2027": {
@@ -6611,7 +6628,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-55 HEV Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT-55 HEV Chassis:2028": {
@@ -6620,7 +6637,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-55 HEV Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT-55 HHV Chassis (Hydraulic Hybrid Vehicle):2025": {
@@ -6629,7 +6646,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-55 HHV Chassis (Hydraulic Hybrid Vehicle)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT-55 HHV Chassis (Hydraulic Hybrid Vehicle):2026": {
@@ -6638,7 +6655,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-55 HHV Chassis (Hydraulic Hybrid Vehicle)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT-55 HHV Chassis (Hydraulic Hybrid Vehicle):2027": {
@@ -6647,7 +6664,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-55 HHV Chassis (Hydraulic Hybrid Vehicle)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT-55 HHV Chassis (Hydraulic Hybrid Vehicle):2028": {
@@ -6656,7 +6673,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT-55 HHV Chassis (Hydraulic Hybrid Vehicle)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT45 Chassis:2025": {
@@ -6665,7 +6682,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT45 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT45 Chassis:2026": {
@@ -6674,7 +6691,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT45 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT45 Chassis:2027": {
@@ -6683,7 +6700,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT45 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT45 Chassis:2028": {
@@ -6692,7 +6709,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT45 Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:MT45EV:2025": {
@@ -6701,7 +6718,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT45EV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:MT45EV:2026": {
@@ -6710,7 +6727,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT45EV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:MT45EV:2027": {
@@ -6719,7 +6736,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT45EV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:MT45EV:2028": {
@@ -6728,7 +6745,7 @@
     "make_name": "FREIGHTLINER",
     "model": "MT45EV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:NGE (956) Platform Truck COE:2025": {
@@ -6737,7 +6754,7 @@
     "make_name": "FREIGHTLINER",
     "model": "NGE (956) Platform Truck COE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:NGE (956) Platform Truck COE:2026": {
@@ -6746,7 +6763,7 @@
     "make_name": "FREIGHTLINER",
     "model": "NGE (956) Platform Truck COE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:NGE (956) Platform Truck COE:2027": {
@@ -6755,7 +6772,7 @@
     "make_name": "FREIGHTLINER",
     "model": "NGE (956) Platform Truck COE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:NGE (956) Platform Truck COE:2028": {
@@ -6764,7 +6781,7 @@
     "make_name": "FREIGHTLINER",
     "model": "NGE (956) Platform Truck COE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:OMC Chassis:2025": {
@@ -6773,7 +6790,7 @@
     "make_name": "FREIGHTLINER",
     "model": "OMC Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:OMC Chassis:2026": {
@@ -6782,7 +6799,7 @@
     "make_name": "FREIGHTLINER",
     "model": "OMC Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:OMC Chassis:2027": {
@@ -6791,7 +6808,7 @@
     "make_name": "FREIGHTLINER",
     "model": "OMC Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:OMC Chassis:2028": {
@@ -6800,7 +6817,7 @@
     "make_name": "FREIGHTLINER",
     "model": "OMC Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:RA Cascadia:2025": {
@@ -6809,7 +6826,7 @@
     "make_name": "FREIGHTLINER",
     "model": "RA Cascadia",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:RA Cascadia:2026": {
@@ -6818,7 +6835,7 @@
     "make_name": "FREIGHTLINER",
     "model": "RA Cascadia",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:RA Cascadia:2027": {
@@ -6827,7 +6844,7 @@
     "make_name": "FREIGHTLINER",
     "model": "RA Cascadia",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:RA Cascadia:2028": {
@@ -6836,7 +6853,7 @@
     "make_name": "FREIGHTLINER",
     "model": "RA Cascadia",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:RIV:2025": {
@@ -6845,7 +6862,7 @@
     "make_name": "FREIGHTLINER",
     "model": "RIV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:RIV:2026": {
@@ -6854,7 +6871,7 @@
     "make_name": "FREIGHTLINER",
     "model": "RIV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:RIV:2027": {
@@ -6863,7 +6880,7 @@
     "make_name": "FREIGHTLINER",
     "model": "RIV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:RIV:2028": {
@@ -6872,7 +6889,7 @@
     "make_name": "FREIGHTLINER",
     "model": "RIV",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:S2 106 Bus Chassis:2025": {
@@ -6881,7 +6898,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2 106 Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:S2 106 Bus Chassis:2026": {
@@ -6890,7 +6907,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2 106 Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:S2 106 Bus Chassis:2027": {
@@ -6899,7 +6916,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2 106 Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:S2 106 Bus Chassis:2028": {
@@ -6908,7 +6925,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2 106 Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:S2C 106 Conventional Cab & Chassis:2025": {
@@ -6917,7 +6934,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2C 106 Conventional Cab & Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:S2C 106 Conventional Cab & Chassis:2026": {
@@ -6926,7 +6943,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2C 106 Conventional Cab & Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:S2C 106 Conventional Cab & Chassis:2027": {
@@ -6935,7 +6952,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2C 106 Conventional Cab & Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:S2C 106 Conventional Cab & Chassis:2028": {
@@ -6944,7 +6961,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2C 106 Conventional Cab & Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:S2G Conventional Full Cab and Chassis:2025": {
@@ -6953,7 +6970,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2G Conventional Full Cab and Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:S2G Conventional Full Cab and Chassis:2026": {
@@ -6962,7 +6979,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2G Conventional Full Cab and Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:S2G Conventional Full Cab and Chassis:2027": {
@@ -6971,7 +6988,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2G Conventional Full Cab and Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:S2G Conventional Full Cab and Chassis:2028": {
@@ -6980,7 +6997,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2G Conventional Full Cab and Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:S2LG 106:2025": {
@@ -6989,7 +7006,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2LG 106",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:S2LG 106:2026": {
@@ -6998,7 +7015,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2LG 106",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:S2LG 106:2027": {
@@ -7007,7 +7024,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2LG 106",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:S2LG 106:2028": {
@@ -7016,7 +7033,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2LG 106",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:S2RV 106 Conventional cab & Chassis:2025": {
@@ -7025,7 +7042,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2RV 106 Conventional cab & Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:S2RV 106 Conventional cab & Chassis:2026": {
@@ -7034,7 +7051,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2RV 106 Conventional cab & Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:S2RV 106 Conventional cab & Chassis:2027": {
@@ -7043,7 +7060,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2RV 106 Conventional cab & Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:S2RV 106 Conventional cab & Chassis:2028": {
@@ -7052,7 +7069,7 @@
     "make_name": "FREIGHTLINER",
     "model": "S2RV 106 Conventional cab & Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:SD122:2025": {
@@ -7061,7 +7078,7 @@
     "make_name": "FREIGHTLINER",
     "model": "SD122",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:SD122:2026": {
@@ -7070,7 +7087,7 @@
     "make_name": "FREIGHTLINER",
     "model": "SD122",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:SD122:2027": {
@@ -7079,7 +7096,7 @@
     "make_name": "FREIGHTLINER",
     "model": "SD122",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:SD122:2028": {
@@ -7088,7 +7105,7 @@
     "make_name": "FREIGHTLINER",
     "model": "SD122",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:Sport Chassis:2025": {
@@ -7097,7 +7114,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Sport Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:Sport Chassis:2026": {
@@ -7106,7 +7123,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Sport Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:Sport Chassis:2027": {
@@ -7115,7 +7132,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Sport Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:Sport Chassis:2028": {
@@ -7124,7 +7141,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Sport Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:Sprinter:2025": {
@@ -7133,7 +7150,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Sprinter",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:Sprinter:2026": {
@@ -7142,7 +7159,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Sprinter",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:Sprinter:2027": {
@@ -7151,7 +7168,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Sprinter",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:Sprinter:2028": {
@@ -7160,7 +7177,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Sprinter",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:Unimog:2025": {
@@ -7169,7 +7186,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Unimog",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:Unimog:2026": {
@@ -7178,7 +7195,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Unimog",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:Unimog:2027": {
@@ -7187,7 +7204,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Unimog",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:Unimog:2028": {
@@ -7196,7 +7213,7 @@
     "make_name": "FREIGHTLINER",
     "model": "Unimog",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:VCL Chassis:2025": {
@@ -7205,7 +7222,7 @@
     "make_name": "FREIGHTLINER",
     "model": "VCL Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:VCL Chassis:2026": {
@@ -7214,7 +7231,7 @@
     "make_name": "FREIGHTLINER",
     "model": "VCL Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:VCL Chassis:2027": {
@@ -7223,7 +7240,7 @@
     "make_name": "FREIGHTLINER",
     "model": "VCL Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:VCL Chassis:2028": {
@@ -7232,7 +7249,7 @@
     "make_name": "FREIGHTLINER",
     "model": "VCL Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:XB Chassis:2025": {
@@ -7241,7 +7258,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XB Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:XB Chassis:2026": {
@@ -7250,7 +7267,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XB Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:XB Chassis:2027": {
@@ -7259,7 +7276,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XB Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:XB Chassis:2028": {
@@ -7268,7 +7285,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XB Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:XBA  Arboc Rail Rear Engine Commercial Bus Chassis:2025": {
@@ -7277,7 +7294,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBA  Arboc Rail Rear Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:XBA  Arboc Rail Rear Engine Commercial Bus Chassis:2026": {
@@ -7286,7 +7303,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBA  Arboc Rail Rear Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:XBA  Arboc Rail Rear Engine Commercial Bus Chassis:2027": {
@@ -7295,7 +7312,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBA  Arboc Rail Rear Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:XBA  Arboc Rail Rear Engine Commercial Bus Chassis:2028": {
@@ -7304,7 +7321,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBA  Arboc Rail Rear Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:XBP Rear Engine Commercial Bus Chassis:2025": {
@@ -7313,7 +7330,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBP Rear Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:XBP Rear Engine Commercial Bus Chassis:2026": {
@@ -7322,7 +7339,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBP Rear Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:XBP Rear Engine Commercial Bus Chassis:2027": {
@@ -7331,7 +7348,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBP Rear Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:XBP Rear Engine Commercial Bus Chassis:2028": {
@@ -7340,7 +7357,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBP Rear Engine Commercial Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:XBR Rail Rear Engine Shuttle Bus Chassis:2025": {
@@ -7349,7 +7366,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBR Rail Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:XBR Rail Rear Engine Shuttle Bus Chassis:2026": {
@@ -7358,7 +7375,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBR Rail Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:XBR Rail Rear Engine Shuttle Bus Chassis:2027": {
@@ -7367,7 +7384,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBR Rail Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:XBR Rail Rear Engine Shuttle Bus Chassis:2028": {
@@ -7376,7 +7393,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBR Rail Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:XBR Rear Engine Shuttle Bus Chassis:2025": {
@@ -7385,7 +7402,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBR Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:XBR Rear Engine Shuttle Bus Chassis:2026": {
@@ -7394,7 +7411,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBR Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:XBR Rear Engine Shuttle Bus Chassis:2027": {
@@ -7403,7 +7420,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBR Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:XBR Rear Engine Shuttle Bus Chassis:2028": {
@@ -7412,7 +7429,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBR Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:XBS Straight Rail Rear Engine Shuttle Bus Chassis:2025": {
@@ -7421,7 +7438,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBS Straight Rail Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:XBS Straight Rail Rear Engine Shuttle Bus Chassis:2026": {
@@ -7430,7 +7447,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBS Straight Rail Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:XBS Straight Rail Rear Engine Shuttle Bus Chassis:2027": {
@@ -7439,7 +7456,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBS Straight Rail Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:XBS Straight Rail Rear Engine Shuttle Bus Chassis:2028": {
@@ -7448,7 +7465,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XBS Straight Rail Rear Engine Shuttle Bus Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:XC Chassis:2025": {
@@ -7457,7 +7474,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XC Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:XC Chassis:2026": {
@@ -7466,7 +7483,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XC Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:XC Chassis:2027": {
@@ -7475,7 +7492,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XC Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "450:XC Chassis:2028": {
@@ -7484,7 +7501,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XC Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "450:XC Formed Rail Rear Engine Motor Home Chassis:2025": {
@@ -7493,7 +7510,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XC Formed Rail Rear Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "450:XC Formed Rail Rear Engine Motor Home Chassis:2026": {
@@ -7502,7 +7519,7 @@
     "make_name": "FREIGHTLINER",
     "model": "XC Formed Rail Rear Engine Motor Home Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "450:XC Formed Rail Rear Engine Motor Home Chassis:2027": {
