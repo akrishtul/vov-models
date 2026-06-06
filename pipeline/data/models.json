@@ -9344,8 +9344,19 @@
     "make_id": 452,
     "make_name": "BMW",
     "model": "K 1600 GTL",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "e91557198c8322a5",
+        "path": "photos/45/452_K_1600_GTL_2025/e91557198c8322a5.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/00_0900_Motorcycle_BMW.jpg"
+      },
+      {
+        "hash": "f20bfaeaa55ea286",
+        "path": "photos/45/452_K_1600_GTL_2025/f20bfaeaa55ea286.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/00_0900_Motorcycle_BMW_K1600GTL_resized.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "452:K 1600 GTL:2026": {
@@ -9354,7 +9365,7 @@
     "make_name": "BMW",
     "model": "K 1600 GTL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:K 1600 GTL:2027": {
@@ -9363,7 +9374,7 @@
     "make_name": "BMW",
     "model": "K 1600 GTL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:K 1600 GTL:2028": {
@@ -9372,7 +9383,7 @@
     "make_name": "BMW",
     "model": "K 1600 GTL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M 1000 R:2025": {
@@ -9381,7 +9392,7 @@
     "make_name": "BMW",
     "model": "M 1000 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M 1000 R:2026": {
@@ -9390,7 +9401,7 @@
     "make_name": "BMW",
     "model": "M 1000 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M 1000 R:2027": {
@@ -9399,7 +9410,7 @@
     "make_name": "BMW",
     "model": "M 1000 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M 1000 R:2028": {
@@ -9408,7 +9419,7 @@
     "make_name": "BMW",
     "model": "M 1000 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M 1000 RR:2026": {
@@ -9417,7 +9428,7 @@
     "make_name": "BMW",
     "model": "M 1000 RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M 1000 RR:2027": {
@@ -9426,7 +9437,7 @@
     "make_name": "BMW",
     "model": "M 1000 RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M 1000 RR:2028": {
@@ -9435,7 +9446,7 @@
     "make_name": "BMW",
     "model": "M 1000 RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M 1000 XR:2025": {
@@ -9444,7 +9455,7 @@
     "make_name": "BMW",
     "model": "M 1000 XR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M 1000 XR:2026": {
@@ -9453,7 +9464,7 @@
     "make_name": "BMW",
     "model": "M 1000 XR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M 1000 XR:2027": {
@@ -9462,7 +9473,7 @@
     "make_name": "BMW",
     "model": "M 1000 XR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M 1000 XR:2028": {
@@ -9471,7 +9482,7 @@
     "make_name": "BMW",
     "model": "M 1000 XR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M235:2025": {
@@ -9480,7 +9491,7 @@
     "make_name": "BMW",
     "model": "M235",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M235:2026": {
@@ -9489,7 +9500,7 @@
     "make_name": "BMW",
     "model": "M235",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M240i:2025": {
@@ -9498,7 +9509,7 @@
     "make_name": "BMW",
     "model": "M240i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M240i:2026": {
@@ -9507,7 +9518,7 @@
     "make_name": "BMW",
     "model": "M240i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M240i:2027": {
@@ -9516,7 +9527,7 @@
     "make_name": "BMW",
     "model": "M240i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M240i:2028": {
@@ -9525,7 +9536,7 @@
     "make_name": "BMW",
     "model": "M240i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M2:2025": {
@@ -9534,7 +9545,7 @@
     "make_name": "BMW",
     "model": "M2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M2:2026": {
@@ -9543,7 +9554,7 @@
     "make_name": "BMW",
     "model": "M2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M2:2027": {
@@ -9552,7 +9563,7 @@
     "make_name": "BMW",
     "model": "M2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M2:2028": {
@@ -9561,7 +9572,7 @@
     "make_name": "BMW",
     "model": "M2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M340i:2025": {
@@ -9570,7 +9581,7 @@
     "make_name": "BMW",
     "model": "M340i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M340i:2026": {
@@ -9579,7 +9590,7 @@
     "make_name": "BMW",
     "model": "M340i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M340i:2027": {
@@ -9588,7 +9599,7 @@
     "make_name": "BMW",
     "model": "M340i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M340i:2028": {
@@ -9597,7 +9608,7 @@
     "make_name": "BMW",
     "model": "M340i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M3:2025": {
@@ -9606,7 +9617,7 @@
     "make_name": "BMW",
     "model": "M3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M3:2026": {
@@ -9615,7 +9626,7 @@
     "make_name": "BMW",
     "model": "M3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M3:2027": {
@@ -9624,7 +9635,7 @@
     "make_name": "BMW",
     "model": "M3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M3:2028": {
@@ -9633,7 +9644,7 @@
     "make_name": "BMW",
     "model": "M3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M440i:2025": {
@@ -9642,7 +9653,7 @@
     "make_name": "BMW",
     "model": "M440i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M440i:2026": {
@@ -9651,7 +9662,7 @@
     "make_name": "BMW",
     "model": "M440i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M4:2025": {
@@ -9660,7 +9671,7 @@
     "make_name": "BMW",
     "model": "M4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M4:2026": {
@@ -9669,7 +9680,7 @@
     "make_name": "BMW",
     "model": "M4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M4:2027": {
@@ -9678,7 +9689,7 @@
     "make_name": "BMW",
     "model": "M4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M4:2028": {
@@ -9687,7 +9698,7 @@
     "make_name": "BMW",
     "model": "M4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M5:2025": {
@@ -9696,7 +9707,7 @@
     "make_name": "BMW",
     "model": "M5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M5:2026": {
@@ -9705,7 +9716,7 @@
     "make_name": "BMW",
     "model": "M5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M5:2027": {
@@ -9714,7 +9725,7 @@
     "make_name": "BMW",
     "model": "M5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:M5:2028": {
@@ -9723,7 +9734,7 @@
     "make_name": "BMW",
     "model": "M5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:M850i:2025": {
@@ -9732,7 +9743,7 @@
     "make_name": "BMW",
     "model": "M850i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:M850i:2026": {
@@ -9741,7 +9752,7 @@
     "make_name": "BMW",
     "model": "M850i",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:M8:2025": {
@@ -9750,7 +9761,7 @@
     "make_name": "BMW",
     "model": "M8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 12 G/S:2026": {
@@ -9759,7 +9770,7 @@
     "make_name": "BMW",
     "model": "R 12 G/S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:R 12 G/S:2027": {
@@ -9768,7 +9779,7 @@
     "make_name": "BMW",
     "model": "R 12 G/S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:R 12 G/S:2028": {
@@ -9777,7 +9788,7 @@
     "make_name": "BMW",
     "model": "R 12 G/S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:R 12 nineT:2025": {
@@ -9786,7 +9797,7 @@
     "make_name": "BMW",
     "model": "R 12 nineT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 12 nineT:2026": {
@@ -9795,7 +9806,7 @@
     "make_name": "BMW",
     "model": "R 12 nineT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:R 12 nineT:2027": {
@@ -9804,7 +9815,7 @@
     "make_name": "BMW",
     "model": "R 12 nineT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:R 12 nineT:2028": {
@@ -9813,7 +9824,7 @@
     "make_name": "BMW",
     "model": "R 12 nineT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:R 12:2025": {
@@ -9822,7 +9833,7 @@
     "make_name": "BMW",
     "model": "R 12",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 12:2026": {
@@ -9831,7 +9842,7 @@
     "make_name": "BMW",
     "model": "R 12",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:R 12:2027": {
@@ -9840,7 +9851,7 @@
     "make_name": "BMW",
     "model": "R 12",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:R 12:2028": {
@@ -9849,7 +9860,7 @@
     "make_name": "BMW",
     "model": "R 12",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:R 1300 GS Adventure:2025": {
@@ -9858,7 +9869,7 @@
     "make_name": "BMW",
     "model": "R 1300 GS Adventure",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 1300 GS Adventure:2026": {
@@ -9867,7 +9878,7 @@
     "make_name": "BMW",
     "model": "R 1300 GS Adventure",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:R 1300 GS Adventure:2027": {
@@ -9876,7 +9887,7 @@
     "make_name": "BMW",
     "model": "R 1300 GS Adventure",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:R 1300 GS Adventure:2028": {
@@ -9885,7 +9896,7 @@
     "make_name": "BMW",
     "model": "R 1300 GS Adventure",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:R 1300 GS:2025": {
@@ -9894,7 +9905,7 @@
     "make_name": "BMW",
     "model": "R 1300 GS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 1300 GS:2026": {
@@ -9903,7 +9914,7 @@
     "make_name": "BMW",
     "model": "R 1300 GS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:R 1300 GS:2027": {
@@ -9912,7 +9923,7 @@
     "make_name": "BMW",
     "model": "R 1300 GS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:R 1300 GS:2028": {
@@ -9921,7 +9932,7 @@
     "make_name": "BMW",
     "model": "R 1300 GS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:R 1300 R:2026": {
@@ -9930,7 +9941,7 @@
     "make_name": "BMW",
     "model": "R 1300 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:R 1300 R:2027": {
@@ -9939,7 +9950,7 @@
     "make_name": "BMW",
     "model": "R 1300 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:R 1300 R:2028": {
@@ -9948,7 +9959,7 @@
     "make_name": "BMW",
     "model": "R 1300 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:R 1300 RS:2026": {
@@ -9957,7 +9968,7 @@
     "make_name": "BMW",
     "model": "R 1300 RS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:R 1300 RS:2027": {
@@ -9966,7 +9977,7 @@
     "make_name": "BMW",
     "model": "R 1300 RS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:R 1300 RS:2028": {
@@ -9975,7 +9986,7 @@
     "make_name": "BMW",
     "model": "R 1300 RS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:R 1300 RT:2026": {
@@ -9984,7 +9995,7 @@
     "make_name": "BMW",
     "model": "R 1300 RT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:R 1300 RT:2027": {
@@ -9993,7 +10004,7 @@
     "make_name": "BMW",
     "model": "R 1300 RT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:R 1300 RT:2028": {
@@ -10002,7 +10013,7 @@
     "make_name": "BMW",
     "model": "R 1300 RT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:R 18 B:2025": {
@@ -10011,7 +10022,7 @@
     "make_name": "BMW",
     "model": "R 18 B",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 18 Classic:2025": {
@@ -10020,7 +10031,7 @@
     "make_name": "BMW",
     "model": "R 18 Classic",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 18 Roctane:2025": {
@@ -10029,7 +10040,7 @@
     "make_name": "BMW",
     "model": "R 18 Roctane",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 18 Transcontinental:2025": {
@@ -10038,7 +10049,7 @@
     "make_name": "BMW",
     "model": "R 18 Transcontinental",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:R 18:2025": {
@@ -10047,7 +10058,7 @@
     "make_name": "BMW",
     "model": "R 18",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:S 1000 R:2025": {
@@ -10056,7 +10067,7 @@
     "make_name": "BMW",
     "model": "S 1000 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:S 1000 R:2026": {
@@ -10065,7 +10076,7 @@
     "make_name": "BMW",
     "model": "S 1000 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:S 1000 R:2027": {
@@ -10074,7 +10085,7 @@
     "make_name": "BMW",
     "model": "S 1000 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:S 1000 R:2028": {
@@ -10083,7 +10094,7 @@
     "make_name": "BMW",
     "model": "S 1000 R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:S 1000 RR:2025": {
@@ -10092,7 +10103,7 @@
     "make_name": "BMW",
     "model": "S 1000 RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:S 1000 RR:2026": {
@@ -10101,7 +10112,7 @@
     "make_name": "BMW",
     "model": "S 1000 RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:S 1000 RR:2027": {
@@ -10110,7 +10121,7 @@
     "make_name": "BMW",
     "model": "S 1000 RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:S 1000 RR:2028": {
@@ -10119,7 +10130,7 @@
     "make_name": "BMW",
     "model": "S 1000 RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:S 1000 XR:2025": {
@@ -10128,7 +10139,7 @@
     "make_name": "BMW",
     "model": "S 1000 XR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:S 1000 XR:2026": {
@@ -10137,7 +10148,7 @@
     "make_name": "BMW",
     "model": "S 1000 XR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:S 1000 XR:2027": {
@@ -10146,7 +10157,7 @@
     "make_name": "BMW",
     "model": "S 1000 XR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:S 1000 XR:2028": {
@@ -10155,7 +10166,7 @@
     "make_name": "BMW",
     "model": "S 1000 XR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:X1:2025": {
@@ -10164,7 +10175,7 @@
     "make_name": "BMW",
     "model": "X1",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:X1:2026": {
@@ -10173,7 +10184,7 @@
     "make_name": "BMW",
     "model": "X1",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:X2:2025": {
@@ -10182,7 +10193,7 @@
     "make_name": "BMW",
     "model": "X2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:X2:2026": {
@@ -10191,7 +10202,7 @@
     "make_name": "BMW",
     "model": "X2",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:X3:2025": {
@@ -10200,7 +10211,7 @@
     "make_name": "BMW",
     "model": "X3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:X3:2026": {
@@ -10209,7 +10220,7 @@
     "make_name": "BMW",
     "model": "X3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:X3:2027": {
@@ -10218,7 +10229,7 @@
     "make_name": "BMW",
     "model": "X3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:X3:2028": {
@@ -10227,7 +10238,7 @@
     "make_name": "BMW",
     "model": "X3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:X4:2025": {
@@ -10236,7 +10247,7 @@
     "make_name": "BMW",
     "model": "X4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:X5:2025": {
@@ -10245,7 +10256,7 @@
     "make_name": "BMW",
     "model": "X5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:X5:2026": {
@@ -10254,7 +10265,7 @@
     "make_name": "BMW",
     "model": "X5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:X6:2025": {
@@ -10263,7 +10274,7 @@
     "make_name": "BMW",
     "model": "X6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:X6:2026": {
@@ -10272,7 +10283,7 @@
     "make_name": "BMW",
     "model": "X6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:X6:2027": {
@@ -10281,7 +10292,7 @@
     "make_name": "BMW",
     "model": "X6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:X6:2028": {
@@ -10290,7 +10301,7 @@
     "make_name": "BMW",
     "model": "X6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:X7:2025": {
@@ -10299,7 +10310,7 @@
     "make_name": "BMW",
     "model": "X7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:X7:2026": {
@@ -10308,7 +10319,7 @@
     "make_name": "BMW",
     "model": "X7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:X7:2027": {
@@ -10317,7 +10328,7 @@
     "make_name": "BMW",
     "model": "X7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:X7:2028": {
@@ -10326,7 +10337,7 @@
     "make_name": "BMW",
     "model": "X7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:XM:2025": {
@@ -10335,7 +10346,7 @@
     "make_name": "BMW",
     "model": "XM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:XM:2026": {
@@ -10344,7 +10355,7 @@
     "make_name": "BMW",
     "model": "XM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:Z4:2025": {
@@ -10353,7 +10364,7 @@
     "make_name": "BMW",
     "model": "Z4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:Z4:2026": {
@@ -10362,7 +10373,7 @@
     "make_name": "BMW",
     "model": "Z4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:i4:2025": {
@@ -10371,7 +10382,7 @@
     "make_name": "BMW",
     "model": "i4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:i4:2026": {
@@ -10380,7 +10391,7 @@
     "make_name": "BMW",
     "model": "i4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:i5:2025": {
@@ -10389,7 +10400,7 @@
     "make_name": "BMW",
     "model": "i5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:i5:2026": {
@@ -10398,7 +10409,7 @@
     "make_name": "BMW",
     "model": "i5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:i5:2027": {
@@ -10407,7 +10418,7 @@
     "make_name": "BMW",
     "model": "i5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:i5:2028": {
@@ -10416,7 +10427,7 @@
     "make_name": "BMW",
     "model": "i5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "452:i7:2025": {
@@ -10425,7 +10436,7 @@
     "make_name": "BMW",
     "model": "i7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:i7:2026": {
@@ -10434,7 +10445,7 @@
     "make_name": "BMW",
     "model": "i7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:iX:2025": {
@@ -10443,7 +10454,7 @@
     "make_name": "BMW",
     "model": "iX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "452:iX:2026": {
@@ -10452,7 +10463,7 @@
     "make_name": "BMW",
     "model": "iX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "452:iX:2027": {
@@ -10461,7 +10472,7 @@
     "make_name": "BMW",
     "model": "iX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "452:iX:2028": {
@@ -10470,7 +10481,7 @@
     "make_name": "BMW",
     "model": "iX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "454:EB110:2025": {
@@ -10479,7 +10490,7 @@
     "make_name": "BUGATTI",
     "model": "EB110",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "454:EB110:2026": {
@@ -10488,7 +10499,7 @@
     "make_name": "BUGATTI",
     "model": "EB110",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "454:EB110:2027": {
@@ -10496,8 +10507,14 @@
     "make_id": 454,
     "make_name": "BUGATTI",
     "model": "EB110",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "87e0611d4f0c8c43",
+        "path": "photos/45/454_EB110_2027/87e0611d4f0c8c43.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/2007-06-15_18_Bugatti_EB_110_%28bearb_-_kl%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "454:EB110:2028": {
@@ -10505,8 +10522,14 @@
     "make_id": 454,
     "make_name": "BUGATTI",
     "model": "EB110",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "87e0611d4f0c8c43",
+        "path": "photos/45/454_EB110_2028/87e0611d4f0c8c43.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/2007-06-15_18_Bugatti_EB_110_%28bearb_-_kl%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "454:Mistral:2025": {
@@ -10515,7 +10538,7 @@
     "make_name": "BUGATTI",
     "model": "Mistral",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "454:Mistral:2026": {
@@ -10524,7 +10547,7 @@
     "make_name": "BUGATTI",
     "model": "Mistral",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "454:Mistral:2027": {
@@ -10533,7 +10556,7 @@
     "make_name": "BUGATTI",
     "model": "Mistral",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "454:Mistral:2028": {
@@ -10542,7 +10565,7 @@
     "make_name": "BUGATTI",
     "model": "Mistral",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "456:Cooper Convertible:2025": {
@@ -10551,7 +10574,7 @@
     "make_name": "MINI",
     "model": "Cooper Convertible",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "456:Cooper Convertible:2026": {
@@ -10560,7 +10583,7 @@
     "make_name": "MINI",
     "model": "Cooper Convertible",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "456:Cooper Convertible:2027": {
@@ -10569,7 +10592,7 @@
     "make_name": "MINI",
     "model": "Cooper Convertible",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "456:Cooper Convertible:2028": {
@@ -10578,7 +10601,7 @@
     "make_name": "MINI",
     "model": "Cooper Convertible",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "456:Countryman:2025": {
@@ -10587,7 +10610,7 @@
     "make_name": "MINI",
     "model": "Countryman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "456:Countryman:2026": {
@@ -10596,7 +10619,7 @@
     "make_name": "MINI",
     "model": "Countryman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "456:Countryman:2027": {
@@ -10605,7 +10628,7 @@
     "make_name": "MINI",
     "model": "Countryman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "456:Countryman:2028": {
@@ -10614,7 +10637,7 @@
     "make_name": "MINI",
     "model": "Countryman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "456:Hardtop:2025": {
@@ -10623,7 +10646,7 @@
     "make_name": "MINI",
     "model": "Hardtop",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "456:Hardtop:2026": {
@@ -10632,7 +10655,7 @@
     "make_name": "MINI",
     "model": "Hardtop",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "456:Hardtop:2027": {
@@ -10641,7 +10664,7 @@
     "make_name": "MINI",
     "model": "Hardtop",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "456:Hardtop:2028": {
@@ -10650,7 +10673,7 @@
     "make_name": "MINI",
     "model": "Hardtop",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:'34:2025": {
@@ -10659,7 +10682,7 @@
     "make_name": "FORD",
     "model": "'34",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:'34:2026": {
@@ -10668,7 +10691,7 @@
     "make_name": "FORD",
     "model": "'34",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:'34:2027": {
@@ -10677,7 +10700,7 @@
     "make_name": "FORD",
     "model": "'34",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:'34:2028": {
@@ -10686,7 +10709,7 @@
     "make_name": "FORD",
     "model": "'34",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Bronco Sport:2025": {
@@ -10695,7 +10718,7 @@
     "make_name": "FORD",
     "model": "Bronco Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Bronco Sport:2026": {
@@ -10704,7 +10727,7 @@
     "make_name": "FORD",
     "model": "Bronco Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Bronco Sport:2027": {
@@ -10713,7 +10736,7 @@
     "make_name": "FORD",
     "model": "Bronco Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Bronco Sport:2028": {
@@ -10722,7 +10745,7 @@
     "make_name": "FORD",
     "model": "Bronco Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Bronco:2025": {
@@ -10731,7 +10754,7 @@
     "make_name": "FORD",
     "model": "Bronco",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Bronco:2026": {
@@ -10740,7 +10763,7 @@
     "make_name": "FORD",
     "model": "Bronco",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Bronco:2027": {
@@ -10749,7 +10772,7 @@
     "make_name": "FORD",
     "model": "Bronco",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Bronco:2028": {
@@ -10758,7 +10781,7 @@
     "make_name": "FORD",
     "model": "Bronco",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Commercial Chassis:2025": {
@@ -10767,7 +10790,7 @@
     "make_name": "FORD",
     "model": "Commercial Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Commercial Chassis:2026": {
@@ -10776,7 +10799,7 @@
     "make_name": "FORD",
     "model": "Commercial Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Commercial Chassis:2027": {
@@ -10785,7 +10808,7 @@
     "make_name": "FORD",
     "model": "Commercial Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Commercial Chassis:2028": {
@@ -10794,7 +10817,7 @@
     "make_name": "FORD",
     "model": "Commercial Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:E-350:2025": {
@@ -10803,7 +10826,7 @@
     "make_name": "FORD",
     "model": "E-350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:E-350:2026": {
@@ -10812,7 +10835,7 @@
     "make_name": "FORD",
     "model": "E-350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:E-350:2027": {
@@ -10821,7 +10844,7 @@
     "make_name": "FORD",
     "model": "E-350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:E-350:2028": {
@@ -10830,7 +10853,7 @@
     "make_name": "FORD",
     "model": "E-350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:E-450:2025": {
@@ -10839,7 +10862,7 @@
     "make_name": "FORD",
     "model": "E-450",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:E-450:2026": {
@@ -10848,7 +10871,7 @@
     "make_name": "FORD",
     "model": "E-450",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:E-450:2027": {
@@ -10857,7 +10880,7 @@
     "make_name": "FORD",
     "model": "E-450",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:E-450:2028": {
@@ -10866,7 +10889,7 @@
     "make_name": "FORD",
     "model": "E-450",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Ecosport:2025": {
@@ -10875,7 +10898,7 @@
     "make_name": "FORD",
     "model": "Ecosport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Ecosport:2026": {
@@ -10884,7 +10907,7 @@
     "make_name": "FORD",
     "model": "Ecosport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Ecosport:2027": {
@@ -10893,7 +10916,7 @@
     "make_name": "FORD",
     "model": "Ecosport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Ecosport:2028": {
@@ -10902,7 +10925,7 @@
     "make_name": "FORD",
     "model": "Ecosport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Edge:2025": {
@@ -10911,7 +10934,7 @@
     "make_name": "FORD",
     "model": "Edge",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Edge:2026": {
@@ -10920,7 +10943,7 @@
     "make_name": "FORD",
     "model": "Edge",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Edge:2027": {
@@ -10929,7 +10952,7 @@
     "make_name": "FORD",
     "model": "Edge",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Edge:2028": {
@@ -10938,7 +10961,7 @@
     "make_name": "FORD",
     "model": "Edge",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Escape:2025": {
@@ -10947,7 +10970,7 @@
     "make_name": "FORD",
     "model": "Escape",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Escape:2026": {
@@ -10956,7 +10979,7 @@
     "make_name": "FORD",
     "model": "Escape",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Escape:2027": {
@@ -10965,7 +10988,7 @@
     "make_name": "FORD",
     "model": "Escape",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Escape:2028": {
@@ -10974,7 +10997,7 @@
     "make_name": "FORD",
     "model": "Escape",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Expedition MAX:2025": {
@@ -10983,7 +11006,7 @@
     "make_name": "FORD",
     "model": "Expedition MAX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Expedition MAX:2026": {
@@ -10992,7 +11015,7 @@
     "make_name": "FORD",
     "model": "Expedition MAX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Expedition MAX:2027": {
@@ -11001,7 +11024,7 @@
     "make_name": "FORD",
     "model": "Expedition MAX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Expedition MAX:2028": {
@@ -11010,7 +11033,7 @@
     "make_name": "FORD",
     "model": "Expedition MAX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Expedition:2025": {
@@ -11019,7 +11042,7 @@
     "make_name": "FORD",
     "model": "Expedition",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Expedition:2026": {
@@ -11028,7 +11051,7 @@
     "make_name": "FORD",
     "model": "Expedition",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Expedition:2027": {
@@ -11036,8 +11059,14 @@
     "make_id": 460,
     "make_name": "FORD",
     "model": "Expedition",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "41fbc5a6715b4cfe",
+        "path": "photos/46/460_Expedition_2027/41fbc5a6715b4cfe.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/99-02_Ford_Expedition_.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "460:Expedition:2028": {
@@ -11045,8 +11074,14 @@
     "make_id": 460,
     "make_name": "FORD",
     "model": "Expedition",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "41fbc5a6715b4cfe",
+        "path": "photos/46/460_Expedition_2028/41fbc5a6715b4cfe.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/99-02_Ford_Expedition_.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "460:Explorer:2025": {
@@ -11054,8 +11089,14 @@
     "make_id": 460,
     "make_name": "FORD",
     "model": "Explorer",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "b774ab3601dd0e45",
+        "path": "photos/46/460_Explorer_2025/b774ab3601dd0e45.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ford_Explorer_USDM.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "460:Explorer:2026": {
@@ -11063,8 +11104,14 @@
     "make_id": 460,
     "make_name": "FORD",
     "model": "Explorer",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "b774ab3601dd0e45",
+        "path": "photos/46/460_Explorer_2026/b774ab3601dd0e45.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ford_Explorer_USDM.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2026
   },
   "460:Explorer:2027": {
@@ -11072,8 +11119,14 @@
     "make_id": 460,
     "make_name": "FORD",
     "model": "Explorer",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "b774ab3601dd0e45",
+        "path": "photos/46/460_Explorer_2027/b774ab3601dd0e45.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ford_Explorer_USDM.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "460:Explorer:2028": {
@@ -11081,8 +11134,14 @@
     "make_id": 460,
     "make_name": "FORD",
     "model": "Explorer",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "b774ab3601dd0e45",
+        "path": "photos/46/460_Explorer_2028/b774ab3601dd0e45.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ford_Explorer_USDM.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "460:F-150:2025": {
@@ -11091,7 +11150,7 @@
     "make_name": "FORD",
     "model": "F-150",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:F-150:2026": {
@@ -11100,7 +11159,7 @@
     "make_name": "FORD",
     "model": "F-150",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:F-150:2027": {
@@ -11109,7 +11168,7 @@
     "make_name": "FORD",
     "model": "F-150",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:F-150:2028": {
@@ -11118,7 +11177,7 @@
     "make_name": "FORD",
     "model": "F-150",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:F-250:2025": {
@@ -11127,7 +11186,7 @@
     "make_name": "FORD",
     "model": "F-250",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:F-250:2026": {
@@ -11136,7 +11195,7 @@
     "make_name": "FORD",
     "model": "F-250",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:F-250:2027": {
@@ -15648,6 +15707,15 @@
     "state": "pending",
     "year": 2026
   },
+  "474:CB750 Hornet E-Clutch:2026": {
+    "first_seen": "2026-06-06T07:24:26.347197+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "CB750 Hornet E-Clutch",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
   "474:CBR1000F:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 474,
@@ -17249,6 +17317,15 @@
     "photos": [],
     "state": "pending",
     "year": 2028
+  },
+  "474:Nighthawk 750:2025": {
+    "first_seen": "2026-06-06T07:24:26.347197+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Nighthawk 750",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
   },
   "474:Odyssey:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
