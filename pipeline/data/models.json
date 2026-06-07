@@ -3229,6 +3229,11 @@
         "hash": "39cd906e648b67e8",
         "path": "photos/44/448_Tundra_2028/39cd906e648b67e8.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/2012_Toyota_Tundra_--_NHTSA_1.jpg"
+      },
+      {
+        "hash": "651ea22af876ffb8",
+        "path": "photos/44/448_Tundra_2028/651ea22af876ffb8.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/2nd_Toyota_Tundra_regular_cab.jpg"
       }
     ],
     "state": "fetched",
@@ -11203,8 +11208,29 @@
     "make_id": 460,
     "make_name": "FORD",
     "model": "F-250",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "a5b39394b169428e",
+        "path": "photos/46/460_F_250_2027/a5b39394b169428e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/%2705-%2707_Ford_F-250_King_Ranch_Crew_Cab.jpg"
+      },
+      {
+        "hash": "b1325719aeef7e38",
+        "path": "photos/46/460_F_250_2027/b1325719aeef7e38.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/%2705-%2707_Ford_F-250_Super_Duty_Crew_Cab.jpg"
+      },
+      {
+        "hash": "235f82004c803093",
+        "path": "photos/46/460_F_250_2027/235f82004c803093.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/F-450_coal_rolling_Monster.jpg"
+      },
+      {
+        "hash": "221178f00909eb8d",
+        "path": "photos/46/460_F_250_2027/221178f00909eb8d.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ford_F-150_crew_cab_--_05-28-2011.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "460:F-250:2028": {
@@ -11212,8 +11238,24 @@
     "make_id": 460,
     "make_name": "FORD",
     "model": "F-250",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "b1325719aeef7e38",
+        "path": "photos/46/460_F_250_2028/b1325719aeef7e38.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/%2705-%2707_Ford_F-250_Super_Duty_Crew_Cab.jpg"
+      },
+      {
+        "hash": "235f82004c803093",
+        "path": "photos/46/460_F_250_2028/235f82004c803093.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/F-450_coal_rolling_Monster.jpg"
+      },
+      {
+        "hash": "221178f00909eb8d",
+        "path": "photos/46/460_F_250_2028/221178f00909eb8d.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ford_F-150_crew_cab_--_05-28-2011.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "460:F-350:2025": {
@@ -11222,7 +11264,7 @@
     "make_name": "FORD",
     "model": "F-350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:F-350:2026": {
@@ -11231,7 +11273,7 @@
     "make_name": "FORD",
     "model": "F-350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:F-350:2027": {
@@ -11240,7 +11282,7 @@
     "make_name": "FORD",
     "model": "F-350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:F-350:2028": {
@@ -11249,7 +11291,7 @@
     "make_name": "FORD",
     "model": "F-350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:F-450:2025": {
@@ -11258,7 +11300,7 @@
     "make_name": "FORD",
     "model": "F-450",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:F-450:2026": {
@@ -11267,7 +11309,7 @@
     "make_name": "FORD",
     "model": "F-450",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:F-450:2027": {
@@ -11276,7 +11318,7 @@
     "make_name": "FORD",
     "model": "F-450",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:F-450:2028": {
@@ -11285,7 +11327,7 @@
     "make_name": "FORD",
     "model": "F-450",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:F-550:2025": {
@@ -11294,7 +11336,7 @@
     "make_name": "FORD",
     "model": "F-550",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:F-550:2026": {
@@ -11303,7 +11345,7 @@
     "make_name": "FORD",
     "model": "F-550",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:F-550:2027": {
@@ -11312,7 +11354,7 @@
     "make_name": "FORD",
     "model": "F-550",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:F-550:2028": {
@@ -11321,7 +11363,7 @@
     "make_name": "FORD",
     "model": "F-550",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:F-600:2025": {
@@ -11330,7 +11372,7 @@
     "make_name": "FORD",
     "model": "F-600",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:F-600:2026": {
@@ -11339,7 +11381,7 @@
     "make_name": "FORD",
     "model": "F-600",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:F-600:2027": {
@@ -11348,7 +11390,7 @@
     "make_name": "FORD",
     "model": "F-600",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:F-600:2028": {
@@ -11357,7 +11399,7 @@
     "make_name": "FORD",
     "model": "F-600",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:F-650:2025": {
@@ -11366,7 +11408,7 @@
     "make_name": "FORD",
     "model": "F-650",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:F-650:2026": {
@@ -11375,7 +11417,7 @@
     "make_name": "FORD",
     "model": "F-650",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:F-650:2027": {
@@ -11384,7 +11426,7 @@
     "make_name": "FORD",
     "model": "F-650",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:F-650:2028": {
@@ -11393,7 +11435,7 @@
     "make_name": "FORD",
     "model": "F-650",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:F-750:2025": {
@@ -11402,7 +11444,7 @@
     "make_name": "FORD",
     "model": "F-750",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:F-750:2026": {
@@ -11411,7 +11453,7 @@
     "make_name": "FORD",
     "model": "F-750",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:F-750:2027": {
@@ -11420,7 +11462,7 @@
     "make_name": "FORD",
     "model": "F-750",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:F-750:2028": {
@@ -11429,7 +11471,7 @@
     "make_name": "FORD",
     "model": "F-750",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Fiesta:2025": {
@@ -11438,7 +11480,7 @@
     "make_name": "FORD",
     "model": "Fiesta",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Fiesta:2026": {
@@ -11447,7 +11489,7 @@
     "make_name": "FORD",
     "model": "Fiesta",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Fiesta:2027": {
@@ -11456,7 +11498,7 @@
     "make_name": "FORD",
     "model": "Fiesta",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Fiesta:2028": {
@@ -11465,7 +11507,7 @@
     "make_name": "FORD",
     "model": "Fiesta",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Flex:2025": {
@@ -11474,7 +11516,7 @@
     "make_name": "FORD",
     "model": "Flex",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Flex:2026": {
@@ -11483,7 +11525,7 @@
     "make_name": "FORD",
     "model": "Flex",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Flex:2027": {
@@ -11492,7 +11534,7 @@
     "make_name": "FORD",
     "model": "Flex",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Flex:2028": {
@@ -11501,7 +11543,7 @@
     "make_name": "FORD",
     "model": "Flex",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Focus:2025": {
@@ -11510,7 +11552,7 @@
     "make_name": "FORD",
     "model": "Focus",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Focus:2026": {
@@ -11519,7 +11561,7 @@
     "make_name": "FORD",
     "model": "Focus",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Focus:2027": {
@@ -11528,7 +11570,7 @@
     "make_name": "FORD",
     "model": "Focus",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Focus:2028": {
@@ -11537,7 +11579,7 @@
     "make_name": "FORD",
     "model": "Focus",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:GT MKII:2025": {
@@ -11546,7 +11588,7 @@
     "make_name": "FORD",
     "model": "GT MKII",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:GT MKII:2026": {
@@ -11555,7 +11597,7 @@
     "make_name": "FORD",
     "model": "GT MKII",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:GT MKII:2027": {
@@ -11564,7 +11606,7 @@
     "make_name": "FORD",
     "model": "GT MKII",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:GT MKII:2028": {
@@ -11573,7 +11615,7 @@
     "make_name": "FORD",
     "model": "GT MKII",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Maverick:2025": {
@@ -11582,7 +11624,7 @@
     "make_name": "FORD",
     "model": "Maverick",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Maverick:2026": {
@@ -11591,7 +11633,7 @@
     "make_name": "FORD",
     "model": "Maverick",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Maverick:2027": {
@@ -11600,7 +11642,7 @@
     "make_name": "FORD",
     "model": "Maverick",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Maverick:2028": {
@@ -11609,7 +11651,7 @@
     "make_name": "FORD",
     "model": "Maverick",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Motorhome Chassis:2025": {
@@ -11618,7 +11660,7 @@
     "make_name": "FORD",
     "model": "Motorhome Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Motorhome Chassis:2026": {
@@ -11627,7 +11669,7 @@
     "make_name": "FORD",
     "model": "Motorhome Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Motorhome Chassis:2027": {
@@ -11636,7 +11678,7 @@
     "make_name": "FORD",
     "model": "Motorhome Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Motorhome Chassis:2028": {
@@ -11645,7 +11687,7 @@
     "make_name": "FORD",
     "model": "Motorhome Chassis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Mustang GTD:2025": {
@@ -11654,7 +11696,7 @@
     "make_name": "FORD",
     "model": "Mustang GTD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Mustang GTD:2026": {
@@ -11663,7 +11705,7 @@
     "make_name": "FORD",
     "model": "Mustang GTD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Mustang GTD:2027": {
@@ -11672,7 +11714,7 @@
     "make_name": "FORD",
     "model": "Mustang GTD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Mustang GTD:2028": {
@@ -11681,7 +11723,7 @@
     "make_name": "FORD",
     "model": "Mustang GTD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Mustang Mach-E:2025": {
@@ -11690,7 +11732,7 @@
     "make_name": "FORD",
     "model": "Mustang Mach-E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Mustang Mach-E:2026": {
@@ -11699,7 +11741,7 @@
     "make_name": "FORD",
     "model": "Mustang Mach-E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Mustang Mach-E:2027": {
@@ -11708,7 +11750,7 @@
     "make_name": "FORD",
     "model": "Mustang Mach-E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Mustang Mach-E:2028": {
@@ -11717,7 +11759,7 @@
     "make_name": "FORD",
     "model": "Mustang Mach-E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Mustang:2025": {
@@ -11726,7 +11768,7 @@
     "make_name": "FORD",
     "model": "Mustang",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Mustang:2026": {
@@ -11735,7 +11777,7 @@
     "make_name": "FORD",
     "model": "Mustang",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Mustang:2027": {
@@ -11744,7 +11786,7 @@
     "make_name": "FORD",
     "model": "Mustang",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Mustang:2028": {
@@ -11753,7 +11795,7 @@
     "make_name": "FORD",
     "model": "Mustang",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Ranger:2025": {
@@ -11762,7 +11804,7 @@
     "make_name": "FORD",
     "model": "Ranger",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Ranger:2026": {
@@ -11771,7 +11813,7 @@
     "make_name": "FORD",
     "model": "Ranger",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Ranger:2027": {
@@ -11780,7 +11822,7 @@
     "make_name": "FORD",
     "model": "Ranger",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Ranger:2028": {
@@ -11789,7 +11831,7 @@
     "make_name": "FORD",
     "model": "Ranger",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Transit Connect:2025": {
@@ -11798,7 +11840,7 @@
     "make_name": "FORD",
     "model": "Transit Connect",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Transit Connect:2026": {
@@ -11807,7 +11849,7 @@
     "make_name": "FORD",
     "model": "Transit Connect",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Transit Connect:2027": {
@@ -11816,7 +11858,7 @@
     "make_name": "FORD",
     "model": "Transit Connect",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Transit Connect:2028": {
@@ -11825,7 +11867,7 @@
     "make_name": "FORD",
     "model": "Transit Connect",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "460:Transit:2025": {
@@ -11834,7 +11876,7 @@
     "make_name": "FORD",
     "model": "Transit",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "460:Transit:2026": {
@@ -11843,7 +11885,7 @@
     "make_name": "FORD",
     "model": "Transit",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "460:Transit:2027": {
@@ -11852,7 +11894,7 @@
     "make_name": "FORD",
     "model": "Transit",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "460:Transit:2028": {
@@ -11861,7 +11903,7 @@
     "make_name": "FORD",
     "model": "Transit",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "464:Aviator:2025": {
@@ -11870,7 +11912,7 @@
     "make_name": "LINCOLN",
     "model": "Aviator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "464:Aviator:2026": {
@@ -11879,7 +11921,7 @@
     "make_name": "LINCOLN",
     "model": "Aviator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "464:Aviator:2027": {
@@ -11888,7 +11930,7 @@
     "make_name": "LINCOLN",
     "model": "Aviator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "464:Aviator:2028": {
@@ -11897,7 +11939,7 @@
     "make_name": "LINCOLN",
     "model": "Aviator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "464:Continental:2025": {
@@ -11905,8 +11947,14 @@
     "make_id": 464,
     "make_name": "LINCOLN",
     "model": "Continental",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "4331c5c9ee19d770",
+        "path": "photos/46/464_Continental_2025/4331c5c9ee19d770.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/82LincolnContinental.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "464:Continental:2026": {
@@ -11914,8 +11962,14 @@
     "make_id": 464,
     "make_name": "LINCOLN",
     "model": "Continental",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "4331c5c9ee19d770",
+        "path": "photos/46/464_Continental_2026/4331c5c9ee19d770.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/82LincolnContinental.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2026
   },
   "464:Continental:2027": {
@@ -11923,8 +11977,14 @@
     "make_id": 464,
     "make_name": "LINCOLN",
     "model": "Continental",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "4331c5c9ee19d770",
+        "path": "photos/46/464_Continental_2027/4331c5c9ee19d770.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/82LincolnContinental.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "464:Continental:2028": {
@@ -11932,8 +11992,14 @@
     "make_id": 464,
     "make_name": "LINCOLN",
     "model": "Continental",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "4331c5c9ee19d770",
+        "path": "photos/46/464_Continental_2028/4331c5c9ee19d770.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/82LincolnContinental.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "464:Corsair:2025": {
@@ -11942,7 +12008,7 @@
     "make_name": "LINCOLN",
     "model": "Corsair",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "464:Corsair:2026": {
@@ -11951,7 +12017,7 @@
     "make_name": "LINCOLN",
     "model": "Corsair",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "464:Corsair:2027": {
@@ -11960,7 +12026,7 @@
     "make_name": "LINCOLN",
     "model": "Corsair",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "464:Corsair:2028": {
@@ -11969,7 +12035,7 @@
     "make_name": "LINCOLN",
     "model": "Corsair",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "464:Nautilus:2025": {
@@ -11978,7 +12044,7 @@
     "make_name": "LINCOLN",
     "model": "Nautilus",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "464:Nautilus:2026": {
@@ -11987,7 +12053,7 @@
     "make_name": "LINCOLN",
     "model": "Nautilus",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "464:Nautilus:2027": {
@@ -11996,7 +12062,7 @@
     "make_name": "LINCOLN",
     "model": "Nautilus",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "464:Nautilus:2028": {
@@ -12005,7 +12071,7 @@
     "make_name": "LINCOLN",
     "model": "Nautilus",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "464:Navigator L:2025": {
@@ -12014,7 +12080,7 @@
     "make_name": "LINCOLN",
     "model": "Navigator L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "464:Navigator L:2026": {
@@ -12023,7 +12089,7 @@
     "make_name": "LINCOLN",
     "model": "Navigator L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "464:Navigator L:2027": {
@@ -12032,7 +12098,7 @@
     "make_name": "LINCOLN",
     "model": "Navigator L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "464:Navigator L:2028": {
@@ -12041,7 +12107,7 @@
     "make_name": "LINCOLN",
     "model": "Navigator L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "464:Navigator:2025": {
@@ -12050,7 +12116,7 @@
     "make_name": "LINCOLN",
     "model": "Navigator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "464:Navigator:2026": {
@@ -12059,7 +12125,7 @@
     "make_name": "LINCOLN",
     "model": "Navigator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "464:Navigator:2027": {
@@ -12068,7 +12134,7 @@
     "make_name": "LINCOLN",
     "model": "Navigator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "464:Navigator:2028": {
@@ -12077,7 +12143,7 @@
     "make_name": "LINCOLN",
     "model": "Navigator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "466:ELETRE:2025": {
@@ -12086,7 +12152,7 @@
     "make_name": "LOTUS",
     "model": "ELETRE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "466:ELETRE:2026": {
@@ -12095,7 +12161,7 @@
     "make_name": "LOTUS",
     "model": "ELETRE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "466:ELETRE:2027": {
@@ -12104,7 +12170,7 @@
     "make_name": "LOTUS",
     "model": "ELETRE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "466:ELETRE:2028": {
@@ -12113,7 +12179,7 @@
     "make_name": "LOTUS",
     "model": "ELETRE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "466:Emira:2025": {
@@ -12122,7 +12188,7 @@
     "make_name": "LOTUS",
     "model": "Emira",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "466:Emira:2026": {
@@ -12131,7 +12197,7 @@
     "make_name": "LOTUS",
     "model": "Emira",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "466:Emira:2027": {
@@ -12140,7 +12206,7 @@
     "make_name": "LOTUS",
     "model": "Emira",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "466:Emira:2028": {
@@ -12149,7 +12215,7 @@
     "make_name": "LOTUS",
     "model": "Emira",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "466:Evora:2025": {
@@ -12158,7 +12224,7 @@
     "make_name": "LOTUS",
     "model": "Evora",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "466:Evora:2026": {
@@ -12167,7 +12233,7 @@
     "make_name": "LOTUS",
     "model": "Evora",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "466:Evora:2027": {
@@ -12176,7 +12242,7 @@
     "make_name": "LOTUS",
     "model": "Evora",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "466:Evora:2028": {
@@ -12185,7 +12251,7 @@
     "make_name": "LOTUS",
     "model": "Evora",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:3500/4500:2025": {
@@ -12194,7 +12260,7 @@
     "make_name": "CHEVROLET",
     "model": "3500/4500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:3500/4500:2026": {
@@ -12203,7 +12269,7 @@
     "make_name": "CHEVROLET",
     "model": "3500/4500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:3500/4500:2027": {
@@ -12212,7 +12278,7 @@
     "make_name": "CHEVROLET",
     "model": "3500/4500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:3500/4500:2028": {
@@ -12221,7 +12287,7 @@
     "make_name": "CHEVROLET",
     "model": "3500/4500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:3500HG:2027": {
@@ -12230,7 +12296,7 @@
     "make_name": "CHEVROLET",
     "model": "3500HG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:3500HG:2028": {
@@ -12239,7 +12305,7 @@
     "make_name": "CHEVROLET",
     "model": "3500HG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:4500HD:2025": {
@@ -12248,7 +12314,7 @@
     "make_name": "CHEVROLET",
     "model": "4500HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:4500HD:2026": {
@@ -12257,7 +12323,7 @@
     "make_name": "CHEVROLET",
     "model": "4500HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:4500HD:2027": {
@@ -12266,7 +12332,7 @@
     "make_name": "CHEVROLET",
     "model": "4500HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:4500HD:2028": {
@@ -12275,7 +12341,7 @@
     "make_name": "CHEVROLET",
     "model": "4500HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:4500HG:2027": {
@@ -12284,7 +12350,7 @@
     "make_name": "CHEVROLET",
     "model": "4500HG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:4500HG:2028": {
@@ -12293,7 +12359,7 @@
     "make_name": "CHEVROLET",
     "model": "4500HG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:4500XD:2025": {
@@ -12302,7 +12368,7 @@
     "make_name": "CHEVROLET",
     "model": "4500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:4500XD:2026": {
@@ -12311,7 +12377,7 @@
     "make_name": "CHEVROLET",
     "model": "4500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:4500XD:2027": {
@@ -12320,7 +12386,7 @@
     "make_name": "CHEVROLET",
     "model": "4500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:4500XD:2028": {
@@ -12329,7 +12395,7 @@
     "make_name": "CHEVROLET",
     "model": "4500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:5500HG:2025": {
@@ -12338,7 +12404,7 @@
     "make_name": "CHEVROLET",
     "model": "5500HG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:5500HG:2026": {
@@ -12347,7 +12413,7 @@
     "make_name": "CHEVROLET",
     "model": "5500HG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:5500HG:2027": {
@@ -12356,7 +12422,7 @@
     "make_name": "CHEVROLET",
     "model": "5500HG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:5500HG:2028": {
@@ -12365,7 +12431,7 @@
     "make_name": "CHEVROLET",
     "model": "5500HG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:5500XD:2025": {
@@ -12374,7 +12440,7 @@
     "make_name": "CHEVROLET",
     "model": "5500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:5500XD:2026": {
@@ -12383,7 +12449,7 @@
     "make_name": "CHEVROLET",
     "model": "5500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:5500XD:2027": {
@@ -12392,7 +12458,7 @@
     "make_name": "CHEVROLET",
     "model": "5500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:5500XD:2028": {
@@ -12401,7 +12467,7 @@
     "make_name": "CHEVROLET",
     "model": "5500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:5500XG:2025": {
@@ -12410,7 +12476,7 @@
     "make_name": "CHEVROLET",
     "model": "5500XG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:5500XG:2026": {
@@ -12419,7 +12485,7 @@
     "make_name": "CHEVROLET",
     "model": "5500XG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:5500XG:2027": {
@@ -12428,7 +12494,7 @@
     "make_name": "CHEVROLET",
     "model": "5500XG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:5500XG:2028": {
@@ -12437,7 +12503,7 @@
     "make_name": "CHEVROLET",
     "model": "5500XG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:6500XD:2025": {
@@ -12446,7 +12512,7 @@
     "make_name": "CHEVROLET",
     "model": "6500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:6500XD:2026": {
@@ -12455,7 +12521,7 @@
     "make_name": "CHEVROLET",
     "model": "6500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:6500XD:2027": {
@@ -12464,7 +12530,7 @@
     "make_name": "CHEVROLET",
     "model": "6500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:6500XD:2028": {
@@ -12473,7 +12539,7 @@
     "make_name": "CHEVROLET",
     "model": "6500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:7500XD:2025": {
@@ -12482,7 +12548,7 @@
     "make_name": "CHEVROLET",
     "model": "7500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:7500XD:2026": {
@@ -12491,7 +12557,7 @@
     "make_name": "CHEVROLET",
     "model": "7500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:7500XD:2027": {
@@ -12500,7 +12566,7 @@
     "make_name": "CHEVROLET",
     "model": "7500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:7500XD:2028": {
@@ -12509,7 +12575,7 @@
     "make_name": "CHEVROLET",
     "model": "7500XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Aveo:2025": {
@@ -12518,7 +12584,7 @@
     "make_name": "CHEVROLET",
     "model": "Aveo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Aveo:2026": {
@@ -12527,7 +12593,7 @@
     "make_name": "CHEVROLET",
     "model": "Aveo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Aveo:2027": {
@@ -12536,7 +12602,7 @@
     "make_name": "CHEVROLET",
     "model": "Aveo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Aveo:2028": {
@@ -12545,7 +12611,7 @@
     "make_name": "CHEVROLET",
     "model": "Aveo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Blazer:2025": {
@@ -12554,7 +12620,7 @@
     "make_name": "CHEVROLET",
     "model": "Blazer",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Blazer:2026": {
@@ -12563,7 +12629,7 @@
     "make_name": "CHEVROLET",
     "model": "Blazer",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Blazer:2027": {
@@ -12572,7 +12638,7 @@
     "make_name": "CHEVROLET",
     "model": "Blazer",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Blazer:2028": {
@@ -12581,7 +12647,7 @@
     "make_name": "CHEVROLET",
     "model": "Blazer",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Bolt Incomplete:2025": {
@@ -12590,7 +12656,7 @@
     "make_name": "CHEVROLET",
     "model": "Bolt Incomplete",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Bolt Incomplete:2026": {
@@ -12599,7 +12665,7 @@
     "make_name": "CHEVROLET",
     "model": "Bolt Incomplete",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Bolt Incomplete:2027": {
@@ -12608,7 +12674,7 @@
     "make_name": "CHEVROLET",
     "model": "Bolt Incomplete",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Bolt Incomplete:2028": {
@@ -12617,7 +12683,7 @@
     "make_name": "CHEVROLET",
     "model": "Bolt Incomplete",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Bolt:2027": {
@@ -12626,7 +12692,7 @@
     "make_name": "CHEVROLET",
     "model": "Bolt",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Bolt:2028": {
@@ -12635,7 +12701,7 @@
     "make_name": "CHEVROLET",
     "model": "Bolt",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:BrightDrop:2025": {
@@ -12644,7 +12710,7 @@
     "make_name": "CHEVROLET",
     "model": "BrightDrop",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:BrightDrop:2026": {
@@ -12653,7 +12719,7 @@
     "make_name": "CHEVROLET",
     "model": "BrightDrop",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:BrightDrop:2027": {
@@ -12662,7 +12728,7 @@
     "make_name": "CHEVROLET",
     "model": "BrightDrop",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:BrightDrop:2028": {
@@ -12671,7 +12737,7 @@
     "make_name": "CHEVROLET",
     "model": "BrightDrop",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Camaro:2025": {
@@ -12680,7 +12746,7 @@
     "make_name": "CHEVROLET",
     "model": "Camaro",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Camaro:2026": {
@@ -12689,7 +12755,7 @@
     "make_name": "CHEVROLET",
     "model": "Camaro",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Camaro:2027": {
@@ -12698,7 +12764,7 @@
     "make_name": "CHEVROLET",
     "model": "Camaro",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Camaro:2028": {
@@ -12707,7 +12773,7 @@
     "make_name": "CHEVROLET",
     "model": "Camaro",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Caprice Police Vehicle:2025": {
@@ -12716,7 +12782,7 @@
     "make_name": "CHEVROLET",
     "model": "Caprice Police Vehicle",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Caprice Police Vehicle:2026": {
@@ -12725,7 +12791,7 @@
     "make_name": "CHEVROLET",
     "model": "Caprice Police Vehicle",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Caprice Police Vehicle:2027": {
@@ -12734,7 +12800,7 @@
     "make_name": "CHEVROLET",
     "model": "Caprice Police Vehicle",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Caprice Police Vehicle:2028": {
@@ -12743,7 +12809,7 @@
     "make_name": "CHEVROLET",
     "model": "Caprice Police Vehicle",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Captiva Sport:2025": {
@@ -12752,7 +12818,7 @@
     "make_name": "CHEVROLET",
     "model": "Captiva Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Captiva Sport:2026": {
@@ -12761,7 +12827,7 @@
     "make_name": "CHEVROLET",
     "model": "Captiva Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Captiva Sport:2027": {
@@ -12770,7 +12836,7 @@
     "make_name": "CHEVROLET",
     "model": "Captiva Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Captiva Sport:2028": {
@@ -12779,7 +12845,7 @@
     "make_name": "CHEVROLET",
     "model": "Captiva Sport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Colorado:2025": {
@@ -12788,7 +12854,7 @@
     "make_name": "CHEVROLET",
     "model": "Colorado",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Colorado:2026": {
@@ -12797,7 +12863,7 @@
     "make_name": "CHEVROLET",
     "model": "Colorado",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Colorado:2027": {
@@ -12806,7 +12872,7 @@
     "make_name": "CHEVROLET",
     "model": "Colorado",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Colorado:2028": {
@@ -12815,7 +12881,7 @@
     "make_name": "CHEVROLET",
     "model": "Colorado",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Corvette:2025": {
@@ -12824,7 +12890,7 @@
     "make_name": "CHEVROLET",
     "model": "Corvette",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Corvette:2026": {
@@ -12833,7 +12899,7 @@
     "make_name": "CHEVROLET",
     "model": "Corvette",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Corvette:2027": {
@@ -12842,7 +12908,7 @@
     "make_name": "CHEVROLET",
     "model": "Corvette",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Corvette:2028": {
@@ -12851,7 +12917,7 @@
     "make_name": "CHEVROLET",
     "model": "Corvette",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Cruze:2025": {
@@ -12860,7 +12926,7 @@
     "make_name": "CHEVROLET",
     "model": "Cruze",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Cruze:2026": {
@@ -12869,7 +12935,7 @@
     "make_name": "CHEVROLET",
     "model": "Cruze",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Cruze:2027": {
@@ -12878,7 +12944,7 @@
     "make_name": "CHEVROLET",
     "model": "Cruze",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Cruze:2028": {
@@ -12887,7 +12953,7 @@
     "make_name": "CHEVROLET",
     "model": "Cruze",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Equinox:2025": {
@@ -12896,7 +12962,7 @@
     "make_name": "CHEVROLET",
     "model": "Equinox",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Equinox:2026": {
@@ -12905,7 +12971,7 @@
     "make_name": "CHEVROLET",
     "model": "Equinox",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Equinox:2027": {
@@ -12914,7 +12980,7 @@
     "make_name": "CHEVROLET",
     "model": "Equinox",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Equinox:2028": {
@@ -12923,7 +12989,7 @@
     "make_name": "CHEVROLET",
     "model": "Equinox",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Express:2025": {
@@ -12932,7 +12998,7 @@
     "make_name": "CHEVROLET",
     "model": "Express",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Express:2026": {
@@ -12941,7 +13007,7 @@
     "make_name": "CHEVROLET",
     "model": "Express",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Express:2027": {
@@ -12950,7 +13016,7 @@
     "make_name": "CHEVROLET",
     "model": "Express",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Express:2028": {
@@ -12959,7 +13025,7 @@
     "make_name": "CHEVROLET",
     "model": "Express",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Geo Prizm:2025": {
@@ -12968,7 +13034,7 @@
     "make_name": "CHEVROLET",
     "model": "Geo Prizm",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "467:Geo Prizm:2026": {
@@ -12977,7 +13043,7 @@
     "make_name": "CHEVROLET",
     "model": "Geo Prizm",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "467:Geo Prizm:2027": {
@@ -12986,7 +13052,7 @@
     "make_name": "CHEVROLET",
     "model": "Geo Prizm",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "467:Geo Prizm:2028": {
@@ -12995,7 +13061,7 @@
     "make_name": "CHEVROLET",
     "model": "Geo Prizm",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "467:Impala:2025": {
