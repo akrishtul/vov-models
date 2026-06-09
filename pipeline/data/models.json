@@ -3285,6 +3285,11 @@
         "hash": "f14403d6ea73109d",
         "path": "photos/44/448_Yaris_2025/f14403d6ea73109d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Toyota_Yaris_sedan.jpg"
+      },
+      {
+        "hash": "0532e2c4a8fd6983",
+        "path": "photos/44/448_Yaris_2025/0532e2c4a8fd6983.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg"
       }
     ],
     "state": "fetched",
@@ -3300,6 +3305,11 @@
         "hash": "f14403d6ea73109d",
         "path": "photos/44/448_Yaris_2026/f14403d6ea73109d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Toyota_Yaris_sedan.jpg"
+      },
+      {
+        "hash": "0532e2c4a8fd6983",
+        "path": "photos/44/448_Yaris_2026/0532e2c4a8fd6983.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg"
       }
     ],
     "state": "fetched",
@@ -3315,6 +3325,11 @@
         "hash": "f14403d6ea73109d",
         "path": "photos/44/448_Yaris_2027/f14403d6ea73109d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Toyota_Yaris_sedan.jpg"
+      },
+      {
+        "hash": "0532e2c4a8fd6983",
+        "path": "photos/44/448_Yaris_2027/0532e2c4a8fd6983.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg"
       }
     ],
     "state": "fetched",
@@ -3330,6 +3345,11 @@
         "hash": "f14403d6ea73109d",
         "path": "photos/44/448_Yaris_2028/f14403d6ea73109d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Toyota_Yaris_sedan.jpg"
+      },
+      {
+        "hash": "0532e2c4a8fd6983",
+        "path": "photos/44/448_Yaris_2028/0532e2c4a8fd6983.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg"
       }
     ],
     "state": "fetched",
@@ -13735,6 +13755,11 @@
         "hash": "4a5f61a15b4d4a7a",
         "path": "photos/46/467_Tahoe_2028/4a5f61a15b4d4a7a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Defilarea_autostatiilor_radio_Harris.jpg"
+      },
+      {
+        "hash": "e1e1ece2485efb2a",
+        "path": "photos/46/467_Tahoe_2028/e1e1ece2485efb2a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chevrolet_Tahoe_2-door.jpg"
       }
     ],
     "state": "fetched",
@@ -13750,6 +13775,11 @@
         "hash": "ed06697bb8d1ba1d",
         "path": "photos/46/467_Trailblazer_2025/ed06697bb8d1ba1d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/2002-%2704_Chevrolet_TrailBlazer.jpg"
+      },
+      {
+        "hash": "1f52215f84464acc",
+        "path": "photos/46/467_Trailblazer_2025/1f52215f84464acc.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chevrolet_TrailBlazer_--_06-05-2010.jpg"
       }
     ],
     "state": "fetched",
@@ -13765,6 +13795,11 @@
         "hash": "ed06697bb8d1ba1d",
         "path": "photos/46/467_Trailblazer_2026/ed06697bb8d1ba1d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/2002-%2704_Chevrolet_TrailBlazer.jpg"
+      },
+      {
+        "hash": "1f52215f84464acc",
+        "path": "photos/46/467_Trailblazer_2026/1f52215f84464acc.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chevrolet_TrailBlazer_--_06-05-2010.jpg"
       }
     ],
     "state": "fetched",
@@ -15065,8 +15100,19 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Savana",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "d92243d78c93ce53",
+        "path": "photos/47/472_Savana_2027/d92243d78c93ce53.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/%2703-%2705_GMC_Savana_2500_Wagon.JPG"
+      },
+      {
+        "hash": "ee948493818cf051",
+        "path": "photos/47/472_Savana_2027/ee948493818cf051.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/%2796-%2702_GMC_Savana_2500_Cutaway_%28Byward_Auto_Classic%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "472:Savana:2028": {
@@ -15074,8 +15120,14 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Savana",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "ee948493818cf051",
+        "path": "photos/47/472_Savana_2028/ee948493818cf051.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/%2796-%2702_GMC_Savana_2500_Cutaway_%28Byward_Auto_Classic%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "472:Sierra HD:2025": {
@@ -15083,8 +15135,14 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Sierra HD",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "00b9de1b31ed74fd",
+        "path": "photos/47/472_Sierra_HD_2025/00b9de1b31ed74fd.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2020_Chevrolet_Silverado_1500_High_Country%2C_front_10.25.20.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "472:Sierra HD:2026": {
@@ -15092,8 +15150,14 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Sierra HD",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "00b9de1b31ed74fd",
+        "path": "photos/47/472_Sierra_HD_2026/00b9de1b31ed74fd.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2020_Chevrolet_Silverado_1500_High_Country%2C_front_10.25.20.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2026
   },
   "472:Sierra HD:2027": {
@@ -15102,7 +15166,7 @@
     "make_name": "GMC",
     "model": "Sierra HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "472:Sierra HD:2028": {
@@ -15111,7 +15175,7 @@
     "make_name": "GMC",
     "model": "Sierra HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "472:Sierra Limited:2025": {
@@ -15120,7 +15184,7 @@
     "make_name": "GMC",
     "model": "Sierra Limited",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "472:Sierra Limited:2026": {
@@ -15129,7 +15193,7 @@
     "make_name": "GMC",
     "model": "Sierra Limited",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "472:Sierra Limited:2027": {
@@ -15138,7 +15202,7 @@
     "make_name": "GMC",
     "model": "Sierra Limited",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "472:Sierra Limited:2028": {
@@ -15147,7 +15211,7 @@
     "make_name": "GMC",
     "model": "Sierra Limited",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "472:Sierra:2025": {
@@ -15156,7 +15220,7 @@
     "make_name": "GMC",
     "model": "Sierra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "472:Sierra:2026": {
@@ -15165,7 +15229,7 @@
     "make_name": "GMC",
     "model": "Sierra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "472:Sierra:2027": {
@@ -15174,7 +15238,7 @@
     "make_name": "GMC",
     "model": "Sierra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "472:Sierra:2028": {
@@ -15183,7 +15247,7 @@
     "make_name": "GMC",
     "model": "Sierra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "472:Terrain:2025": {
@@ -15192,7 +15256,7 @@
     "make_name": "GMC",
     "model": "Terrain",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "472:Terrain:2026": {
@@ -15201,7 +15265,7 @@
     "make_name": "GMC",
     "model": "Terrain",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "472:Terrain:2027": {
@@ -15210,7 +15274,7 @@
     "make_name": "GMC",
     "model": "Terrain",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "472:Terrain:2028": {
@@ -15218,8 +15282,14 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Terrain",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "d65adfa75aa60f66",
+        "path": "photos/47/472_Terrain_2028/d65adfa75aa60f66.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/2020_GMC_Terrain_Denali_au_SIAM_2020.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "472:Yukon XL:2025": {
@@ -15227,8 +15297,14 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Yukon XL",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "50519de342ce4261",
+        "path": "photos/47/472_Yukon_XL_2025/50519de342ce4261.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chevrolet_Suburban_%28GMTT1XX%29_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "472:Yukon XL:2026": {
@@ -15236,8 +15312,14 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Yukon XL",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "50519de342ce4261",
+        "path": "photos/47/472_Yukon_XL_2026/50519de342ce4261.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chevrolet_Suburban_%28GMTT1XX%29_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2026
   },
   "472:Yukon XL:2027": {
@@ -15245,8 +15327,14 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Yukon XL",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "50519de342ce4261",
+        "path": "photos/47/472_Yukon_XL_2027/50519de342ce4261.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chevrolet_Suburban_%28GMTT1XX%29_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "472:Yukon XL:2028": {
@@ -15254,8 +15342,14 @@
     "make_id": 472,
     "make_name": "GMC",
     "model": "Yukon XL",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "50519de342ce4261",
+        "path": "photos/47/472_Yukon_XL_2028/50519de342ce4261.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chevrolet_Suburban_%28GMTT1XX%29_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "472:Yukon:2025": {
@@ -15264,7 +15358,7 @@
     "make_name": "GMC",
     "model": "Yukon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "472:Yukon:2026": {
@@ -15273,7 +15367,7 @@
     "make_name": "GMC",
     "model": "Yukon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "472:Yukon:2027": {
@@ -15282,7 +15376,7 @@
     "make_name": "GMC",
     "model": "Yukon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "472:Yukon:2028": {
@@ -15291,7 +15385,7 @@
     "make_name": "GMC",
     "model": "Yukon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:CX-30:2025": {
@@ -15300,7 +15394,7 @@
     "make_name": "MAZDA",
     "model": "CX-30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:CX-30:2026": {
@@ -15309,7 +15403,7 @@
     "make_name": "MAZDA",
     "model": "CX-30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:CX-30:2027": {
@@ -15318,7 +15412,7 @@
     "make_name": "MAZDA",
     "model": "CX-30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:CX-30:2028": {
@@ -15327,7 +15421,7 @@
     "make_name": "MAZDA",
     "model": "CX-30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:CX-50:2025": {
@@ -15336,7 +15430,7 @@
     "make_name": "MAZDA",
     "model": "CX-50",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:CX-50:2026": {
@@ -15345,7 +15439,7 @@
     "make_name": "MAZDA",
     "model": "CX-50",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:CX-50:2027": {
@@ -15354,7 +15448,7 @@
     "make_name": "MAZDA",
     "model": "CX-50",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:CX-50:2028": {
@@ -15363,7 +15457,7 @@
     "make_name": "MAZDA",
     "model": "CX-50",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:CX-5:2025": {
@@ -15372,7 +15466,7 @@
     "make_name": "MAZDA",
     "model": "CX-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:CX-5:2026": {
@@ -15381,7 +15475,7 @@
     "make_name": "MAZDA",
     "model": "CX-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:CX-5:2027": {
@@ -15390,7 +15484,7 @@
     "make_name": "MAZDA",
     "model": "CX-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:CX-5:2028": {
@@ -15399,7 +15493,7 @@
     "make_name": "MAZDA",
     "model": "CX-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:CX-70:2025": {
@@ -15408,7 +15502,7 @@
     "make_name": "MAZDA",
     "model": "CX-70",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:CX-70:2026": {
@@ -15417,7 +15511,7 @@
     "make_name": "MAZDA",
     "model": "CX-70",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:CX-70:2027": {
@@ -15426,7 +15520,7 @@
     "make_name": "MAZDA",
     "model": "CX-70",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:CX-70:2028": {
@@ -15435,7 +15529,7 @@
     "make_name": "MAZDA",
     "model": "CX-70",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:CX-90:2025": {
@@ -15444,7 +15538,7 @@
     "make_name": "MAZDA",
     "model": "CX-90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:CX-90:2026": {
@@ -15453,7 +15547,7 @@
     "make_name": "MAZDA",
     "model": "CX-90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:CX-90:2027": {
@@ -15462,7 +15556,7 @@
     "make_name": "MAZDA",
     "model": "CX-90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:CX-90:2028": {
@@ -15471,7 +15565,7 @@
     "make_name": "MAZDA",
     "model": "CX-90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:CX-9:2025": {
@@ -15480,7 +15574,7 @@
     "make_name": "MAZDA",
     "model": "CX-9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:CX-9:2026": {
@@ -15489,7 +15583,7 @@
     "make_name": "MAZDA",
     "model": "CX-9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:CX-9:2027": {
@@ -15498,7 +15592,7 @@
     "make_name": "MAZDA",
     "model": "CX-9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:CX-9:2028": {
@@ -15507,7 +15601,7 @@
     "make_name": "MAZDA",
     "model": "CX-9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:MX-30:2025": {
@@ -15516,7 +15610,7 @@
     "make_name": "MAZDA",
     "model": "MX-30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:MX-30:2026": {
@@ -15525,7 +15619,7 @@
     "make_name": "MAZDA",
     "model": "MX-30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:MX-30:2027": {
@@ -15534,7 +15628,7 @@
     "make_name": "MAZDA",
     "model": "MX-30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:MX-30:2028": {
@@ -15543,7 +15637,7 @@
     "make_name": "MAZDA",
     "model": "MX-30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:MX-5:2025": {
@@ -15552,7 +15646,7 @@
     "make_name": "MAZDA",
     "model": "MX-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:MX-5:2026": {
@@ -15561,7 +15655,7 @@
     "make_name": "MAZDA",
     "model": "MX-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:MX-5:2027": {
@@ -15570,7 +15664,7 @@
     "make_name": "MAZDA",
     "model": "MX-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:MX-5:2028": {
@@ -15579,7 +15673,7 @@
     "make_name": "MAZDA",
     "model": "MX-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "473:Mazda3:2025": {
@@ -15588,7 +15682,7 @@
     "make_name": "MAZDA",
     "model": "Mazda3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "473:Mazda3:2026": {
@@ -15597,7 +15691,7 @@
     "make_name": "MAZDA",
     "model": "Mazda3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "473:Mazda3:2027": {
@@ -15606,7 +15700,7 @@
     "make_name": "MAZDA",
     "model": "Mazda3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "473:Mazda3:2028": {
@@ -15615,7 +15709,7 @@
     "make_name": "MAZDA",
     "model": "Mazda3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:ADV160:2025": {
@@ -15624,7 +15718,7 @@
     "make_name": "HONDA",
     "model": "ADV160",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:ADV160:2026": {
@@ -15633,7 +15727,7 @@
     "make_name": "HONDA",
     "model": "ADV160",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:ADV160:2027": {
@@ -15642,7 +15736,7 @@
     "make_name": "HONDA",
     "model": "ADV160",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:ADV160:2028": {
@@ -15651,7 +15745,7 @@
     "make_name": "HONDA",
     "model": "ADV160",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Accord:2025": {
@@ -15660,7 +15754,7 @@
     "make_name": "HONDA",
     "model": "Accord",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Accord:2026": {
@@ -15669,7 +15763,7 @@
     "make_name": "HONDA",
     "model": "Accord",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Accord:2027": {
@@ -15678,7 +15772,7 @@
     "make_name": "HONDA",
     "model": "Accord",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Accord:2028": {
@@ -15687,7 +15781,7 @@
     "make_name": "HONDA",
     "model": "Accord",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Africa Twin Adventure Sports:2025": {
@@ -15696,7 +15790,7 @@
     "make_name": "HONDA",
     "model": "Africa Twin Adventure Sports",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Africa Twin Adventure Sports:2026": {
@@ -15705,7 +15799,7 @@
     "make_name": "HONDA",
     "model": "Africa Twin Adventure Sports",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Africa Twin Adventure Sports:2027": {
@@ -15714,7 +15808,7 @@
     "make_name": "HONDA",
     "model": "Africa Twin Adventure Sports",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Africa Twin Adventure Sports:2028": {
@@ -15723,7 +15817,7 @@
     "make_name": "HONDA",
     "model": "Africa Twin Adventure Sports",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Africa Twin:2025": {
@@ -15732,7 +15826,7 @@
     "make_name": "HONDA",
     "model": "Africa Twin",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Africa Twin:2026": {
@@ -15741,7 +15835,7 @@
     "make_name": "HONDA",
     "model": "Africa Twin",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Africa Twin:2027": {
@@ -15750,7 +15844,7 @@
     "make_name": "HONDA",
     "model": "Africa Twin",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Africa Twin:2028": {
@@ -15759,7 +15853,7 @@
     "make_name": "HONDA",
     "model": "Africa Twin",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CB-1:2025": {
@@ -15768,7 +15862,7 @@
     "make_name": "HONDA",
     "model": "CB-1",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CB-1:2026": {
@@ -15777,7 +15871,7 @@
     "make_name": "HONDA",
     "model": "CB-1",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CB-1:2027": {
@@ -15786,7 +15880,7 @@
     "make_name": "HONDA",
     "model": "CB-1",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CB-1:2028": {
@@ -15795,7 +15889,7 @@
     "make_name": "HONDA",
     "model": "CB-1",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CB1000 Hornet:2025": {
@@ -15804,7 +15898,7 @@
     "make_name": "HONDA",
     "model": "CB1000 Hornet",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CB1000F:2026": {
@@ -15813,7 +15907,7 @@
     "make_name": "HONDA",
     "model": "CB1000F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CB1000F:2027": {
@@ -15822,7 +15916,7 @@
     "make_name": "HONDA",
     "model": "CB1000F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CB1000F:2028": {
@@ -15831,7 +15925,7 @@
     "make_name": "HONDA",
     "model": "CB1000F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CB125:2025": {
@@ -15840,7 +15934,7 @@
     "make_name": "HONDA",
     "model": "CB125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CB125:2026": {
@@ -15849,7 +15943,7 @@
     "make_name": "HONDA",
     "model": "CB125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CB125:2027": {
@@ -15858,7 +15952,7 @@
     "make_name": "HONDA",
     "model": "CB125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CB125:2028": {
@@ -15867,7 +15961,7 @@
     "make_name": "HONDA",
     "model": "CB125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CB300F:2025": {
@@ -15876,7 +15970,7 @@
     "make_name": "HONDA",
     "model": "CB300F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CB300R:2025": {
@@ -15885,7 +15979,7 @@
     "make_name": "HONDA",
     "model": "CB300R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CB300R:2026": {
@@ -15894,7 +15988,7 @@
     "make_name": "HONDA",
     "model": "CB300R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CB500 Hornet:2026": {
@@ -15903,7 +15997,7 @@
     "make_name": "HONDA",
     "model": "CB500 Hornet",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CB500 Hornet:2027": {
@@ -15912,7 +16006,7 @@
     "make_name": "HONDA",
     "model": "CB500 Hornet",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CB500 Hornet:2028": {
@@ -15921,7 +16015,7 @@
     "make_name": "HONDA",
     "model": "CB500 Hornet",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CB500F:2025": {
@@ -15930,7 +16024,7 @@
     "make_name": "HONDA",
     "model": "CB500F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CB650R:2025": {
@@ -15939,7 +16033,7 @@
     "make_name": "HONDA",
     "model": "CB650R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CB650R:2026": {
@@ -15948,7 +16042,7 @@
     "make_name": "HONDA",
     "model": "CB650R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CB750 (Nighthawk 750):2025": {
@@ -15957,7 +16051,7 @@
     "make_name": "HONDA",
     "model": "CB750 (Nighthawk 750)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CB750 (Nighthawk 750):2026": {
@@ -15966,7 +16060,7 @@
     "make_name": "HONDA",
     "model": "CB750 (Nighthawk 750)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CB750 Hornet E-Clutch:2026": {
@@ -15975,7 +16069,7 @@
     "make_name": "HONDA",
     "model": "CB750 Hornet E-Clutch",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CBR1000F:2025": {
@@ -15984,7 +16078,7 @@
     "make_name": "HONDA",
     "model": "CBR1000F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CBR1000F:2026": {
@@ -15993,7 +16087,7 @@
     "make_name": "HONDA",
     "model": "CBR1000F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CBR1000F:2027": {
@@ -16002,7 +16096,7 @@
     "make_name": "HONDA",
     "model": "CBR1000F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CBR1000F:2028": {
@@ -16011,7 +16105,7 @@
     "make_name": "HONDA",
     "model": "CBR1000F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CBR1000RR:2025": {
@@ -16020,7 +16114,7 @@
     "make_name": "HONDA",
     "model": "CBR1000RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CBR1000RR:2026": {
@@ -16029,7 +16123,7 @@
     "make_name": "HONDA",
     "model": "CBR1000RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CBR1000RR:2027": {
@@ -16038,7 +16132,7 @@
     "make_name": "HONDA",
     "model": "CBR1000RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CBR1000RR:2028": {
@@ -16047,7 +16141,7 @@
     "make_name": "HONDA",
     "model": "CBR1000RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CBR500R:2025": {
@@ -16056,7 +16150,7 @@
     "make_name": "HONDA",
     "model": "CBR500R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CBR500R:2026": {
@@ -16065,7 +16159,7 @@
     "make_name": "HONDA",
     "model": "CBR500R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CBR600F:2025": {
@@ -16074,7 +16168,7 @@
     "make_name": "HONDA",
     "model": "CBR600F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CBR600F:2026": {
@@ -16083,7 +16177,7 @@
     "make_name": "HONDA",
     "model": "CBR600F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CBR600F:2027": {
@@ -16092,7 +16186,7 @@
     "make_name": "HONDA",
     "model": "CBR600F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CBR600F:2028": {
@@ -16101,7 +16195,7 @@
     "make_name": "HONDA",
     "model": "CBR600F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CBR600RR:2025": {
@@ -16110,7 +16204,7 @@
     "make_name": "HONDA",
     "model": "CBR600RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CBR600RR:2026": {
@@ -16119,7 +16213,7 @@
     "make_name": "HONDA",
     "model": "CBR600RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CBR600RR:2027": {
@@ -16128,7 +16222,7 @@
     "make_name": "HONDA",
     "model": "CBR600RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CBR600RR:2028": {
@@ -16137,7 +16231,7 @@
     "make_name": "HONDA",
     "model": "CBR600RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CBR650R:2025": {
@@ -16146,7 +16240,7 @@
     "make_name": "HONDA",
     "model": "CBR650R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CBR650R:2026": {
@@ -16155,7 +16249,7 @@
     "make_name": "HONDA",
     "model": "CBR650R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CR-V:2025": {
@@ -16164,7 +16258,7 @@
     "make_name": "HONDA",
     "model": "CR-V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CR-V:2026": {
@@ -16173,7 +16267,7 @@
     "make_name": "HONDA",
     "model": "CR-V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CR-V:2027": {
@@ -16182,7 +16276,7 @@
     "make_name": "HONDA",
     "model": "CR-V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CR-V:2028": {
@@ -16191,7 +16285,7 @@
     "make_name": "HONDA",
     "model": "CR-V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CR125R:2025": {
@@ -16200,7 +16294,7 @@
     "make_name": "HONDA",
     "model": "CR125R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CR125R:2026": {
@@ -16209,7 +16303,7 @@
     "make_name": "HONDA",
     "model": "CR125R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CR125R:2027": {
@@ -16218,7 +16312,7 @@
     "make_name": "HONDA",
     "model": "CR125R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CR125R:2028": {
@@ -16227,7 +16321,7 @@
     "make_name": "HONDA",
     "model": "CR125R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CR250R:2025": {
@@ -16236,7 +16330,7 @@
     "make_name": "HONDA",
     "model": "CR250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CR250R:2026": {
@@ -16245,7 +16339,7 @@
     "make_name": "HONDA",
     "model": "CR250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CR250R:2027": {
@@ -16254,7 +16348,7 @@
     "make_name": "HONDA",
     "model": "CR250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CR250R:2028": {
@@ -16263,7 +16357,7 @@
     "make_name": "HONDA",
     "model": "CR250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CR500R:2025": {
@@ -16272,7 +16366,7 @@
     "make_name": "HONDA",
     "model": "CR500R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CR500R:2026": {
@@ -16281,7 +16375,7 @@
     "make_name": "HONDA",
     "model": "CR500R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CR500R:2027": {
@@ -16290,7 +16384,7 @@
     "make_name": "HONDA",
     "model": "CR500R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CR500R:2028": {
@@ -16299,7 +16393,7 @@
     "make_name": "HONDA",
     "model": "CR500R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CR80R:2025": {
@@ -16308,7 +16402,7 @@
     "make_name": "HONDA",
     "model": "CR80R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CR80R:2026": {
@@ -16317,7 +16411,7 @@
     "make_name": "HONDA",
     "model": "CR80R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CR80R:2027": {
@@ -16326,7 +16420,7 @@
     "make_name": "HONDA",
     "model": "CR80R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CR80R:2028": {
@@ -16335,7 +16429,7 @@
     "make_name": "HONDA",
     "model": "CR80R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF110F:2025": {
@@ -16344,7 +16438,7 @@
     "make_name": "HONDA",
     "model": "CRF110F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CRF110F:2026": {
@@ -16353,7 +16447,7 @@
     "make_name": "HONDA",
     "model": "CRF110F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF110F:2027": {
@@ -16362,7 +16456,7 @@
     "make_name": "HONDA",
     "model": "CRF110F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF110F:2028": {
@@ -16371,7 +16465,7 @@
     "make_name": "HONDA",
     "model": "CRF110F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF125F:2025": {
@@ -16380,7 +16474,7 @@
     "make_name": "HONDA",
     "model": "CRF125F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CRF125F:2026": {
@@ -16389,7 +16483,7 @@
     "make_name": "HONDA",
     "model": "CRF125F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF125F:2027": {
@@ -16398,7 +16492,7 @@
     "make_name": "HONDA",
     "model": "CRF125F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF125F:2028": {
@@ -16407,7 +16501,7 @@
     "make_name": "HONDA",
     "model": "CRF125F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF150R:2025": {
@@ -16416,7 +16510,7 @@
     "make_name": "HONDA",
     "model": "CRF150R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CRF150R:2026": {
@@ -16425,7 +16519,7 @@
     "make_name": "HONDA",
     "model": "CRF150R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF150R:2027": {
@@ -16434,7 +16528,7 @@
     "make_name": "HONDA",
     "model": "CRF150R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF150R:2028": {
@@ -16443,7 +16537,7 @@
     "make_name": "HONDA",
     "model": "CRF150R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF250F:2025": {
@@ -16452,7 +16546,7 @@
     "make_name": "HONDA",
     "model": "CRF250F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CRF250R:2025": {
@@ -16461,7 +16555,7 @@
     "make_name": "HONDA",
     "model": "CRF250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CRF250R:2026": {
@@ -16470,7 +16564,7 @@
     "make_name": "HONDA",
     "model": "CRF250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF250R:2027": {
@@ -16479,7 +16573,7 @@
     "make_name": "HONDA",
     "model": "CRF250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF250R:2028": {
@@ -16488,7 +16582,7 @@
     "make_name": "HONDA",
     "model": "CRF250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF300F:2026": {
@@ -16497,7 +16591,7 @@
     "make_name": "HONDA",
     "model": "CRF300F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF300F:2027": {
@@ -16506,7 +16600,7 @@
     "make_name": "HONDA",
     "model": "CRF300F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF300F:2028": {
@@ -16515,7 +16609,7 @@
     "make_name": "HONDA",
     "model": "CRF300F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF300L:2025": {
@@ -16524,7 +16618,7 @@
     "make_name": "HONDA",
     "model": "CRF300L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CRF300L:2026": {
@@ -16533,7 +16627,7 @@
     "make_name": "HONDA",
     "model": "CRF300L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF450L:2027": {
@@ -16542,7 +16636,7 @@
     "make_name": "HONDA",
     "model": "CRF450L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF450L:2028": {
@@ -16551,7 +16645,7 @@
     "make_name": "HONDA",
     "model": "CRF450L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF450R:2025": {
@@ -16560,7 +16654,7 @@
     "make_name": "HONDA",
     "model": "CRF450R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CRF450R:2026": {
@@ -16569,7 +16663,7 @@
     "make_name": "HONDA",
     "model": "CRF450R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF450R:2027": {
@@ -16578,7 +16672,7 @@
     "make_name": "HONDA",
     "model": "CRF450R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF450R:2028": {
@@ -16587,7 +16681,7 @@
     "make_name": "HONDA",
     "model": "CRF450R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF450RL:2026": {
@@ -16596,7 +16690,7 @@
     "make_name": "HONDA",
     "model": "CRF450RL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF450RL:2027": {
@@ -16605,7 +16699,7 @@
     "make_name": "HONDA",
     "model": "CRF450RL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF450RL:2028": {
@@ -16614,7 +16708,7 @@
     "make_name": "HONDA",
     "model": "CRF450RL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF450X:2026": {
@@ -16623,7 +16717,7 @@
     "make_name": "HONDA",
     "model": "CRF450X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF450X:2027": {
@@ -16632,7 +16726,7 @@
     "make_name": "HONDA",
     "model": "CRF450X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF450X:2028": {
@@ -16641,7 +16735,7 @@
     "make_name": "HONDA",
     "model": "CRF450X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:CRF50F:2025": {
@@ -16650,7 +16744,7 @@
     "make_name": "HONDA",
     "model": "CRF50F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:CRF50F:2026": {
@@ -16659,7 +16753,7 @@
     "make_name": "HONDA",
     "model": "CRF50F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:CRF50F:2027": {
@@ -16668,7 +16762,7 @@
     "make_name": "HONDA",
     "model": "CRF50F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:CRF50F:2028": {
@@ -16677,7 +16771,7 @@
     "make_name": "HONDA",
     "model": "CRF50F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Civic Si:2025": {
@@ -16686,7 +16780,7 @@
     "make_name": "HONDA",
     "model": "Civic Si",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Civic Si:2026": {
@@ -16695,7 +16789,7 @@
     "make_name": "HONDA",
     "model": "Civic Si",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Civic Si:2027": {
@@ -16704,7 +16798,7 @@
     "make_name": "HONDA",
     "model": "Civic Si",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Civic Si:2028": {
@@ -16713,7 +16807,7 @@
     "make_name": "HONDA",
     "model": "Civic Si",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Civic Type R:2025": {
@@ -16722,7 +16816,7 @@
     "make_name": "HONDA",
     "model": "Civic Type R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Civic Type R:2026": {
@@ -16731,7 +16825,7 @@
     "make_name": "HONDA",
     "model": "Civic Type R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Civic Type R:2027": {
@@ -16740,7 +16834,7 @@
     "make_name": "HONDA",
     "model": "Civic Type R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Civic Type R:2028": {
@@ -16749,7 +16843,7 @@
     "make_name": "HONDA",
     "model": "Civic Type R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Civic:2025": {
@@ -16758,7 +16852,7 @@
     "make_name": "HONDA",
     "model": "Civic",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Civic:2026": {
@@ -16767,7 +16861,7 @@
     "make_name": "HONDA",
     "model": "Civic",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Civic:2027": {
@@ -16776,7 +16870,7 @@
     "make_name": "HONDA",
     "model": "Civic",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Civic:2028": {
@@ -16785,7 +16879,7 @@
     "make_name": "HONDA",
     "model": "Civic",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Cota 310RR:2026": {
@@ -16794,7 +16888,7 @@
     "make_name": "HONDA",
     "model": "Cota 310RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Cota 310RR:2027": {
@@ -16803,7 +16897,7 @@
     "make_name": "HONDA",
     "model": "Cota 310RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Cota 310RR:2028": {
@@ -16812,7 +16906,7 @@
     "make_name": "HONDA",
     "model": "Cota 310RR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Cota 4RT 260R:2026": {
@@ -16821,7 +16915,7 @@
     "make_name": "HONDA",
     "model": "Cota 4RT 260R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Cota 4RT 260R:2027": {
@@ -16830,7 +16924,7 @@
     "make_name": "HONDA",
     "model": "Cota 4RT 260R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Cota 4RT 260R:2028": {
@@ -16839,7 +16933,7 @@
     "make_name": "HONDA",
     "model": "Cota 4RT 260R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:DAX125:2025": {
@@ -16848,7 +16942,7 @@
     "make_name": "HONDA",
     "model": "DAX125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:DAX125:2026": {
@@ -16857,7 +16951,7 @@
     "make_name": "HONDA",
     "model": "DAX125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Elite:2025": {
