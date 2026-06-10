@@ -11997,6 +11997,11 @@
         "hash": "1601a75de5963c00",
         "path": "photos/46/464_Continental_2026/1601a75de5963c00.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/1961_Lincoln_Continental_Sedan.jpg"
+      },
+      {
+        "hash": "3b5a8a9ef2080725",
+        "path": "photos/46/464_Continental_2026/3b5a8a9ef2080725.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/1975_Lincoln_Continental_Mark_IV%2C_Dutch_licence_registration_21-YB-60_p1.JPG"
       }
     ],
     "state": "fetched",
@@ -12022,6 +12027,11 @@
         "hash": "1601a75de5963c00",
         "path": "photos/46/464_Continental_2027/1601a75de5963c00.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/1961_Lincoln_Continental_Sedan.jpg"
+      },
+      {
+        "hash": "3b5a8a9ef2080725",
+        "path": "photos/46/464_Continental_2027/3b5a8a9ef2080725.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/1975_Lincoln_Continental_Mark_IV%2C_Dutch_licence_registration_21-YB-60_p1.JPG"
       }
     ],
     "state": "fetched",
@@ -12047,6 +12057,11 @@
         "hash": "1601a75de5963c00",
         "path": "photos/46/464_Continental_2028/1601a75de5963c00.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/1961_Lincoln_Continental_Sedan.jpg"
+      },
+      {
+        "hash": "3b5a8a9ef2080725",
+        "path": "photos/46/464_Continental_2028/3b5a8a9ef2080725.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/1975_Lincoln_Continental_Mark_IV%2C_Dutch_licence_registration_21-YB-60_p1.JPG"
       }
     ],
     "state": "fetched",
@@ -16959,8 +16974,19 @@
     "make_id": 474,
     "make_name": "HONDA",
     "model": "Elite",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "ceb69e6a2a23bdb7",
+        "path": "photos/47/474_Elite_2025/ceb69e6a2a23bdb7.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/1986_Honda_Elite_250_Lane_Motor_Museum.jpg"
+      },
+      {
+        "hash": "ad0fcb094feffbc3",
+        "path": "photos/47/474_Elite_2025/ad0fcb094feffbc3.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/2019_Honda_Passport_Elite.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "474:Elite:2026": {
@@ -16969,7 +16995,7 @@
     "make_name": "HONDA",
     "model": "Elite",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Elite:2027": {
@@ -16978,7 +17004,7 @@
     "make_name": "HONDA",
     "model": "Elite",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Elite:2028": {
@@ -16987,7 +17013,7 @@
     "make_name": "HONDA",
     "model": "Elite",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Fireblade:2025": {
@@ -16996,7 +17022,7 @@
     "make_name": "HONDA",
     "model": "Fireblade",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Fireblade:2026": {
@@ -17005,7 +17031,7 @@
     "make_name": "HONDA",
     "model": "Fireblade",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Fireblade:2027": {
@@ -17014,7 +17040,7 @@
     "make_name": "HONDA",
     "model": "Fireblade",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Fireblade:2028": {
@@ -17023,7 +17049,7 @@
     "make_name": "HONDA",
     "model": "Fireblade",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Foreman:2025": {
@@ -17032,7 +17058,7 @@
     "make_name": "HONDA",
     "model": "Foreman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Foreman:2026": {
@@ -17041,7 +17067,7 @@
     "make_name": "HONDA",
     "model": "Foreman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Foreman:2027": {
@@ -17050,7 +17076,7 @@
     "make_name": "HONDA",
     "model": "Foreman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Foreman:2028": {
@@ -17059,7 +17085,7 @@
     "make_name": "HONDA",
     "model": "Foreman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:FourTrax Foreman Rubicon:2026": {
@@ -17068,7 +17094,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Foreman Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:FourTrax Foreman Rubicon:2027": {
@@ -17077,7 +17103,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Foreman Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:FourTrax Foreman Rubicon:2028": {
@@ -17086,7 +17112,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Foreman Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:FourTrax Foreman:2026": {
@@ -17095,7 +17121,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Foreman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:FourTrax Foreman:2027": {
@@ -17104,7 +17130,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Foreman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:FourTrax Foreman:2028": {
@@ -17113,7 +17139,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Foreman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:FourTrax Rancher:2026": {
@@ -17122,7 +17148,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Rancher",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:FourTrax Rancher:2027": {
@@ -17131,7 +17157,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Rancher",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:FourTrax Rancher:2028": {
@@ -17140,7 +17166,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Rancher",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:FourTrax Recon:2026": {
@@ -17149,7 +17175,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Recon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:FourTrax Recon:2027": {
@@ -17158,7 +17184,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Recon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:FourTrax Recon:2028": {
@@ -17167,7 +17193,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Recon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:FourTrax Rubicon:2026": {
@@ -17176,7 +17202,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:FourTrax Rubicon:2027": {
@@ -17185,7 +17211,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:FourTrax Rubicon:2028": {
@@ -17194,7 +17220,7 @@
     "make_name": "HONDA",
     "model": "FourTrax Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Fury:2025": {
@@ -17203,7 +17229,7 @@
     "make_name": "HONDA",
     "model": "Fury",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Gold Wing Tour:2025": {
@@ -17212,7 +17238,7 @@
     "make_name": "HONDA",
     "model": "Gold Wing Tour",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Gold Wing Tour:2026": {
@@ -17221,7 +17247,7 @@
     "make_name": "HONDA",
     "model": "Gold Wing Tour",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Gold Wing Tour:2027": {
@@ -17230,7 +17256,7 @@
     "make_name": "HONDA",
     "model": "Gold Wing Tour",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Gold Wing Tour:2028": {
@@ -17239,7 +17265,7 @@
     "make_name": "HONDA",
     "model": "Gold Wing Tour",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Gold Wing:2025": {
@@ -17248,7 +17274,7 @@
     "make_name": "HONDA",
     "model": "Gold Wing",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Gold Wing:2026": {
@@ -17257,7 +17283,7 @@
     "make_name": "HONDA",
     "model": "Gold Wing",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Gold Wing:2027": {
@@ -17266,7 +17292,7 @@
     "make_name": "HONDA",
     "model": "Gold Wing",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Gold Wing:2028": {
@@ -17275,7 +17301,7 @@
     "make_name": "HONDA",
     "model": "Gold Wing",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Grom:2025": {
@@ -17284,7 +17310,7 @@
     "make_name": "HONDA",
     "model": "Grom",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Grom:2026": {
@@ -17293,7 +17319,7 @@
     "make_name": "HONDA",
     "model": "Grom",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:HR-V:2025": {
@@ -17302,7 +17328,7 @@
     "make_name": "HONDA",
     "model": "HR-V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:HR-V:2026": {
@@ -17311,7 +17337,7 @@
     "make_name": "HONDA",
     "model": "HR-V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:HR-V:2027": {
@@ -17320,7 +17346,7 @@
     "make_name": "HONDA",
     "model": "HR-V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:HR-V:2028": {
@@ -17329,7 +17355,7 @@
     "make_name": "HONDA",
     "model": "HR-V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Hawk GT:2025": {
@@ -17337,8 +17363,14 @@
     "make_id": 474,
     "make_name": "HONDA",
     "model": "Hawk GT",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "94f66586a693214c",
+        "path": "photos/47/474_Hawk_GT_2025/94f66586a693214c.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Honda_Hawk_01.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "474:Hawk GT:2026": {
@@ -17347,7 +17379,7 @@
     "make_name": "HONDA",
     "model": "Hawk GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Hawk GT:2027": {
@@ -17356,7 +17388,7 @@
     "make_name": "HONDA",
     "model": "Hawk GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Hawk GT:2028": {
@@ -17365,7 +17397,7 @@
     "make_name": "HONDA",
     "model": "Hawk GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Monkey:2025": {
@@ -17374,7 +17406,7 @@
     "make_name": "HONDA",
     "model": "Monkey",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Monkey:2026": {
@@ -17383,7 +17415,7 @@
     "make_name": "HONDA",
     "model": "Monkey",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:NC750X:2025": {
@@ -17392,7 +17424,7 @@
     "make_name": "HONDA",
     "model": "NC750X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NC750X:2026": {
@@ -17401,7 +17433,7 @@
     "make_name": "HONDA",
     "model": "NC750X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:NC750X:2027": {
@@ -17410,7 +17442,7 @@
     "make_name": "HONDA",
     "model": "NC750X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:NC750X:2028": {
@@ -17419,7 +17451,7 @@
     "make_name": "HONDA",
     "model": "NC750X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:NCW50 (Giorno):2025": {
@@ -17428,7 +17460,7 @@
     "make_name": "HONDA",
     "model": "NCW50 (Giorno)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NCW50 (Metropolitan):2025": {
@@ -17437,7 +17469,7 @@
     "make_name": "HONDA",
     "model": "NCW50 (Metropolitan)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NCW50 (Metropolitan):2026": {
@@ -17446,7 +17478,7 @@
     "make_name": "HONDA",
     "model": "NCW50 (Metropolitan)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:NCW50 (Metropolitan):2027": {
@@ -17455,7 +17487,7 @@
     "make_name": "HONDA",
     "model": "NCW50 (Metropolitan)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:NCW50 (Metropolitan):2028": {
@@ -17464,7 +17496,7 @@
     "make_name": "HONDA",
     "model": "NCW50 (Metropolitan)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:NPS50 (Ruckus):2025": {
@@ -17473,7 +17505,7 @@
     "make_name": "HONDA",
     "model": "NPS50 (Ruckus)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NS50F:2025": {
@@ -17482,7 +17514,7 @@
     "make_name": "HONDA",
     "model": "NS50F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NS50F:2026": {
@@ -17491,7 +17523,7 @@
     "make_name": "HONDA",
     "model": "NS50F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:NS50F:2027": {
@@ -17500,7 +17532,7 @@
     "make_name": "HONDA",
     "model": "NS50F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:NS50F:2028": {
@@ -17509,7 +17541,7 @@
     "make_name": "HONDA",
     "model": "NS50F",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:NT1100:2025": {
@@ -17518,7 +17550,7 @@
     "make_name": "HONDA",
     "model": "NT1100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NT1100:2026": {
@@ -17527,7 +17559,7 @@
     "make_name": "HONDA",
     "model": "NT1100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:NT1100:2027": {
@@ -17536,7 +17568,7 @@
     "make_name": "HONDA",
     "model": "NT1100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:NT1100:2028": {
@@ -17545,7 +17577,7 @@
     "make_name": "HONDA",
     "model": "NT1100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:NX125:2025": {
@@ -17554,7 +17586,7 @@
     "make_name": "HONDA",
     "model": "NX125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NX125:2026": {
@@ -17563,7 +17595,7 @@
     "make_name": "HONDA",
     "model": "NX125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:NX125:2027": {
@@ -17572,7 +17604,7 @@
     "make_name": "HONDA",
     "model": "NX125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:NX125:2028": {
@@ -17581,7 +17613,7 @@
     "make_name": "HONDA",
     "model": "NX125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:NX250:2025": {
@@ -17590,7 +17622,7 @@
     "make_name": "HONDA",
     "model": "NX250",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NX250:2026": {
@@ -17599,7 +17631,7 @@
     "make_name": "HONDA",
     "model": "NX250",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:NX250:2027": {
@@ -17608,7 +17640,7 @@
     "make_name": "HONDA",
     "model": "NX250",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:NX250:2028": {
@@ -17617,7 +17649,7 @@
     "make_name": "HONDA",
     "model": "NX250",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:NX500:2025": {
@@ -17626,7 +17658,7 @@
     "make_name": "HONDA",
     "model": "NX500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:NX500:2026": {
@@ -17635,7 +17667,7 @@
     "make_name": "HONDA",
     "model": "NX500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Navi:2025": {
@@ -17644,7 +17676,7 @@
     "make_name": "HONDA",
     "model": "Navi",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Navi:2026": {
@@ -17653,7 +17685,7 @@
     "make_name": "HONDA",
     "model": "Navi",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Navi:2027": {
@@ -17662,7 +17694,7 @@
     "make_name": "HONDA",
     "model": "Navi",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Navi:2028": {
@@ -17671,7 +17703,7 @@
     "make_name": "HONDA",
     "model": "Navi",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Nighthawk 750:2025": {
@@ -17680,7 +17712,7 @@
     "make_name": "HONDA",
     "model": "Nighthawk 750",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Odyssey:2025": {
@@ -17689,7 +17721,7 @@
     "make_name": "HONDA",
     "model": "Odyssey",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Odyssey:2026": {
@@ -17698,7 +17730,7 @@
     "make_name": "HONDA",
     "model": "Odyssey",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Odyssey:2027": {
@@ -17707,7 +17739,7 @@
     "make_name": "HONDA",
     "model": "Odyssey",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Odyssey:2028": {
@@ -17716,7 +17748,7 @@
     "make_name": "HONDA",
     "model": "Odyssey",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:PCX:2025": {
@@ -17725,7 +17757,7 @@
     "make_name": "HONDA",
     "model": "PCX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:PCX:2026": {
@@ -17734,7 +17766,7 @@
     "make_name": "HONDA",
     "model": "PCX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:PCX:2027": {
@@ -17743,7 +17775,7 @@
     "make_name": "HONDA",
     "model": "PCX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:PCX:2028": {
@@ -17752,7 +17784,7 @@
     "make_name": "HONDA",
     "model": "PCX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Pacific Coast:2025": {
@@ -17761,7 +17793,7 @@
     "make_name": "HONDA",
     "model": "Pacific Coast",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Pacific Coast:2026": {
@@ -17770,7 +17802,7 @@
     "make_name": "HONDA",
     "model": "Pacific Coast",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Pacific Coast:2027": {
@@ -17779,7 +17811,7 @@
     "make_name": "HONDA",
     "model": "Pacific Coast",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Pacific Coast:2028": {
@@ -17788,7 +17820,7 @@
     "make_name": "HONDA",
     "model": "Pacific Coast",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Passport:2025": {
@@ -17797,7 +17829,7 @@
     "make_name": "HONDA",
     "model": "Passport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Passport:2026": {
@@ -17806,7 +17838,7 @@
     "make_name": "HONDA",
     "model": "Passport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Passport:2027": {
@@ -17815,7 +17847,7 @@
     "make_name": "HONDA",
     "model": "Passport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Passport:2028": {
@@ -17824,7 +17856,7 @@
     "make_name": "HONDA",
     "model": "Passport",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Pilot:2025": {
@@ -17833,7 +17865,7 @@
     "make_name": "HONDA",
     "model": "Pilot",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Pilot:2026": {
@@ -17842,7 +17874,7 @@
     "make_name": "HONDA",
     "model": "Pilot",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Pilot:2027": {
@@ -17851,7 +17883,7 @@
     "make_name": "HONDA",
     "model": "Pilot",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Pilot:2028": {
@@ -17860,7 +17892,7 @@
     "make_name": "HONDA",
     "model": "Pilot",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Prelude:2026": {
@@ -17869,7 +17901,7 @@
     "make_name": "HONDA",
     "model": "Prelude",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Prelude:2027": {
@@ -17878,7 +17910,7 @@
     "make_name": "HONDA",
     "model": "Prelude",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Prelude:2028": {
@@ -17887,7 +17919,7 @@
     "make_name": "HONDA",
     "model": "Prelude",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Prologue:2025": {
@@ -17895,8 +17927,14 @@
     "make_id": 474,
     "make_name": "HONDA",
     "model": "Prologue",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "402dadab00484854",
+        "path": "photos/47/474_Prologue_2025/402dadab00484854.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/2024_Honda_Prologue_Touring%2C_front_7.11.25.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "474:Prologue:2026": {
@@ -17905,7 +17943,7 @@
     "make_name": "HONDA",
     "model": "Prologue",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Prologue:2027": {
@@ -17914,7 +17952,7 @@
     "make_name": "HONDA",
     "model": "Prologue",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Prologue:2028": {
@@ -17923,7 +17961,7 @@
     "make_name": "HONDA",
     "model": "Prologue",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:RC30:2025": {
@@ -17932,7 +17970,7 @@
     "make_name": "HONDA",
     "model": "RC30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:RC30:2026": {
@@ -17941,7 +17979,7 @@
     "make_name": "HONDA",
     "model": "RC30",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:RC30:2027": {
@@ -17949,8 +17987,19 @@
     "make_id": 474,
     "make_name": "HONDA",
     "model": "RC30",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "c28c4b9bf3b57995",
+        "path": "photos/47/474_RC30_2027/c28c4b9bf3b57995.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1983_Honda_Interceptor_VF750F.jpg"
+      },
+      {
+        "hash": "20ee3d520716c837",
+        "path": "photos/47/474_RC30_2027/20ee3d520716c837.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/JoeyDunlopKatesCottage.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "474:RC30:2028": {
@@ -17958,8 +18007,19 @@
     "make_id": 474,
     "make_name": "HONDA",
     "model": "RC30",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "c28c4b9bf3b57995",
+        "path": "photos/47/474_RC30_2028/c28c4b9bf3b57995.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1983_Honda_Interceptor_VF750F.jpg"
+      },
+      {
+        "hash": "20ee3d520716c837",
+        "path": "photos/47/474_RC30_2028/20ee3d520716c837.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/JoeyDunlopKatesCottage.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "474:Rancher:2025": {
@@ -17968,7 +18028,7 @@
     "make_name": "HONDA",
     "model": "Rancher",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Rancher:2026": {
@@ -17977,7 +18037,7 @@
     "make_name": "HONDA",
     "model": "Rancher",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Rancher:2027": {
@@ -17986,7 +18046,7 @@
     "make_name": "HONDA",
     "model": "Rancher",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Rancher:2028": {
@@ -17995,7 +18055,7 @@
     "make_name": "HONDA",
     "model": "Rancher",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Rebel 1100:2025": {
@@ -18004,7 +18064,7 @@
     "make_name": "HONDA",
     "model": "Rebel 1100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Rebel 1100:2026": {
@@ -18013,7 +18073,7 @@
     "make_name": "HONDA",
     "model": "Rebel 1100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Rebel 1100:2027": {
@@ -18022,7 +18082,7 @@
     "make_name": "HONDA",
     "model": "Rebel 1100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Rebel 1100:2028": {
@@ -18031,7 +18091,7 @@
     "make_name": "HONDA",
     "model": "Rebel 1100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Rebel 300:2025": {
@@ -18040,7 +18100,7 @@
     "make_name": "HONDA",
     "model": "Rebel 300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Rebel 300:2026": {
@@ -18049,7 +18109,7 @@
     "make_name": "HONDA",
     "model": "Rebel 300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Rebel:2025": {
@@ -18058,7 +18118,7 @@
     "make_name": "HONDA",
     "model": "Rebel",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Rebel:2026": {
@@ -18067,7 +18127,7 @@
     "make_name": "HONDA",
     "model": "Rebel",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Recon:2025": {
@@ -18076,7 +18136,7 @@
     "make_name": "HONDA",
     "model": "Recon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Ridgeline:2025": {
@@ -18085,7 +18145,7 @@
     "make_name": "HONDA",
     "model": "Ridgeline",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Ridgeline:2026": {
@@ -18094,7 +18154,7 @@
     "make_name": "HONDA",
     "model": "Ridgeline",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Ridgeline:2027": {
@@ -18103,7 +18163,7 @@
     "make_name": "HONDA",
     "model": "Ridgeline",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Ridgeline:2028": {
@@ -18112,7 +18172,7 @@
     "make_name": "HONDA",
     "model": "Ridgeline",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Rubicon:2025": {
@@ -18121,7 +18181,7 @@
     "make_name": "HONDA",
     "model": "Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Rubicon:2026": {
@@ -18130,7 +18190,7 @@
     "make_name": "HONDA",
     "model": "Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Rubicon:2027": {
@@ -18139,7 +18199,7 @@
     "make_name": "HONDA",
     "model": "Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Rubicon:2028": {
@@ -18148,7 +18208,7 @@
     "make_name": "HONDA",
     "model": "Rubicon",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:SCL500:2025": {
@@ -18157,7 +18217,7 @@
     "make_name": "HONDA",
     "model": "SCL500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:SCL500:2026": {
@@ -18166,7 +18226,7 @@
     "make_name": "HONDA",
     "model": "SCL500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:SXS1000M (Pioneer 1000):2025": {
@@ -18175,7 +18235,7 @@
     "make_name": "HONDA",
     "model": "SXS1000M (Pioneer 1000)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:SXS1000M (Pioneer 1000):2026": {
@@ -18184,7 +18244,7 @@
     "make_name": "HONDA",
     "model": "SXS1000M (Pioneer 1000)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:SXS1000M (Pioneer 1000):2027": {
@@ -18193,7 +18253,7 @@
     "make_name": "HONDA",
     "model": "SXS1000M (Pioneer 1000)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:SXS1000M (Pioneer 1000):2028": {
@@ -18202,7 +18262,7 @@
     "make_name": "HONDA",
     "model": "SXS1000M (Pioneer 1000)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:SXS1000S (Talon 1000):2026": {
@@ -18211,7 +18271,7 @@
     "make_name": "HONDA",
     "model": "SXS1000S (Talon 1000)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:SXS1000S (Talon 1000):2027": {
@@ -18220,7 +18280,7 @@
     "make_name": "HONDA",
     "model": "SXS1000S (Talon 1000)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:SXS1000S (Talon 1000):2028": {
@@ -18229,7 +18289,7 @@
     "make_name": "HONDA",
     "model": "SXS1000S (Talon 1000)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:SXS520M (Pioneer 520):2025": {
@@ -18238,7 +18298,7 @@
     "make_name": "HONDA",
     "model": "SXS520M (Pioneer 520)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:SXS520M (Pioneer 520):2026": {
@@ -18247,7 +18307,7 @@
     "make_name": "HONDA",
     "model": "SXS520M (Pioneer 520)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:SXS520M (Pioneer 520):2027": {
@@ -18256,7 +18316,7 @@
     "make_name": "HONDA",
     "model": "SXS520M (Pioneer 520)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:SXS520M (Pioneer 520):2028": {
@@ -18265,7 +18325,7 @@
     "make_name": "HONDA",
     "model": "SXS520M (Pioneer 520)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:SXS700M (Pioneer 700):2025": {
@@ -18274,7 +18334,7 @@
     "make_name": "HONDA",
     "model": "SXS700M (Pioneer 700)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:SXS700M (Pioneer 700):2026": {
@@ -18283,7 +18343,7 @@
     "make_name": "HONDA",
     "model": "SXS700M (Pioneer 700)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:SXS700M (Pioneer 700):2027": {
@@ -18292,7 +18352,7 @@
     "make_name": "HONDA",
     "model": "SXS700M (Pioneer 700)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:SXS700M (Pioneer 700):2028": {
@@ -18301,7 +18361,7 @@
     "make_name": "HONDA",
     "model": "SXS700M (Pioneer 700)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:TRX250X:2026": {
@@ -18310,7 +18370,7 @@
     "make_name": "HONDA",
     "model": "TRX250X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:TRX250X:2027": {
@@ -18319,7 +18379,7 @@
     "make_name": "HONDA",
     "model": "TRX250X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:TRX250X:2028": {
@@ -18328,7 +18388,7 @@
     "make_name": "HONDA",
     "model": "TRX250X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:TRX90X:2025": {
@@ -18337,7 +18397,7 @@
     "make_name": "HONDA",
     "model": "TRX90X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:TRX90X:2026": {
@@ -18346,7 +18406,7 @@
     "make_name": "HONDA",
     "model": "TRX90X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:TRX90X:2027": {
@@ -18355,7 +18415,7 @@
     "make_name": "HONDA",
     "model": "TRX90X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:TRX90X:2028": {
@@ -18364,7 +18424,7 @@
     "make_name": "HONDA",
     "model": "TRX90X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Tourist Trophy:2025": {
@@ -18373,7 +18433,7 @@
     "make_name": "HONDA",
     "model": "Tourist Trophy",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Tourist Trophy:2026": {
@@ -18382,7 +18442,7 @@
     "make_name": "HONDA",
     "model": "Tourist Trophy",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Tourist Trophy:2027": {
@@ -18391,7 +18451,7 @@
     "make_name": "HONDA",
     "model": "Tourist Trophy",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Tourist Trophy:2028": {
@@ -18400,7 +18460,7 @@
     "make_name": "HONDA",
     "model": "Tourist Trophy",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Trail125:2025": {
@@ -18409,7 +18469,7 @@
     "make_name": "HONDA",
     "model": "Trail125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Trail125:2026": {
@@ -18418,7 +18478,7 @@
     "make_name": "HONDA",
     "model": "Trail125",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Transalp:2025": {
@@ -18427,7 +18487,7 @@
     "make_name": "HONDA",
     "model": "Transalp",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Transalp:2026": {
@@ -18436,7 +18496,7 @@
     "make_name": "HONDA",
     "model": "Transalp",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:VF750 (Interceptor 750):2025": {
@@ -18445,7 +18505,7 @@
     "make_name": "HONDA",
     "model": "VF750 (Interceptor 750)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:VF750 (Interceptor 750):2026": {
@@ -18454,7 +18514,7 @@
     "make_name": "HONDA",
     "model": "VF750 (Interceptor 750)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:VF750 (Interceptor 750):2027": {
@@ -18463,7 +18523,7 @@
     "make_name": "HONDA",
     "model": "VF750 (Interceptor 750)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:VF750 (Interceptor 750):2028": {
@@ -18472,7 +18532,7 @@
     "make_name": "HONDA",
     "model": "VF750 (Interceptor 750)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:VT750 (Shadow Phantom 750):2025": {
@@ -18481,7 +18541,7 @@
     "make_name": "HONDA",
     "model": "VT750 (Shadow Phantom 750)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:VTR250 (Interceptor 250):2025": {
@@ -18490,7 +18550,7 @@
     "make_name": "HONDA",
     "model": "VTR250 (Interceptor 250)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:VTR250 (Interceptor 250):2026": {
@@ -18499,7 +18559,7 @@
     "make_name": "HONDA",
     "model": "VTR250 (Interceptor 250)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:VTR250 (Interceptor 250):2027": {
@@ -18508,7 +18568,7 @@
     "make_name": "HONDA",
     "model": "VTR250 (Interceptor 250)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:VTR250 (Interceptor 250):2028": {
@@ -18517,7 +18577,7 @@
     "make_name": "HONDA",
     "model": "VTR250 (Interceptor 250)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:XL600V:2025": {
@@ -18526,7 +18586,7 @@
     "make_name": "HONDA",
     "model": "XL600V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:XL600V:2026": {
@@ -18535,7 +18595,7 @@
     "make_name": "HONDA",
     "model": "XL600V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:XL600V:2027": {
@@ -18544,7 +18604,7 @@
     "make_name": "HONDA",
     "model": "XL600V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:XL600V:2028": {
@@ -18553,7 +18613,7 @@
     "make_name": "HONDA",
     "model": "XL600V",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:XR150L:2025": {
@@ -18562,7 +18622,7 @@
     "make_name": "HONDA",
     "model": "XR150L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:XR150L:2026": {
@@ -18571,7 +18631,7 @@
     "make_name": "HONDA",
     "model": "XR150L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:XR150L:2027": {
@@ -18580,7 +18640,7 @@
     "make_name": "HONDA",
     "model": "XR150L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:XR150L:2028": {
@@ -18589,7 +18649,7 @@
     "make_name": "HONDA",
     "model": "XR150L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:XR250R:2025": {
@@ -18598,7 +18658,7 @@
     "make_name": "HONDA",
     "model": "XR250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:XR250R:2026": {
@@ -18607,7 +18667,7 @@
     "make_name": "HONDA",
     "model": "XR250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:XR250R:2027": {
@@ -18616,7 +18676,7 @@
     "make_name": "HONDA",
     "model": "XR250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:XR250R:2028": {
@@ -18625,7 +18685,7 @@
     "make_name": "HONDA",
     "model": "XR250R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:XR600R:2025": {
@@ -18634,7 +18694,7 @@
     "make_name": "HONDA",
     "model": "XR600R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:XR600R:2026": {
@@ -18643,7 +18703,7 @@
     "make_name": "HONDA",
     "model": "XR600R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:XR600R:2027": {
@@ -18652,7 +18712,7 @@
     "make_name": "HONDA",
     "model": "XR600R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:XR600R:2028": {
@@ -18661,7 +18721,7 @@
     "make_name": "HONDA",
     "model": "XR600R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:XR650L:2025": {
@@ -18670,7 +18730,7 @@
     "make_name": "HONDA",
     "model": "XR650L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:XR80R:2025": {
@@ -18679,7 +18739,7 @@
     "make_name": "HONDA",
     "model": "XR80R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:XR80R:2026": {
@@ -18688,7 +18748,7 @@
     "make_name": "HONDA",
     "model": "XR80R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:XR80R:2027": {
@@ -18697,7 +18757,7 @@
     "make_name": "HONDA",
     "model": "XR80R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:XR80R:2028": {
@@ -18706,7 +18766,7 @@
     "make_name": "HONDA",
     "model": "XR80R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "474:Z50R:2025": {
@@ -18715,7 +18775,7 @@
     "make_name": "HONDA",
     "model": "Z50R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "474:Z50R:2026": {
@@ -18724,7 +18784,7 @@
     "make_name": "HONDA",
     "model": "Z50R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "474:Z50R:2027": {
@@ -18733,7 +18793,7 @@
     "make_name": "HONDA",
     "model": "Z50R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "474:Z50R:2028": {
@@ -18742,7 +18802,7 @@
     "make_name": "HONDA",
     "model": "Z50R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "475:ADX:2025": {
@@ -18751,7 +18811,7 @@
     "make_name": "ACURA",
     "model": "ADX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "475:ADX:2026": {
