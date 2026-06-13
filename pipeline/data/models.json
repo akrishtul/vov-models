@@ -13254,6 +13254,11 @@
         "hash": "ec34ac655e36c509",
         "path": "photos/46/467_Impala_2026/ec34ac655e36c509.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/1980_Chevrolet_Impala_%28cropped%29.jpg"
+      },
+      {
+        "hash": "c7256ddd8dc7e9f6",
+        "path": "photos/46/467_Impala_2026/c7256ddd8dc7e9f6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/JeffBurton2007BristolAugustRace.jpg"
       }
     ],
     "state": "fetched",
@@ -13299,6 +13304,11 @@
         "hash": "ec34ac655e36c509",
         "path": "photos/46/467_Impala_2027/ec34ac655e36c509.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/1980_Chevrolet_Impala_%28cropped%29.jpg"
+      },
+      {
+        "hash": "c7256ddd8dc7e9f6",
+        "path": "photos/46/467_Impala_2027/c7256ddd8dc7e9f6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/JeffBurton2007BristolAugustRace.jpg"
       }
     ],
     "state": "fetched",
@@ -13344,6 +13354,11 @@
         "hash": "ec34ac655e36c509",
         "path": "photos/46/467_Impala_2028/ec34ac655e36c509.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/1980_Chevrolet_Impala_%28cropped%29.jpg"
+      },
+      {
+        "hash": "c7256ddd8dc7e9f6",
+        "path": "photos/46/467_Impala_2028/c7256ddd8dc7e9f6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/JeffBurton2007BristolAugustRace.jpg"
       }
     ],
     "state": "fetched",
@@ -17460,6 +17475,26 @@
     "state": "no_photos",
     "year": 2025
   },
+  "474:Giorno:2025": {
+    "first_seen": "2026-06-13T07:55:45.568023+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Giorno",
+    "photos": [
+      {
+        "hash": "d6eb73b71d61472f",
+        "path": "photos/47/474_Giorno_2025/d6eb73b71d61472f.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/2023_Honda_Giorno%2B_ABS.jpg"
+      },
+      {
+        "hash": "80d65cd977fbe693",
+        "path": "photos/47/474_Giorno_2025/80d65cd977fbe693.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/2023_Honda_Giorno%2B_CBS.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2025
+  },
   "474:Gold Wing Tour:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 474,
@@ -17624,6 +17659,42 @@
     "make_id": 474,
     "make_name": "HONDA",
     "model": "Hawk GT",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "474:Metropolitan:2025": {
+    "first_seen": "2026-06-13T07:55:45.568023+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Metropolitan",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "474:Metropolitan:2026": {
+    "first_seen": "2026-06-13T07:55:45.568023+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Metropolitan",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "474:Metropolitan:2027": {
+    "first_seen": "2026-06-13T07:55:45.568023+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Metropolitan",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "474:Metropolitan:2028": {
+    "first_seen": "2026-06-13T07:55:45.568023+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Metropolitan",
     "photos": [],
     "state": "no_photos",
     "year": 2028
@@ -22609,7 +22680,7 @@
     "make_name": "VOLVO",
     "model": "EX90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:EX90:2026": {
@@ -22618,7 +22689,7 @@
     "make_name": "VOLVO",
     "model": "EX90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:EX90:2027": {
@@ -22627,7 +22698,7 @@
     "make_name": "VOLVO",
     "model": "EX90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:EX90:2028": {
@@ -22636,7 +22707,7 @@
     "make_name": "VOLVO",
     "model": "EX90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:F12 w/F7 Cab:2025": {
@@ -22645,7 +22716,7 @@
     "make_name": "VOLVO",
     "model": "F12 w/F7 Cab",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:F12 w/F7 Cab:2026": {
@@ -22654,7 +22725,7 @@
     "make_name": "VOLVO",
     "model": "F12 w/F7 Cab",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:F12 w/F7 Cab:2027": {
@@ -22663,7 +22734,7 @@
     "make_name": "VOLVO",
     "model": "F12 w/F7 Cab",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:F12 w/F7 Cab:2028": {
@@ -22672,7 +22743,7 @@
     "make_name": "VOLVO",
     "model": "F12 w/F7 Cab",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:F6 w/F7 Cab:2025": {
@@ -22681,7 +22752,7 @@
     "make_name": "VOLVO",
     "model": "F6 w/F7 Cab",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:F6 w/F7 Cab:2026": {
@@ -22690,7 +22761,7 @@
     "make_name": "VOLVO",
     "model": "F6 w/F7 Cab",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:F6 w/F7 Cab:2027": {
@@ -22699,7 +22770,7 @@
     "make_name": "VOLVO",
     "model": "F6 w/F7 Cab",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:F6 w/F7 Cab:2028": {
@@ -22708,7 +22779,7 @@
     "make_name": "VOLVO",
     "model": "F6 w/F7 Cab",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:S60:2025": {
@@ -22717,7 +22788,7 @@
     "make_name": "VOLVO",
     "model": "S60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:S60:2026": {
@@ -22726,7 +22797,7 @@
     "make_name": "VOLVO",
     "model": "S60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:S60:2027": {
@@ -22735,7 +22806,7 @@
     "make_name": "VOLVO",
     "model": "S60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:S60:2028": {
@@ -22744,7 +22815,7 @@
     "make_name": "VOLVO",
     "model": "S60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:S90:2025": {
@@ -22753,7 +22824,7 @@
     "make_name": "VOLVO",
     "model": "S90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:S90:2026": {
@@ -22762,7 +22833,7 @@
     "make_name": "VOLVO",
     "model": "S90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:S90:2027": {
@@ -22771,7 +22842,7 @@
     "make_name": "VOLVO",
     "model": "S90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:S90:2028": {
@@ -22780,7 +22851,7 @@
     "make_name": "VOLVO",
     "model": "S90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:V60:2025": {
@@ -22789,7 +22860,7 @@
     "make_name": "VOLVO",
     "model": "V60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:V60:2026": {
@@ -22798,7 +22869,7 @@
     "make_name": "VOLVO",
     "model": "V60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:V60:2027": {
@@ -22807,7 +22878,7 @@
     "make_name": "VOLVO",
     "model": "V60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:V60:2028": {
@@ -22816,7 +22887,7 @@
     "make_name": "VOLVO",
     "model": "V60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:V60CC:2025": {
@@ -22825,7 +22896,7 @@
     "make_name": "VOLVO",
     "model": "V60CC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:V60CC:2026": {
@@ -22834,7 +22905,7 @@
     "make_name": "VOLVO",
     "model": "V60CC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:V60CC:2027": {
@@ -22843,7 +22914,7 @@
     "make_name": "VOLVO",
     "model": "V60CC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:V60CC:2028": {
@@ -22852,7 +22923,7 @@
     "make_name": "VOLVO",
     "model": "V60CC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:V90CC:2025": {
@@ -22861,7 +22932,7 @@
     "make_name": "VOLVO",
     "model": "V90CC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:V90CC:2026": {
@@ -22870,7 +22941,7 @@
     "make_name": "VOLVO",
     "model": "V90CC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:V90CC:2027": {
@@ -22879,7 +22950,7 @@
     "make_name": "VOLVO",
     "model": "V90CC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:V90CC:2028": {
@@ -22888,7 +22959,7 @@
     "make_name": "VOLVO",
     "model": "V90CC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:VS:2025": {
@@ -22897,7 +22968,7 @@
     "make_name": "VOLVO",
     "model": "VS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:VS:2026": {
@@ -22906,7 +22977,7 @@
     "make_name": "VOLVO",
     "model": "VS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:VS:2027": {
@@ -22915,7 +22986,7 @@
     "make_name": "VOLVO",
     "model": "VS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:VS:2028": {
@@ -22924,7 +22995,7 @@
     "make_name": "VOLVO",
     "model": "VS",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:VT:2025": {
@@ -22933,7 +23004,7 @@
     "make_name": "VOLVO",
     "model": "VT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:VT:2026": {
@@ -22942,7 +23013,7 @@
     "make_name": "VOLVO",
     "model": "VT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:VT:2027": {
@@ -22951,7 +23022,7 @@
     "make_name": "VOLVO",
     "model": "VT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:VT:2028": {
@@ -22960,7 +23031,7 @@
     "make_name": "VOLVO",
     "model": "VT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:Volvo Trailers:2025": {
@@ -22969,7 +23040,7 @@
     "make_name": "VOLVO",
     "model": "Volvo Trailers",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:Volvo Trailers:2026": {
@@ -22978,7 +23049,7 @@
     "make_name": "VOLVO",
     "model": "Volvo Trailers",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:Volvo Trailers:2027": {
@@ -22987,7 +23058,7 @@
     "make_name": "VOLVO",
     "model": "Volvo Trailers",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:Volvo Trailers:2028": {
@@ -22996,7 +23067,7 @@
     "make_name": "VOLVO",
     "model": "Volvo Trailers",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:XC40:2025": {
@@ -23005,7 +23076,7 @@
     "make_name": "VOLVO",
     "model": "XC40",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:XC40:2026": {
@@ -23014,7 +23085,7 @@
     "make_name": "VOLVO",
     "model": "XC40",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:XC40:2027": {
@@ -23023,7 +23094,7 @@
     "make_name": "VOLVO",
     "model": "XC40",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:XC40:2028": {
@@ -23032,7 +23103,7 @@
     "make_name": "VOLVO",
     "model": "XC40",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:XC60:2025": {
@@ -23041,7 +23112,7 @@
     "make_name": "VOLVO",
     "model": "XC60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:XC60:2026": {
@@ -23050,7 +23121,7 @@
     "make_name": "VOLVO",
     "model": "XC60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:XC60:2027": {
@@ -23059,7 +23130,7 @@
     "make_name": "VOLVO",
     "model": "XC60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:XC60:2028": {
@@ -23068,7 +23139,7 @@
     "make_name": "VOLVO",
     "model": "XC60",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "485:XC90:2025": {
@@ -23077,7 +23148,7 @@
     "make_name": "VOLVO",
     "model": "XC90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "485:XC90:2026": {
@@ -23086,7 +23157,7 @@
     "make_name": "VOLVO",
     "model": "XC90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "485:XC90:2027": {
@@ -23095,7 +23166,7 @@
     "make_name": "VOLVO",
     "model": "XC90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "485:XC90:2028": {
@@ -23104,7 +23175,7 @@
     "make_name": "VOLVO",
     "model": "XC90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:ACL:2025": {
@@ -23113,7 +23184,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "ACL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:ACL:2026": {
@@ -23122,7 +23193,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "ACL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:ACL:2027": {
@@ -23131,7 +23202,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "ACL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:ACL:2028": {
@@ -23140,7 +23211,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "ACL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:CACL:2025": {
@@ -23149,7 +23220,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "CACL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:CACL:2026": {
@@ -23158,7 +23229,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "CACL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:CACL:2027": {
@@ -23167,7 +23238,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "CACL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:CACL:2028": {
@@ -23176,7 +23247,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "CACL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:CWG:2025": {
@@ -23185,7 +23256,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "CWG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:CWG:2026": {
@@ -23194,7 +23265,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "CWG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:CWG:2027": {
@@ -23203,7 +23274,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "CWG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:CWG:2028": {
@@ -23212,7 +23283,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "CWG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:FE:2025": {
@@ -23221,7 +23292,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "FE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:FE:2026": {
@@ -23230,7 +23301,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "FE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:FE:2027": {
@@ -23239,7 +23310,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "FE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:FE:2028": {
@@ -23248,7 +23319,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "FE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:FM10:2025": {
@@ -23257,7 +23328,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "FM10",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:FM10:2026": {
@@ -23266,7 +23337,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "FM10",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:FM10:2027": {
@@ -23275,7 +23346,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "FM10",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:FM10:2028": {
@@ -23284,7 +23355,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "FM10",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:NE42:2025": {
@@ -23293,7 +23364,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NE42",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:NE42:2026": {
@@ -23302,7 +23373,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NE42",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:NE42:2027": {
@@ -23311,7 +23382,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NE42",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:NE42:2028": {
@@ -23320,7 +23391,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NE42",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:NE64:2025": {
@@ -23329,7 +23400,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NE64",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:NE64:2026": {
@@ -23338,7 +23409,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NE64",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:NE64:2027": {
@@ -23347,7 +23418,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NE64",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:NE64:2028": {
@@ -23356,7 +23427,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NE64",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:NR64:2025": {
@@ -23365,7 +23436,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NR64",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:NR64:2026": {
@@ -23374,7 +23445,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NR64",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:NR64:2027": {
@@ -23383,7 +23454,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NR64",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:NR64:2028": {
@@ -23392,7 +23463,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "NR64",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VAH:2025": {
@@ -23401,7 +23472,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VAH",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VAH:2026": {
@@ -23410,7 +23481,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VAH",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VAH:2027": {
@@ -23419,7 +23490,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VAH",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VAH:2028": {
@@ -23428,7 +23499,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VAH",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VHD:2025": {
@@ -23437,7 +23508,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VHD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VHD:2026": {
@@ -23446,7 +23517,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VHD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VHD:2027": {
@@ -23455,7 +23526,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VHD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VHD:2028": {
@@ -23464,7 +23535,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VHD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VN:2025": {
@@ -23473,7 +23544,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VN",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VN:2026": {
@@ -23482,7 +23553,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VN",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VN:2027": {
@@ -23491,7 +23562,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VN",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VN:2028": {
@@ -23500,7 +23571,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VN",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VNL (4):2025": {
@@ -23509,7 +23580,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNL (4)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VNL (4):2026": {
@@ -23518,7 +23589,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNL (4)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VNL (4):2027": {
@@ -23527,7 +23598,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNL (4)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VNL (4):2028": {
@@ -23536,7 +23607,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNL (4)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VNL:2025": {
@@ -23545,7 +23616,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VNL:2026": {
@@ -23554,7 +23625,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VNL:2027": {
@@ -23563,7 +23634,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VNL:2028": {
@@ -23572,7 +23643,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VNM:2025": {
@@ -23581,7 +23652,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VNM:2026": {
@@ -23590,7 +23661,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VNM:2027": {
@@ -23599,7 +23670,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VNM:2028": {
@@ -23608,7 +23679,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VNR (4):2025": {
@@ -23617,7 +23688,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNR (4)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VNR (4):2026": {
@@ -23626,7 +23697,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNR (4)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VNR (4):2027": {
@@ -23635,7 +23706,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNR (4)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VNR (4):2028": {
@@ -23644,7 +23715,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNR (4)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VNR:2025": {
@@ -23653,7 +23724,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VNR:2026": {
@@ -23662,7 +23733,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VNR:2027": {
@@ -23671,7 +23742,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VNR:2028": {
@@ -23680,7 +23751,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VNR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:VT:2025": {
@@ -23689,7 +23760,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:VT:2026": {
@@ -23698,7 +23769,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:VT:2027": {
@@ -23707,7 +23778,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:VT:2028": {
@@ -23716,7 +23787,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "VT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WAH:2025": {
@@ -23725,7 +23796,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WAH",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WAH:2026": {
@@ -23734,7 +23805,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WAH",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WAH:2027": {
@@ -23743,7 +23814,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WAH",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WAH:2028": {
@@ -23752,7 +23823,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WAH",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WCA:2025": {
@@ -23761,7 +23832,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WCA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WCA:2026": {
@@ -23770,7 +23841,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WCA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WCA:2027": {
@@ -23779,7 +23850,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WCA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WCA:2028": {
@@ -23788,7 +23859,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WCA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WG:2025": {
@@ -23797,7 +23868,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WG:2026": {
@@ -23806,7 +23877,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WG:2027": {
@@ -23815,7 +23886,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WG:2028": {
@@ -23824,7 +23895,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WG",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WHEB:2025": {
@@ -23833,7 +23904,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHEB",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WHEB:2026": {
@@ -23842,7 +23913,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHEB",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WHEB:2027": {
@@ -23851,7 +23922,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHEB",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WHEB:2028": {
@@ -23860,7 +23931,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHEB",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WHL:2025": {
@@ -23869,7 +23940,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WHL:2026": {
@@ -23878,7 +23949,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WHL:2027": {
@@ -23887,7 +23958,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WHL:2028": {
@@ -23896,7 +23967,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WHLB:2025": {
@@ -23905,7 +23976,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHLB",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WHLB:2026": {
@@ -23914,7 +23985,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHLB",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WHLB:2027": {
@@ -23923,7 +23994,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHLB",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WHLB:2028": {
@@ -23932,7 +24003,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHLB",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WHR:2025": {
@@ -23941,7 +24012,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WHR:2026": {
@@ -23950,7 +24021,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WHR:2027": {
@@ -23959,7 +24030,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WHR:2028": {
@@ -23968,7 +24039,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WHR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WIA:2025": {
@@ -23977,7 +24048,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WIA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WIA:2026": {
@@ -23986,7 +24057,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WIA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WIA:2027": {
@@ -23995,7 +24066,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WIA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WIA:2028": {
@@ -24004,7 +24075,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WIA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WX:2025": {
@@ -24013,7 +24084,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WX:2026": {
@@ -24022,7 +24093,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WX:2027": {
@@ -24031,7 +24102,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WX:2028": {
@@ -24040,7 +24111,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WX",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WXLL:2025": {
@@ -24049,7 +24120,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXLL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WXLL:2026": {
@@ -24058,7 +24129,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXLL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WXLL:2027": {
@@ -24067,7 +24138,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXLL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WXLL:2028": {
@@ -24076,7 +24147,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXLL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WXLM:2025": {
@@ -24085,7 +24156,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXLM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WXLM:2026": {
@@ -24094,7 +24165,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXLM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WXLM:2027": {
@@ -24103,7 +24174,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXLM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WXLM:2028": {
@@ -24112,7 +24183,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXLM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "487:WXR:2025": {
@@ -24121,7 +24192,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "487:WXR:2026": {
@@ -24130,7 +24201,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "487:WXR:2027": {
@@ -24139,7 +24210,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "487:WXR:2028": {
@@ -24148,7 +24219,7 @@
     "make_name": "VOLVO TRUCK",
     "model": "WXR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:Anthem:2025": {
@@ -24157,7 +24228,7 @@
     "make_name": "MACK",
     "model": "Anthem",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:Anthem:2026": {
@@ -24166,7 +24237,7 @@
     "make_name": "MACK",
     "model": "Anthem",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "490:Anthem:2027": {
@@ -24175,7 +24246,7 @@
     "make_name": "MACK",
     "model": "Anthem",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:Anthem:2028": {
@@ -24184,7 +24255,7 @@
     "make_name": "MACK",
     "model": "Anthem",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:FDM:2025": {
@@ -24193,7 +24264,7 @@
     "make_name": "MACK",
     "model": "FDM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:FDM:2026": {
@@ -24202,7 +24273,7 @@
     "make_name": "MACK",
     "model": "FDM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "490:FDM:2027": {
@@ -24211,7 +24282,7 @@
     "make_name": "MACK",
     "model": "FDM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:FDM:2028": {
@@ -24220,7 +24291,7 @@
     "make_name": "MACK",
     "model": "FDM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:Granite:2025": {
@@ -24229,7 +24300,7 @@
     "make_name": "MACK",
     "model": "Granite",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:Granite:2026": {
@@ -24238,7 +24309,7 @@
     "make_name": "MACK",
     "model": "Granite",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "490:Granite:2027": {
@@ -24247,7 +24318,7 @@
     "make_name": "MACK",
     "model": "Granite",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:Granite:2028": {
@@ -24256,7 +24327,7 @@
     "make_name": "MACK",
     "model": "Granite",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:Keystone:2027": {
@@ -24265,7 +24336,7 @@
     "make_name": "MACK",
     "model": "Keystone",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:Keystone:2028": {
@@ -24274,7 +24345,7 @@
     "make_name": "MACK",
     "model": "Keystone",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:LC:2025": {
@@ -24283,7 +24354,7 @@
     "make_name": "MACK",
     "model": "LC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:LC:2026": {
@@ -24292,7 +24363,7 @@
     "make_name": "MACK",
     "model": "LC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "490:LC:2027": {
@@ -24301,7 +24372,7 @@
     "make_name": "MACK",
     "model": "LC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:LC:2028": {
@@ -24310,7 +24381,7 @@
     "make_name": "MACK",
     "model": "LC",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:LR:2025": {
@@ -24319,7 +24390,7 @@
     "make_name": "MACK",
     "model": "LR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:LR:2026": {
@@ -24328,7 +24399,7 @@
     "make_name": "MACK",
     "model": "LR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "490:LR:2027": {
@@ -24337,7 +24408,7 @@
     "make_name": "MACK",
     "model": "LR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:LR:2028": {
@@ -24346,7 +24417,7 @@
     "make_name": "MACK",
     "model": "LR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:MD:2025": {
@@ -24355,7 +24426,7 @@
     "make_name": "MACK",
     "model": "MD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:MD:2026": {
