@@ -3345,6 +3345,11 @@
         "hash": "0532e2c4a8fd6983",
         "path": "photos/44/448_Yaris_2027/0532e2c4a8fd6983.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg"
+      },
+      {
+        "hash": "4c833ee9e61ebac2",
+        "path": "photos/44/448_Yaris_2027/4c833ee9e61ebac2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Toyota_Yaris_1.5_XLi_2003_%2825671368190%29.jpg"
       }
     ],
     "state": "fetched",
@@ -3365,6 +3370,11 @@
         "hash": "0532e2c4a8fd6983",
         "path": "photos/44/448_Yaris_2028/0532e2c4a8fd6983.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg"
+      },
+      {
+        "hash": "4c833ee9e61ebac2",
+        "path": "photos/44/448_Yaris_2028/4c833ee9e61ebac2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Toyota_Yaris_1.5_XLi_2003_%2825671368190%29.jpg"
       }
     ],
     "state": "fetched",
@@ -13359,6 +13369,11 @@
         "hash": "c7256ddd8dc7e9f6",
         "path": "photos/46/467_Impala_2028/c7256ddd8dc7e9f6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/JeffBurton2007BristolAugustRace.jpg"
+      },
+      {
+        "hash": "8003c20dd34119b5",
+        "path": "photos/46/467_Impala_2028/8003c20dd34119b5.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/RCMP_Chevrolet_Impala_Ottawa.jpg"
       }
     ],
     "state": "fetched",
@@ -15452,6 +15467,11 @@
         "hash": "50519de342ce4261",
         "path": "photos/47/472_Yukon_XL_2027/50519de342ce4261.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chevrolet_Suburban_%28GMTT1XX%29_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      },
+      {
+        "hash": "9c73f62841757dcc",
+        "path": "photos/47/472_Yukon_XL_2027/9c73f62841757dcc.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/01-06_GMC_Yukon_XL_Denali.jpg"
       }
     ],
     "state": "fetched",
@@ -15467,6 +15487,11 @@
         "hash": "50519de342ce4261",
         "path": "photos/47/472_Yukon_XL_2028/50519de342ce4261.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chevrolet_Suburban_%28GMTT1XX%29_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      },
+      {
+        "hash": "9c73f62841757dcc",
+        "path": "photos/47/472_Yukon_XL_2028/9c73f62841757dcc.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/01-06_GMC_Yukon_XL_Denali.jpg"
       }
     ],
     "state": "fetched",
@@ -24434,8 +24459,19 @@
     "make_id": 490,
     "make_name": "MACK",
     "model": "MD",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "470cdfc33b3ea572",
+        "path": "photos/49/490_MD_2026/470cdfc33b3ea572.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/0P6A0142.jpg"
+      },
+      {
+        "hash": "415619763eaac484",
+        "path": "photos/49/490_MD_2026/415619763eaac484.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mack_MD%2C_front_right%2C_03-21-2026.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2026
   },
   "490:MD:2027": {
@@ -24443,8 +24479,14 @@
     "make_id": 490,
     "make_name": "MACK",
     "model": "MD",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "470cdfc33b3ea572",
+        "path": "photos/49/490_MD_2027/470cdfc33b3ea572.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/0P6A0142.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "490:MD:2028": {
@@ -24453,7 +24495,7 @@
     "make_name": "MACK",
     "model": "MD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:Pinnacle:2025": {
@@ -24462,7 +24504,7 @@
     "make_name": "MACK",
     "model": "Pinnacle",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:Pinnacle:2026": {
@@ -24471,7 +24513,7 @@
     "make_name": "MACK",
     "model": "Pinnacle",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "490:Pinnacle:2027": {
@@ -24480,7 +24522,7 @@
     "make_name": "MACK",
     "model": "Pinnacle",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:Pinnacle:2028": {
@@ -24489,7 +24531,7 @@
     "make_name": "MACK",
     "model": "Pinnacle",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:Pioneer:2025": {
@@ -24498,7 +24540,7 @@
     "make_name": "MACK",
     "model": "Pioneer",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:Pioneer:2026": {
@@ -24507,7 +24549,7 @@
     "make_name": "MACK",
     "model": "Pioneer",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "490:Pioneer:2027": {
@@ -24516,7 +24558,7 @@
     "make_name": "MACK",
     "model": "Pioneer",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:Pioneer:2028": {
@@ -24525,7 +24567,7 @@
     "make_name": "MACK",
     "model": "Pioneer",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "490:Terrapro:2025": {
@@ -24534,7 +24576,7 @@
     "make_name": "MACK",
     "model": "Terrapro",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "490:Terrapro:2026": {
@@ -24543,7 +24585,7 @@
     "make_name": "MACK",
     "model": "Terrapro",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "490:Terrapro:2027": {
@@ -24552,7 +24594,7 @@
     "make_name": "MACK",
     "model": "Terrapro",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "490:Terrapro:2028": {
@@ -24561,7 +24603,7 @@
     "make_name": "MACK",
     "model": "Terrapro",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "492:124 Spider:2025": {
@@ -24570,7 +24612,7 @@
     "make_name": "FIAT",
     "model": "124 Spider",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "492:124 Spider:2026": {
@@ -24579,7 +24621,7 @@
     "make_name": "FIAT",
     "model": "124 Spider",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "492:124 Spider:2027": {
@@ -24588,7 +24630,7 @@
     "make_name": "FIAT",
     "model": "124 Spider",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "492:124 Spider:2028": {
@@ -24597,7 +24639,7 @@
     "make_name": "FIAT",
     "model": "124 Spider",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "492:500X:2025": {
@@ -24606,7 +24648,7 @@
     "make_name": "FIAT",
     "model": "500X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "492:500X:2026": {
@@ -24615,7 +24657,7 @@
     "make_name": "FIAT",
     "model": "500X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "492:500X:2027": {
@@ -24624,7 +24666,7 @@
     "make_name": "FIAT",
     "model": "500X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "492:500X:2028": {
@@ -24633,7 +24675,7 @@
     "make_name": "FIAT",
     "model": "500X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "492:500e:2025": {
@@ -24642,7 +24684,7 @@
     "make_name": "FIAT",
     "model": "500e",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "492:500e:2026": {
@@ -24651,7 +24693,7 @@
     "make_name": "FIAT",
     "model": "500e",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "492:500e:2027": {
@@ -24660,7 +24702,7 @@
     "make_name": "FIAT",
     "model": "500e",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "492:500e:2028": {
@@ -24669,7 +24711,7 @@
     "make_name": "FIAT",
     "model": "500e",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "493:Giulia (952):2025": {
@@ -24678,7 +24720,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Giulia (952)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "493:Giulia (952):2026": {
@@ -24687,7 +24729,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Giulia (952)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "493:Giulia (952):2027": {
@@ -24696,7 +24738,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Giulia (952)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "493:Giulia (952):2028": {
@@ -24705,7 +24747,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Giulia (952)",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "493:Stelvio:2025": {
@@ -24714,7 +24756,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Stelvio",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "493:Stelvio:2026": {
@@ -24723,7 +24765,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Stelvio",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "493:Stelvio:2027": {
@@ -24732,7 +24774,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Stelvio",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "493:Stelvio:2028": {
@@ -24741,7 +24783,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Stelvio",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "493:Tonale:2025": {
@@ -24750,7 +24792,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Tonale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "493:Tonale:2026": {
@@ -24759,7 +24801,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Tonale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "493:Tonale:2027": {
@@ -24768,7 +24810,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Tonale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "493:Tonale:2028": {
@@ -24777,7 +24819,7 @@
     "make_name": "ALFA ROMEO",
     "model": "Tonale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:220:2025": {
@@ -24786,7 +24828,7 @@
     "make_name": "PETERBILT",
     "model": "220",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:220:2026": {
@@ -24794,8 +24836,19 @@
     "make_id": 495,
     "make_name": "PETERBILT",
     "model": "220",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "5ebd14f464d6ee29",
+        "path": "photos/49/495_220_2026/5ebd14f464d6ee29.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Peterbilt_220_%2816463974426%29.jpg"
+      },
+      {
+        "hash": "c7bb29fe94dff690",
+        "path": "photos/49/495_220_2026/c7bb29fe94dff690.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/USPS_Peterbilt_220_%2851398244047%29.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2026
   },
   "495:220:2027": {
@@ -24804,7 +24857,7 @@
     "make_name": "PETERBILT",
     "model": "220",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:220:2028": {
@@ -24813,7 +24866,7 @@
     "make_name": "PETERBILT",
     "model": "220",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:325:2025": {
@@ -24822,7 +24875,7 @@
     "make_name": "PETERBILT",
     "model": "325",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:325:2026": {
@@ -24831,7 +24884,7 @@
     "make_name": "PETERBILT",
     "model": "325",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:325:2027": {
@@ -24840,7 +24893,7 @@
     "make_name": "PETERBILT",
     "model": "325",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:325:2028": {
@@ -24849,7 +24902,7 @@
     "make_name": "PETERBILT",
     "model": "325",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:330:2025": {
@@ -24858,7 +24911,7 @@
     "make_name": "PETERBILT",
     "model": "330",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:330:2026": {
@@ -24867,7 +24920,7 @@
     "make_name": "PETERBILT",
     "model": "330",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:330:2027": {
@@ -24876,7 +24929,7 @@
     "make_name": "PETERBILT",
     "model": "330",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:330:2028": {
@@ -24885,7 +24938,7 @@
     "make_name": "PETERBILT",
     "model": "330",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:335:2025": {
@@ -24894,7 +24947,7 @@
     "make_name": "PETERBILT",
     "model": "335",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:335:2026": {
@@ -24903,7 +24956,7 @@
     "make_name": "PETERBILT",
     "model": "335",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:335:2027": {
@@ -24912,7 +24965,7 @@
     "make_name": "PETERBILT",
     "model": "335",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:335:2028": {
@@ -24921,7 +24974,7 @@
     "make_name": "PETERBILT",
     "model": "335",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:337:2025": {
@@ -24930,7 +24983,7 @@
     "make_name": "PETERBILT",
     "model": "337",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:337:2026": {
@@ -24939,7 +24992,7 @@
     "make_name": "PETERBILT",
     "model": "337",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:337:2027": {
@@ -24948,7 +25001,7 @@
     "make_name": "PETERBILT",
     "model": "337",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:337:2028": {
@@ -24957,7 +25010,7 @@
     "make_name": "PETERBILT",
     "model": "337",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:348:2025": {
@@ -24966,7 +25019,7 @@
     "make_name": "PETERBILT",
     "model": "348",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:348:2026": {
@@ -24975,7 +25028,7 @@
     "make_name": "PETERBILT",
     "model": "348",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:348:2027": {
@@ -24984,7 +25037,7 @@
     "make_name": "PETERBILT",
     "model": "348",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:348:2028": {
@@ -24993,7 +25046,7 @@
     "make_name": "PETERBILT",
     "model": "348",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:365:2025": {
@@ -25002,7 +25055,7 @@
     "make_name": "PETERBILT",
     "model": "365",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:365:2026": {
@@ -25011,7 +25064,7 @@
     "make_name": "PETERBILT",
     "model": "365",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:365:2027": {
@@ -25020,7 +25073,7 @@
     "make_name": "PETERBILT",
     "model": "365",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:365:2028": {
@@ -25029,7 +25082,7 @@
     "make_name": "PETERBILT",
     "model": "365",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:367:2025": {
@@ -25038,7 +25091,7 @@
     "make_name": "PETERBILT",
     "model": "367",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:367:2026": {
@@ -25047,7 +25100,7 @@
     "make_name": "PETERBILT",
     "model": "367",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:367:2027": {
@@ -25056,7 +25109,7 @@
     "make_name": "PETERBILT",
     "model": "367",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:367:2028": {
@@ -25065,7 +25118,7 @@
     "make_name": "PETERBILT",
     "model": "367",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:389:2025": {
@@ -25074,7 +25127,7 @@
     "make_name": "PETERBILT",
     "model": "389",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:389:2026": {
@@ -25083,7 +25136,7 @@
     "make_name": "PETERBILT",
     "model": "389",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:389:2027": {
@@ -25092,7 +25145,7 @@
     "make_name": "PETERBILT",
     "model": "389",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:389:2028": {
@@ -25101,7 +25154,7 @@
     "make_name": "PETERBILT",
     "model": "389",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:520:2025": {
@@ -25110,7 +25163,7 @@
     "make_name": "PETERBILT",
     "model": "520",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:520:2026": {
@@ -25119,7 +25172,7 @@
     "make_name": "PETERBILT",
     "model": "520",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:520:2027": {
@@ -25128,7 +25181,7 @@
     "make_name": "PETERBILT",
     "model": "520",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:520:2028": {
@@ -25137,7 +25190,7 @@
     "make_name": "PETERBILT",
     "model": "520",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:535:2025": {
@@ -25146,7 +25199,7 @@
     "make_name": "PETERBILT",
     "model": "535",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:535:2026": {
@@ -25155,7 +25208,7 @@
     "make_name": "PETERBILT",
     "model": "535",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:535:2027": {
@@ -25164,7 +25217,7 @@
     "make_name": "PETERBILT",
     "model": "535",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:535:2028": {
@@ -25173,7 +25226,7 @@
     "make_name": "PETERBILT",
     "model": "535",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:536:2025": {
@@ -25182,7 +25235,7 @@
     "make_name": "PETERBILT",
     "model": "536",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:536:2026": {
@@ -25191,7 +25244,7 @@
     "make_name": "PETERBILT",
     "model": "536",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:536:2027": {
@@ -25200,7 +25253,7 @@
     "make_name": "PETERBILT",
     "model": "536",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:536:2028": {
@@ -25209,7 +25262,7 @@
     "make_name": "PETERBILT",
     "model": "536",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:537:2025": {
@@ -25218,7 +25271,7 @@
     "make_name": "PETERBILT",
     "model": "537",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:537:2026": {
@@ -25227,7 +25280,7 @@
     "make_name": "PETERBILT",
     "model": "537",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:537:2027": {
@@ -25236,7 +25289,7 @@
     "make_name": "PETERBILT",
     "model": "537",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:537:2028": {
@@ -25245,7 +25298,7 @@
     "make_name": "PETERBILT",
     "model": "537",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:548:2025": {
@@ -25254,7 +25307,7 @@
     "make_name": "PETERBILT",
     "model": "548",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:548:2026": {
@@ -25263,7 +25316,7 @@
     "make_name": "PETERBILT",
     "model": "548",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:548:2027": {
@@ -25272,7 +25325,7 @@
     "make_name": "PETERBILT",
     "model": "548",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:548:2028": {
@@ -25281,7 +25334,7 @@
     "make_name": "PETERBILT",
     "model": "548",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:567:2025": {
@@ -25290,7 +25343,7 @@
     "make_name": "PETERBILT",
     "model": "567",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:567:2026": {
@@ -25299,7 +25352,7 @@
     "make_name": "PETERBILT",
     "model": "567",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:567:2027": {
@@ -25308,7 +25361,7 @@
     "make_name": "PETERBILT",
     "model": "567",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:567:2028": {
@@ -25317,7 +25370,7 @@
     "make_name": "PETERBILT",
     "model": "567",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:579:2025": {
@@ -25326,7 +25379,7 @@
     "make_name": "PETERBILT",
     "model": "579",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:579:2026": {
@@ -25335,7 +25388,7 @@
     "make_name": "PETERBILT",
     "model": "579",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:579:2027": {
@@ -25344,7 +25397,7 @@
     "make_name": "PETERBILT",
     "model": "579",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:579:2028": {
@@ -25353,7 +25406,7 @@
     "make_name": "PETERBILT",
     "model": "579",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "495:589:2025": {
@@ -25362,7 +25415,7 @@
     "make_name": "PETERBILT",
     "model": "589",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "495:589:2026": {
@@ -25371,7 +25424,7 @@
     "make_name": "PETERBILT",
     "model": "589",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "495:589:2027": {
@@ -25380,7 +25433,7 @@
     "make_name": "PETERBILT",
     "model": "589",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "495:589:2028": {
@@ -25389,7 +25442,7 @@
     "make_name": "PETERBILT",
     "model": "589",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:1500:2025": {
@@ -25398,7 +25451,7 @@
     "make_name": "RAM",
     "model": "1500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:1500:2026": {
@@ -25407,7 +25460,7 @@
     "make_name": "RAM",
     "model": "1500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:1500:2027": {
@@ -25416,7 +25469,7 @@
     "make_name": "RAM",
     "model": "1500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:1500:2028": {
@@ -25425,7 +25478,7 @@
     "make_name": "RAM",
     "model": "1500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:2500:2025": {
@@ -25434,7 +25487,7 @@
     "make_name": "RAM",
     "model": "2500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:2500:2026": {
@@ -25443,7 +25496,7 @@
     "make_name": "RAM",
     "model": "2500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:2500:2027": {
@@ -25452,7 +25505,7 @@
     "make_name": "RAM",
     "model": "2500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:2500:2028": {
@@ -25461,7 +25514,7 @@
     "make_name": "RAM",
     "model": "2500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:3500:2025": {
@@ -25470,7 +25523,7 @@
     "make_name": "RAM",
     "model": "3500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:3500:2026": {
@@ -25479,7 +25532,7 @@
     "make_name": "RAM",
     "model": "3500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:3500:2027": {
@@ -25488,7 +25541,7 @@
     "make_name": "RAM",
     "model": "3500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:3500:2028": {
@@ -25497,7 +25550,7 @@
     "make_name": "RAM",
     "model": "3500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:4500:2025": {
@@ -25506,7 +25559,7 @@
     "make_name": "RAM",
     "model": "4500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:4500:2026": {
@@ -25515,7 +25568,7 @@
     "make_name": "RAM",
     "model": "4500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:4500:2027": {
@@ -25524,7 +25577,7 @@
     "make_name": "RAM",
     "model": "4500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:4500:2028": {
@@ -25533,7 +25586,7 @@
     "make_name": "RAM",
     "model": "4500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:5500:2025": {
@@ -25542,7 +25595,7 @@
     "make_name": "RAM",
     "model": "5500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:5500:2026": {
@@ -25551,7 +25604,7 @@
     "make_name": "RAM",
     "model": "5500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:5500:2027": {
@@ -25560,7 +25613,7 @@
     "make_name": "RAM",
     "model": "5500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:5500:2028": {
@@ -25569,7 +25622,7 @@
     "make_name": "RAM",
     "model": "5500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:ProMaster 1500:2025": {
@@ -25578,7 +25631,7 @@
     "make_name": "RAM",
     "model": "ProMaster 1500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:ProMaster 1500:2026": {
@@ -25587,7 +25640,7 @@
     "make_name": "RAM",
     "model": "ProMaster 1500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:ProMaster 1500:2027": {
@@ -25596,7 +25649,7 @@
     "make_name": "RAM",
     "model": "ProMaster 1500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:ProMaster 1500:2028": {
@@ -25605,7 +25658,7 @@
     "make_name": "RAM",
     "model": "ProMaster 1500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:ProMaster 2500:2025": {
@@ -25614,7 +25667,7 @@
     "make_name": "RAM",
     "model": "ProMaster 2500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:ProMaster 2500:2026": {
@@ -25623,7 +25676,7 @@
     "make_name": "RAM",
     "model": "ProMaster 2500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:ProMaster 2500:2027": {
@@ -25632,7 +25685,7 @@
     "make_name": "RAM",
     "model": "ProMaster 2500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:ProMaster 2500:2028": {
@@ -25641,7 +25694,7 @@
     "make_name": "RAM",
     "model": "ProMaster 2500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:ProMaster 3500:2025": {
@@ -25650,7 +25703,7 @@
     "make_name": "RAM",
     "model": "ProMaster 3500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:ProMaster 3500:2026": {
@@ -25659,7 +25712,7 @@
     "make_name": "RAM",
     "model": "ProMaster 3500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:ProMaster 3500:2027": {
@@ -25668,7 +25721,7 @@
     "make_name": "RAM",
     "model": "ProMaster 3500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:ProMaster 3500:2028": {
@@ -25677,7 +25730,7 @@
     "make_name": "RAM",
     "model": "ProMaster 3500",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "496:Promaster City:2025": {
@@ -25686,7 +25739,7 @@
     "make_name": "RAM",
     "model": "Promaster City",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "496:Promaster City:2026": {
@@ -25695,7 +25748,7 @@
     "make_name": "RAM",
     "model": "Promaster City",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "496:Promaster City:2027": {
@@ -25704,7 +25757,7 @@
     "make_name": "RAM",
     "model": "Promaster City",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "496:Promaster City:2028": {
@@ -25713,7 +25766,7 @@
     "make_name": "RAM",
     "model": "Promaster City",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Accent:2025": {
@@ -25722,7 +25775,7 @@
     "make_name": "HYUNDAI",
     "model": "Accent",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Accent:2026": {
@@ -25731,7 +25784,7 @@
     "make_name": "HYUNDAI",
     "model": "Accent",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Accent:2027": {
@@ -25740,7 +25793,7 @@
     "make_name": "HYUNDAI",
     "model": "Accent",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Accent:2028": {
@@ -25749,7 +25802,7 @@
     "make_name": "HYUNDAI",
     "model": "Accent",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Elantra N:2025": {
@@ -25758,7 +25811,7 @@
     "make_name": "HYUNDAI",
     "model": "Elantra N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Elantra N:2026": {
@@ -25767,7 +25820,7 @@
     "make_name": "HYUNDAI",
     "model": "Elantra N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Elantra N:2027": {
@@ -25776,7 +25829,7 @@
     "make_name": "HYUNDAI",
     "model": "Elantra N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Elantra N:2028": {
@@ -25785,7 +25838,7 @@
     "make_name": "HYUNDAI",
     "model": "Elantra N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Elantra:2025": {
@@ -25794,7 +25847,7 @@
     "make_name": "HYUNDAI",
     "model": "Elantra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Elantra:2026": {
@@ -25803,7 +25856,7 @@
     "make_name": "HYUNDAI",
     "model": "Elantra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Elantra:2027": {
@@ -25812,7 +25865,7 @@
     "make_name": "HYUNDAI",
     "model": "Elantra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Elantra:2028": {
@@ -25821,7 +25874,7 @@
     "make_name": "HYUNDAI",
     "model": "Elantra",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Ioniq 5 N:2025": {
@@ -25830,7 +25883,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 5 N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Ioniq 5 N:2026": {
@@ -25839,7 +25892,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 5 N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Ioniq 5 N:2027": {
@@ -25848,7 +25901,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 5 N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Ioniq 5 N:2028": {
@@ -25857,7 +25910,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 5 N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Ioniq 5:2025": {
@@ -25866,7 +25919,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Ioniq 5:2026": {
@@ -25875,7 +25928,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Ioniq 5:2027": {
@@ -25884,7 +25937,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Ioniq 5:2028": {
@@ -25893,7 +25946,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Ioniq 6 N:2026": {
@@ -25902,7 +25955,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 6 N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Ioniq 6 N:2027": {
@@ -25911,7 +25964,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 6 N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Ioniq 6 N:2028": {
@@ -25920,7 +25973,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 6 N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Ioniq 6:2025": {
@@ -25928,8 +25981,14 @@
     "make_id": 498,
     "make_name": "HYUNDAI",
     "model": "Ioniq 6",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "601993c0cf263144",
+        "path": "photos/49/498_Ioniq_6_2025/601993c0cf263144.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/2023_Hyundai_Ioniq_6_Limited%2C_front_4.27.23.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "498:Ioniq 6:2026": {
@@ -25937,8 +25996,14 @@
     "make_id": 498,
     "make_name": "HYUNDAI",
     "model": "Ioniq 6",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "601993c0cf263144",
+        "path": "photos/49/498_Ioniq_6_2026/601993c0cf263144.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/2023_Hyundai_Ioniq_6_Limited%2C_front_4.27.23.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2026
   },
   "498:Ioniq 6:2027": {
@@ -25946,8 +26011,14 @@
     "make_id": 498,
     "make_name": "HYUNDAI",
     "model": "Ioniq 6",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "601993c0cf263144",
+        "path": "photos/49/498_Ioniq_6_2027/601993c0cf263144.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/2023_Hyundai_Ioniq_6_Limited%2C_front_4.27.23.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "498:Ioniq 6:2028": {
@@ -25955,8 +26026,14 @@
     "make_id": 498,
     "make_name": "HYUNDAI",
     "model": "Ioniq 6",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "601993c0cf263144",
+        "path": "photos/49/498_Ioniq_6_2028/601993c0cf263144.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/2023_Hyundai_Ioniq_6_Limited%2C_front_4.27.23.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "498:Ioniq 9:2026": {
@@ -25965,7 +26042,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Ioniq 9:2027": {
@@ -25974,7 +26051,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Ioniq 9:2028": {
@@ -25983,7 +26060,7 @@
     "make_name": "HYUNDAI",
     "model": "Ioniq 9",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Kona N:2025": {
@@ -25992,7 +26069,7 @@
     "make_name": "HYUNDAI",
     "model": "Kona N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Kona N:2026": {
@@ -26001,7 +26078,7 @@
     "make_name": "HYUNDAI",
     "model": "Kona N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Kona N:2027": {
@@ -26010,7 +26087,7 @@
     "make_name": "HYUNDAI",
     "model": "Kona N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Kona N:2028": {
@@ -26019,7 +26096,7 @@
     "make_name": "HYUNDAI",
     "model": "Kona N",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Kona:2025": {
@@ -26028,7 +26105,7 @@
     "make_name": "HYUNDAI",
     "model": "Kona",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Kona:2026": {
@@ -26037,7 +26114,7 @@
     "make_name": "HYUNDAI",
     "model": "Kona",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Kona:2027": {
@@ -26046,7 +26123,7 @@
     "make_name": "HYUNDAI",
     "model": "Kona",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Kona:2028": {
@@ -26055,7 +26132,7 @@
     "make_name": "HYUNDAI",
     "model": "Kona",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Nexo:2025": {
@@ -26064,7 +26141,7 @@
     "make_name": "HYUNDAI",
     "model": "Nexo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Nexo:2026": {
@@ -26073,7 +26150,7 @@
     "make_name": "HYUNDAI",
     "model": "Nexo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Nexo:2027": {
@@ -26082,7 +26159,7 @@
     "make_name": "HYUNDAI",
     "model": "Nexo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Nexo:2028": {
@@ -26091,7 +26168,7 @@
     "make_name": "HYUNDAI",
     "model": "Nexo",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Palisade:2025": {
@@ -26100,7 +26177,7 @@
     "make_name": "HYUNDAI",
     "model": "Palisade",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Palisade:2026": {
@@ -26109,7 +26186,7 @@
     "make_name": "HYUNDAI",
     "model": "Palisade",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Palisade:2027": {
@@ -26118,7 +26195,7 @@
     "make_name": "HYUNDAI",
     "model": "Palisade",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Palisade:2028": {
@@ -26127,7 +26204,7 @@
     "make_name": "HYUNDAI",
     "model": "Palisade",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Santa Cruz:2025": {
@@ -26135,8 +26212,14 @@
     "make_id": 498,
     "make_name": "HYUNDAI",
     "model": "Santa Cruz",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "699a1144c39a4052",
+        "path": "photos/49/498_Santa_Cruz_2025/699a1144c39a4052.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/2022_Hyundai_Santa_Cruz%2C_Front_Left%2C_10-17-2021.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "498:Santa Cruz:2026": {
@@ -26145,7 +26228,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Cruz",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Santa Cruz:2027": {
@@ -26154,7 +26237,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Cruz",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Santa Cruz:2028": {
@@ -26163,7 +26246,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Cruz",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Santa Fe XL:2025": {
@@ -26172,7 +26255,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Fe XL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Santa Fe XL:2026": {
@@ -26181,7 +26264,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Fe XL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Santa Fe XL:2027": {
@@ -26190,7 +26273,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Fe XL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Santa Fe XL:2028": {
@@ -26199,7 +26282,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Fe XL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "498:Santa Fe:2025": {
@@ -26208,7 +26291,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Fe",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "498:Santa Fe:2026": {
@@ -26217,7 +26300,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Fe",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "498:Santa Fe:2027": {
@@ -26226,7 +26309,7 @@
     "make_name": "HYUNDAI",
     "model": "Santa Fe",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "498:Santa Fe:2028": {
