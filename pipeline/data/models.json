@@ -15285,6 +15285,16 @@
         "hash": "00b9de1b31ed74fd",
         "path": "photos/47/472_Sierra_HD_2026/00b9de1b31ed74fd.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2020_Chevrolet_Silverado_1500_High_Country%2C_front_10.25.20.jpg"
+      },
+      {
+        "hash": "9590df304c7a65db",
+        "path": "photos/47/472_Sierra_HD_2026/9590df304c7a65db.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/%2707-%2710_GMC_Sierra_3500HD_Extended_Cab.JPG"
+      },
+      {
+        "hash": "855f05cd113f068c",
+        "path": "photos/47/472_Sierra_HD_2026/855f05cd113f068c.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/%2710_GMC_Sierra_2500HD_%28MIAS_%2710%29.jpg"
       }
     ],
     "state": "fetched",
@@ -27655,6 +27665,222 @@
     "state": "no_photos",
     "year": 2028
   },
+  "509:Boulevard C50/Boulevard C50T:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C50/Boulevard C50T",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Boulevard C50/Boulevard C50T:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C50/Boulevard C50T",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Boulevard C50/Boulevard C50T:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C50/Boulevard C50T",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Boulevard C50/Boulevard C50T:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C50/Boulevard C50T",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:Boulevard M109:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M109",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Boulevard M109:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M109",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Boulevard M109:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M109",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Boulevard M109:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M109",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:Boulevard M109R B.O.S.S.:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M109R B.O.S.S.",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Boulevard M109R B.O.S.S.:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M109R B.O.S.S.",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Boulevard M109R B.O.S.S.:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M109R B.O.S.S.",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Boulevard M109R B.O.S.S.:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M109R B.O.S.S.",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:Boulevard M50:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M50",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Boulevard M50:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M50",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Boulevard M50:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M50",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Boulevard M50:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard M50",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:Boulevard S40:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard S40",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Boulevard S40:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard S40",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Boulevard S40:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard S40",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Boulevard S40:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard S40",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "509:Boulevard:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 509,
@@ -27663,6 +27889,42 @@
     "photos": [],
     "state": "no_photos",
     "year": 2025
+  },
+  "509:Burgman 200:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Burgman 200",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Burgman 200:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Burgman 200",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Burgman 200:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Burgman 200",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Burgman 200:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Burgman 200",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "509:Burgman 400:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -27696,6 +27958,42 @@
     "make_id": 509,
     "make_name": "SUZUKI",
     "model": "Burgman 400",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:Burgman 650:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Burgman 650",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Burgman 650:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Burgman 650",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Burgman 650:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Burgman 650",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Burgman 650:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Burgman 650",
     "photos": [],
     "state": "no_photos",
     "year": 2028
@@ -27988,6 +28286,42 @@
     "state": "no_photos",
     "year": 2028
   },
+  "509:DR-Z125L:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR-Z125L",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:DR-Z125L:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR-Z125L",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:DR-Z125L:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR-Z125L",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:DR-Z125L:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR-Z125L",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "509:DR-Z125LK:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 509,
@@ -28129,7 +28463,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z250",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR-Z400:2025": {
@@ -28138,7 +28472,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z400:2026": {
@@ -28147,7 +28481,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z400:2027": {
@@ -28156,7 +28490,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z400:2028": {
@@ -28165,7 +28499,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR-Z400E:2025": {
@@ -28174,7 +28508,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z400E:2026": {
@@ -28183,7 +28517,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z400E:2027": {
@@ -28192,7 +28526,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z400E:2028": {
@@ -28201,7 +28535,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR-Z400EK:2025": {
@@ -28210,7 +28544,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400EK",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z400EK:2026": {
@@ -28219,7 +28553,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400EK",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z400EK:2027": {
@@ -28228,7 +28562,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400EK",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z400EK:2028": {
@@ -28237,7 +28571,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400EK",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR-Z400S:2025": {
@@ -28246,7 +28580,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z400S:2026": {
@@ -28255,7 +28589,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z400S:2027": {
@@ -28264,7 +28598,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z400S:2028": {
@@ -28273,7 +28607,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR-Z400SL:2025": {
@@ -28282,7 +28616,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z400SL:2026": {
@@ -28291,7 +28625,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z400SL:2027": {
@@ -28300,7 +28634,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z400SL:2028": {
@@ -28309,7 +28643,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR-Z400SM:2025": {
@@ -28318,7 +28652,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SM",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z400SML:2025": {
@@ -28327,7 +28661,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SML",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z400SML:2026": {
@@ -28336,7 +28670,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SML",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z400SML:2027": {
@@ -28345,7 +28679,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SML",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z400SML:2028": {
@@ -28354,7 +28688,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z400SML",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR-Z4S:2026": {
@@ -28363,7 +28697,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z4S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z4S:2027": {
@@ -28372,7 +28706,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z4S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z4S:2028": {
@@ -28380,8 +28714,14 @@
     "make_id": 509,
     "make_name": "SUZUKI",
     "model": "DR-Z4S",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "94825b80b1358438",
+        "path": "photos/50/509_DR_Z4S_2028/94825b80b1358438.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/2025_Suzuki_DR-Z4S.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "509:DR-Z50:2025": {
@@ -28390,7 +28730,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z50",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z50:2026": {
@@ -28399,7 +28739,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z50",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z50:2027": {
@@ -28408,7 +28748,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z50",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z50:2028": {
@@ -28417,7 +28757,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z50",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR-Z70:2025": {
@@ -28426,7 +28766,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z70",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR-Z70:2026": {
@@ -28435,7 +28775,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z70",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR-Z70:2027": {
@@ -28444,7 +28784,7 @@
     "make_name": "SUZUKI",
     "model": "DR-Z70",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR-Z70:2028": {
@@ -28453,7 +28793,43 @@
     "make_name": "SUZUKI",
     "model": "DR-Z70",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:DR200S:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR200S",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:DR200S:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR200S",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:DR200S:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR200S",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:DR200S:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR200S",
+    "photos": [],
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR200SE:2025": {
@@ -28462,7 +28838,7 @@
     "make_name": "SUZUKI",
     "model": "DR200SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR200SE:2026": {
@@ -28471,7 +28847,7 @@
     "make_name": "SUZUKI",
     "model": "DR200SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR200SE:2027": {
@@ -28480,7 +28856,7 @@
     "make_name": "SUZUKI",
     "model": "DR200SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR200SE:2028": {
@@ -28489,7 +28865,7 @@
     "make_name": "SUZUKI",
     "model": "DR200SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR200SL:2025": {
@@ -28498,7 +28874,7 @@
     "make_name": "SUZUKI",
     "model": "DR200SL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR200SL:2026": {
@@ -28507,7 +28883,7 @@
     "make_name": "SUZUKI",
     "model": "DR200SL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR200SL:2027": {
@@ -28516,7 +28892,7 @@
     "make_name": "SUZUKI",
     "model": "DR200SL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR200SL:2028": {
@@ -28525,7 +28901,7 @@
     "make_name": "SUZUKI",
     "model": "DR200SL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR350:2025": {
@@ -28534,7 +28910,7 @@
     "make_name": "SUZUKI",
     "model": "DR350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR350:2026": {
@@ -28543,7 +28919,7 @@
     "make_name": "SUZUKI",
     "model": "DR350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR350:2027": {
@@ -28552,7 +28928,7 @@
     "make_name": "SUZUKI",
     "model": "DR350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR350:2028": {
@@ -28561,7 +28937,7 @@
     "make_name": "SUZUKI",
     "model": "DR350",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR350SE:2025": {
@@ -28570,7 +28946,7 @@
     "make_name": "SUZUKI",
     "model": "DR350SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR350SE:2026": {
@@ -28579,7 +28955,7 @@
     "make_name": "SUZUKI",
     "model": "DR350SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR350SE:2027": {
@@ -28588,7 +28964,7 @@
     "make_name": "SUZUKI",
     "model": "DR350SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR350SE:2028": {
@@ -28597,7 +28973,7 @@
     "make_name": "SUZUKI",
     "model": "DR350SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR650S:2025": {
@@ -28606,7 +28982,7 @@
     "make_name": "SUZUKI",
     "model": "DR650S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR650S:2026": {
@@ -28615,7 +28991,7 @@
     "make_name": "SUZUKI",
     "model": "DR650S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR650S:2027": {
@@ -28624,7 +29000,7 @@
     "make_name": "SUZUKI",
     "model": "DR650S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR650S:2028": {
@@ -28633,7 +29009,7 @@
     "make_name": "SUZUKI",
     "model": "DR650S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR650SE:2025": {
@@ -28642,7 +29018,7 @@
     "make_name": "SUZUKI",
     "model": "DR650SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR650SE:2026": {
@@ -28651,7 +29027,7 @@
     "make_name": "SUZUKI",
     "model": "DR650SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR650SE:2027": {
@@ -28660,7 +29036,7 @@
     "make_name": "SUZUKI",
     "model": "DR650SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR650SE:2028": {
@@ -28669,7 +29045,7 @@
     "make_name": "SUZUKI",
     "model": "DR650SE",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DR650SEL:2025": {
@@ -28678,7 +29054,7 @@
     "make_name": "SUZUKI",
     "model": "DR650SEL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DR650SEL:2026": {
@@ -28687,7 +29063,7 @@
     "make_name": "SUZUKI",
     "model": "DR650SEL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DR650SEL:2027": {
@@ -28696,7 +29072,7 @@
     "make_name": "SUZUKI",
     "model": "DR650SEL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DR650SEL:2028": {
@@ -28705,7 +29081,7 @@
     "make_name": "SUZUKI",
     "model": "DR650SEL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:DS80:2025": {
@@ -28714,7 +29090,7 @@
     "make_name": "SUZUKI",
     "model": "DS80",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:DS80:2026": {
@@ -28723,7 +29099,7 @@
     "make_name": "SUZUKI",
     "model": "DS80",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:DS80:2027": {
@@ -28732,7 +29108,7 @@
     "make_name": "SUZUKI",
     "model": "DS80",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:DS80:2028": {
@@ -28741,7 +29117,7 @@
     "make_name": "SUZUKI",
     "model": "DS80",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:Equator:2025": {
@@ -28750,7 +29126,7 @@
     "make_name": "SUZUKI",
     "model": "Equator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:Equator:2026": {
@@ -28759,7 +29135,7 @@
     "make_name": "SUZUKI",
     "model": "Equator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:Equator:2027": {
@@ -28768,7 +29144,7 @@
     "make_name": "SUZUKI",
     "model": "Equator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:Equator:2028": {
@@ -28777,7 +29153,7 @@
     "make_name": "SUZUKI",
     "model": "Equator",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GN125E:2025": {
@@ -28786,7 +29162,7 @@
     "make_name": "SUZUKI",
     "model": "GN125E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GN125E:2026": {
@@ -28795,7 +29171,7 @@
     "make_name": "SUZUKI",
     "model": "GN125E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GN125E:2027": {
@@ -28804,7 +29180,7 @@
     "make_name": "SUZUKI",
     "model": "GN125E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GN125E:2028": {
@@ -28813,7 +29189,7 @@
     "make_name": "SUZUKI",
     "model": "GN125E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GS500E:2025": {
@@ -28822,7 +29198,7 @@
     "make_name": "SUZUKI",
     "model": "GS500E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GS500E:2026": {
@@ -28831,7 +29207,7 @@
     "make_name": "SUZUKI",
     "model": "GS500E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GS500E:2027": {
@@ -28840,7 +29216,7 @@
     "make_name": "SUZUKI",
     "model": "GS500E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GS500E:2028": {
@@ -28849,7 +29225,7 @@
     "make_name": "SUZUKI",
     "model": "GS500E",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GS500FK:2025": {
@@ -28858,7 +29234,7 @@
     "make_name": "SUZUKI",
     "model": "GS500FK",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GS500FK:2026": {
@@ -28867,7 +29243,7 @@
     "make_name": "SUZUKI",
     "model": "GS500FK",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GS500FK:2027": {
@@ -28876,7 +29252,7 @@
     "make_name": "SUZUKI",
     "model": "GS500FK",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GS500FK:2028": {
@@ -28885,7 +29261,7 @@
     "make_name": "SUZUKI",
     "model": "GS500FK",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSF1200:2025": {
@@ -28894,7 +29270,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSF1200:2026": {
@@ -28903,7 +29279,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSF1200:2027": {
@@ -28912,7 +29288,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSF1200:2028": {
@@ -28921,7 +29297,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSF1200S/GSF1200SZ:2025": {
@@ -28930,7 +29306,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200S/GSF1200SZ",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSF1200S/GSF1200SZ:2026": {
@@ -28939,7 +29315,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200S/GSF1200SZ",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSF1200S/GSF1200SZ:2027": {
@@ -28948,7 +29324,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200S/GSF1200SZ",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSF1200S/GSF1200SZ:2028": {
@@ -28957,7 +29333,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200S/GSF1200SZ",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSF1200S:2025": {
@@ -28966,7 +29342,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSF1200S:2026": {
@@ -28975,7 +29351,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSF1200S:2027": {
@@ -28984,7 +29360,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSF1200S:2028": {
@@ -28993,7 +29369,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1200S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSF1250SA:2025": {
@@ -29002,7 +29378,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1250SA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSF1250SA:2026": {
@@ -29011,7 +29387,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1250SA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSF1250SA:2027": {
@@ -29020,7 +29396,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1250SA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSF1250SA:2028": {
@@ -29029,7 +29405,7 @@
     "make_name": "SUZUKI",
     "model": "GSF1250SA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSF600S:2025": {
@@ -29038,7 +29414,7 @@
     "make_name": "SUZUKI",
     "model": "GSF600S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSF600S:2026": {
@@ -29047,7 +29423,7 @@
     "make_name": "SUZUKI",
     "model": "GSF600S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSF600S:2027": {
@@ -29056,7 +29432,7 @@
     "make_name": "SUZUKI",
     "model": "GSF600S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSF600S:2028": {
@@ -29065,7 +29441,7 @@
     "make_name": "SUZUKI",
     "model": "GSF600S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSF650S:2025": {
@@ -29074,7 +29450,7 @@
     "make_name": "SUZUKI",
     "model": "GSF650S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSF650S:2026": {
@@ -29083,7 +29459,7 @@
     "make_name": "SUZUKI",
     "model": "GSF650S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSF650S:2027": {
@@ -29092,7 +29468,7 @@
     "make_name": "SUZUKI",
     "model": "GSF650S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSF650S:2028": {
@@ -29101,7 +29477,7 @@
     "make_name": "SUZUKI",
     "model": "GSF650S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSF650SA:2025": {
@@ -29110,7 +29486,7 @@
     "make_name": "SUZUKI",
     "model": "GSF650SA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSF650SA:2026": {
@@ -29119,7 +29495,7 @@
     "make_name": "SUZUKI",
     "model": "GSF650SA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSF650SA:2027": {
@@ -29128,7 +29504,7 @@
     "make_name": "SUZUKI",
     "model": "GSF650SA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSF650SA:2028": {
@@ -29137,7 +29513,7 @@
     "make_name": "SUZUKI",
     "model": "GSF650SA",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-8R:2025": {
@@ -29146,7 +29522,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-8R:2026": {
@@ -29155,7 +29531,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-8R:2027": {
@@ -29164,7 +29540,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-8R:2028": {
@@ -29173,7 +29549,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-8S:2025": {
@@ -29182,7 +29558,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-8S:2026": {
@@ -29191,7 +29567,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-8S:2027": {
@@ -29200,7 +29576,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-8S:2028": {
@@ -29209,7 +29585,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8S",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-8T:2026": {
@@ -29218,7 +29594,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8T",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-8T:2027": {
@@ -29227,7 +29603,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8T",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-8T:2028": {
@@ -29236,7 +29612,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8T",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-8TT:2026": {
@@ -29245,7 +29621,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8TT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-8TT:2027": {
@@ -29254,7 +29630,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8TT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-8TT:2028": {
@@ -29263,7 +29639,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-8TT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R1000:2025": {
@@ -29272,7 +29648,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R1000:2026": {
@@ -29281,7 +29657,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-R1000:2027": {
@@ -29290,7 +29666,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-R1000:2028": {
@@ -29299,7 +29675,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R1000AL:2025": {
@@ -29308,7 +29684,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000AL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R1000AL:2026": {
@@ -29317,7 +29693,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000AL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-R1000AL:2027": {
@@ -29326,7 +29702,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000AL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-R1000AL:2028": {
@@ -29335,7 +29711,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000AL",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R1000K:2025": {
@@ -29344,7 +29720,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000K",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R1000K:2026": {
@@ -29353,7 +29729,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000K",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-R1000K:2027": {
@@ -29362,7 +29738,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000K",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-R1000K:2028": {
@@ -29371,7 +29747,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000K",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R1000L:2025": {
@@ -29380,7 +29756,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R1000L:2026": {
@@ -29389,7 +29765,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-R1000L:2027": {
@@ -29398,7 +29774,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-R1000L:2028": {
@@ -29407,7 +29783,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R1000R:2025": {
@@ -29416,7 +29792,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1000R",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R1100W:2025": {
@@ -29425,7 +29801,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1100W",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R1100W:2026": {
@@ -29434,7 +29810,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1100W",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-R1100W:2027": {
@@ -29443,7 +29819,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1100W",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-R1100W:2028": {
@@ -29452,7 +29828,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R1100W",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R600:2025": {
@@ -29461,7 +29837,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R600:2026": {
@@ -29470,7 +29846,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-R600:2027": {
@@ -29479,7 +29855,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-R600:2028": {
@@ -29488,7 +29864,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R600K:2025": {
@@ -29497,7 +29873,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600K",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R600K:2026": {
@@ -29506,7 +29882,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600K",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-R600K:2027": {
@@ -29515,7 +29891,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600K",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-R600K:2028": {
@@ -29524,7 +29900,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600K",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R600L:2025": {
@@ -29533,7 +29909,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "509:GSX-R600L:2026": {
@@ -29542,7 +29918,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "509:GSX-R600L:2027": {
@@ -29551,7 +29927,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "509:GSX-R600L:2028": {
@@ -29560,7 +29936,7 @@
     "make_name": "SUZUKI",
     "model": "GSX-R600L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "509:GSX-R750:2025": {
@@ -29742,6 +30118,42 @@
     "photos": [],
     "state": "pending",
     "year": 2025
+  },
+  "509:GSX-S750:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GSX-S750",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:GSX-S750:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GSX-S750",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:GSX-S750:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GSX-S750",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:GSX-S750:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GSX-S750",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
   },
   "509:GSX-S750ZL/GSX-S750L:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -30139,6 +30551,42 @@
     "state": "pending",
     "year": 2028
   },
+  "509:GW250:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GW250",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:GW250:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GW250",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:GW250:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GW250",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:GW250:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GW250",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
   "509:GW250FL/GW250ZL:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 509,
@@ -30243,6 +30691,42 @@
     "make_id": 509,
     "make_name": "SUZUKI",
     "model": "GZ250",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
+  "509:Gladius 650:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Gladius 650",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:Gladius 650:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Gladius 650",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:Gladius 650:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Gladius 650",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:Gladius 650:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Gladius 650",
     "photos": [],
     "state": "pending",
     "year": 2028
@@ -30387,6 +30871,150 @@
     "make_id": 509,
     "make_name": "SUZUKI",
     "model": "JR80",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
+  "509:KingQuad 400 Asi:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 400 Asi",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:KingQuad 400 Asi:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 400 Asi",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:KingQuad 400 Asi:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 400 Asi",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:KingQuad 400 Asi:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 400 Asi",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
+  "509:KingQuad 400 Fsi:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 400 Fsi",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:KingQuad 400 Fsi:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 400 Fsi",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:KingQuad 400 Fsi:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 400 Fsi",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:KingQuad 400 Fsi:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 400 Fsi",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
+  "509:KingQuad 500 Axi:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 500 Axi",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:KingQuad 500 Axi:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 500 Axi",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:KingQuad 500 Axi:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 500 Axi",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:KingQuad 500 Axi:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 500 Axi",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
+  "509:KingQuad 750 Axi:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 750 Axi",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:KingQuad 750 Axi:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 750 Axi",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:KingQuad 750 Axi:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 750 Axi",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:KingQuad 750 Axi:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "KingQuad 750 Axi",
     "photos": [],
     "state": "pending",
     "year": 2028
@@ -31467,6 +32095,105 @@
     "make_id": 509,
     "make_name": "SUZUKI",
     "model": "QUV620F",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
+  "509:QuadRunner 160:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadRunner 160",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:QuadRunner 160:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadRunner 160",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:QuadRunner 160:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadRunner 160",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:QuadRunner 160:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadRunner 160",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
+  "509:QuadSport Z50:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadSport Z50",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:QuadSport Z50:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadSport Z50",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:QuadSport Z50:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadSport Z50",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
+  "509:QuadSport Z90:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadSport Z90",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:QuadSport Z90:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadSport Z90",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:QuadSport Z90:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadSport Z90",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:QuadSport Z90:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "QuadSport Z90",
     "photos": [],
     "state": "pending",
     "year": 2028
@@ -32623,6 +33350,42 @@
     "state": "pending",
     "year": 2028
   },
+  "509:V-Strom 1000:2025": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 1000",
+    "photos": [],
+    "state": "pending",
+    "year": 2025
+  },
+  "509:V-Strom 1000:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 1000",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:V-Strom 1000:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 1000",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:V-Strom 1000:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 1000",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
+  },
   "509:V-Strom 1050:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 509,
@@ -32667,6 +33430,33 @@
     "photos": [],
     "state": "pending",
     "year": 2025
+  },
+  "509:V-Strom 650:2026": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 650",
+    "photos": [],
+    "state": "pending",
+    "year": 2026
+  },
+  "509:V-Strom 650:2027": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 650",
+    "photos": [],
+    "state": "pending",
+    "year": 2027
+  },
+  "509:V-Strom 650:2028": {
+    "first_seen": "2026-06-16T09:34:54.965170+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 650",
+    "photos": [],
+    "state": "pending",
+    "year": 2028
   },
   "509:V-Strom 800:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
