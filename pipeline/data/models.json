@@ -11164,6 +11164,26 @@
         "hash": "b774ab3601dd0e45",
         "path": "photos/46/460_Explorer_2025/b774ab3601dd0e45.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ford_Explorer_USDM.jpg"
+      },
+      {
+        "hash": "3eaeddec92c19140",
+        "path": "photos/46/460_Explorer_2025/3eaeddec92c19140.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2025_Ford_Explorer_Active_%28facelift%29%2C_front_12.20.24.jpg"
+      },
+      {
+        "hash": "cd1a584f41a5981f",
+        "path": "photos/46/460_Explorer_2025/cd1a584f41a5981f.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/2025_Ford_Explorer_Active_%28facelift%29%2C_rear_12.20.24.jpg"
+      },
+      {
+        "hash": "1d54d1e6d8cad815",
+        "path": "photos/46/460_Explorer_2025/1d54d1e6d8cad815.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/%2716-%2719_LVMPD_FPIU_on_North_Durango_Drive.jpg"
+      },
+      {
+        "hash": "0257dc626c4475fa",
+        "path": "photos/46/460_Explorer_2025/0257dc626c4475fa.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2011_Ford_Explorer_Limited_%28front%29.jpg"
       }
     ],
     "state": "fetched",
@@ -11179,6 +11199,11 @@
         "hash": "b774ab3601dd0e45",
         "path": "photos/46/460_Explorer_2026/b774ab3601dd0e45.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ford_Explorer_USDM.jpg"
+      },
+      {
+        "hash": "0257dc626c4475fa",
+        "path": "photos/46/460_Explorer_2026/0257dc626c4475fa.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2011_Ford_Explorer_Limited_%28front%29.jpg"
       }
     ],
     "state": "fetched",
@@ -11194,6 +11219,11 @@
         "hash": "b774ab3601dd0e45",
         "path": "photos/46/460_Explorer_2027/b774ab3601dd0e45.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ford_Explorer_USDM.jpg"
+      },
+      {
+        "hash": "0257dc626c4475fa",
+        "path": "photos/46/460_Explorer_2027/0257dc626c4475fa.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2011_Ford_Explorer_Limited_%28front%29.jpg"
       }
     ],
     "state": "fetched",
@@ -11209,6 +11239,11 @@
         "hash": "b774ab3601dd0e45",
         "path": "photos/46/460_Explorer_2028/b774ab3601dd0e45.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ford_Explorer_USDM.jpg"
+      },
+      {
+        "hash": "0257dc626c4475fa",
+        "path": "photos/46/460_Explorer_2028/0257dc626c4475fa.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2011_Ford_Explorer_Limited_%28front%29.jpg"
       }
     ],
     "state": "fetched",
@@ -15552,6 +15587,11 @@
         "hash": "50519de342ce4261",
         "path": "photos/47/472_Yukon_XL_2026/50519de342ce4261.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chevrolet_Suburban_%28GMTT1XX%29_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      },
+      {
+        "hash": "a919ce123483929a",
+        "path": "photos/47/472_Yukon_XL_2026/a919ce123483929a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1937_Chevrolet_Carryall_Suburban.jpg"
       }
     ],
     "state": "fetched",
@@ -18456,6 +18496,11 @@
         "hash": "fbc36402b5b304e7",
         "path": "photos/47/474_RC30_2028/fbc36402b5b304e7.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Honda_VF500F.JPG"
+      },
+      {
+        "hash": "f09cab67b1369f3f",
+        "path": "photos/47/474_RC30_2028/f09cab67b1369f3f.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/JoeyDunlopTT1992BrayHill.jpg"
       }
     ],
     "state": "fetched",
@@ -35777,6 +35822,11 @@
         "hash": "ca073566eb5390d6",
         "path": "photos/51/515_SC_2025/ca073566eb5390d6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Lexus_of_Sapporo.jpg"
+      },
+      {
+        "hash": "07570e729074ed11",
+        "path": "photos/51/515_SC_2025/07570e729074ed11.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lexus_SC_430_Tiger_Eye_Mica.jpg"
       }
     ],
     "state": "fetched",
@@ -35792,6 +35842,11 @@
         "hash": "ca073566eb5390d6",
         "path": "photos/51/515_SC_2026/ca073566eb5390d6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Lexus_of_Sapporo.jpg"
+      },
+      {
+        "hash": "07570e729074ed11",
+        "path": "photos/51/515_SC_2026/07570e729074ed11.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lexus_SC_430_Tiger_Eye_Mica.jpg"
       }
     ],
     "state": "fetched",
@@ -39330,7 +39385,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ567",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:DZ577:2025": {
@@ -39339,7 +39394,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ577",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:DZ577:2026": {
@@ -39348,7 +39403,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ577",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:DZ577:2027": {
@@ -39357,7 +39412,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ577",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:DZ577:2028": {
@@ -39366,7 +39421,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ577",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:DZ597:2025": {
@@ -39375,7 +39430,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ597",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:DZ597:2026": {
@@ -39384,7 +39439,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ597",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:DZ597:2027": {
@@ -39393,7 +39448,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ597",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:DZ597:2028": {
@@ -39402,7 +39457,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ597",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:DZ677:2025": {
@@ -39411,7 +39466,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ677",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:DZ677:2026": {
@@ -39420,7 +39475,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ677",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:DZ677:2027": {
@@ -39429,7 +39484,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ677",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:DZ677:2028": {
@@ -39438,7 +39493,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ677",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:DZ697:2025": {
@@ -39447,7 +39502,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ697",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:DZ697:2026": {
@@ -39456,7 +39511,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ697",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:DZ697:2027": {
@@ -39465,7 +39520,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ697",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:DZ697:2028": {
@@ -39474,7 +39529,7 @@
     "make_name": "INTERNATIONAL",
     "model": "DZ697",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-2554:2025": {
@@ -39483,7 +39538,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2554",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-2554:2026": {
@@ -39492,7 +39547,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2554",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-2554:2027": {
@@ -39501,7 +39556,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2554",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-2554:2028": {
@@ -39510,7 +39565,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2554",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-2574:2025": {
@@ -39519,7 +39574,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2574",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-2574:2026": {
@@ -39528,7 +39583,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2574",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-2574:2027": {
@@ -39537,7 +39592,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2574",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-2574:2028": {
@@ -39546,7 +39601,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2574",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-2654:2025": {
@@ -39555,7 +39610,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2654",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-2654:2026": {
@@ -39564,7 +39619,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2654",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-2654:2027": {
@@ -39573,7 +39628,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2654",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-2654:2028": {
@@ -39582,7 +39637,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2654",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-2674:2025": {
@@ -39591,7 +39646,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2674",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-2674:2026": {
@@ -39600,7 +39655,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2674",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-2674:2027": {
@@ -39609,7 +39664,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2674",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-2674:2028": {
@@ -39618,7 +39673,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-2674",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-4270:2025": {
@@ -39627,7 +39682,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4270",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-4270:2026": {
@@ -39636,7 +39691,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4270",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-4270:2027": {
@@ -39645,7 +39700,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4270",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-4270:2028": {
@@ -39654,7 +39709,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4270",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-4370:2025": {
@@ -39663,7 +39718,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4370",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-4370:2026": {
@@ -39672,7 +39727,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4370",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-4370:2027": {
@@ -39681,7 +39736,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4370",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-4370:2028": {
@@ -39690,7 +39745,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4370",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-4900:2025": {
@@ -39699,7 +39754,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4900",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-4900:2026": {
@@ -39708,7 +39763,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4900",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-4900:2027": {
@@ -39717,7 +39772,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4900",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-4900:2028": {
@@ -39726,7 +39781,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-4900",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-5050:2025": {
@@ -39735,7 +39790,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-5050",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-5050:2026": {
@@ -39744,7 +39799,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-5050",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-5050:2027": {
@@ -39753,7 +39808,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-5050",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-5050:2028": {
@@ -39762,7 +39817,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-5050",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-5070:2025": {
@@ -39771,7 +39826,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-5070",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-5070:2026": {
@@ -39780,7 +39835,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-5070",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-5070:2027": {
@@ -39789,7 +39844,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-5070",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-5070:2028": {
@@ -39798,7 +39853,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-5070",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-7100:2025": {
@@ -39807,7 +39862,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-7100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-7100:2026": {
@@ -39816,7 +39871,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-7100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-7100:2027": {
@@ -39825,7 +39880,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-7100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-7100:2028": {
@@ -39834,7 +39889,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-7100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-8100:2025": {
@@ -39843,7 +39898,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-8100:2026": {
@@ -39852,7 +39907,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-8100:2027": {
@@ -39861,7 +39916,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-8100:2028": {
@@ -39870,7 +39925,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8100",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-8200:2025": {
@@ -39879,7 +39934,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-8200:2026": {
@@ -39888,7 +39943,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-8200:2027": {
@@ -39897,7 +39952,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-8200:2028": {
@@ -39906,7 +39961,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-8300:2025": {
@@ -39915,7 +39970,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-8300:2026": {
@@ -39924,7 +39979,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-8300:2027": {
@@ -39933,7 +39988,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-8300:2028": {
@@ -39942,7 +39997,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-8300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-9300:2025": {
@@ -39951,7 +40006,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-9300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-9300:2026": {
@@ -39960,7 +40015,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-9300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-9300:2027": {
@@ -39969,7 +40024,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-9300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-9300:2028": {
@@ -39978,7 +40033,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-9300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:F-9370:2025": {
@@ -39987,7 +40042,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-9370",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:F-9370:2026": {
@@ -39996,7 +40051,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-9370",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:F-9370:2027": {
@@ -40005,7 +40060,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-9370",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:F-9370:2028": {
@@ -40014,7 +40069,7 @@
     "make_name": "INTERNATIONAL",
     "model": "F-9370",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:G-8200:2025": {
@@ -40023,7 +40078,7 @@
     "make_name": "INTERNATIONAL",
     "model": "G-8200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:G-8200:2026": {
@@ -40032,7 +40087,7 @@
     "make_name": "INTERNATIONAL",
     "model": "G-8200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:G-8200:2027": {
@@ -40041,7 +40096,7 @@
     "make_name": "INTERNATIONAL",
     "model": "G-8200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:G-8200:2028": {
@@ -40050,7 +40105,7 @@
     "make_name": "INTERNATIONAL",
     "model": "G-8200",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:G-8300:2025": {
@@ -40059,7 +40114,7 @@
     "make_name": "INTERNATIONAL",
     "model": "G-8300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:G-8300:2026": {
@@ -40068,7 +40123,7 @@
     "make_name": "INTERNATIONAL",
     "model": "G-8300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:G-8300:2027": {
@@ -40077,7 +40132,7 @@
     "make_name": "INTERNATIONAL",
     "model": "G-8300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:G-8300:2028": {
@@ -40086,7 +40141,7 @@
     "make_name": "INTERNATIONAL",
     "model": "G-8300",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:GA107:2025": {
@@ -40095,7 +40150,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GA107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:GA107:2026": {
@@ -40104,7 +40159,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GA107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:GA107:2027": {
@@ -40113,7 +40168,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GA107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:GA107:2028": {
@@ -40122,7 +40177,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GA107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:GF107:2025": {
@@ -40131,7 +40186,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GF107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:GF107:2026": {
@@ -40140,7 +40195,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GF107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:GF107:2027": {
@@ -40149,7 +40204,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GF107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:GF107:2028": {
@@ -40158,7 +40213,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GF107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:GR025:2025": {
@@ -40167,7 +40222,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GR025",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:GR025:2026": {
@@ -40176,7 +40231,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GR025",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:GR025:2027": {
@@ -40185,7 +40240,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GR025",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:GR025:2028": {
@@ -40194,7 +40249,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GR025",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:GR035:2025": {
@@ -40203,7 +40258,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GR035",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:GR035:2026": {
@@ -40212,7 +40267,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GR035",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:GR035:2027": {
@@ -40221,7 +40276,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GR035",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:GR035:2028": {
@@ -40230,7 +40285,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GR035",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:GW107:2025": {
@@ -40239,7 +40294,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GW107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:GW107:2026": {
@@ -40248,7 +40303,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GW107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:GW107:2027": {
@@ -40257,7 +40312,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GW107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:GW107:2028": {
@@ -40266,7 +40321,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GW107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:GZ107:2025": {
@@ -40275,7 +40330,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GZ107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:GZ107:2026": {
@@ -40284,7 +40339,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GZ107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:GZ107:2027": {
@@ -40293,7 +40348,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GZ107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:GZ107:2028": {
@@ -40302,7 +40357,7 @@
     "make_name": "INTERNATIONAL",
     "model": "GZ107",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:Genesis:2025": {
@@ -40311,7 +40366,7 @@
     "make_name": "INTERNATIONAL",
     "model": "Genesis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:Genesis:2026": {
@@ -40320,7 +40375,7 @@
     "make_name": "INTERNATIONAL",
     "model": "Genesis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:Genesis:2027": {
@@ -40329,7 +40384,7 @@
     "make_name": "INTERNATIONAL",
     "model": "Genesis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:Genesis:2028": {
@@ -40338,7 +40393,7 @@
     "make_name": "INTERNATIONAL",
     "model": "Genesis",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV507:2025": {
@@ -40347,7 +40402,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV507",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HV507:2026": {
@@ -40356,7 +40411,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV507",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV507:2027": {
@@ -40365,7 +40420,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV507",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV507:2028": {
@@ -40374,7 +40429,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV507",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV509:2025": {
@@ -40383,7 +40438,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV509",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HV509:2026": {
@@ -40392,7 +40447,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV509",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV509:2027": {
@@ -40401,7 +40456,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV509",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV509:2028": {
@@ -40410,7 +40465,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV509",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV513:2025": {
@@ -40419,7 +40474,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV513",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HV513:2026": {
@@ -40428,7 +40483,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV513",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV513:2027": {
@@ -40437,7 +40492,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV513",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV513:2028": {
@@ -40446,7 +40501,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV513",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV515:2025": {
@@ -40455,7 +40510,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV515",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HV515:2026": {
@@ -40464,7 +40519,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV515",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV515:2027": {
@@ -40473,7 +40528,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV515",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV515:2028": {
@@ -40482,7 +40537,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV515",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV607:2025": {
@@ -40491,7 +40546,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV607",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HV607:2026": {
@@ -40500,7 +40555,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV607",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV607:2027": {
@@ -40509,7 +40564,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV607",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV607:2028": {
@@ -40518,7 +40573,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV607",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV609:2025": {
@@ -40527,7 +40582,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV609",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HV609:2026": {
@@ -40536,7 +40591,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV609",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV609:2027": {
@@ -40545,7 +40600,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV609",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV609:2028": {
@@ -40554,7 +40609,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV609",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV60G:2025": {
@@ -40563,7 +40618,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV60G",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HV60G:2026": {
@@ -40572,7 +40627,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV60G",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV60G:2027": {
@@ -40581,7 +40636,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV60G",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV60G:2028": {
@@ -40590,7 +40645,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV60G",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV613:2025": {
@@ -40598,8 +40653,14 @@
     "make_id": 526,
     "make_name": "INTERNATIONAL",
     "model": "HV613",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "7a77688c4be2e9f6",
+        "path": "photos/52/526_HV613_2025/7a77688c4be2e9f6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/2019_International_HV613_SBA_6x4_Day_Cab_in_White_%28United_Rentals%29%2C_Front_Right%2C_2023-07-14.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "526:HV613:2026": {
@@ -40608,7 +40669,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV613",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV613:2027": {
@@ -40617,7 +40678,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV613",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV613:2028": {
@@ -40626,7 +40687,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV613",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HV615:2025": {
@@ -40635,7 +40696,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV615",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HV615:2026": {
@@ -40644,7 +40705,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV615",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HV615:2027": {
@@ -40653,7 +40714,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV615",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HV615:2028": {
@@ -40662,7 +40723,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HV615",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HX520:2025": {
@@ -40671,7 +40732,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX520",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HX520:2026": {
@@ -40680,7 +40741,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX520",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HX520:2027": {
@@ -40689,7 +40750,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX520",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HX520:2028": {
@@ -40698,7 +40759,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX520",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HX52X:2025": {
@@ -40707,7 +40768,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX52X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HX52X:2026": {
@@ -40716,7 +40777,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX52X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HX52X:2027": {
@@ -40725,7 +40786,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX52X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HX52X:2028": {
@@ -40734,7 +40795,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX52X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HX620:2025": {
@@ -40743,7 +40804,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX620",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HX620:2026": {
@@ -40752,7 +40813,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX620",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HX620:2027": {
@@ -40761,7 +40822,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX620",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HX620:2028": {
@@ -40770,7 +40831,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX620",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:HX62X:2025": {
@@ -40779,7 +40840,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX62X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:HX62X:2026": {
@@ -40788,7 +40849,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX62X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:HX62X:2027": {
@@ -40797,7 +40858,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX62X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:HX62X:2028": {
@@ -40806,7 +40867,7 @@
     "make_name": "INTERNATIONAL",
     "model": "HX62X",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:KL045:2025": {
@@ -40815,7 +40876,7 @@
     "make_name": "INTERNATIONAL",
     "model": "KL045",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:KL045:2026": {
@@ -40824,7 +40885,7 @@
     "make_name": "INTERNATIONAL",
     "model": "KL045",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:KL045:2027": {
@@ -40833,7 +40894,7 @@
     "make_name": "INTERNATIONAL",
     "model": "KL045",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:KL045:2028": {
@@ -40842,7 +40903,7 @@
     "make_name": "INTERNATIONAL",
     "model": "KL045",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:KL055:2025": {
@@ -40851,7 +40912,7 @@
     "make_name": "INTERNATIONAL",
     "model": "KL055",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:KL055:2026": {
@@ -40860,7 +40921,7 @@
     "make_name": "INTERNATIONAL",
     "model": "KL055",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:KL055:2027": {
@@ -40869,7 +40930,7 @@
     "make_name": "INTERNATIONAL",
     "model": "KL055",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:KL055:2028": {
@@ -40878,7 +40939,7 @@
     "make_name": "INTERNATIONAL",
     "model": "KL055",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:L3307:2025": {
@@ -40887,7 +40948,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3307",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:L3307:2026": {
@@ -40896,7 +40957,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3307",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:L3307:2027": {
@@ -40905,7 +40966,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3307",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:L3307:2028": {
@@ -40914,7 +40975,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3307",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:L3337:2025": {
@@ -40923,7 +40984,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3337",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:L3337:2026": {
@@ -40932,7 +40993,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3337",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:L3337:2027": {
@@ -40941,7 +41002,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3337",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:L3337:2028": {
@@ -40950,7 +41011,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3337",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:L3377:2025": {
@@ -40959,7 +41020,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3377",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:L3377:2026": {
@@ -40968,7 +41029,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3377",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:L3377:2027": {
@@ -40977,7 +41038,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3377",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:L3377:2028": {
@@ -40986,7 +41047,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3377",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:L3407:2025": {
@@ -40995,7 +41056,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3407",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:L3407:2026": {
@@ -41004,7 +41065,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3407",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:L3407:2027": {
@@ -41013,7 +41074,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3407",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:L3407:2028": {
@@ -41022,7 +41083,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3407",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:L3417:2025": {
@@ -41031,7 +41092,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3417",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:L3417:2026": {
@@ -41040,7 +41101,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3417",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:L3417:2027": {
@@ -41049,7 +41110,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3417",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:L3417:2028": {
@@ -41058,7 +41119,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3417",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:L3427:2025": {
@@ -41067,7 +41128,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3427",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:L3427:2026": {
@@ -41076,7 +41137,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3427",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:L3427:2027": {
@@ -41085,7 +41146,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3427",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:L3427:2028": {
@@ -41094,7 +41155,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3427",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:L3437:2025": {
@@ -41103,7 +41164,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3437",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:L3437:2026": {
@@ -41112,7 +41173,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3437",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:L3437:2027": {
@@ -41121,7 +41182,7 @@
     "make_name": "INTERNATIONAL",
     "model": "L3437",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:L3437:2028": {
