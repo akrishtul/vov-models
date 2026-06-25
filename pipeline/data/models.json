@@ -15641,6 +15641,11 @@
         "hash": "a919ce123483929a",
         "path": "photos/47/472_Yukon_XL_2026/a919ce123483929a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1937_Chevrolet_Carryall_Suburban.jpg"
+      },
+      {
+        "hash": "9c73f62841757dcc",
+        "path": "photos/47/472_Yukon_XL_2026/9c73f62841757dcc.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/01-06_GMC_Yukon_XL_Denali.jpg"
       }
     ],
     "state": "fetched",
@@ -28201,6 +28206,42 @@
     "state": "no_photos",
     "year": 2028
   },
+  "509:Boulevard C50/C50T:2025": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C50/C50T",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Boulevard C50/C50T:2026": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C50/C50T",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Boulevard C50/C50T:2027": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C50/C50T",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Boulevard C50/C50T:2028": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Boulevard C50/C50T",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "509:Boulevard C90/C90T, C90 B.O.S.S./C90T B.O.S.S.:2025": {
     "first_seen": "2026-06-16T09:34:54.965170+00:00",
     "make_id": 509,
@@ -29728,6 +29769,42 @@
     "state": "no_photos",
     "year": 2028
   },
+  "509:GN125:2025": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GN125",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:GN125:2026": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GN125",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:GN125:2027": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GN125",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:GN125:2028": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GN125",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "509:GN125E:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 509,
@@ -30587,6 +30664,16 @@
         "hash": "844931965816b6ab",
         "path": "photos/50/509_GSX_R750_2026/844931965816b6ab.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/2011_Suzuki_GSX-R750.jpg"
+      },
+      {
+        "hash": "06227a1943a73623",
+        "path": "photos/50/509_GSX_R750_2026/06227a1943a73623.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/2006_gsxr750.jpg"
+      },
+      {
+        "hash": "5293808d58f04424",
+        "path": "photos/50/509_GSX_R750_2026/5293808d58f04424.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Suzuki_GSX-R_750_rechts.jpg"
       }
     ],
     "state": "fetched",
@@ -31505,6 +31592,89 @@
       }
     ],
     "state": "fetched",
+    "year": 2028
+  },
+  "509:Intruder 1400:2025": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Intruder 1400",
+    "photos": [
+      {
+        "hash": "ad9edc2d1b446f12",
+        "path": "photos/50/509_Intruder_1400_2025/ad9edc2d1b446f12.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/2003_VS800GL.jpg"
+      },
+      {
+        "hash": "53efda86d678ed7d",
+        "path": "photos/50/509_Intruder_1400_2025/53efda86d678ed7d.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2005_Suzuki_Boulevard_C50.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2025
+  },
+  "509:Intruder 1400:2026": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Intruder 1400",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Intruder 1400:2027": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Intruder 1400",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Intruder 1400:2028": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Intruder 1400",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:Intruder 1500 LC:2025": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Intruder 1500 LC",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Intruder 1500 LC:2026": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Intruder 1500 LC",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Intruder 1500 LC:2027": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Intruder 1500 LC",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Intruder 1500 LC:2028": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Intruder 1500 LC",
+    "photos": [],
+    "state": "no_photos",
     "year": 2028
   },
   "509:Intruder 800:2025": {
@@ -32943,6 +33113,42 @@
     "make_id": 509,
     "make_name": "SUZUKI",
     "model": "Marauder 250",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:Marauder 800:2025": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Marauder 800",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "509:Marauder 800:2026": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Marauder 800",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "509:Marauder 800:2027": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Marauder 800",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:Marauder 800:2028": {
+    "first_seen": "2026-06-25T07:54:02.721999+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "Marauder 800",
     "photos": [],
     "state": "no_photos",
     "year": 2028
@@ -44822,7 +45028,7 @@
     "make_name": "INTERNATIONAL",
     "model": "SZ607",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:SZ607:2027": {
@@ -44831,7 +45037,7 @@
     "make_name": "INTERNATIONAL",
     "model": "SZ607",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:SZ607:2028": {
@@ -44840,7 +45046,7 @@
     "make_name": "INTERNATIONAL",
     "model": "SZ607",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:TA005:2025": {
@@ -44849,7 +45055,7 @@
     "make_name": "INTERNATIONAL",
     "model": "TA005",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:TA005:2026": {
@@ -44858,7 +45064,7 @@
     "make_name": "INTERNATIONAL",
     "model": "TA005",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:TA005:2027": {
@@ -44867,7 +45073,7 @@
     "make_name": "INTERNATIONAL",
     "model": "TA005",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:TA005:2028": {
@@ -44876,7 +45082,7 @@
     "make_name": "INTERNATIONAL",
     "model": "TA005",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:TR005:2025": {
@@ -44885,7 +45091,7 @@
     "make_name": "INTERNATIONAL",
     "model": "TR005",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:TR005:2026": {
@@ -44894,7 +45100,7 @@
     "make_name": "INTERNATIONAL",
     "model": "TR005",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:TR005:2027": {
@@ -44903,7 +45109,7 @@
     "make_name": "INTERNATIONAL",
     "model": "TR005",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:TR005:2028": {
@@ -44912,7 +45118,7 @@
     "make_name": "INTERNATIONAL",
     "model": "TR005",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "526:XR025:2025": {
@@ -44921,7 +45127,7 @@
     "make_name": "INTERNATIONAL",
     "model": "XR025",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "526:XR025:2026": {
@@ -44930,7 +45136,7 @@
     "make_name": "INTERNATIONAL",
     "model": "XR025",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "526:XR025:2027": {
@@ -44939,7 +45145,7 @@
     "make_name": "INTERNATIONAL",
     "model": "XR025",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "526:XR025:2028": {
@@ -44948,7 +45154,7 @@
     "make_name": "INTERNATIONAL",
     "model": "XR025",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "533:57:2025": {
@@ -44957,7 +45163,7 @@
     "make_name": "MAYBACH",
     "model": "57",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "533:57:2026": {
@@ -44966,7 +45172,7 @@
     "make_name": "MAYBACH",
     "model": "57",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "533:57:2027": {
@@ -44975,7 +45181,7 @@
     "make_name": "MAYBACH",
     "model": "57",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "533:57:2028": {
@@ -44984,7 +45190,7 @@
     "make_name": "MAYBACH",
     "model": "57",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "533:62:2025": {
@@ -44993,7 +45199,7 @@
     "make_name": "MAYBACH",
     "model": "62",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "533:62:2026": {
@@ -45002,7 +45208,7 @@
     "make_name": "MAYBACH",
     "model": "62",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "533:62:2027": {
@@ -45011,7 +45217,7 @@
     "make_name": "MAYBACH",
     "model": "62",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "533:62:2028": {
@@ -45020,7 +45226,7 @@
     "make_name": "MAYBACH",
     "model": "62",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "542:FTR:2025": {
@@ -45029,7 +45235,7 @@
     "make_name": "ISUZU",
     "model": "FTR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "542:FTR:2026": {
@@ -45038,7 +45244,7 @@
     "make_name": "ISUZU",
     "model": "FTR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "542:FTR:2027": {
@@ -45047,7 +45253,7 @@
     "make_name": "ISUZU",
     "model": "FTR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "542:FTR:2028": {
@@ -45056,7 +45262,7 @@
     "make_name": "ISUZU",
     "model": "FTR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "542:FVR:2025": {
@@ -45065,7 +45271,7 @@
     "make_name": "ISUZU",
     "model": "FVR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "542:FVR:2026": {
@@ -45074,7 +45280,7 @@
     "make_name": "ISUZU",
     "model": "FVR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "542:FVR:2027": {
@@ -45083,7 +45289,7 @@
     "make_name": "ISUZU",
     "model": "FVR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "542:FVR:2028": {
@@ -45092,7 +45298,7 @@
     "make_name": "ISUZU",
     "model": "FVR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "542:NPR-HD:2025": {
@@ -45101,7 +45307,7 @@
     "make_name": "ISUZU",
     "model": "NPR-HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "542:NPR-HD:2026": {
@@ -45110,7 +45316,7 @@
     "make_name": "ISUZU",
     "model": "NPR-HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "542:NPR-HD:2027": {
@@ -45119,7 +45325,7 @@
     "make_name": "ISUZU",
     "model": "NPR-HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "542:NPR-HD:2028": {
@@ -45128,7 +45334,7 @@
     "make_name": "ISUZU",
     "model": "NPR-HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "542:NPR-XD:2025": {
@@ -45137,7 +45343,7 @@
     "make_name": "ISUZU",
     "model": "NPR-XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "542:NPR-XD:2026": {
@@ -45146,7 +45352,7 @@
     "make_name": "ISUZU",
     "model": "NPR-XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "542:NPR-XD:2027": {
@@ -45155,7 +45361,7 @@
     "make_name": "ISUZU",
     "model": "NPR-XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "542:NPR-XD:2028": {
@@ -45164,7 +45370,7 @@
     "make_name": "ISUZU",
     "model": "NPR-XD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "542:NPR/NPR-HD:2025": {
@@ -45173,7 +45379,7 @@
     "make_name": "ISUZU",
     "model": "NPR/NPR-HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "542:NPR/NPR-HD:2026": {
@@ -45182,7 +45388,7 @@
     "make_name": "ISUZU",
     "model": "NPR/NPR-HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "542:NPR/NPR-HD:2027": {
@@ -45191,7 +45397,7 @@
     "make_name": "ISUZU",
     "model": "NPR/NPR-HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "542:NPR/NPR-HD:2028": {
@@ -45200,7 +45406,7 @@
     "make_name": "ISUZU",
     "model": "NPR/NPR-HD",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "542:NPR:2027": {
@@ -45209,7 +45415,7 @@
     "make_name": "ISUZU",
     "model": "NPR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "542:NPR:2028": {
@@ -45218,7 +45424,7 @@
     "make_name": "ISUZU",
     "model": "NPR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "542:NQR:2025": {
@@ -45227,7 +45433,7 @@
     "make_name": "ISUZU",
     "model": "NQR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "542:NQR:2026": {
@@ -45236,7 +45442,7 @@
     "make_name": "ISUZU",
     "model": "NQR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "542:NQR:2027": {
@@ -45245,7 +45451,7 @@
     "make_name": "ISUZU",
     "model": "NQR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "542:NQR:2028": {
@@ -45254,7 +45460,7 @@
     "make_name": "ISUZU",
     "model": "NQR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "542:NRR:2025": {
@@ -45263,7 +45469,7 @@
     "make_name": "ISUZU",
     "model": "NRR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "542:NRR:2026": {
@@ -45272,7 +45478,7 @@
     "make_name": "ISUZU",
     "model": "NRR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "542:NRR:2027": {
@@ -45281,7 +45487,7 @@
     "make_name": "ISUZU",
     "model": "NRR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "542:NRR:2028": {
@@ -45290,7 +45496,7 @@
     "make_name": "ISUZU",
     "model": "NRR",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "5554:405:2025": {
@@ -45299,7 +45505,7 @@
     "make_name": "PEUGEOT",
     "model": "405",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "5554:405:2026": {
@@ -45308,7 +45514,7 @@
     "make_name": "PEUGEOT",
     "model": "405",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "5554:405:2027": {
@@ -45317,7 +45523,7 @@
     "make_name": "PEUGEOT",
     "model": "405",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "5554:405:2028": {
@@ -45326,7 +45532,7 @@
     "make_name": "PEUGEOT",
     "model": "405",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "5554:505:2025": {
@@ -45335,7 +45541,7 @@
     "make_name": "PEUGEOT",
     "model": "505",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "5554:505:2026": {
@@ -45344,7 +45550,7 @@
     "make_name": "PEUGEOT",
     "model": "505",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "5554:505:2027": {
@@ -45353,7 +45559,7 @@
     "make_name": "PEUGEOT",
     "model": "505",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "5554:505:2028": {
@@ -45362,7 +45568,7 @@
     "make_name": "PEUGEOT",
     "model": "505",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "572:9-3:2025": {
@@ -45371,7 +45577,7 @@
     "make_name": "SAAB",
     "model": "9-3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "572:9-3:2026": {
@@ -45380,7 +45586,7 @@
     "make_name": "SAAB",
     "model": "9-3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "572:9-3:2027": {
@@ -45389,7 +45595,7 @@
     "make_name": "SAAB",
     "model": "9-3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "572:9-3:2028": {
@@ -45398,7 +45604,7 @@
     "make_name": "SAAB",
     "model": "9-3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "572:9-5:2025": {
@@ -45407,7 +45613,7 @@
     "make_name": "SAAB",
     "model": "9-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "572:9-5:2026": {
@@ -45416,7 +45622,7 @@
     "make_name": "SAAB",
     "model": "9-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "572:9-5:2027": {
@@ -45425,7 +45631,7 @@
     "make_name": "SAAB",
     "model": "9-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "572:9-5:2028": {
@@ -45434,7 +45640,7 @@
     "make_name": "SAAB",
     "model": "9-5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:A3:2025": {
@@ -45443,7 +45649,7 @@
     "make_name": "AUDI",
     "model": "A3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:A3:2026": {
@@ -45452,7 +45658,7 @@
     "make_name": "AUDI",
     "model": "A3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:A3:2027": {
@@ -45461,7 +45667,7 @@
     "make_name": "AUDI",
     "model": "A3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:A3:2028": {
@@ -45470,7 +45676,7 @@
     "make_name": "AUDI",
     "model": "A3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:A4 allroad:2025": {
@@ -45479,7 +45685,7 @@
     "make_name": "AUDI",
     "model": "A4 allroad",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:A4 allroad:2026": {
@@ -45488,7 +45694,7 @@
     "make_name": "AUDI",
     "model": "A4 allroad",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:A4 allroad:2027": {
@@ -45497,7 +45703,7 @@
     "make_name": "AUDI",
     "model": "A4 allroad",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:A4 allroad:2028": {
@@ -45506,7 +45712,7 @@
     "make_name": "AUDI",
     "model": "A4 allroad",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:A4:2025": {
@@ -45515,7 +45721,7 @@
     "make_name": "AUDI",
     "model": "A4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:A4:2026": {
@@ -45524,7 +45730,7 @@
     "make_name": "AUDI",
     "model": "A4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:A4:2027": {
@@ -45533,7 +45739,7 @@
     "make_name": "AUDI",
     "model": "A4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:A4:2028": {
@@ -45542,7 +45748,7 @@
     "make_name": "AUDI",
     "model": "A4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:A5:2025": {
@@ -45551,7 +45757,7 @@
     "make_name": "AUDI",
     "model": "A5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:A5:2026": {
@@ -45560,7 +45766,7 @@
     "make_name": "AUDI",
     "model": "A5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:A5:2027": {
@@ -45569,7 +45775,7 @@
     "make_name": "AUDI",
     "model": "A5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:A5:2028": {
@@ -45578,7 +45784,7 @@
     "make_name": "AUDI",
     "model": "A5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:A6 allroad:2025": {
@@ -45587,7 +45793,7 @@
     "make_name": "AUDI",
     "model": "A6 allroad",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:A6 allroad:2026": {
@@ -45596,7 +45802,7 @@
     "make_name": "AUDI",
     "model": "A6 allroad",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:A6:2025": {
@@ -45605,7 +45811,7 @@
     "make_name": "AUDI",
     "model": "A6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:A6:2026": {
@@ -45614,7 +45820,7 @@
     "make_name": "AUDI",
     "model": "A6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:A6:2027": {
@@ -45623,7 +45829,7 @@
     "make_name": "AUDI",
     "model": "A6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:A6:2028": {
@@ -45632,7 +45838,7 @@
     "make_name": "AUDI",
     "model": "A6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:A7:2025": {
@@ -45641,7 +45847,7 @@
     "make_name": "AUDI",
     "model": "A7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:A8 L:2025": {
@@ -45650,7 +45856,7 @@
     "make_name": "AUDI",
     "model": "A8 L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:A8 L:2026": {
@@ -45659,7 +45865,7 @@
     "make_name": "AUDI",
     "model": "A8 L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:A8 L:2027": {
@@ -45668,7 +45874,7 @@
     "make_name": "AUDI",
     "model": "A8 L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:A8 L:2028": {
@@ -45677,7 +45883,7 @@
     "make_name": "AUDI",
     "model": "A8 L",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:Q3:2025": {
@@ -45686,7 +45892,7 @@
     "make_name": "AUDI",
     "model": "Q3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:Q3:2026": {
@@ -45695,7 +45901,7 @@
     "make_name": "AUDI",
     "model": "Q3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:Q3:2027": {
@@ -45704,7 +45910,7 @@
     "make_name": "AUDI",
     "model": "Q3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:Q3:2028": {
@@ -45713,7 +45919,7 @@
     "make_name": "AUDI",
     "model": "Q3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:Q4:2025": {
@@ -45722,7 +45928,7 @@
     "make_name": "AUDI",
     "model": "Q4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:Q4:2026": {
@@ -45731,7 +45937,7 @@
     "make_name": "AUDI",
     "model": "Q4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:Q4:2027": {
@@ -45740,7 +45946,7 @@
     "make_name": "AUDI",
     "model": "Q4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:Q4:2028": {
@@ -45749,7 +45955,7 @@
     "make_name": "AUDI",
     "model": "Q4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:Q5 e:2025": {
@@ -45758,7 +45964,7 @@
     "make_name": "AUDI",
     "model": "Q5 e",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:Q5:2025": {
@@ -45767,7 +45973,7 @@
     "make_name": "AUDI",
     "model": "Q5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:Q5:2026": {
@@ -45776,7 +45982,7 @@
     "make_name": "AUDI",
     "model": "Q5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:Q5:2027": {
@@ -45785,7 +45991,7 @@
     "make_name": "AUDI",
     "model": "Q5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:Q5:2028": {
@@ -45794,7 +46000,7 @@
     "make_name": "AUDI",
     "model": "Q5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:Q6:2025": {
@@ -45803,7 +46009,7 @@
     "make_name": "AUDI",
     "model": "Q6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:Q6:2026": {
@@ -45812,7 +46018,7 @@
     "make_name": "AUDI",
     "model": "Q6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:Q6:2027": {
@@ -45821,7 +46027,7 @@
     "make_name": "AUDI",
     "model": "Q6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:Q6:2028": {
@@ -45830,7 +46036,7 @@
     "make_name": "AUDI",
     "model": "Q6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:Q7:2025": {
@@ -45839,7 +46045,7 @@
     "make_name": "AUDI",
     "model": "Q7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:Q7:2026": {
@@ -45848,7 +46054,7 @@
     "make_name": "AUDI",
     "model": "Q7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:Q7:2027": {
@@ -45857,7 +46063,7 @@
     "make_name": "AUDI",
     "model": "Q7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:Q7:2028": {
@@ -45866,7 +46072,7 @@
     "make_name": "AUDI",
     "model": "Q7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:Q8:2025": {
@@ -45875,7 +46081,7 @@
     "make_name": "AUDI",
     "model": "Q8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:Q8:2026": {
@@ -45884,7 +46090,7 @@
     "make_name": "AUDI",
     "model": "Q8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:Q8:2027": {
@@ -45893,7 +46099,7 @@
     "make_name": "AUDI",
     "model": "Q8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:Q8:2028": {
@@ -45902,7 +46108,7 @@
     "make_name": "AUDI",
     "model": "Q8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:RS 3:2025": {
@@ -45911,7 +46117,7 @@
     "make_name": "AUDI",
     "model": "RS 3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:RS 3:2026": {
@@ -45920,7 +46126,7 @@
     "make_name": "AUDI",
     "model": "RS 3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:RS 3:2027": {
@@ -45929,7 +46135,7 @@
     "make_name": "AUDI",
     "model": "RS 3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:RS 3:2028": {
@@ -45938,7 +46144,7 @@
     "make_name": "AUDI",
     "model": "RS 3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:RS 5:2025": {
@@ -45947,7 +46153,7 @@
     "make_name": "AUDI",
     "model": "RS 5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:RS 6 Avant:2025": {
@@ -45956,7 +46162,7 @@
     "make_name": "AUDI",
     "model": "RS 6 Avant",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:RS 6 Avant:2026": {
@@ -45965,7 +46171,7 @@
     "make_name": "AUDI",
     "model": "RS 6 Avant",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:RS 7:2025": {
@@ -45974,7 +46180,7 @@
     "make_name": "AUDI",
     "model": "RS 7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:RS 7:2026": {
@@ -45983,7 +46189,7 @@
     "make_name": "AUDI",
     "model": "RS 7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:RS 7:2027": {
@@ -45992,7 +46198,7 @@
     "make_name": "AUDI",
     "model": "RS 7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:RS 7:2028": {
@@ -46001,7 +46207,7 @@
     "make_name": "AUDI",
     "model": "RS 7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:RS Q8:2025": {
@@ -46010,7 +46216,7 @@
     "make_name": "AUDI",
     "model": "RS Q8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:RS Q8:2026": {
@@ -46019,7 +46225,7 @@
     "make_name": "AUDI",
     "model": "RS Q8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:RS Q8:2027": {
@@ -46028,7 +46234,7 @@
     "make_name": "AUDI",
     "model": "RS Q8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:RS Q8:2028": {
@@ -46037,7 +46243,7 @@
     "make_name": "AUDI",
     "model": "RS Q8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:RS e-tron GT:2025": {
@@ -46046,7 +46252,7 @@
     "make_name": "AUDI",
     "model": "RS e-tron GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:RS e-tron GT:2026": {
@@ -46055,7 +46261,7 @@
     "make_name": "AUDI",
     "model": "RS e-tron GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:RS e-tron GT:2027": {
@@ -46064,7 +46270,7 @@
     "make_name": "AUDI",
     "model": "RS e-tron GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:RS e-tron GT:2028": {
@@ -46073,7 +46279,7 @@
     "make_name": "AUDI",
     "model": "RS e-tron GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:S e-tron GT:2025": {
@@ -46082,7 +46288,7 @@
     "make_name": "AUDI",
     "model": "S e-tron GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:S e-tron GT:2026": {
@@ -46091,7 +46297,7 @@
     "make_name": "AUDI",
     "model": "S e-tron GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:S e-tron GT:2027": {
@@ -46100,7 +46306,7 @@
     "make_name": "AUDI",
     "model": "S e-tron GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:S e-tron GT:2028": {
@@ -46109,7 +46315,7 @@
     "make_name": "AUDI",
     "model": "S e-tron GT",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:S3:2025": {
@@ -46118,7 +46324,7 @@
     "make_name": "AUDI",
     "model": "S3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:S3:2026": {
@@ -46127,7 +46333,7 @@
     "make_name": "AUDI",
     "model": "S3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:S3:2027": {
@@ -46136,7 +46342,7 @@
     "make_name": "AUDI",
     "model": "S3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:S3:2028": {
@@ -46145,7 +46351,7 @@
     "make_name": "AUDI",
     "model": "S3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:S4:2025": {
@@ -46154,7 +46360,7 @@
     "make_name": "AUDI",
     "model": "S4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:S4:2026": {
@@ -46163,7 +46369,7 @@
     "make_name": "AUDI",
     "model": "S4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:S4:2027": {
@@ -46172,7 +46378,7 @@
     "make_name": "AUDI",
     "model": "S4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:S4:2028": {
@@ -46181,7 +46387,7 @@
     "make_name": "AUDI",
     "model": "S4",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:S5:2025": {
@@ -46190,7 +46396,7 @@
     "make_name": "AUDI",
     "model": "S5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:S5:2026": {
@@ -46199,7 +46405,7 @@
     "make_name": "AUDI",
     "model": "S5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:S5:2027": {
@@ -46208,7 +46414,7 @@
     "make_name": "AUDI",
     "model": "S5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:S5:2028": {
@@ -46217,7 +46423,7 @@
     "make_name": "AUDI",
     "model": "S5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:S6:2025": {
@@ -46226,7 +46432,7 @@
     "make_name": "AUDI",
     "model": "S6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:S6:2027": {
@@ -46235,7 +46441,7 @@
     "make_name": "AUDI",
     "model": "S6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:S6:2028": {
@@ -46244,7 +46450,7 @@
     "make_name": "AUDI",
     "model": "S6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:S7:2025": {
@@ -46253,7 +46459,7 @@
     "make_name": "AUDI",
     "model": "S7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:S8:2025": {
@@ -46262,7 +46468,7 @@
     "make_name": "AUDI",
     "model": "S8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:S8:2026": {
@@ -46271,7 +46477,7 @@
     "make_name": "AUDI",
     "model": "S8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:S8:2027": {
@@ -46280,7 +46486,7 @@
     "make_name": "AUDI",
     "model": "S8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:S8:2028": {
@@ -46289,7 +46495,7 @@
     "make_name": "AUDI",
     "model": "S8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:SQ5:2025": {
@@ -46298,7 +46504,7 @@
     "make_name": "AUDI",
     "model": "SQ5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:SQ5:2026": {
@@ -46307,7 +46513,7 @@
     "make_name": "AUDI",
     "model": "SQ5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:SQ5:2027": {
@@ -46316,7 +46522,7 @@
     "make_name": "AUDI",
     "model": "SQ5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:SQ5:2028": {
@@ -46325,7 +46531,7 @@
     "make_name": "AUDI",
     "model": "SQ5",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:SQ6:2025": {
@@ -46334,7 +46540,7 @@
     "make_name": "AUDI",
     "model": "SQ6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:SQ6:2026": {
@@ -46343,7 +46549,7 @@
     "make_name": "AUDI",
     "model": "SQ6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:SQ6:2027": {
@@ -46352,7 +46558,7 @@
     "make_name": "AUDI",
     "model": "SQ6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:SQ6:2028": {
@@ -46361,7 +46567,7 @@
     "make_name": "AUDI",
     "model": "SQ6",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:SQ7:2025": {
@@ -46370,7 +46576,7 @@
     "make_name": "AUDI",
     "model": "SQ7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:SQ7:2026": {
@@ -46379,7 +46585,7 @@
     "make_name": "AUDI",
     "model": "SQ7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:SQ7:2027": {
@@ -46388,7 +46594,7 @@
     "make_name": "AUDI",
     "model": "SQ7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:SQ7:2028": {
@@ -46397,7 +46603,7 @@
     "make_name": "AUDI",
     "model": "SQ7",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:SQ8:2025": {
@@ -46406,7 +46612,7 @@
     "make_name": "AUDI",
     "model": "SQ8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "582:SQ8:2026": {
@@ -46415,7 +46621,7 @@
     "make_name": "AUDI",
     "model": "SQ8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "582:SQ8:2027": {
@@ -46424,7 +46630,7 @@
     "make_name": "AUDI",
     "model": "SQ8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "582:SQ8:2028": {
@@ -46433,7 +46639,7 @@
     "make_name": "AUDI",
     "model": "SQ8",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "582:e-tron GT:2025": {
