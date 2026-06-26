@@ -3369,6 +3369,11 @@
         "hash": "0532e2c4a8fd6983",
         "path": "photos/44/448_Yaris_2026/0532e2c4a8fd6983.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg"
+      },
+      {
+        "hash": "b081cc028d30acd6",
+        "path": "photos/44/448_Yaris_2026/b081cc028d30acd6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/2007-08_Toyota_Yaris_Sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -3394,6 +3399,11 @@
         "hash": "4c833ee9e61ebac2",
         "path": "photos/44/448_Yaris_2027/4c833ee9e61ebac2.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Toyota_Yaris_1.5_XLi_2003_%2825671368190%29.jpg"
+      },
+      {
+        "hash": "b081cc028d30acd6",
+        "path": "photos/44/448_Yaris_2027/b081cc028d30acd6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/2007-08_Toyota_Yaris_Sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -3419,6 +3429,11 @@
         "hash": "4c833ee9e61ebac2",
         "path": "photos/44/448_Yaris_2028/4c833ee9e61ebac2.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Toyota_Yaris_1.5_XLi_2003_%2825671368190%29.jpg"
+      },
+      {
+        "hash": "b081cc028d30acd6",
+        "path": "photos/44/448_Yaris_2028/b081cc028d30acd6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/2007-08_Toyota_Yaris_Sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -13564,6 +13579,11 @@
         "hash": "8db48e5ae9c99bf8",
         "path": "photos/46/467_Onix_2025/8db48e5ae9c99bf8.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/2022_Chevrolet_Onix_RS_1.0_Turbo.jpg"
+      },
+      {
+        "hash": "8a96269d4f5b14fa",
+        "path": "photos/46/467_Onix_2025/8a96269d4f5b14fa.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/2021_Chevrolet_Onix_1.0T_Premier_%28Chile%29_front_view.jpg"
       }
     ],
     "state": "fetched",
@@ -13584,6 +13604,11 @@
         "hash": "8db48e5ae9c99bf8",
         "path": "photos/46/467_Onix_2026/8db48e5ae9c99bf8.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/2022_Chevrolet_Onix_RS_1.0_Turbo.jpg"
+      },
+      {
+        "hash": "8a96269d4f5b14fa",
+        "path": "photos/46/467_Onix_2026/8a96269d4f5b14fa.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/2021_Chevrolet_Onix_1.0T_Premier_%28Chile%29_front_view.jpg"
       }
     ],
     "state": "fetched",
@@ -46647,8 +46672,24 @@
     "make_id": 582,
     "make_name": "AUDI",
     "model": "e-tron GT",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "3b4a7221e73f3bec",
+        "path": "photos/58/582_e_tron_GT_2025/3b4a7221e73f3bec.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/2025_Audi_e-tron_GT.jpg"
+      },
+      {
+        "hash": "f94a95048477ef8f",
+        "path": "photos/58/582_e_tron_GT_2025/f94a95048477ef8f.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2021_Audi_E-tron_GT_RS_Carbon_Vorsprung.jpg"
+      },
+      {
+        "hash": "cbb88495f8fd31ab",
+        "path": "photos/58/582_e_tron_GT_2025/cbb88495f8fd31ab.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/2021_Audi_E-tron_GT_RS_Carbon_Vorsprung_1.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2025
   },
   "582:e-tron GT:2026": {
@@ -46656,8 +46697,14 @@
     "make_id": 582,
     "make_name": "AUDI",
     "model": "e-tron GT",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "f94a95048477ef8f",
+        "path": "photos/58/582_e_tron_GT_2026/f94a95048477ef8f.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2021_Audi_E-tron_GT_RS_Carbon_Vorsprung.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2026
   },
   "582:e-tron GT:2027": {
@@ -46665,8 +46712,14 @@
     "make_id": 582,
     "make_name": "AUDI",
     "model": "e-tron GT",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "f94a95048477ef8f",
+        "path": "photos/58/582_e_tron_GT_2027/f94a95048477ef8f.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2021_Audi_E-tron_GT_RS_Carbon_Vorsprung.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2027
   },
   "582:e-tron GT:2028": {
@@ -46674,8 +46727,14 @@
     "make_id": 582,
     "make_name": "AUDI",
     "model": "e-tron GT",
-    "photos": [],
-    "state": "pending",
+    "photos": [
+      {
+        "hash": "f94a95048477ef8f",
+        "path": "photos/58/582_e_tron_GT_2028/f94a95048477ef8f.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2021_Audi_E-tron_GT_RS_Carbon_Vorsprung.jpg"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "583:Bentayga:2025": {
@@ -46684,7 +46743,7 @@
     "make_name": "BENTLEY",
     "model": "Bentayga",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "583:Bentayga:2026": {
@@ -46693,7 +46752,7 @@
     "make_name": "BENTLEY",
     "model": "Bentayga",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "583:Bentayga:2027": {
@@ -46702,7 +46761,7 @@
     "make_name": "BENTLEY",
     "model": "Bentayga",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "583:Bentayga:2028": {
@@ -46711,7 +46770,7 @@
     "make_name": "BENTLEY",
     "model": "Bentayga",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "583:Continental:2025": {
@@ -46720,7 +46779,7 @@
     "make_name": "BENTLEY",
     "model": "Continental",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "583:Continental:2026": {
@@ -46729,7 +46788,7 @@
     "make_name": "BENTLEY",
     "model": "Continental",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "583:Continental:2027": {
@@ -46738,7 +46797,7 @@
     "make_name": "BENTLEY",
     "model": "Continental",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "583:Continental:2028": {
@@ -46747,7 +46806,7 @@
     "make_name": "BENTLEY",
     "model": "Continental",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "583:Flying Spur:2025": {
@@ -46756,7 +46815,7 @@
     "make_name": "BENTLEY",
     "model": "Flying Spur",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "583:Flying Spur:2026": {
@@ -46765,7 +46824,7 @@
     "make_name": "BENTLEY",
     "model": "Flying Spur",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "583:Flying Spur:2027": {
@@ -46774,7 +46833,7 @@
     "make_name": "BENTLEY",
     "model": "Flying Spur",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "583:Flying Spur:2028": {
@@ -46783,7 +46842,7 @@
     "make_name": "BENTLEY",
     "model": "Flying Spur",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "584:718 Boxster:2025": {
@@ -46792,7 +46851,7 @@
     "make_name": "PORSCHE",
     "model": "718 Boxster",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "584:718 Boxster:2026": {
@@ -46801,7 +46860,7 @@
     "make_name": "PORSCHE",
     "model": "718 Boxster",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "584:718 Boxster:2027": {
@@ -46810,7 +46869,7 @@
     "make_name": "PORSCHE",
     "model": "718 Boxster",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "584:718 Boxster:2028": {
@@ -46819,7 +46878,7 @@
     "make_name": "PORSCHE",
     "model": "718 Boxster",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "584:718 Cayman:2025": {
@@ -46828,7 +46887,7 @@
     "make_name": "PORSCHE",
     "model": "718 Cayman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "584:718 Cayman:2026": {
@@ -46837,7 +46896,7 @@
     "make_name": "PORSCHE",
     "model": "718 Cayman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "584:718 Cayman:2027": {
@@ -46846,7 +46905,7 @@
     "make_name": "PORSCHE",
     "model": "718 Cayman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "584:718 Cayman:2028": {
@@ -46855,7 +46914,7 @@
     "make_name": "PORSCHE",
     "model": "718 Cayman",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "584:718 Spyder:2025": {
@@ -46864,7 +46923,7 @@
     "make_name": "PORSCHE",
     "model": "718 Spyder",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "584:718 Spyder:2026": {
@@ -46873,7 +46932,7 @@
     "make_name": "PORSCHE",
     "model": "718 Spyder",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "584:718 Spyder:2027": {
@@ -46882,7 +46941,7 @@
     "make_name": "PORSCHE",
     "model": "718 Spyder",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "584:718 Spyder:2028": {
@@ -46891,7 +46950,7 @@
     "make_name": "PORSCHE",
     "model": "718 Spyder",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "584:911:2025": {
@@ -46900,7 +46959,7 @@
     "make_name": "PORSCHE",
     "model": "911",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "584:911:2026": {
@@ -46909,7 +46968,7 @@
     "make_name": "PORSCHE",
     "model": "911",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "584:911:2027": {
@@ -46918,7 +46977,7 @@
     "make_name": "PORSCHE",
     "model": "911",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "584:911:2028": {
@@ -46927,7 +46986,7 @@
     "make_name": "PORSCHE",
     "model": "911",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "584:Cayenne:2025": {
@@ -46936,7 +46995,7 @@
     "make_name": "PORSCHE",
     "model": "Cayenne",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "584:Cayenne:2026": {
@@ -46945,7 +47004,7 @@
     "make_name": "PORSCHE",
     "model": "Cayenne",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "584:Cayenne:2027": {
@@ -46954,7 +47013,7 @@
     "make_name": "PORSCHE",
     "model": "Cayenne",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "584:Cayenne:2028": {
@@ -46963,7 +47022,7 @@
     "make_name": "PORSCHE",
     "model": "Cayenne",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "584:Macan:2025": {
@@ -46972,7 +47031,7 @@
     "make_name": "PORSCHE",
     "model": "Macan",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "584:Macan:2026": {
@@ -46981,7 +47040,7 @@
     "make_name": "PORSCHE",
     "model": "Macan",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "584:Macan:2027": {
@@ -46990,7 +47049,7 @@
     "make_name": "PORSCHE",
     "model": "Macan",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "584:Macan:2028": {
@@ -46999,7 +47058,7 @@
     "make_name": "PORSCHE",
     "model": "Macan",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "584:Panamera:2025": {
@@ -47008,7 +47067,7 @@
     "make_name": "PORSCHE",
     "model": "Panamera",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "584:Panamera:2026": {
@@ -47017,7 +47076,7 @@
     "make_name": "PORSCHE",
     "model": "Panamera",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "584:Panamera:2027": {
@@ -47026,7 +47085,7 @@
     "make_name": "PORSCHE",
     "model": "Panamera",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "584:Panamera:2028": {
@@ -47035,7 +47094,7 @@
     "make_name": "PORSCHE",
     "model": "Panamera",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "584:Taycan:2025": {
@@ -47044,7 +47103,7 @@
     "make_name": "PORSCHE",
     "model": "Taycan",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "584:Taycan:2026": {
@@ -47053,7 +47112,7 @@
     "make_name": "PORSCHE",
     "model": "Taycan",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "584:Taycan:2027": {
@@ -47062,7 +47121,7 @@
     "make_name": "PORSCHE",
     "model": "Taycan",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "584:Taycan:2028": {
@@ -47071,7 +47130,7 @@
     "make_name": "PORSCHE",
     "model": "Taycan",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:12Cilindri:2025": {
@@ -47080,7 +47139,7 @@
     "make_name": "FERRARI",
     "model": "12Cilindri",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "603:12Cilindri:2026": {
@@ -47089,7 +47148,7 @@
     "make_name": "FERRARI",
     "model": "12Cilindri",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "603:12Cilindri:2027": {
@@ -47098,7 +47157,7 @@
     "make_name": "FERRARI",
     "model": "12Cilindri",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "603:12Cilindri:2028": {
@@ -47107,7 +47166,7 @@
     "make_name": "FERRARI",
     "model": "12Cilindri",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:296 Speciale A:2026": {
@@ -47116,7 +47175,7 @@
     "make_name": "FERRARI",
     "model": "296 Speciale A",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "603:296 Speciale A:2027": {
@@ -47125,7 +47184,7 @@
     "make_name": "FERRARI",
     "model": "296 Speciale A",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "603:296 Speciale A:2028": {
@@ -47134,7 +47193,7 @@
     "make_name": "FERRARI",
     "model": "296 Speciale A",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:296 Speciale:2026": {
@@ -47143,7 +47202,7 @@
     "make_name": "FERRARI",
     "model": "296 Speciale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "603:296 Speciale:2027": {
@@ -47152,7 +47211,7 @@
     "make_name": "FERRARI",
     "model": "296 Speciale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "603:296 Speciale:2028": {
@@ -47161,7 +47220,7 @@
     "make_name": "FERRARI",
     "model": "296 Speciale",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:296:2025": {
@@ -47170,7 +47229,7 @@
     "make_name": "FERRARI",
     "model": "296",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "603:296:2026": {
@@ -47179,7 +47238,7 @@
     "make_name": "FERRARI",
     "model": "296",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "603:296:2027": {
@@ -47188,7 +47247,7 @@
     "make_name": "FERRARI",
     "model": "296",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "603:296:2028": {
@@ -47197,7 +47256,7 @@
     "make_name": "FERRARI",
     "model": "296",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:Daytona SP3:2025": {
@@ -47206,7 +47265,7 @@
     "make_name": "FERRARI",
     "model": "Daytona SP3",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "603:F80:2026": {
@@ -47215,7 +47274,7 @@
     "make_name": "FERRARI",
     "model": "F80",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "603:F80:2027": {
@@ -47224,7 +47283,7 @@
     "make_name": "FERRARI",
     "model": "F80",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "603:F80:2028": {
@@ -47233,7 +47292,7 @@
     "make_name": "FERRARI",
     "model": "F80",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:Ferrari 849 Testarossa:2026": {
@@ -47242,7 +47301,7 @@
     "make_name": "FERRARI",
     "model": "Ferrari 849 Testarossa",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "603:Ferrari 849 Testarossa:2027": {
@@ -47251,7 +47310,7 @@
     "make_name": "FERRARI",
     "model": "Ferrari 849 Testarossa",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "603:Ferrari 849 Testarossa:2028": {
@@ -47260,7 +47319,7 @@
     "make_name": "FERRARI",
     "model": "Ferrari 849 Testarossa",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:Purosangue:2025": {
@@ -47269,7 +47328,7 @@
     "make_name": "FERRARI",
     "model": "Purosangue",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "603:Purosangue:2026": {
@@ -47278,7 +47337,7 @@
     "make_name": "FERRARI",
     "model": "Purosangue",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "603:Purosangue:2027": {
@@ -47287,7 +47346,7 @@
     "make_name": "FERRARI",
     "model": "Purosangue",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "603:Purosangue:2028": {
@@ -47296,7 +47355,7 @@
     "make_name": "FERRARI",
     "model": "Purosangue",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:Roma:2025": {
@@ -47305,7 +47364,7 @@
     "make_name": "FERRARI",
     "model": "Roma",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   },
   "603:Roma:2026": {
@@ -47314,7 +47373,7 @@
     "make_name": "FERRARI",
     "model": "Roma",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2026
   },
   "603:Roma:2027": {
@@ -47323,7 +47382,7 @@
     "make_name": "FERRARI",
     "model": "Roma",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2027
   },
   "603:Roma:2028": {
@@ -47332,7 +47391,7 @@
     "make_name": "FERRARI",
     "model": "Roma",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2028
   },
   "603:SF90:2025": {
@@ -47341,7 +47400,7 @@
     "make_name": "FERRARI",
     "model": "SF90",
     "photos": [],
-    "state": "pending",
+    "state": "no_photos",
     "year": 2025
   }
 }
