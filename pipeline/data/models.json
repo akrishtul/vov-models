@@ -5854,6 +5854,16 @@
         "hash": "f4b1c5eb314886ca",
         "path": "photos/45/450_FLB_2028/f4b1c5eb314886ca.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/New_Zealand_Trucks_-_Flickr_-_111_Emergency_%28173%29.jpg"
+      },
+      {
+        "hash": "51d6c5068fc988af",
+        "path": "photos/45/450_FLB_2028/51d6c5068fc988af.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Freightliner_FLA_low_cab_car_carrier.jpg"
+      },
+      {
+        "hash": "528e7bfc319221d1",
+        "path": "photos/45/450_FLB_2028/528e7bfc319221d1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Freightliner_FLB_-_Bekins_Van_Lines.jpg"
       }
     ],
     "state": "fetched",
@@ -8723,6 +8733,36 @@
     "state": "no_photos",
     "year": 2026
   },
+  "452:228:2027": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "228",
+    "photos": [
+      {
+        "hash": "f93c22e6e3f0d2d3",
+        "path": "photos/45/452_228_2027/f93c22e6e3f0d2d3.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/BMW_228_xDrive_Gran_Coup%C3%A9_%28F74%2C_2026%29_%2855256563627%29.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "452:228:2028": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "228",
+    "photos": [
+      {
+        "hash": "f93c22e6e3f0d2d3",
+        "path": "photos/45/452_228_2028/f93c22e6e3f0d2d3.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/BMW_228_xDrive_Gran_Coup%C3%A9_%28F74%2C_2026%29_%2855256563627%29.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2028
+  },
   "452:228i:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -9007,6 +9047,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2026
+  },
+  "452:740i:2027": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "740i",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:740i:2028": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "740i",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "452:750e:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -9621,6 +9679,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2026
+  },
+  "452:M235:2027": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "M235",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:M235:2028": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "M235",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "452:M240i:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -10306,6 +10382,24 @@
     "state": "no_photos",
     "year": 2026
   },
+  "452:X1:2027": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "X1",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:X1:2028": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "X1",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:X2:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -10323,6 +10417,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2026
+  },
+  "452:X2:2027": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "X2",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:X2:2028": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "X2",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "452:X3:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -10477,6 +10589,24 @@
     "state": "no_photos",
     "year": 2026
   },
+  "452:XM:2027": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "XM",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:XM:2028": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "XM",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:Z4:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -10566,6 +10696,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2026
+  },
+  "452:i7:2027": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "i7",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:i7:2028": {
+    "first_seen": "2026-06-27T07:26:31.431722+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "i7",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "452:iX:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
