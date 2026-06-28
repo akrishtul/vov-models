@@ -145,6 +145,16 @@
         "hash": "4c2ec6ba089a644f",
         "path": "photos/10/10887_EDV_2027/4c2ec6ba089a644f.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rivian_EDV-700_front.jpg"
+      },
+      {
+        "hash": "be377a04d59f04ae",
+        "path": "photos/10/10887_EDV_2027/be377a04d59f04ae.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Amazon_electric_delivery_vehicle.jpg"
+      },
+      {
+        "hash": "6556720598a5910c",
+        "path": "photos/10/10887_EDV_2027/6556720598a5910c.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Rivian_EDV-500.jpg"
       }
     ],
     "state": "fetched",
