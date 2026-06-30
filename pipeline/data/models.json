@@ -165,6 +165,16 @@
         "hash": "513ad888b8f81e21",
         "path": "photos/10/10887_EDV_2027/513ad888b8f81e21.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Rivian_EDV-500_3.jpg"
+      },
+      {
+        "hash": "f6a1b5bf4d702c64",
+        "path": "photos/10/10887_EDV_2027/f6a1b5bf4d702c64.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Rivian_EDV-500_front.jpg"
+      },
+      {
+        "hash": "303b680be323cdf0",
+        "path": "photos/10/10887_EDV_2027/303b680be323cdf0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Rivian_EDV-500_rear.jpg"
       }
     ],
     "state": "fetched",
