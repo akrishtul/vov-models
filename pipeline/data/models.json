@@ -11416,6 +11416,21 @@
         "hash": "0257dc626c4475fa",
         "path": "photos/46/460_Explorer_2025/0257dc626c4475fa.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2011_Ford_Explorer_Limited_%28front%29.jpg"
+      },
+      {
+        "hash": "ab505f298d66b430",
+        "path": "photos/46/460_Explorer_2025/ab505f298d66b430.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/2025_Ford_Explorer_EV.jpg"
+      },
+      {
+        "hash": "0c5ff218aa9d7386",
+        "path": "photos/46/460_Explorer_2025/0c5ff218aa9d7386.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/2025_Ford_Explorer_EV_Front_View.jpg"
+      },
+      {
+        "hash": "f897ce8d09615bd1",
+        "path": "photos/46/460_Explorer_2025/f897ce8d09615bd1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/2016-19_Port_of_Seattle_FPIU_at_SEATAC.jpg"
       }
     ],
     "state": "fetched",
@@ -14227,6 +14242,11 @@
         "hash": "e1e1ece2485efb2a",
         "path": "photos/46/467_Tahoe_2028/e1e1ece2485efb2a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chevrolet_Tahoe_2-door.jpg"
+      },
+      {
+        "hash": "f0073ad458edefc1",
+        "path": "photos/46/467_Tahoe_2028/f0073ad458edefc1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/2021_Chevrolet_Tahoe_High_Country%2C_front_12.24.20.jpg"
       }
     ],
     "state": "fetched",
@@ -47457,6 +47477,63 @@
     "state": "no_photos",
     "year": 2028
   },
+  "603:849 Testarossa:2026": {
+    "first_seen": "2026-07-01T08:20:39.310128+00:00",
+    "make_id": 603,
+    "make_name": "FERRARI",
+    "model": "849 Testarossa",
+    "photos": [
+      {
+        "hash": "14e2c9a521203299",
+        "path": "photos/60/603_849_Testarossa_2026/14e2c9a521203299.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2026_Ferrari_849_Testarossa_Assetto_Fiorano_in_Blu_Corsa.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2026
+  },
+  "603:849 Testarossa:2027": {
+    "first_seen": "2026-07-01T08:20:39.310128+00:00",
+    "make_id": 603,
+    "make_name": "FERRARI",
+    "model": "849 Testarossa",
+    "photos": [
+      {
+        "hash": "14e2c9a521203299",
+        "path": "photos/60/603_849_Testarossa_2027/14e2c9a521203299.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2026_Ferrari_849_Testarossa_Assetto_Fiorano_in_Blu_Corsa.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "603:849 Testarossa:2028": {
+    "first_seen": "2026-07-01T08:20:39.310128+00:00",
+    "make_id": 603,
+    "make_name": "FERRARI",
+    "model": "849 Testarossa",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "603:Amalfi:2027": {
+    "first_seen": "2026-07-01T08:20:39.310128+00:00",
+    "make_id": 603,
+    "make_name": "FERRARI",
+    "model": "Amalfi",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "603:Amalfi:2028": {
+    "first_seen": "2026-07-01T08:20:39.310128+00:00",
+    "make_id": 603,
+    "make_name": "FERRARI",
+    "model": "Amalfi",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "603:Daytona SP3:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 603,
@@ -47516,6 +47593,24 @@
     "make_id": 603,
     "make_name": "FERRARI",
     "model": "Ferrari 849 Testarossa",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "603:Luce:2027": {
+    "first_seen": "2026-07-01T08:20:39.310128+00:00",
+    "make_id": 603,
+    "make_name": "FERRARI",
+    "model": "Luce",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "603:Luce:2028": {
+    "first_seen": "2026-07-01T08:20:39.310128+00:00",
+    "make_id": 603,
+    "make_name": "FERRARI",
+    "model": "Luce",
     "photos": [],
     "state": "no_photos",
     "year": 2028
