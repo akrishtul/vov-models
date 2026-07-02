@@ -175,6 +175,16 @@
         "hash": "303b680be323cdf0",
         "path": "photos/10/10887_EDV_2027/303b680be323cdf0.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Rivian_EDV-500_rear.jpg"
+      },
+      {
+        "hash": "0ef7d4a398adb541",
+        "path": "photos/10/10887_EDV_2027/0ef7d4a398adb541.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Rivian_EDV-700_in_downtown_Omaha.jpg"
+      },
+      {
+        "hash": "0a282f0b22c0ca2e",
+        "path": "photos/10/10887_EDV_2027/0a282f0b22c0ca2e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rivian_EDV-700_in_downtown_Omaha_2.jpg"
       }
     ],
     "state": "fetched",
@@ -352,6 +362,16 @@
         "hash": "d55e602c52b8cee2",
         "path": "photos/10/10919_Gravity_2026/d55e602c52b8cee2.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/2026_Lucid_Gravity_Main_Street_downtown_Brattleboro_VT_December_2025.jpg"
+      },
+      {
+        "hash": "c63b26f9e9890f3e",
+        "path": "photos/10/10919_Gravity_2026/c63b26f9e9890f3e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0011-2%29.jpg"
+      },
+      {
+        "hash": "57379699eff9b301",
+        "path": "photos/10/10919_Gravity_2026/57379699eff9b301.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0012-4%29.jpg"
       }
     ],
     "state": "fetched",
@@ -15677,6 +15697,11 @@
         "hash": "00b9de1b31ed74fd",
         "path": "photos/47/472_Sierra_HD_2025/00b9de1b31ed74fd.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2020_Chevrolet_Silverado_1500_High_Country%2C_front_10.25.20.jpg"
+      },
+      {
+        "hash": "188f62e84084d443",
+        "path": "photos/47/472_Sierra_HD_2025/188f62e84084d443.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/2008_Safari_canyonlands_1.jpg"
       }
     ],
     "state": "fetched",
@@ -15702,6 +15727,11 @@
         "hash": "855f05cd113f068c",
         "path": "photos/47/472_Sierra_HD_2026/855f05cd113f068c.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/%2710_GMC_Sierra_2500HD_%28MIAS_%2710%29.jpg"
+      },
+      {
+        "hash": "188f62e84084d443",
+        "path": "photos/47/472_Sierra_HD_2026/188f62e84084d443.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/2008_Safari_canyonlands_1.jpg"
       }
     ],
     "state": "fetched",
@@ -15859,6 +15889,11 @@
         "hash": "50519de342ce4261",
         "path": "photos/47/472_Yukon_XL_2025/50519de342ce4261.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chevrolet_Suburban_%28GMTT1XX%29_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      },
+      {
+        "hash": "a919ce123483929a",
+        "path": "photos/47/472_Yukon_XL_2025/a919ce123483929a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1937_Chevrolet_Carryall_Suburban.jpg"
       }
     ],
     "state": "fetched",
