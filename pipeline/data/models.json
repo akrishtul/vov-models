@@ -185,6 +185,16 @@
         "hash": "0a282f0b22c0ca2e",
         "path": "photos/10/10887_EDV_2027/0a282f0b22c0ca2e.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rivian_EDV-700_in_downtown_Omaha_2.jpg"
+      },
+      {
+        "hash": "a82998dc40d4b1f1",
+        "path": "photos/10/10887_EDV_2027/a82998dc40d4b1f1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Rivian_EDV-700_rear.jpg"
+      },
+      {
+        "hash": "ff22dedfdfc7f236",
+        "path": "photos/10/10887_EDV_2027/ff22dedfdfc7f236.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Rivian_EDV_Amazon_Delivery_Truck_-_55211343232.jpg"
       }
     ],
     "state": "fetched",
@@ -372,6 +382,11 @@
         "hash": "57379699eff9b301",
         "path": "photos/10/10919_Gravity_2026/57379699eff9b301.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0012-4%29.jpg"
+      },
+      {
+        "hash": "fb430b33689e51da",
+        "path": "photos/10/10919_Gravity_2026/fb430b33689e51da.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0031-4%29.jpg"
       }
     ],
     "state": "fetched",
