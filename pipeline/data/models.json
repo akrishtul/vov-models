@@ -195,6 +195,16 @@
         "hash": "ff22dedfdfc7f236",
         "path": "photos/10/10887_EDV_2027/ff22dedfdfc7f236.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Rivian_EDV_Amazon_Delivery_Truck_-_55211343232.jpg"
+      },
+      {
+        "hash": "7b65fc89325377de",
+        "path": "photos/10/10887_EDV_2027/7b65fc89325377de.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Rivian_EDV_Amazon_Delivery_Truck_-_55212398478.jpg"
+      },
+      {
+        "hash": "0e9c6a93a8f06d73",
+        "path": "photos/10/10887_EDV_2027/0e9c6a93a8f06d73.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Rivian_EDV_front_20250809.jpg"
       }
     ],
     "state": "fetched",
@@ -387,6 +397,16 @@
         "hash": "fb430b33689e51da",
         "path": "photos/10/10919_Gravity_2026/fb430b33689e51da.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0031-4%29.jpg"
+      },
+      {
+        "hash": "f6a749746045878e",
+        "path": "photos/10/10919_Gravity_2026/f6a749746045878e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0033-4%29.jpg"
+      },
+      {
+        "hash": "a5333f2e542b2bd6",
+        "path": "photos/10/10919_Gravity_2026/a5333f2e542b2bd6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0033-5%29.jpg"
       }
     ],
     "state": "fetched",
@@ -3414,6 +3434,16 @@
         "hash": "0532e2c4a8fd6983",
         "path": "photos/44/448_Yaris_2025/0532e2c4a8fd6983.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg"
+      },
+      {
+        "hash": "8b8a852716d6400b",
+        "path": "photos/44/448_Yaris_2025/8b8a852716d6400b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/09_Toyota_Yaris_sedan_.jpg"
+      },
+      {
+        "hash": "c98b049c8b97bd15",
+        "path": "photos/44/448_Yaris_2025/c98b049c8b97bd15.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2007-Toyota-Yaris-Sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -3439,6 +3469,16 @@
         "hash": "b081cc028d30acd6",
         "path": "photos/44/448_Yaris_2026/b081cc028d30acd6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/2007-08_Toyota_Yaris_Sedan.jpg"
+      },
+      {
+        "hash": "8b8a852716d6400b",
+        "path": "photos/44/448_Yaris_2026/8b8a852716d6400b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/09_Toyota_Yaris_sedan_.jpg"
+      },
+      {
+        "hash": "c98b049c8b97bd15",
+        "path": "photos/44/448_Yaris_2026/c98b049c8b97bd15.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2007-Toyota-Yaris-Sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -3469,6 +3509,16 @@
         "hash": "b081cc028d30acd6",
         "path": "photos/44/448_Yaris_2027/b081cc028d30acd6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/2007-08_Toyota_Yaris_Sedan.jpg"
+      },
+      {
+        "hash": "8b8a852716d6400b",
+        "path": "photos/44/448_Yaris_2027/8b8a852716d6400b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/09_Toyota_Yaris_sedan_.jpg"
+      },
+      {
+        "hash": "c98b049c8b97bd15",
+        "path": "photos/44/448_Yaris_2027/c98b049c8b97bd15.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2007-Toyota-Yaris-Sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -3499,6 +3549,16 @@
         "hash": "b081cc028d30acd6",
         "path": "photos/44/448_Yaris_2028/b081cc028d30acd6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/2007-08_Toyota_Yaris_Sedan.jpg"
+      },
+      {
+        "hash": "8b8a852716d6400b",
+        "path": "photos/44/448_Yaris_2028/8b8a852716d6400b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/09_Toyota_Yaris_sedan_.jpg"
+      },
+      {
+        "hash": "c98b049c8b97bd15",
+        "path": "photos/44/448_Yaris_2028/c98b049c8b97bd15.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2007-Toyota-Yaris-Sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -15697,6 +15757,11 @@
         "hash": "ee948493818cf051",
         "path": "photos/47/472_Savana_2028/ee948493818cf051.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/%2796-%2702_GMC_Savana_2500_Cutaway_%28Byward_Auto_Classic%29.jpg"
+      },
+      {
+        "hash": "3ec28b519412a660",
+        "path": "photos/47/472_Savana_2028/3ec28b519412a660.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chevrolet-Express-Van.jpg"
       }
     ],
     "state": "fetched",
@@ -15974,6 +16039,11 @@
         "hash": "9c73f62841757dcc",
         "path": "photos/47/472_Yukon_XL_2028/9c73f62841757dcc.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/01-06_GMC_Yukon_XL_Denali.jpg"
+      },
+      {
+        "hash": "a919ce123483929a",
+        "path": "photos/47/472_Yukon_XL_2028/a919ce123483929a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1937_Chevrolet_Carryall_Suburban.jpg"
       }
     ],
     "state": "fetched",
@@ -31902,6 +31972,11 @@
         "hash": "53efda86d678ed7d",
         "path": "photos/50/509_Intruder_1400_2025/53efda86d678ed7d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2005_Suzuki_Boulevard_C50.jpg"
+      },
+      {
+        "hash": "54ad6f789b4d1a79",
+        "path": "photos/50/509_Intruder_1400_2025/54ad6f789b4d1a79.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Suzuki-Intruder-VS1400-1.JPG"
       }
     ],
     "state": "fetched",
