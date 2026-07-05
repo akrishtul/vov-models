@@ -205,6 +205,16 @@
         "hash": "0e9c6a93a8f06d73",
         "path": "photos/10/10887_EDV_2027/0e9c6a93a8f06d73.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Rivian_EDV_front_20250809.jpg"
+      },
+      {
+        "hash": "05bd74041969ff99",
+        "path": "photos/10/10887_EDV_2027/05bd74041969ff99.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rivian_EDV_with_Amazon_branding.jpg"
+      },
+      {
+        "hash": "fed21f011d50a175",
+        "path": "photos/10/10887_EDV_2027/fed21f011d50a175.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Rivian_EDV_with_Amazon_branding_2.jpg"
       }
     ],
     "state": "fetched",
@@ -407,6 +417,11 @@
         "hash": "a5333f2e542b2bd6",
         "path": "photos/10/10919_Gravity_2026/a5333f2e542b2bd6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0033-5%29.jpg"
+      },
+      {
+        "hash": "4f0726dfa48f1d96",
+        "path": "photos/10/10919_Gravity_2026/4f0726dfa48f1d96.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0034-5%29.jpg"
       }
     ],
     "state": "fetched",
