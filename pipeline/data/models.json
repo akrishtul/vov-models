@@ -267,6 +267,16 @@
         "hash": "fe0ff2a28b058dd7",
         "path": "photos/10/10887_R1S_2027/fe0ff2a28b058dd7.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/2025_Rivian_R1S_Ascend_Tri_Max%2C_rear_right%2C_11-21-2025.jpg"
+      },
+      {
+        "hash": "9f35aebcd7d36d09",
+        "path": "photos/10/10887_R1S_2027/9f35aebcd7d36d09.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/23_Rivian_R1S_Launch_Edition.jpg"
+      },
+      {
+        "hash": "6ebaa89698238d0c",
+        "path": "photos/10/10887_R1S_2027/6ebaa89698238d0c.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Debut_of_the_Rivian_R1S_SUV_at_the_2018_Los_Angeles_Auto_Show%2C_November_27%2C_2018.jpg"
       }
     ],
     "state": "fetched",
@@ -16172,6 +16182,11 @@
         "hash": "9c73f62841757dcc",
         "path": "photos/47/472_Yukon_XL_2027/9c73f62841757dcc.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/01-06_GMC_Yukon_XL_Denali.jpg"
+      },
+      {
+        "hash": "a919ce123483929a",
+        "path": "photos/47/472_Yukon_XL_2027/a919ce123483929a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1937_Chevrolet_Carryall_Suburban.jpg"
       }
     ],
     "state": "fetched",
