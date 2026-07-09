@@ -13784,6 +13784,21 @@
         "hash": "68f35d7613d4409d",
         "path": "photos/46/467_Impala_2026/68f35d7613d4409d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/0_CHEVROLET_IMPALA_0.jpg"
+      },
+      {
+        "hash": "0bbc1c98a9be94e2",
+        "path": "photos/46/467_Impala_2026/0bbc1c98a9be94e2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/%2765_Chevrolet_Impala_SS_Coupe_%28Gibeau_Orange_Julep%2C_Version_2%29.jpg"
+      },
+      {
+        "hash": "bbc4eb999c3883e9",
+        "path": "photos/46/467_Impala_2026/bbc4eb999c3883e9.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/%2766_Chevrolet_Impala_SS_Coupe_%28Rassemblement_Saint-Bruno-De-Montarville_%2710%29.jpg"
+      },
+      {
+        "hash": "58b4c5545830ad98",
+        "path": "photos/46/467_Impala_2026/58b4c5545830ad98.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/00-05_Chevrolet_Impala_LS.jpg"
       }
     ],
     "state": "fetched",
@@ -13844,6 +13859,16 @@
         "hash": "68f35d7613d4409d",
         "path": "photos/46/467_Impala_2027/68f35d7613d4409d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/0_CHEVROLET_IMPALA_0.jpg"
+      },
+      {
+        "hash": "0bbc1c98a9be94e2",
+        "path": "photos/46/467_Impala_2027/0bbc1c98a9be94e2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/%2765_Chevrolet_Impala_SS_Coupe_%28Gibeau_Orange_Julep%2C_Version_2%29.jpg"
+      },
+      {
+        "hash": "58b4c5545830ad98",
+        "path": "photos/46/467_Impala_2027/58b4c5545830ad98.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/00-05_Chevrolet_Impala_LS.jpg"
       }
     ],
     "state": "fetched",
@@ -13909,6 +13934,16 @@
         "hash": "68f35d7613d4409d",
         "path": "photos/46/467_Impala_2028/68f35d7613d4409d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/0_CHEVROLET_IMPALA_0.jpg"
+      },
+      {
+        "hash": "0bbc1c98a9be94e2",
+        "path": "photos/46/467_Impala_2028/0bbc1c98a9be94e2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/%2765_Chevrolet_Impala_SS_Coupe_%28Gibeau_Orange_Julep%2C_Version_2%29.jpg"
+      },
+      {
+        "hash": "58b4c5545830ad98",
+        "path": "photos/46/467_Impala_2028/58b4c5545830ad98.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/00-05_Chevrolet_Impala_LS.jpg"
       }
     ],
     "state": "fetched",
@@ -30044,6 +30079,64 @@
     "make_id": 509,
     "make_name": "SUZUKI",
     "model": "DR350",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "509:DR350S:2025": {
+    "first_seen": "2026-07-09T07:56:49.927653+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR350S",
+    "photos": [
+      {
+        "hash": "0be324d1d5aaf4f1",
+        "path": "photos/50/509_DR350S_2025/0be324d1d5aaf4f1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/1991_Suzuki_DR350S.jpg"
+      },
+      {
+        "hash": "712dbddb4d7b6939",
+        "path": "photos/50/509_DR350S_2025/712dbddb4d7b6939.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Suzuki_DR350S_1990.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2025
+  },
+  "509:DR350S:2026": {
+    "first_seen": "2026-07-09T07:56:49.927653+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR350S",
+    "photos": [
+      {
+        "hash": "0be324d1d5aaf4f1",
+        "path": "photos/50/509_DR350S_2026/0be324d1d5aaf4f1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/1991_Suzuki_DR350S.jpg"
+      },
+      {
+        "hash": "712dbddb4d7b6939",
+        "path": "photos/50/509_DR350S_2026/712dbddb4d7b6939.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Suzuki_DR350S_1990.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2026
+  },
+  "509:DR350S:2027": {
+    "first_seen": "2026-07-09T07:56:49.927653+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR350S",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "509:DR350S:2028": {
+    "first_seen": "2026-07-09T07:56:49.927653+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "DR350S",
     "photos": [],
     "state": "no_photos",
     "year": 2028
