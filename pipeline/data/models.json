@@ -36298,6 +36298,70 @@
     "state": "no_photos",
     "year": 2028
   },
+  "509:V-Strom 800DE:2025": {
+    "first_seen": "2026-07-11T06:25:22.039642+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 800DE",
+    "photos": [
+      {
+        "hash": "22be0c1db6c0a504",
+        "path": "photos/50/509_V_Strom_800DE_2025/22be0c1db6c0a504.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Suzuki_V-STROM_SX_at_50th_Tokyo_Motorcycle_Show_%282023%29.jpg"
+      },
+      {
+        "hash": "8084f499938e4fe9",
+        "path": "photos/50/509_V_Strom_800DE_2025/8084f499938e4fe9.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Suzuki_V-Strom_800DE_%281%29.png"
+      }
+    ],
+    "state": "fetched",
+    "year": 2025
+  },
+  "509:V-Strom 800DE:2026": {
+    "first_seen": "2026-07-11T06:25:22.039642+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 800DE",
+    "photos": [
+      {
+        "hash": "22be0c1db6c0a504",
+        "path": "photos/50/509_V_Strom_800DE_2026/22be0c1db6c0a504.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Suzuki_V-STROM_SX_at_50th_Tokyo_Motorcycle_Show_%282023%29.jpg"
+      },
+      {
+        "hash": "8084f499938e4fe9",
+        "path": "photos/50/509_V_Strom_800DE_2026/8084f499938e4fe9.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Suzuki_V-Strom_800DE_%281%29.png"
+      }
+    ],
+    "state": "fetched",
+    "year": 2026
+  },
+  "509:V-Strom 800DE:2027": {
+    "first_seen": "2026-07-11T06:25:22.039642+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 800DE",
+    "photos": [
+      {
+        "hash": "8084f499938e4fe9",
+        "path": "photos/50/509_V_Strom_800DE_2027/8084f499938e4fe9.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Suzuki_V-Strom_800DE_%281%29.png"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "509:V-Strom 800DE:2028": {
+    "first_seen": "2026-07-11T06:25:22.039642+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "V-Strom 800DE",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "509:VL1500 / VL1500T:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 509,
