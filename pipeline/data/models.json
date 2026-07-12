@@ -277,6 +277,16 @@
         "hash": "6ebaa89698238d0c",
         "path": "photos/10/10887_R1S_2027/6ebaa89698238d0c.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Debut_of_the_Rivian_R1S_SUV_at_the_2018_Los_Angeles_Auto_Show%2C_November_27%2C_2018.jpg"
+      },
+      {
+        "hash": "3d4f34d34efcb453",
+        "path": "photos/10/10887_R1S_2027/3d4f34d34efcb453.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Newly_Open_Rivian_Showroom_Brickell_-_front.jpg"
+      },
+      {
+        "hash": "b98b3fba78923976",
+        "path": "photos/10/10887_R1S_2027/b98b3fba78923976.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Newly_Open_Rivian_Showroom_Brickell_-_rear.jpg"
       }
     ],
     "state": "fetched",
@@ -16172,6 +16182,16 @@
         "hash": "a919ce123483929a",
         "path": "photos/47/472_Yukon_XL_2025/a919ce123483929a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1937_Chevrolet_Carryall_Suburban.jpg"
+      },
+      {
+        "hash": "882eb6e2acc48caa",
+        "path": "photos/47/472_Yukon_XL_2025/882eb6e2acc48caa.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/00-06_GMC_Yukon_XL.jpg"
+      },
+      {
+        "hash": "9c73f62841757dcc",
+        "path": "photos/47/472_Yukon_XL_2025/9c73f62841757dcc.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/01-06_GMC_Yukon_XL_Denali.jpg"
       }
     ],
     "state": "fetched",
@@ -16197,6 +16217,11 @@
         "hash": "9c73f62841757dcc",
         "path": "photos/47/472_Yukon_XL_2026/9c73f62841757dcc.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/01-06_GMC_Yukon_XL_Denali.jpg"
+      },
+      {
+        "hash": "882eb6e2acc48caa",
+        "path": "photos/47/472_Yukon_XL_2026/882eb6e2acc48caa.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/00-06_GMC_Yukon_XL.jpg"
       }
     ],
     "state": "fetched",
