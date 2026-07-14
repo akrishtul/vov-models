@@ -297,6 +297,21 @@
         "hash": "7b75c920bed61426",
         "path": "photos/10/10887_R1S_2027/7b75c920bed61426.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Rivian_R1S%2C_Electrify_Expo_Orlando.jpg"
+      },
+      {
+        "hash": "45193bd8a0dba5e4",
+        "path": "photos/10/10887_R1S_2027/45193bd8a0dba5e4.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Rivian_R1S%2C_Howard_Ave%2C_Burlingame.jpg"
+      },
+      {
+        "hash": "5c629040955a7917",
+        "path": "photos/10/10887_R1S_2027/5c629040955a7917.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Rivian_R1S%2C_Howard_Ave%2C_Burlingame_2.jpg"
+      },
+      {
+        "hash": "e7618527a9990170",
+        "path": "photos/10/10887_R1S_2027/e7618527a9990170.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Rivian_founder_and_CEO_Robert_%22RJ%22_Scaringe_at_the_debut_of_the_Rivian_R1S_SUV_at_the_2018_Los_Angeles_Auto_Show%2C_November_27%2C_2018.jpg"
       }
     ],
     "state": "fetched",
@@ -11017,6 +11032,11 @@
         "hash": "87e0611d4f0c8c43",
         "path": "photos/45/454_EB110_2027/87e0611d4f0c8c43.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/2007-06-15_18_Bugatti_EB_110_%28bearb_-_kl%29.jpg"
+      },
+      {
+        "hash": "53c70ef13380521e",
+        "path": "photos/45/454_EB110_2027/53c70ef13380521e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bugatti_EB110_%2851904903384%29.jpg"
       }
     ],
     "state": "fetched",
@@ -11032,6 +11052,11 @@
         "hash": "87e0611d4f0c8c43",
         "path": "photos/45/454_EB110_2028/87e0611d4f0c8c43.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/2007-06-15_18_Bugatti_EB_110_%28bearb_-_kl%29.jpg"
+      },
+      {
+        "hash": "53c70ef13380521e",
+        "path": "photos/45/454_EB110_2028/53c70ef13380521e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bugatti_EB110_%2851904903384%29.jpg"
       }
     ],
     "state": "fetched",
