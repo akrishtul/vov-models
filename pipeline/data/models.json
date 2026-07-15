@@ -11614,6 +11614,11 @@
         "hash": "41fbc5a6715b4cfe",
         "path": "photos/46/460_Expedition_2028/41fbc5a6715b4cfe.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/99-02_Ford_Expedition_.jpg"
+      },
+      {
+        "hash": "f3029a6f9785ed55",
+        "path": "photos/46/460_Expedition_2028/f3029a6f9785ed55.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/97-98_Ford_Expedition.jpg"
       }
     ],
     "state": "fetched",
@@ -46601,6 +46606,94 @@
     "make_id": 533,
     "make_name": "MAYBACH",
     "model": "62",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "539:Plus Four:2025": {
+    "first_seen": "2026-07-15T06:27:02.589234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "Plus Four",
+    "photos": [
+      {
+        "hash": "0a8451b49ef6a37c",
+        "path": "photos/53/539_Plus_Four_2025/0a8451b49ef6a37c.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/2025_Morgan_Plus_Four_Classic-Gala_2025_DSC_1144.jpg"
+      },
+      {
+        "hash": "92cbc3c83181fd27",
+        "path": "photos/53/539_Plus_Four_2025/92cbc3c83181fd27.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/2025_Morgan_Plus_Four_Classic-Gala_2025_DSC_1144_%28cropped%29.jpg"
+      },
+      {
+        "hash": "4f28947a89d6ef50",
+        "path": "photos/53/539_Plus_Four_2025/4f28947a89d6ef50.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/1956MorganPlusFour.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2025
+  },
+  "539:Plus Four:2026": {
+    "first_seen": "2026-07-15T06:27:02.589234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "Plus Four",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "539:Plus Four:2027": {
+    "first_seen": "2026-07-15T06:27:02.589234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "Plus Four",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "539:Plus Four:2028": {
+    "first_seen": "2026-07-15T06:27:02.589234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "Plus Four",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "539:Super 3:2025": {
+    "first_seen": "2026-07-15T06:27:02.589234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "Super 3",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "539:Super 3:2026": {
+    "first_seen": "2026-07-15T06:27:02.589234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "Super 3",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "539:Super 3:2027": {
+    "first_seen": "2026-07-15T06:27:02.589234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "Super 3",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "539:Super 3:2028": {
+    "first_seen": "2026-07-15T06:27:02.589234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "Super 3",
     "photos": [],
     "state": "no_photos",
     "year": 2028
