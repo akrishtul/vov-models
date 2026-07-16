@@ -312,6 +312,16 @@
         "hash": "e7618527a9990170",
         "path": "photos/10/10887_R1S_2027/e7618527a9990170.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Rivian_founder_and_CEO_Robert_%22RJ%22_Scaringe_at_the_debut_of_the_Rivian_R1S_SUV_at_the_2018_Los_Angeles_Auto_Show%2C_November_27%2C_2018.jpg"
+      },
+      {
+        "hash": "3dd8118c4e2337d6",
+        "path": "photos/10/10887_R1S_2027/3dd8118c4e2337d6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Rivian_R1S%2C_Howard_Ave%2C_Burlingame_3.jpg"
+      },
+      {
+        "hash": "57a31ebf779130dc",
+        "path": "photos/10/10887_R1S_2027/57a31ebf779130dc.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Rivian_R1S_%282023%29_%2853487730448%29.jpg"
       }
     ],
     "state": "fetched",
@@ -14570,6 +14580,11 @@
         "hash": "874253e466aacb6b",
         "path": "photos/46/467_Trailblazer_2025/874253e466aacb6b.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2021_Chevrolet_TrailBlazer_RS_AWD%2C_front_7.11.20.jpg"
+      },
+      {
+        "hash": "59b07a99ebb2e56e",
+        "path": "photos/46/467_Trailblazer_2025/59b07a99ebb2e56e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/2004_Chevrolet_Trailblazer_Copart_Auction_Photo_2009_Taconic_State_Parkway_Crash.jpg"
       }
     ],
     "state": "fetched",
