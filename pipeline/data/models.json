@@ -322,6 +322,21 @@
         "hash": "57a31ebf779130dc",
         "path": "photos/10/10887_R1S_2027/57a31ebf779130dc.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Rivian_R1S_%282023%29_%2853487730448%29.jpg"
+      },
+      {
+        "hash": "ec7b0b0017bb2011",
+        "path": "photos/10/10887_R1S_2027/ec7b0b0017bb2011.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Rivian_R1S_-_1.jpg"
+      },
+      {
+        "hash": "15bf398692019faf",
+        "path": "photos/10/10887_R1S_2027/15bf398692019faf.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_R1S_-_2.jpg"
+      },
+      {
+        "hash": "211a7a49d75c8534",
+        "path": "photos/10/10887_R1S_2027/211a7a49d75c8534.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rivian_founder_and_CEO_Robert_%22RJ%22_Scaringe_at_the_debut_of_the_Rivian_R1S_SUV_at_the_2018_Los_Angeles_Auto_Show%2C_November_27%2C_2018_%28cropped%29.jpg"
       }
     ],
     "state": "fetched",
@@ -12622,6 +12637,11 @@
         "hash": "3b5a8a9ef2080725",
         "path": "photos/46/464_Continental_2027/3b5a8a9ef2080725.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/1975_Lincoln_Continental_Mark_IV%2C_Dutch_licence_registration_21-YB-60_p1.JPG"
+      },
+      {
+        "hash": "610933a1ff95d2e1",
+        "path": "photos/46/464_Continental_2027/610933a1ff95d2e1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/1960_Lincoln_Continental_--_10-02-2009.jpg"
       }
     ],
     "state": "fetched",
@@ -12657,6 +12677,11 @@
         "hash": "93cb18f3d94f7914",
         "path": "photos/46/464_Continental_2028/93cb18f3d94f7914.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Car_used_in_1945_film_Detour.jpeg"
+      },
+      {
+        "hash": "610933a1ff95d2e1",
+        "path": "photos/46/464_Continental_2028/610933a1ff95d2e1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/1960_Lincoln_Continental_--_10-02-2009.jpg"
       }
     ],
     "state": "fetched",
