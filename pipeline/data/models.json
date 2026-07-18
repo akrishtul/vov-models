@@ -337,6 +337,16 @@
         "hash": "211a7a49d75c8534",
         "path": "photos/10/10887_R1S_2027/211a7a49d75c8534.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rivian_founder_and_CEO_Robert_%22RJ%22_Scaringe_at_the_debut_of_the_Rivian_R1S_SUV_at_the_2018_Los_Angeles_Auto_Show%2C_November_27%2C_2018_%28cropped%29.jpg"
+      },
+      {
+        "hash": "af138c2538582612",
+        "path": "photos/10/10887_R1S_2027/af138c2538582612.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Rivian_R1S_-_3.jpg"
+      },
+      {
+        "hash": "68ee7affc7fe3662",
+        "path": "photos/10/10887_R1S_2027/68ee7affc7fe3662.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Rivian_R1S_-_4.jpg"
       }
     ],
     "state": "fetched",
@@ -352,6 +362,11 @@
         "hash": "17756868ee1a6486",
         "path": "photos/10/10887_R1S_2028/17756868ee1a6486.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/2023_Rivian_R1S_Adventure%2C_front_1.29.23.jpg"
+      },
+      {
+        "hash": "211a7a49d75c8534",
+        "path": "photos/10/10887_R1S_2028/211a7a49d75c8534.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rivian_founder_and_CEO_Robert_%22RJ%22_Scaringe_at_the_debut_of_the_Rivian_R1S_SUV_at_the_2018_Los_Angeles_Auto_Show%2C_November_27%2C_2018_%28cropped%29.jpg"
       }
     ],
     "state": "fetched",
@@ -16090,6 +16105,11 @@
         "hash": "188f62e84084d443",
         "path": "photos/47/472_Sierra_HD_2025/188f62e84084d443.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/2008_Safari_canyonlands_1.jpg"
+      },
+      {
+        "hash": "73b9154855703794",
+        "path": "photos/47/472_Sierra_HD_2025/73b9154855703794.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2020_Chevrolet_Silverado_1500_Custom.jpg"
       }
     ],
     "state": "fetched",
@@ -16120,6 +16140,11 @@
         "hash": "188f62e84084d443",
         "path": "photos/47/472_Sierra_HD_2026/188f62e84084d443.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/2008_Safari_canyonlands_1.jpg"
+      },
+      {
+        "hash": "73b9154855703794",
+        "path": "photos/47/472_Sierra_HD_2026/73b9154855703794.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2020_Chevrolet_Silverado_1500_Custom.jpg"
       }
     ],
     "state": "fetched",
@@ -16262,6 +16287,11 @@
         "hash": "6d92a881882aa3d9",
         "path": "photos/47/472_Terrain_2028/6d92a881882aa3d9.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/2010_GMC_Terrain_SLT-1_1_--_11-13-2009.jpg"
+      },
+      {
+        "hash": "feec74e1302c0669",
+        "path": "photos/47/472_Terrain_2028/feec74e1302c0669.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2018_GMC_Terrain_SLE_AWD%2C_Rear_Left%2C_10-11-2020.jpg"
       }
     ],
     "state": "fetched",
