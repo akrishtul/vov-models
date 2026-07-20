@@ -357,6 +357,16 @@
         "hash": "90b8955d02409204",
         "path": "photos/10/10887_R1S_2027/90b8955d02409204.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rivian_R1S_-_6.jpg"
+      },
+      {
+        "hash": "2e0567c7bac3b4e7",
+        "path": "photos/10/10887_R1S_2027/2e0567c7bac3b4e7.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Rivian_R1S_-_June_2025_-_Sarah_Stierch_01.jpg"
+      },
+      {
+        "hash": "10179b386eaf0ce1",
+        "path": "photos/10/10887_R1S_2027/10179b386eaf0ce1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Rivian_R1S_-_June_2025_-_Sarah_Stierch_02.jpg"
       }
     ],
     "state": "fetched",
