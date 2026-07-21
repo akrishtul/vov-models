@@ -367,6 +367,16 @@
         "hash": "10179b386eaf0ce1",
         "path": "photos/10/10887_R1S_2027/10179b386eaf0ce1.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Rivian_R1S_-_June_2025_-_Sarah_Stierch_02.jpg"
+      },
+      {
+        "hash": "69dd62fd73a6de68",
+        "path": "photos/10/10887_R1S_2027/69dd62fd73a6de68.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Rivian_R1S_Dartmouth_College_College_Street_Hanover_NH_March_2024_01.jpg"
+      },
+      {
+        "hash": "691845d47b356f20",
+        "path": "photos/10/10887_R1S_2027/691845d47b356f20.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Rivian_R1S_Dartmouth_College_College_Street_Hanover_NH_March_2024_02.jpg"
       }
     ],
     "state": "fetched",
@@ -14615,6 +14625,11 @@
         "hash": "f0073ad458edefc1",
         "path": "photos/46/467_Tahoe_2028/f0073ad458edefc1.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/2021_Chevrolet_Tahoe_High_Country%2C_front_12.24.20.jpg"
+      },
+      {
+        "hash": "88a5359c47625687",
+        "path": "photos/46/467_Tahoe_2028/88a5359c47625687.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/00-06_Chevrolet_Tahoe.jpg"
       }
     ],
     "state": "fetched",
