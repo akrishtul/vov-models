@@ -377,6 +377,16 @@
         "hash": "691845d47b356f20",
         "path": "photos/10/10887_R1S_2027/691845d47b356f20.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Rivian_R1S_Dartmouth_College_College_Street_Hanover_NH_March_2024_02.jpg"
+      },
+      {
+        "hash": "69e3b978366bf277",
+        "path": "photos/10/10887_R1S_2027/69e3b978366bf277.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rivian_R1S_IMG_6117.jpg"
+      },
+      {
+        "hash": "f238ef0e34601c5a",
+        "path": "photos/10/10887_R1S_2027/f238ef0e34601c5a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Rivian_R1S_IMG_6123.jpg"
       }
     ],
     "state": "fetched",
@@ -16100,6 +16110,16 @@
         "hash": "0470889779330b3d",
         "path": "photos/47/472_Savana_2027/0470889779330b3d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/1st_Chevrolet_Express_--_09-27-2010.jpg"
+      },
+      {
+        "hash": "3ec28b519412a660",
+        "path": "photos/47/472_Savana_2027/3ec28b519412a660.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chevrolet-Express-Van.jpg"
+      },
+      {
+        "hash": "0849761ed4eb1243",
+        "path": "photos/47/472_Savana_2027/0849761ed4eb1243.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Chevrolet_Express_%281%29.jpg"
       }
     ],
     "state": "fetched",
@@ -16120,6 +16140,11 @@
         "hash": "3ec28b519412a660",
         "path": "photos/47/472_Savana_2028/3ec28b519412a660.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chevrolet-Express-Van.jpg"
+      },
+      {
+        "hash": "0849761ed4eb1243",
+        "path": "photos/47/472_Savana_2028/0849761ed4eb1243.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Chevrolet_Express_%281%29.jpg"
       }
     ],
     "state": "fetched",
