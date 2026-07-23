@@ -387,6 +387,16 @@
         "hash": "f238ef0e34601c5a",
         "path": "photos/10/10887_R1S_2027/f238ef0e34601c5a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Rivian_R1S_IMG_6123.jpg"
+      },
+      {
+        "hash": "852b98a6238a3d28",
+        "path": "photos/10/10887_R1S_2027/852b98a6238a3d28.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rivian_R1S_IMG_6516.jpg"
+      },
+      {
+        "hash": "2883489ff618369c",
+        "path": "photos/10/10887_R1S_2027/2883489ff618369c.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rivian_R1S_IMG_6516_%28cropped%29.jpg"
       }
     ],
     "state": "fetched",
