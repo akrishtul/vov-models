@@ -397,6 +397,16 @@
         "hash": "2883489ff618369c",
         "path": "photos/10/10887_R1S_2027/2883489ff618369c.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rivian_R1S_IMG_6516_%28cropped%29.jpg"
+      },
+      {
+        "hash": "20fabded08ed7d92",
+        "path": "photos/10/10887_R1S_2027/20fabded08ed7d92.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Rivian_R1S_Quad_Motor_Washington_DC_Metro_Area%2C_USA.jpg"
+      },
+      {
+        "hash": "2674d339dd379e60",
+        "path": "photos/10/10887_R1S_2027/2674d339dd379e60.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rivian_R1S_Quad_Motor_Washington_DC_Metro_Area%2C_USA_%281%29.jpg"
       }
     ],
     "state": "fetched",
@@ -13874,6 +13884,11 @@
         "hash": "00f563cbf6daaca6",
         "path": "photos/46/467_Impala_2025/00f563cbf6daaca6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/2014_Chevy_Impala_Europe.jpg"
+      },
+      {
+        "hash": "68f35d7613d4409d",
+        "path": "photos/46/467_Impala_2025/68f35d7613d4409d.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/0_CHEVROLET_IMPALA_0.jpg"
       }
     ],
     "state": "fetched",
@@ -16422,6 +16437,11 @@
         "hash": "882eb6e2acc48caa",
         "path": "photos/47/472_Yukon_XL_2026/882eb6e2acc48caa.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/00-06_GMC_Yukon_XL.jpg"
+      },
+      {
+        "hash": "e238ac92011d0e4a",
+        "path": "photos/47/472_Yukon_XL_2026/e238ac92011d0e4a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/2-door_Suburban.jpg"
       }
     ],
     "state": "fetched",
@@ -16447,6 +16467,11 @@
         "hash": "a919ce123483929a",
         "path": "photos/47/472_Yukon_XL_2027/a919ce123483929a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1937_Chevrolet_Carryall_Suburban.jpg"
+      },
+      {
+        "hash": "e238ac92011d0e4a",
+        "path": "photos/47/472_Yukon_XL_2027/e238ac92011d0e4a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/2-door_Suburban.jpg"
       }
     ],
     "state": "fetched",
@@ -16472,6 +16497,11 @@
         "hash": "a919ce123483929a",
         "path": "photos/47/472_Yukon_XL_2028/a919ce123483929a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1937_Chevrolet_Carryall_Suburban.jpg"
+      },
+      {
+        "hash": "e238ac92011d0e4a",
+        "path": "photos/47/472_Yukon_XL_2028/e238ac92011d0e4a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/2-door_Suburban.jpg"
       }
     ],
     "state": "fetched",
