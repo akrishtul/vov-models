@@ -1794,6 +1794,44 @@
     "state": "no_photos",
     "year": 2025
   },
+  "441:Semi:2026": {
+    "first_seen": "2026-07-25T06:27:51.808209+00:00",
+    "make_id": 441,
+    "make_name": "TESLA",
+    "model": "Semi",
+    "photos": [
+      {
+        "hash": "fc35744b628759a3",
+        "path": "photos/44/441_Semi_2026/fc35744b628759a3.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/40_foot_container_turnpike_double_2.jpg"
+      },
+      {
+        "hash": "b341327306ca0e6e",
+        "path": "photos/44/441_Semi_2026/b341327306ca0e6e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Elon_Musk_and_Chris_Anderson_at_TED_2017_%2833486317634%29.jpg"
+      }
+    ],
+    "state": "fetched",
+    "year": 2026
+  },
+  "441:Semi:2027": {
+    "first_seen": "2026-07-25T06:27:51.808209+00:00",
+    "make_id": 441,
+    "make_name": "TESLA",
+    "model": "Semi",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "441:Semi:2028": {
+    "first_seen": "2026-07-25T06:27:51.808209+00:00",
+    "make_id": 441,
+    "make_name": "TESLA",
+    "model": "Semi",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "442:E-PACE:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 442,
@@ -13974,6 +14012,11 @@
         "hash": "00f563cbf6daaca6",
         "path": "photos/46/467_Impala_2026/00f563cbf6daaca6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/2014_Chevy_Impala_Europe.jpg"
+      },
+      {
+        "hash": "48f4c0f9a1a40f87",
+        "path": "photos/46/467_Impala_2026/48f4c0f9a1a40f87.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Chevrolet_Impala_sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -14049,6 +14092,11 @@
         "hash": "00f563cbf6daaca6",
         "path": "photos/46/467_Impala_2027/00f563cbf6daaca6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/2014_Chevy_Impala_Europe.jpg"
+      },
+      {
+        "hash": "48f4c0f9a1a40f87",
+        "path": "photos/46/467_Impala_2027/48f4c0f9a1a40f87.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Chevrolet_Impala_sedan.jpg"
       }
     ],
     "state": "fetched",
@@ -14129,6 +14177,11 @@
         "hash": "00f563cbf6daaca6",
         "path": "photos/46/467_Impala_2028/00f563cbf6daaca6.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/2014_Chevy_Impala_Europe.jpg"
+      },
+      {
+        "hash": "48f4c0f9a1a40f87",
+        "path": "photos/46/467_Impala_2028/48f4c0f9a1a40f87.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Chevrolet_Impala_sedan.jpg"
       }
     ],
     "state": "fetched",
