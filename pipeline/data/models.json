@@ -417,6 +417,16 @@
         "hash": "aac40bb1dc2e9803",
         "path": "photos/10/10887_R1S_2027/aac40bb1dc2e9803.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rivian_R1S_Washington_DC_Metro_Area%2C_USA_%281%29.jpg"
+      },
+      {
+        "hash": "7c98f9f57aa41c8c",
+        "path": "photos/10/10887_R1S_2027/7c98f9f57aa41c8c.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rivian_R1S_Washington_DC_Metro_Area%2C_USA_%282%29.jpg"
+      },
+      {
+        "hash": "cb5ed8ecda8ea540",
+        "path": "photos/10/10887_R1S_2027/cb5ed8ecda8ea540.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rivian_R1S_Washington_DC_Metro_Area%2C_USA_%283%29.jpg"
       }
     ],
     "state": "fetched",
@@ -11767,6 +11777,11 @@
         "hash": "f3029a6f9785ed55",
         "path": "photos/46/460_Expedition_2028/f3029a6f9785ed55.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/97-98_Ford_Expedition.jpg"
+      },
+      {
+        "hash": "917bcbdfb277b9ac",
+        "path": "photos/46/460_Expedition_2028/917bcbdfb277b9ac.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2022_Ford_Expedition_Platinum_unmarked_unit%2C_front_4.14.23.jpg"
       }
     ],
     "state": "fetched",
