@@ -427,6 +427,16 @@
         "hash": "cb5ed8ecda8ea540",
         "path": "photos/10/10887_R1S_2027/cb5ed8ecda8ea540.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rivian_R1S_Washington_DC_Metro_Area%2C_USA_%283%29.jpg"
+      },
+      {
+        "hash": "ee3cbc9b0c71e397",
+        "path": "photos/10/10887_R1S_2027/ee3cbc9b0c71e397.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Rivian_R1S_Washington_DC_Metro_Area%2C_USA_%284%29.jpg"
+      },
+      {
+        "hash": "5c3a000674f2b4cb",
+        "path": "photos/10/10887_R1S_2027/5c3a000674f2b4cb.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Rivian_R1S_Washington_DC_Metro_Area%2C_USA_%285%29.jpg"
       }
     ],
     "state": "fetched",
@@ -2910,6 +2920,16 @@
         "hash": "4527415fe2482e8d",
         "path": "photos/44/448_Corolla_Cross_2028/4527415fe2482e8d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/2020_Toyota_Corolla_Cross_-_Front.jpg"
+      },
+      {
+        "hash": "b4206caa0b4894fe",
+        "path": "photos/44/448_Corolla_Cross_2028/b4206caa0b4894fe.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/%28MYS-Kuala_Lumpur%29_Private_Toyota_Corolla_Cross_SB993_2025-01-28.jpg"
+      },
+      {
+        "hash": "c457f47d68f14069",
+        "path": "photos/44/448_Corolla_Cross_2028/c457f47d68f14069.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%28SGP-Singapore%29_Toyota_Corolla_Cross_showcar_%40_The_Car_Expo_2024-04-14.jpg"
       }
     ],
     "state": "fetched",
@@ -16223,6 +16243,11 @@
         "hash": "0849761ed4eb1243",
         "path": "photos/47/472_Savana_2027/0849761ed4eb1243.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Chevrolet_Express_%281%29.jpg"
+      },
+      {
+        "hash": "17a7e99aa7b90449",
+        "path": "photos/47/472_Savana_2027/17a7e99aa7b90449.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/2021_Chevrolet_Express_2500_WT_Cargo_in_Summit_White%2C_Front_Left%2C_05-22-2022.jpg"
       }
     ],
     "state": "fetched",
@@ -16248,6 +16273,11 @@
         "hash": "0849761ed4eb1243",
         "path": "photos/47/472_Savana_2028/0849761ed4eb1243.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Chevrolet_Express_%281%29.jpg"
+      },
+      {
+        "hash": "17a7e99aa7b90449",
+        "path": "photos/47/472_Savana_2028/17a7e99aa7b90449.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/2021_Chevrolet_Express_2500_WT_Cargo_in_Summit_White%2C_Front_Left%2C_05-22-2022.jpg"
       }
     ],
     "state": "fetched",
