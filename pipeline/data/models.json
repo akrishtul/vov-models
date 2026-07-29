@@ -437,6 +437,16 @@
         "hash": "5c3a000674f2b4cb",
         "path": "photos/10/10887_R1S_2027/5c3a000674f2b4cb.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Rivian_R1S_Washington_DC_Metro_Area%2C_USA_%285%29.jpg"
+      },
+      {
+        "hash": "4391b99ccca511ea",
+        "path": "photos/10/10887_R1S_2027/4391b99ccca511ea.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rivian_R1S_at_Hillsdale_Shopping_Center.jpg"
+      },
+      {
+        "hash": "4bb56ab1048eafeb",
+        "path": "photos/10/10887_R1S_2027/4bb56ab1048eafeb.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Rivian_R1S_at_Hillsdale_Shopping_Center_2.jpg"
       }
     ],
     "state": "fetched",
@@ -457,6 +467,11 @@
         "hash": "211a7a49d75c8534",
         "path": "photos/10/10887_R1S_2028/211a7a49d75c8534.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rivian_founder_and_CEO_Robert_%22RJ%22_Scaringe_at_the_debut_of_the_Rivian_R1S_SUV_at_the_2018_Los_Angeles_Auto_Show%2C_November_27%2C_2018_%28cropped%29.jpg"
+      },
+      {
+        "hash": "4bf6926de15c30a0",
+        "path": "photos/10/10887_R1S_2028/4bf6926de15c30a0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2025_Rivian_R1S_Ascend_Tri_Max%2C_front_right%2C_11-21-2025.jpg"
       }
     ],
     "state": "fetched",
@@ -16303,6 +16318,21 @@
         "hash": "73b9154855703794",
         "path": "photos/47/472_Sierra_HD_2025/73b9154855703794.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2020_Chevrolet_Silverado_1500_Custom.jpg"
+      },
+      {
+        "hash": "312830ec9b954139",
+        "path": "photos/47/472_Sierra_HD_2025/312830ec9b954139.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/2005_Chevrolet_Silverado_2500HD.jpg"
+      },
+      {
+        "hash": "0677d15f76f3f5fd",
+        "path": "photos/47/472_Sierra_HD_2025/0677d15f76f3f5fd.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Allison_1000_attached_to_Duramax_6.6_Diesel.JPG"
+      },
+      {
+        "hash": "ca7844077bd76716",
+        "path": "photos/47/472_Sierra_HD_2025/ca7844077bd76716.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Chevrolet-Silverado-3500.jpg"
       }
     ],
     "state": "fetched",
@@ -16338,6 +16368,21 @@
         "hash": "73b9154855703794",
         "path": "photos/47/472_Sierra_HD_2026/73b9154855703794.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2020_Chevrolet_Silverado_1500_Custom.jpg"
+      },
+      {
+        "hash": "312830ec9b954139",
+        "path": "photos/47/472_Sierra_HD_2026/312830ec9b954139.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/2005_Chevrolet_Silverado_2500HD.jpg"
+      },
+      {
+        "hash": "0677d15f76f3f5fd",
+        "path": "photos/47/472_Sierra_HD_2026/0677d15f76f3f5fd.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Allison_1000_attached_to_Duramax_6.6_Diesel.JPG"
+      },
+      {
+        "hash": "ca7844077bd76716",
+        "path": "photos/47/472_Sierra_HD_2026/ca7844077bd76716.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Chevrolet-Silverado-3500.jpg"
       }
     ],
     "state": "fetched",
@@ -16550,6 +16595,11 @@
         "hash": "e238ac92011d0e4a",
         "path": "photos/47/472_Yukon_XL_2026/e238ac92011d0e4a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/2-door_Suburban.jpg"
+      },
+      {
+        "hash": "dd27f1eb37a1e8bb",
+        "path": "photos/47/472_Yukon_XL_2026/dd27f1eb37a1e8bb.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2017_GMC_Yukon_Denali.jpg"
       }
     ],
     "state": "fetched",
@@ -16580,6 +16630,11 @@
         "hash": "e238ac92011d0e4a",
         "path": "photos/47/472_Yukon_XL_2027/e238ac92011d0e4a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/2-door_Suburban.jpg"
+      },
+      {
+        "hash": "dd27f1eb37a1e8bb",
+        "path": "photos/47/472_Yukon_XL_2027/dd27f1eb37a1e8bb.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2017_GMC_Yukon_Denali.jpg"
       }
     ],
     "state": "fetched",
@@ -16610,6 +16665,11 @@
         "hash": "e238ac92011d0e4a",
         "path": "photos/47/472_Yukon_XL_2028/e238ac92011d0e4a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/2-door_Suburban.jpg"
+      },
+      {
+        "hash": "dd27f1eb37a1e8bb",
+        "path": "photos/47/472_Yukon_XL_2028/dd27f1eb37a1e8bb.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2017_GMC_Yukon_Denali.jpg"
       }
     ],
     "state": "fetched",
