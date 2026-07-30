@@ -447,6 +447,16 @@
         "hash": "4bb56ab1048eafeb",
         "path": "photos/10/10887_R1S_2027/4bb56ab1048eafeb.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Rivian_R1S_at_Hillsdale_Shopping_Center_2.jpg"
+      },
+      {
+        "hash": "80ef44459e18fcff",
+        "path": "photos/10/10887_R1S_2027/80ef44459e18fcff.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rivian_R1S_at_Hillsdale_Shopping_Center_3.jpg"
+      },
+      {
+        "hash": "3cff5af5f95ec6b5",
+        "path": "photos/10/10887_R1S_2027/3cff5af5f95ec6b5.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rivian_R1S_on_Acadian_Blvd%2C_Tallahassee%2C_Florida.jpg"
       }
     ],
     "state": "fetched",
@@ -11907,6 +11917,16 @@
         "hash": "0257dc626c4475fa",
         "path": "photos/46/460_Explorer_2027/0257dc626c4475fa.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2011_Ford_Explorer_Limited_%28front%29.jpg"
+      },
+      {
+        "hash": "1d54d1e6d8cad815",
+        "path": "photos/46/460_Explorer_2027/1d54d1e6d8cad815.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/%2716-%2719_LVMPD_FPIU_on_North_Durango_Drive.jpg"
+      },
+      {
+        "hash": "f897ce8d09615bd1",
+        "path": "photos/46/460_Explorer_2027/f897ce8d09615bd1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/2016-19_Port_of_Seattle_FPIU_at_SEATAC.jpg"
       }
     ],
     "state": "fetched",
@@ -12016,6 +12036,11 @@
         "hash": "290f69c5dc03f03a",
         "path": "photos/46/460_F_250_2027/290f69c5dc03f03a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ford_F-150_XL_SuperCrew_--_03-10-2010.jpg"
+      },
+      {
+        "hash": "580d2bf99a52764d",
+        "path": "photos/46/460_F_250_2027/580d2bf99a52764d.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/%2797-%2798_Ford_F-250_Extended_Cab.jpg"
       }
     ],
     "state": "fetched",
@@ -12046,6 +12071,11 @@
         "hash": "290f69c5dc03f03a",
         "path": "photos/46/460_F_250_2028/290f69c5dc03f03a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ford_F-150_XL_SuperCrew_--_03-10-2010.jpg"
+      },
+      {
+        "hash": "580d2bf99a52764d",
+        "path": "photos/46/460_F_250_2028/580d2bf99a52764d.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/%2797-%2798_Ford_F-250_Extended_Cab.jpg"
       }
     ],
     "state": "fetched",
