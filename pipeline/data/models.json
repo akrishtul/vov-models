@@ -457,6 +457,16 @@
         "hash": "3cff5af5f95ec6b5",
         "path": "photos/10/10887_R1S_2027/3cff5af5f95ec6b5.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rivian_R1S_on_Acadian_Blvd%2C_Tallahassee%2C_Florida.jpg"
+      },
+      {
+        "hash": "eb679b6dd4020af4",
+        "path": "photos/10/10887_R1S_2027/eb679b6dd4020af4.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Rivian_SUV_frunk.jpg"
+      },
+      {
+        "hash": "07e8271dd1dd9578",
+        "path": "photos/10/10887_R1S_2027/07e8271dd1dd9578.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Traffic_light_at_Meridian_and_Maclay.jpg"
       }
     ],
     "state": "fetched",
@@ -482,6 +492,11 @@
         "hash": "4bf6926de15c30a0",
         "path": "photos/10/10887_R1S_2028/4bf6926de15c30a0.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2025_Rivian_R1S_Ascend_Tri_Max%2C_front_right%2C_11-21-2025.jpg"
+      },
+      {
+        "hash": "fe0ff2a28b058dd7",
+        "path": "photos/10/10887_R1S_2028/fe0ff2a28b058dd7.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/2025_Rivian_R1S_Ascend_Tri_Max%2C_rear_right%2C_11-21-2025.jpg"
       }
     ],
     "state": "fetched",
