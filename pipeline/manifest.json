@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated": "2026-06-02T10:54:34.530518+00:00",
+  "generated": "2026-08-01T13:50:39.892853+00:00",
   "vehicle_classifier": {
-    "version": "2026.06.02",
-    "released": "2026-06-02",
-    "size_mb": 6.57,
-    "classes": 198,
-    "url": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.onnx",
-    "url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.onnx",
-    "sha256": "29f419aa1957d53af7ee21a7be0229a62e1d699077bbf804edb9f4a0069717b9",
+    "version": "2026.08.01",
+    "released": "2026-08-01",
+    "size_mb": 6.82,
+    "classes": 262,
+    "url": "https://github.com/akrishtul/vov-models/releases/download/v2026.08.01/vehicle-classifier-v2026.08.01.onnx",
+    "url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.08.01/vehicle-classifier-v2026.08.01.onnx",
+    "sha256": "71a35b70d2c564d069ce0dab00a0b3bbdb7d58c78060b212c994eba985e2a06f",
     "min_plugin_version": "1.2.0",
     "input_shape": [
       1,
@@ -16,17 +16,14 @@
       224,
       224
     ],
-    "label_map_url": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.labels.json",
-    "label_map_url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.06.02/vehicle-classifier-v2026.06.02.labels.json",
+    "label_map_url": "https://github.com/akrishtul/vov-models/releases/download/v2026.08.01/vehicle-classifier-v2026.08.01.labels.json",
+    "label_map_url_cdn": "https://cdn.jsdelivr.net/gh/akrishtul/vov-models@v2026.08.01/vehicle-classifier-v2026.08.01.labels.json",
     "changelog": [
-      "First working make/model classifier (was plate-only / 20%).",
-      "MobileNetV3-Small, 198 Stanford Cars classes, 224x224.",
-      "Fixed the train/label split bug that capped accuracy at 20%.",
-      "top-1 60.9% / top-5 83.9%."
+      "Automated monthly retrain $(date -u +%Y-%m-%d)"
     ],
     "test_accuracy": {
-      "top1": 0.6091,
-      "top5": 0.8385
+      "top1": 0.6043,
+      "top5": 0.8372
     }
   },
   "plate_detector": {
