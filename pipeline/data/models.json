@@ -47141,6 +47141,44 @@
     "state": "no_photos",
     "year": 2028
   },
+  "539:SuperSport:2026": {
+    "first_seen": "2026-08-04T06:39:25.625234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "SuperSport",
+    "photos": [
+      {
+        "hash": "0960a5c555d1b0cf",
+        "path": "photos/53/539_SuperSport_2026/0960a5c555d1b0cf.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/1938_Morgan_Supersport_-_Haynes_International_Motor_Museum_-_Sparkford%2C_Yeovil%2C_Somerset_%2811693960293%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "819df8bc5356cbde",
+        "path": "photos/53/539_SuperSport_2026/819df8bc5356cbde.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/1938_Morgan_Supersport_-_Haynes_International_Motor_Museum_-_Sparkford%2C_Yeovil%2C_Somerset_%289646398213%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2026
+  },
+  "539:SuperSport:2027": {
+    "first_seen": "2026-08-04T06:39:25.625234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "SuperSport",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "539:SuperSport:2028": {
+    "first_seen": "2026-08-04T06:39:25.625234+00:00",
+    "make_id": 539,
+    "make_name": "MORGAN",
+    "model": "SuperSport",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "542:FTR:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 542,
