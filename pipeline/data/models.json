@@ -250,6 +250,16 @@
         "hash": "513ad888b8f81e21",
         "path": "photos/10/10887_EDV_2027/513ad888b8f81e21.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Rivian_EDV-500_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "f6a1b5bf4d702c64",
+        "path": "photos/10/10887_EDV_2027/f6a1b5bf4d702c64.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Rivian_EDV-500_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "303b680be323cdf0",
+        "path": "photos/10/10887_EDV_2027/303b680be323cdf0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Rivian_EDV-500_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -14533,6 +14543,11 @@
         "hash": "8a96269d4f5b14fa",
         "path": "photos/46/467_Onix_2026/8a96269d4f5b14fa.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/2021_Chevrolet_Onix_1.0T_Premier_%28Chile%29_front_view.jpg"
+      },
+      {
+        "hash": "8db48e5ae9c99bf8",
+        "path": "photos/46/467_Onix_2026/8db48e5ae9c99bf8.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/2022_Chevrolet_Onix_RS_1.0_Turbo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -14983,6 +14998,11 @@
         "hash": "88a5359c47625687",
         "path": "photos/46/467_Tahoe_2028/88a5359c47625687.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/00-06_Chevrolet_Tahoe.jpg"
+      },
+      {
+        "hash": "fb9707bc872bc8bc",
+        "path": "photos/46/467_Tahoe_2028/fb9707bc872bc8bc.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/2022_Chevrolet_Tahoe_RST%2C_front_3.7.22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -16603,6 +16623,16 @@
         "hash": "ca7844077bd76716",
         "path": "photos/47/472_Sierra_HD_2026/ca7844077bd76716.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Chevrolet-Silverado-3500.jpg"
+      },
+      {
+        "hash": "cfc2365b2bfa0dc4",
+        "path": "photos/47/472_Sierra_HD_2026/cfc2365b2bfa0dc4.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/2000_Chevrolet_Silverado_1500.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "188f62e84084d443",
+        "path": "photos/47/472_Sierra_HD_2026/188f62e84084d443.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/2008_Safari_canyonlands_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -19059,6 +19089,11 @@
         "hash": "58eec8d13f329f53",
         "path": "photos/47/474_Hawk_GT_2025/58eec8d13f329f53.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/1988HondaHawkGT-02.jpg"
+      },
+      {
+        "hash": "58eec8d13f329f53",
+        "path": "photos/47/474_Hawk_GT_2025/58eec8d13f329f53.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/1988HondaHawkGT-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
