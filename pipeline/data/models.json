@@ -260,6 +260,16 @@
         "hash": "303b680be323cdf0",
         "path": "photos/10/10887_EDV_2027/303b680be323cdf0.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Rivian_EDV-500_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "0ef7d4a398adb541",
+        "path": "photos/10/10887_EDV_2027/0ef7d4a398adb541.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Rivian_EDV-700_in_downtown_Omaha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "0a282f0b22c0ca2e",
+        "path": "photos/10/10887_EDV_2027/0a282f0b22c0ca2e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rivian_EDV-700_in_downtown_Omaha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -517,6 +527,11 @@
         "hash": "17756868ee1a6486",
         "path": "photos/10/10887_R1S_2027/17756868ee1a6486.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/2023_Rivian_R1S_Adventure%2C_front_1.29.23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "4bf6926de15c30a0",
+        "path": "photos/10/10887_R1S_2027/4bf6926de15c30a0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2025_Rivian_R1S_Ascend_Tri_Max%2C_front_right%2C_11-21-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -11907,6 +11922,11 @@
         "hash": "917bcbdfb277b9ac",
         "path": "photos/46/460_Expedition_2028/917bcbdfb277b9ac.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2022_Ford_Expedition_Platinum_unmarked_unit%2C_front_4.14.23.jpg"
+      },
+      {
+        "hash": "917bcbdfb277b9ac",
+        "path": "photos/46/460_Expedition_2028/917bcbdfb277b9ac.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2022_Ford_Expedition_Platinum_unmarked_unit%2C_front_4.14.23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
