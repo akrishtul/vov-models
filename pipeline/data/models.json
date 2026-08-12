@@ -6392,6 +6392,16 @@
         "hash": "f4b1c5eb314886ca",
         "path": "photos/45/450_FLB_2027/f4b1c5eb314886ca.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/New_Zealand_Trucks_-_Flickr_-_111_Emergency_%28173%29.jpg"
+      },
+      {
+        "hash": "729654d23cfed0c0",
+        "path": "photos/45/450_FLB_2027/729654d23cfed0c0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Freightliner_-_Flickr_-_dave_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "51d6c5068fc988af",
+        "path": "photos/45/450_FLB_2027/51d6c5068fc988af.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Freightliner_FLA_low_cab_car_carrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -19814,6 +19824,11 @@
         "hash": "fbc36402b5b304e7",
         "path": "photos/47/474_RC30_2027/fbc36402b5b304e7.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Honda_VF500F.JPG"
+      },
+      {
+        "hash": "c28c4b9bf3b57995",
+        "path": "photos/47/474_RC30_2027/c28c4b9bf3b57995.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1983_Honda_Interceptor_VF750F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -48843,6 +48858,24 @@
     "make_id": 582,
     "make_name": "AUDI",
     "model": "SQ8",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "582:SQ9:2027": {
+    "first_seen": "2026-08-12T05:45:09.638573+00:00",
+    "make_id": 582,
+    "make_name": "AUDI",
+    "model": "SQ9",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "582:SQ9:2028": {
+    "first_seen": "2026-08-12T05:45:09.638573+00:00",
+    "make_id": 582,
+    "make_name": "AUDI",
+    "model": "SQ9",
     "photos": [],
     "state": "no_photos",
     "year": 2028
