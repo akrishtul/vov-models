@@ -2852,6 +2852,16 @@
         "hash": "6593a3d37f9547ac",
         "path": "photos/44/445_Spectre_2027/6593a3d37f9547ac.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/2023_Rolls-Royce_Spectre_%2848161%29.jpg"
+      },
+      {
+        "hash": "e4d0ad65e980bb29",
+        "path": "photos/44/445_Spectre_2027/e4d0ad65e980bb29.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/2023_Rolls-Royce_Spectre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "6593a3d37f9547ac",
+        "path": "photos/44/445_Spectre_2027/6593a3d37f9547ac.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/2023_Rolls-Royce_Spectre_%2848161%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -25358,6 +25368,24 @@
     "make_id": 487,
     "make_name": "VOLVO TRUCK",
     "model": "VNR",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "487:VNX (4):2027": {
+    "first_seen": "2026-08-15T04:45:49.921096+00:00",
+    "make_id": 487,
+    "make_name": "VOLVO TRUCK",
+    "model": "VNX (4)",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "487:VNX (4):2028": {
+    "first_seen": "2026-08-15T04:45:49.921096+00:00",
+    "make_id": 487,
+    "make_name": "VOLVO TRUCK",
+    "model": "VNX (4)",
     "photos": [],
     "state": "no_photos",
     "year": 2028
