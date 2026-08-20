@@ -5307,6 +5307,78 @@
     "state": "no_photos",
     "year": 2028
   },
+  "449:Tourrider Business:2025": {
+    "first_seen": "2026-08-20T04:51:38.593330+00:00",
+    "make_id": 449,
+    "make_name": "MERCEDES-BENZ",
+    "model": "Tourrider Business",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "449:Tourrider Business:2026": {
+    "first_seen": "2026-08-20T04:51:38.593330+00:00",
+    "make_id": 449,
+    "make_name": "MERCEDES-BENZ",
+    "model": "Tourrider Business",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "449:Tourrider Business:2027": {
+    "first_seen": "2026-08-20T04:51:38.593330+00:00",
+    "make_id": 449,
+    "make_name": "MERCEDES-BENZ",
+    "model": "Tourrider Business",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "449:Tourrider Business:2028": {
+    "first_seen": "2026-08-20T04:51:38.593330+00:00",
+    "make_id": 449,
+    "make_name": "MERCEDES-BENZ",
+    "model": "Tourrider Business",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "449:Tourrider Premium:2025": {
+    "first_seen": "2026-08-20T04:51:38.593330+00:00",
+    "make_id": 449,
+    "make_name": "MERCEDES-BENZ",
+    "model": "Tourrider Premium",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "449:Tourrider Premium:2026": {
+    "first_seen": "2026-08-20T04:51:38.593330+00:00",
+    "make_id": 449,
+    "make_name": "MERCEDES-BENZ",
+    "model": "Tourrider Premium",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "449:Tourrider Premium:2027": {
+    "first_seen": "2026-08-20T04:51:38.593330+00:00",
+    "make_id": 449,
+    "make_name": "MERCEDES-BENZ",
+    "model": "Tourrider Premium",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "449:Tourrider Premium:2028": {
+    "first_seen": "2026-08-20T04:51:38.593330+00:00",
+    "make_id": 449,
+    "make_name": "MERCEDES-BENZ",
+    "model": "Tourrider Premium",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "449:eSprinter:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 449,
@@ -17105,6 +17177,16 @@
         "hash": "9c73f62841757dcc",
         "path": "photos/47/472_Yukon_XL_2025/9c73f62841757dcc.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/01-06_GMC_Yukon_XL_Denali.jpg"
+      },
+      {
+        "hash": "fb907678dd0d846b",
+        "path": "photos/47/472_Yukon_XL_2025/fb907678dd0d846b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/%2700-%2706_GMC_Yukon_XL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "c9df716c6c3917fb",
+        "path": "photos/47/472_Yukon_XL_2025/c9df716c6c3917fb.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%2707-%2710_GMC_Yukon_XL_SLT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -17145,6 +17227,11 @@
         "hash": "dd27f1eb37a1e8bb",
         "path": "photos/47/472_Yukon_XL_2026/dd27f1eb37a1e8bb.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2017_GMC_Yukon_Denali.jpg"
+      },
+      {
+        "hash": "fb907678dd0d846b",
+        "path": "photos/47/472_Yukon_XL_2026/fb907678dd0d846b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/%2700-%2706_GMC_Yukon_XL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -17180,6 +17267,11 @@
         "hash": "dd27f1eb37a1e8bb",
         "path": "photos/47/472_Yukon_XL_2027/dd27f1eb37a1e8bb.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/2017_GMC_Yukon_Denali.jpg"
+      },
+      {
+        "hash": "fb907678dd0d846b",
+        "path": "photos/47/472_Yukon_XL_2027/fb907678dd0d846b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/%2700-%2706_GMC_Yukon_XL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -27802,6 +27894,11 @@
         "hash": "601993c0cf263144",
         "path": "photos/49/498_Ioniq_6_2027/601993c0cf263144.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/2023_Hyundai_Ioniq_6_Limited%2C_front_4.27.23.jpg"
+      },
+      {
+        "hash": "601993c0cf263144",
+        "path": "photos/49/498_Ioniq_6_2027/601993c0cf263144.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/2023_Hyundai_Ioniq_6_Limited%2C_front_4.27.23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
