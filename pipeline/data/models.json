@@ -10057,6 +10057,41 @@
     "state": "no_photos",
     "year": 2028
   },
+  "452:F 450 GS:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "F 450 GS",
+    "photos": [
+      {
+        "hash": "b4afcb04a4fb03c2",
+        "path": "photos/45/452_F_450_GS_2027/b4afcb04a4fb03c2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/BMW_F_450_GS_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "b88fb43ce51266af",
+        "path": "photos/45/452_F_450_GS_2027/b88fb43ce51266af.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/BMW_F_450_GS_%281b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "452:F 450 GS:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "F 450 GS",
+    "photos": [
+      {
+        "hash": "b4afcb04a4fb03c2",
+        "path": "photos/45/452_F_450_GS_2028/b4afcb04a4fb03c2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/BMW_F_450_GS_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2028
+  },
   "452:F 800 GS:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -10089,6 +10124,24 @@
     "make_id": 452,
     "make_name": "BMW",
     "model": "F 800 GS",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "452:F 850 GS:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "F 850 GS",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:F 850 GS:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "F 850 GS",
     "photos": [],
     "state": "no_photos",
     "year": 2028
@@ -10137,6 +10190,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2025
+  },
+  "452:F 900 GS-P:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "F 900 GS-P",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:F 900 GS-P:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "F 900 GS-P",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "452:F 900 GS:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -10442,6 +10513,24 @@
     "make_id": 452,
     "make_name": "BMW",
     "model": "M 1000 RR",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "452:M 1000 RS:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "M 1000 RS",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:M 1000 RS:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "M 1000 RS",
     "photos": [],
     "state": "no_photos",
     "year": 2028
@@ -11058,6 +11147,24 @@
     "state": "no_photos",
     "year": 2025
   },
+  "452:R 18 B:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18 B",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:R 18 B:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18 B",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:R 18 Classic:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -11066,6 +11173,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2025
+  },
+  "452:R 18 Classic:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18 Classic",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:R 18 Classic:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18 Classic",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "452:R 18 Roctane:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -11076,6 +11201,24 @@
     "state": "no_photos",
     "year": 2025
   },
+  "452:R 18 Roctane:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18 Roctane",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:R 18 Roctane:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18 Roctane",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:R 18 Transcontinental:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -11085,6 +11228,24 @@
     "state": "no_photos",
     "year": 2025
   },
+  "452:R 18 Transcontinental:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18 Transcontinental",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:R 18 Transcontinental:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18 Transcontinental",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:R 18:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -11093,6 +11254,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2025
+  },
+  "452:R 18:2027": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:R 18:2028": {
+    "first_seen": "2026-08-27T15:14:07.571221+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "R 18",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "452:S 1000 R:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -11642,6 +11821,26 @@
         "hash": "53c70ef13380521e",
         "path": "photos/45/454_EB110_2028/53c70ef13380521e.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bugatti_EB110_%2851904903384%29.jpg"
+      },
+      {
+        "hash": "55e63ee0d6ba14ab",
+        "path": "photos/45/454_EB110_2028/55e63ee0d6ba14ab.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/1991_Bugatti_EB110_GT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "363102cd5fff4c75",
+        "path": "photos/45/454_EB110_2028/363102cd5fff4c75.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/1991_Bugatti_EB110_GT_Goodwood_Festival_2011_%286005367605%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "cca9055a240d844c",
+        "path": "photos/45/454_EB110_2028/cca9055a240d844c.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Bugatti_%2831649243435%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "54fb9eddf2282e07",
+        "path": "photos/45/454_EB110_2028/54fb9eddf2282e07.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bugatti_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -12184,6 +12383,11 @@
         "hash": "917bcbdfb277b9ac",
         "path": "photos/46/460_Expedition_2027/917bcbdfb277b9ac.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2022_Ford_Expedition_Platinum_unmarked_unit%2C_front_4.14.23.jpg"
+      },
+      {
+        "hash": "917bcbdfb277b9ac",
+        "path": "photos/46/460_Expedition_2027/917bcbdfb277b9ac.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2022_Ford_Expedition_Platinum_unmarked_unit%2C_front_4.14.23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -23440,6 +23644,11 @@
         "hash": "7f21349ddfb93fa3",
         "path": "photos/48/483_Gladiator_2028/7f21349ddfb93fa3.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Jeep_Ducking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "7d6e69215779516a",
+        "path": "photos/48/483_Gladiator_2028/7d6e69215779516a.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/2020_Jeep_Gladiator_Rubicon%2C_front_10.25.20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -33839,6 +34048,11 @@
         "hash": "72cd6b4bd3e15ebd",
         "path": "photos/50/509_Hayabusa_2028/72cd6b4bd3e15ebd.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/GSX1300R.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "3b7f5e9575ada229",
+        "path": "photos/50/509_Hayabusa_2028/3b7f5e9575ada229.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bikini_pillion_on_Hayabusa_at_Black_Bike_Week_Festival_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
