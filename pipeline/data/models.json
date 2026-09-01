@@ -12742,6 +12742,11 @@
         "hash": "fee41e3e3478614a",
         "path": "photos/46/460_F_250_2027/fee41e3e3478614a.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/2011_Ford_F-150_crew_cab_--_NHTSA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "6162891df19786e9",
+        "path": "photos/46/460_F_250_2027/6162891df19786e9.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chaveriem_Boro_Park_Truck_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -31936,6 +31941,11 @@
         "hash": "712dbddb4d7b6939",
         "path": "photos/50/509_DR350S_2025/712dbddb4d7b6939.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Suzuki_DR350S_1990.jpg"
+      },
+      {
+        "hash": "712dbddb4d7b6939",
+        "path": "photos/50/509_DR350S_2025/712dbddb4d7b6939.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Suzuki_DR350S_1990.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -49271,6 +49281,35 @@
     "make_id": 582,
     "make_name": "AUDI",
     "model": "Q8",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "582:Q9:2027": {
+    "first_seen": "2026-09-01T09:23:22.960004+00:00",
+    "make_id": 582,
+    "make_name": "AUDI",
+    "model": "Q9",
+    "photos": [
+      {
+        "hash": "4e995c33d6e16a36",
+        "path": "photos/58/582_Q9_2027/4e995c33d6e16a36.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/2026_Audi_Q9_dashboard_-_Autowizja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "03b6e65f5604cfc5",
+        "path": "photos/58/582_Q9_2027/03b6e65f5604cfc5.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/2026_Audi_Q9_engine_bay_-_Autowizja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "582:Q9:2028": {
+    "first_seen": "2026-09-01T09:23:22.960004+00:00",
+    "make_id": 582,
+    "make_name": "AUDI",
+    "model": "Q9",
     "photos": [],
     "state": "no_photos",
     "year": 2028
