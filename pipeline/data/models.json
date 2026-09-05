@@ -1356,6 +1356,53 @@
     "state": "no_photos",
     "year": 2028
   },
+  "2236:Artura:2025": {
+    "first_seen": "2026-09-05T08:20:23.766095+00:00",
+    "make_id": 2236,
+    "make_name": "MCLAREN",
+    "model": "Artura",
+    "photos": [
+      {
+        "hash": "d65df23d4c68aed2",
+        "path": "photos/22/2236_Artura_2025/d65df23d4c68aed2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2019_McLaren_720S_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "0333b81d3d947fa1",
+        "path": "photos/22/2236_Artura_2025/0333b81d3d947fa1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2021_Black_McLaren_Artura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2025
+  },
+  "2236:Artura:2026": {
+    "first_seen": "2026-09-05T08:20:23.766095+00:00",
+    "make_id": 2236,
+    "make_name": "MCLAREN",
+    "model": "Artura",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
+  "2236:Artura:2027": {
+    "first_seen": "2026-09-05T08:20:23.766095+00:00",
+    "make_id": 2236,
+    "make_name": "MCLAREN",
+    "model": "Artura",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "2236:Artura:2028": {
+    "first_seen": "2026-09-05T08:20:23.766095+00:00",
+    "make_id": 2236,
+    "make_name": "MCLAREN",
+    "model": "Artura",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "2236:GTS:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 2236,
