@@ -1969,6 +1969,16 @@
         "hash": "529299239561c688",
         "path": "photos/44/441_Cybercab_2026/529299239561c688.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Tesla_Cybercab_-_San_Francisco_-_June_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "474607f3417270cb",
+        "path": "photos/44/441_Cybercab_2026/474607f3417270cb.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/2024_Tesla_Cybercab_Prototype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "b2e0a43aef181971",
+        "path": "photos/44/441_Cybercab_2026/b2e0a43aef181971.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/CybercabSTHLM2401.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
