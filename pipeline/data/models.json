@@ -4309,6 +4309,11 @@
         "hash": "c98b049c8b97bd15",
         "path": "photos/44/448_Yaris_2026/c98b049c8b97bd15.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2007-Toyota-Yaris-Sedan.jpg"
+      },
+      {
+        "hash": "0532e2c4a8fd6983",
+        "path": "photos/44/448_Yaris_2026/0532e2c4a8fd6983.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -4364,6 +4369,11 @@
         "hash": "77165867f032e075",
         "path": "photos/44/448_Yaris_2027/77165867f032e075.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/07-Toyota-Yaris-Sedan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "0532e2c4a8fd6983",
+        "path": "photos/44/448_Yaris_2027/0532e2c4a8fd6983.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -4419,6 +4429,11 @@
         "hash": "77165867f032e075",
         "path": "photos/44/448_Yaris_2028/77165867f032e075.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/07-Toyota-Yaris-Sedan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "0532e2c4a8fd6983",
+        "path": "photos/44/448_Yaris_2028/0532e2c4a8fd6983.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ott_T%C3%A4nak_in_Toyota_Yaris_WRC_of_Toyota_Gazoo_Racing_WRC_Rallye_Deutschland_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -21337,6 +21352,11 @@
         "hash": "20ee3d520716c837",
         "path": "photos/47/474_RC30_2027/20ee3d520716c837.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/JoeyDunlopKatesCottage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "8a4832968ee8a278",
+        "path": "photos/47/474_RC30_2027/8a4832968ee8a278.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Honda_RC30_RVF_750_RK_1992_Wellbrock_l.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -21617,6 +21637,75 @@
     "make_id": 474,
     "make_name": "HONDA",
     "model": "Rubicon",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "474:Ruckus:2026": {
+    "first_seen": "2026-10-02T10:29:29.927429+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Ruckus",
+    "photos": [
+      {
+        "hash": "9fb93922d66c052e",
+        "path": "photos/47/474_Ruckus_2026/9fb93922d66c052e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/BRFK_140_Parade%2C_Polizeimotorrad%2C_Mercedes-Benz_W247%2C_2021_Buda_Burgviertel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "9a7bcc638abdd344",
+        "path": "photos/47/474_Ruckus_2026/9a7bcc638abdd344.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fake_scooter_rat_bike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "8917bfbb64aecf69",
+        "path": "photos/47/474_Ruckus_2026/8917bfbb64aecf69.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Honda_Ruckus_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2026
+  },
+  "474:Ruckus:2027": {
+    "first_seen": "2026-10-02T10:29:29.927429+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Ruckus",
+    "photos": [
+      {
+        "hash": "9fb93922d66c052e",
+        "path": "photos/47/474_Ruckus_2027/9fb93922d66c052e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/BRFK_140_Parade%2C_Polizeimotorrad%2C_Mercedes-Benz_W247%2C_2021_Buda_Burgviertel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "9a7bcc638abdd344",
+        "path": "photos/47/474_Ruckus_2027/9a7bcc638abdd344.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fake_scooter_rat_bike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "8917bfbb64aecf69",
+        "path": "photos/47/474_Ruckus_2027/8917bfbb64aecf69.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Honda_Ruckus_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "0abe54a530c799f0",
+        "path": "photos/47/474_Ruckus_2027/0abe54a530c799f0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Honda_ruckus-side.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "b872f607bc44b9f0",
+        "path": "photos/47/474_Ruckus_2027/b872f607bc44b9f0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Hondazoomer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "474:Ruckus:2028": {
+    "first_seen": "2026-10-02T10:29:29.927429+00:00",
+    "make_id": 474,
+    "make_name": "HONDA",
+    "model": "Ruckus",
     "photos": [],
     "state": "no_photos",
     "year": 2028
