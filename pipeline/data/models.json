@@ -12168,6 +12168,21 @@
         "hash": "a059ccdff4ffba9d",
         "path": "photos/45/454_EB110_2028/a059ccdff4ffba9d.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/1992_Bugatti_EB110_GT_HCC25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "0727dedd58e92b4d",
+        "path": "photos/45/454_EB110_2028/0727dedd58e92b4d.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/1992_Bugatti_EB110_GT_HCC25_Low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "bd75f797a35f740b",
+        "path": "photos/45/454_EB110_2028/bd75f797a35f740b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/1992_Bugatti_EB110_Super_Sport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "3df535ed5c2adee0",
+        "path": "photos/45/454_EB110_2028/3df535ed5c2adee0.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bugatti_EB110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -14396,6 +14411,24 @@
     "state": "no_photos",
     "year": 2028
   },
+  "467:3500HG:2025": {
+    "first_seen": "2026-10-03T09:51:09.236462+00:00",
+    "make_id": 467,
+    "make_name": "CHEVROLET",
+    "model": "3500HG",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "467:3500HG:2026": {
+    "first_seen": "2026-10-03T09:51:09.236462+00:00",
+    "make_id": 467,
+    "make_name": "CHEVROLET",
+    "model": "3500HG",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
+  },
   "467:3500HG:2027": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 467,
@@ -14449,6 +14482,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2028
+  },
+  "467:4500HG:2025": {
+    "first_seen": "2026-10-03T09:51:09.236462+00:00",
+    "make_id": 467,
+    "make_name": "CHEVROLET",
+    "model": "4500HG",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "467:4500HG:2026": {
+    "first_seen": "2026-10-03T09:51:09.236462+00:00",
+    "make_id": 467,
+    "make_name": "CHEVROLET",
+    "model": "4500HG",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
   },
   "467:4500HG:2027": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -49448,6 +49499,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2028
+  },
+  "542:NPR:2025": {
+    "first_seen": "2026-10-03T09:51:09.236462+00:00",
+    "make_id": 542,
+    "make_name": "ISUZU",
+    "model": "NPR",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2025
+  },
+  "542:NPR:2026": {
+    "first_seen": "2026-10-03T09:51:09.236462+00:00",
+    "make_id": 542,
+    "make_name": "ISUZU",
+    "model": "NPR",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2026
   },
   "542:NPR:2027": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
