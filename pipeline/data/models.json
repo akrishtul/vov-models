@@ -10201,6 +10201,35 @@
     "state": "no_photos",
     "year": 2028
   },
+  "452:740:2027": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "740",
+    "photos": [
+      {
+        "hash": "1ca85c5c16baee74",
+        "path": "photos/45/452_740_2027/1ca85c5c16baee74.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/1990_BMW_730i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "c63a2383151decac",
+        "path": "photos/45/452_740_2027/c63a2383151decac.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/1998_BMW_740i_Auto_AC_Schnitzer_ACS7_V8_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "452:740:2028": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "740",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:740i:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -10254,6 +10283,24 @@
     "photos": [],
     "state": "no_photos",
     "year": 2026
+  },
+  "452:750e:2027": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "750e",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:750e:2028": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "750e",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
   },
   "452:760i:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
@@ -11066,6 +11113,24 @@
     "state": "no_photos",
     "year": 2028
   },
+  "452:M350:2027": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "M350",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:M350:2028": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "M350",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:M3:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -11867,6 +11932,24 @@
     "state": "no_photos",
     "year": 2026
   },
+  "452:X5:2027": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "X5",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:X5:2028": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "X5",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:X6:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -11993,6 +12076,24 @@
     "state": "no_photos",
     "year": 2026
   },
+  "452:i3:2027": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "i3",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:i3:2028": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "i3",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
   "452:i4:2025": {
     "first_seen": "2026-05-30T07:18:27.845866+00:00",
     "make_id": 452,
@@ -12079,6 +12180,60 @@
     "make_id": 452,
     "make_name": "BMW",
     "model": "i7",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "452:iX3:2027": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "iX3",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:iX3:2028": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "iX3",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "452:iX4:2027": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "iX4",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:iX4:2028": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "iX4",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2028
+  },
+  "452:iX5:2027": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "iX5",
+    "photos": [],
+    "state": "no_photos",
+    "year": 2027
+  },
+  "452:iX5:2028": {
+    "first_seen": "2026-10-10T10:35:37.541210+00:00",
+    "make_id": 452,
+    "make_name": "BMW",
+    "model": "iX5",
     "photos": [],
     "state": "no_photos",
     "year": 2028
