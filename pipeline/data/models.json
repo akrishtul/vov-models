@@ -12342,6 +12342,21 @@
         "hash": "53c70ef13380521e",
         "path": "photos/45/454_EB110_2027/53c70ef13380521e.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bugatti_EB110_%2851904903384%29.jpg"
+      },
+      {
+        "hash": "55e63ee0d6ba14ab",
+        "path": "photos/45/454_EB110_2027/55e63ee0d6ba14ab.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/1991_Bugatti_EB110_GT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "363102cd5fff4c75",
+        "path": "photos/45/454_EB110_2027/363102cd5fff4c75.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/1991_Bugatti_EB110_GT_Goodwood_Festival_2011_%286005367605%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "87e0611d4f0c8c43",
+        "path": "photos/45/454_EB110_2027/87e0611d4f0c8c43.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/2007-06-15_18_Bugatti_EB_110_%28bearb_-_kl%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -18386,6 +18401,16 @@
         "hash": "6ffbe0b86da13cc7",
         "path": "photos/47/472_Savana_2028/6ffbe0b86da13cc7.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2005_Chevrolet_Express_--_NHTSA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "3cf087ea8f31aed6",
+        "path": "photos/47/472_Savana_2028/3cf087ea8f31aed6.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/2.15.14SnowCleanupByLuigiNovi9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "17a7e99aa7b90449",
+        "path": "photos/47/472_Savana_2028/17a7e99aa7b90449.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/2021_Chevrolet_Express_2500_WT_Cargo_in_Summit_White%2C_Front_Left%2C_05-22-2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -32003,6 +32028,11 @@
         "hash": "6182aea7776f27a0",
         "path": "photos/50/509_Boulevard_M109R_2025/6182aea7776f27a0.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Suzuki_Boulevard_M109R_%2816677779527%29.jpg"
+      },
+      {
+        "hash": "edd6932762f5f341",
+        "path": "photos/50/509_Boulevard_M109R_2025/edd6932762f5f341.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Suzuki_Intruder_M1800_DSC00079.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -32023,6 +32053,11 @@
         "hash": "6182aea7776f27a0",
         "path": "photos/50/509_Boulevard_M109R_2026/6182aea7776f27a0.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Suzuki_Boulevard_M109R_%2816677779527%29.jpg"
+      },
+      {
+        "hash": "edd6932762f5f341",
+        "path": "photos/50/509_Boulevard_M109R_2026/edd6932762f5f341.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Suzuki_Intruder_M1800_DSC00079.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -40904,6 +40939,46 @@
     "model": "TX",
     "photos": [],
     "state": "no_photos",
+    "year": 2028
+  },
+  "515:TZ:2027": {
+    "first_seen": "2026-10-16T09:00:21.409288+00:00",
+    "make_id": 515,
+    "make_name": "LEXUS",
+    "model": "TZ",
+    "photos": [
+      {
+        "hash": "d5ec5224d5837166",
+        "path": "photos/51/515_TZ_2027/d5ec5224d5837166.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lexus_TZ550e_AWD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "e79d9bb849c01312",
+        "path": "photos/51/515_TZ_2027/e79d9bb849c01312.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lexus_TZ550e_AWD_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "515:TZ:2028": {
+    "first_seen": "2026-10-16T09:00:21.409288+00:00",
+    "make_id": 515,
+    "make_name": "LEXUS",
+    "model": "TZ",
+    "photos": [
+      {
+        "hash": "d5ec5224d5837166",
+        "path": "photos/51/515_TZ_2028/d5ec5224d5837166.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lexus_TZ550e_AWD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "e79d9bb849c01312",
+        "path": "photos/51/515_TZ_2028/e79d9bb849c01312.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lexus_TZ550e_AWD_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "515:UX:2025": {
