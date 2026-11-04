@@ -4533,6 +4533,16 @@
         "hash": "c98b049c8b97bd15",
         "path": "photos/44/448_Yaris_2027/c98b049c8b97bd15.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2007-Toyota-Yaris-Sedan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "e403d45eaadef37e",
+        "path": "photos/44/448_Yaris_2027/e403d45eaadef37e.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2000_%28W%29_Toyota_Yaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "18c193c4768c3f51",
+        "path": "photos/44/448_Yaris_2027/18c193c4768c3f51.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/2000_%28W%29_Toyota_Yaris_Verso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -4608,6 +4618,11 @@
         "hash": "c98b049c8b97bd15",
         "path": "photos/44/448_Yaris_2028/c98b049c8b97bd15.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2007-Toyota-Yaris-Sedan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "18c193c4768c3f51",
+        "path": "photos/44/448_Yaris_2028/18c193c4768c3f51.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/2000_%28W%29_Toyota_Yaris_Verso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -35450,6 +35465,41 @@
     "model": "GSX-S1000GT",
     "photos": [],
     "state": "no_photos",
+    "year": 2028
+  },
+  "509:GSX-S1000GX:2027": {
+    "first_seen": "2026-11-04T12:05:11.151769+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GSX-S1000GX",
+    "photos": [
+      {
+        "hash": "449c60228d568cac",
+        "path": "photos/50/509_GSX_S1000GX_2027/449c60228d568cac.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/2024_Suzuki_GSX-S_1000_GX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "7682fe0bba4a2791",
+        "path": "photos/50/509_GSX_S1000GX_2027/7682fe0bba4a2791.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Suzuki_GSX-S1000GX_-_Side_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "509:GSX-S1000GX:2028": {
+    "first_seen": "2026-11-04T12:05:11.151769+00:00",
+    "make_id": 509,
+    "make_name": "SUZUKI",
+    "model": "GSX-S1000GX",
+    "photos": [
+      {
+        "hash": "449c60228d568cac",
+        "path": "photos/50/509_GSX_S1000GX_2028/449c60228d568cac.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/2024_Suzuki_GSX-S_1000_GX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "509:GSX-S750:2025": {
