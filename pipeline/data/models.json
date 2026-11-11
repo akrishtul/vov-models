@@ -13623,6 +13623,11 @@
         "hash": "6162891df19786e9",
         "path": "photos/46/460_F_250_2027/6162891df19786e9.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chaveriem_Boro_Park_Truck_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "f9b7a635da82d64d",
+        "path": "photos/46/460_F_250_2027/f9b7a635da82d64d.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/%2717_Ford_F-250_Super_Duty_Double_Cab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -19288,6 +19293,11 @@
         "hash": "d65adfa75aa60f66",
         "path": "photos/47/472_Terrain_2028/d65adfa75aa60f66.jpg",
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/2020_GMC_Terrain_Denali_au_SIAM_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "e25ea59332b82802",
+        "path": "photos/47/472_Terrain_2028/e25ea59332b82802.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2010_GMC_Terrain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
       }
     ],
     "state": "fetched",
@@ -29196,6 +29206,56 @@
     "model": "500e",
     "photos": [],
     "state": "no_photos",
+    "year": 2028
+  },
+  "492:Topolino:2026": {
+    "first_seen": "2026-11-11T11:51:13.801171+00:00",
+    "make_id": 492,
+    "make_name": "FIAT",
+    "model": "Topolino",
+    "photos": [
+      {
+        "hash": "f31a8b6ee431f542",
+        "path": "photos/49/492_Topolino_2026/f31a8b6ee431f542.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/1936Fiat500CoupeTopolino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      {
+        "hash": "4babcadc8f30c780",
+        "path": "photos/49/492_Topolino_2026/4babcadc8f30c780.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/1937-04-04_Mille_Miglia_Fiat_500_Testa_Siata_Guzman%2BJelmini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2026
+  },
+  "492:Topolino:2027": {
+    "first_seen": "2026-11-11T11:51:13.801171+00:00",
+    "make_id": 492,
+    "make_name": "FIAT",
+    "model": "Topolino",
+    "photos": [
+      {
+        "hash": "4babcadc8f30c780",
+        "path": "photos/49/492_Topolino_2027/4babcadc8f30c780.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/1937-04-04_Mille_Miglia_Fiat_500_Testa_Siata_Guzman%2BJelmini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
+    "year": 2027
+  },
+  "492:Topolino:2028": {
+    "first_seen": "2026-11-11T11:51:13.801171+00:00",
+    "make_id": 492,
+    "make_name": "FIAT",
+    "model": "Topolino",
+    "photos": [
+      {
+        "hash": "4babcadc8f30c780",
+        "path": "photos/49/492_Topolino_2028/4babcadc8f30c780.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/1937-04-04_Mille_Miglia_Fiat_500_Testa_Siata_Guzman%2BJelmini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    ],
+    "state": "fetched",
     "year": 2028
   },
   "493:Giulia (952):2025": {
